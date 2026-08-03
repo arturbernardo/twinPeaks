@@ -1,0 +1,283 @@
+{
+  "teams": [
+    {
+      "id": "eng",
+      "name": "Engenharia",
+      "description": "Constrói e opera a plataforma Lumina."
+    },
+    {
+      "id": "produto",
+      "name": "Produto & Design",
+      "description": "Descobre e desenha o que vale a pena construir."
+    },
+    {
+      "id": "vendas",
+      "name": "Vendas",
+      "description": "Leva a Lumina a novos clientes."
+    },
+    {
+      "id": "cs",
+      "name": "Customer Success",
+      "description": "Garante que clientes tenham sucesso e renovem."
+    },
+    {
+      "id": "ops",
+      "name": "Operações",
+      "description": "Financeiro, pessoas, jurídico e o que faz a empresa rodar."
+    }
+  ],
+  "employees": [
+    {
+      "id": "sofia-brandao",
+      "name": "Sofia Brandão",
+      "role": "Gerente de Engenharia",
+      "teamId": "eng",
+      "seniority": "liderança"
+    },
+    {
+      "id": "marina-duarte",
+      "name": "Marina Duarte",
+      "role": "Engenheira de Software Sênior",
+      "teamId": "eng",
+      "seniority": "sênior"
+    },
+    {
+      "id": "caio-teixeira",
+      "name": "Caio Teixeira",
+      "role": "Tech Lead",
+      "teamId": "eng",
+      "seniority": "sênior"
+    },
+    {
+      "id": "bruno-carvalho",
+      "name": "Bruno Carvalho",
+      "role": "Engenheiro Backend Pleno",
+      "teamId": "eng",
+      "seniority": "pleno"
+    },
+    {
+      "id": "leticia-ramos",
+      "name": "Letícia Ramos",
+      "role": "Engenheira Frontend Pleno",
+      "teamId": "eng",
+      "seniority": "pleno"
+    },
+    {
+      "id": "andre-nogueira",
+      "name": "André Nogueira",
+      "role": "SRE Sênior",
+      "teamId": "eng",
+      "seniority": "sênior"
+    },
+    {
+      "id": "paula-vidal",
+      "name": "Paula Vidal",
+      "role": "Engenheira de Dados Pleno",
+      "teamId": "eng",
+      "seniority": "pleno"
+    },
+    {
+      "id": "diego-fagundes",
+      "name": "Diego Fagundes",
+      "role": "Engenheiro Backend Júnior",
+      "teamId": "eng",
+      "seniority": "júnior"
+    },
+    {
+      "id": "renata-luz",
+      "name": "Renata Luz",
+      "role": "QA Sênior",
+      "teamId": "eng",
+      "seniority": "sênior"
+    },
+    {
+      "id": "tomas-ribeiro",
+      "name": "Tomás Ribeiro",
+      "role": "Engenheiro de Software Sênior",
+      "teamId": "eng",
+      "seniority": "sênior"
+    },
+    {
+      "id": "isabela-franco",
+      "name": "Isabela Franco",
+      "role": "Head de Produto",
+      "teamId": "produto",
+      "seniority": "liderança"
+    },
+    {
+      "id": "rafael-siqueira",
+      "name": "Rafael Siqueira",
+      "role": "Product Manager Sênior",
+      "teamId": "produto",
+      "seniority": "sênior"
+    },
+    {
+      "id": "gustavo-lins",
+      "name": "Gustavo Lins",
+      "role": "Product Designer Sênior",
+      "teamId": "produto",
+      "seniority": "sênior"
+    },
+    {
+      "id": "clara-menezes",
+      "name": "Clara Menezes",
+      "role": "UX Researcher Pleno",
+      "teamId": "produto",
+      "seniority": "pleno"
+    },
+    {
+      "id": "joao-prado",
+      "name": "João Prado",
+      "role": "Product Manager Pleno",
+      "teamId": "produto",
+      "seniority": "pleno"
+    },
+    {
+      "id": "beatriz-tavares",
+      "name": "Beatriz Tavares",
+      "role": "Product Designer Júnior",
+      "teamId": "produto",
+      "seniority": "júnior"
+    },
+    {
+      "id": "felipe-armond",
+      "name": "Felipe Armond",
+      "role": "Product Ops",
+      "teamId": "produto",
+      "seniority": "pleno"
+    },
+    {
+      "id": "ricardo-bastos",
+      "name": "Ricardo Bastos",
+      "role": "Head de Vendas",
+      "teamId": "vendas",
+      "seniority": "liderança"
+    },
+    {
+      "id": "helena-fontes",
+      "name": "Helena Fontes",
+      "role": "Executiva de Contas Sênior",
+      "teamId": "vendas",
+      "seniority": "sênior"
+    },
+    {
+      "id": "camila-arruda",
+      "name": "Camila Arruda",
+      "role": "SDR",
+      "teamId": "vendas",
+      "seniority": "júnior"
+    },
+    {
+      "id": "pedro-galvao",
+      "name": "Pedro Galvão",
+      "role": "Executivo de Contas Pleno",
+      "teamId": "vendas",
+      "seniority": "pleno"
+    },
+    {
+      "id": "luana-cardoso",
+      "name": "Luana Cardoso",
+      "role": "Executiva de Contas Pleno",
+      "teamId": "vendas",
+      "seniority": "pleno"
+    },
+    {
+      "id": "mateus-vilela",
+      "name": "Mateus Vilela",
+      "role": "SDR",
+      "teamId": "vendas",
+      "seniority": "júnior"
+    },
+    {
+      "id": "fernanda-said",
+      "name": "Fernanda Said",
+      "role": "Sales Ops",
+      "teamId": "vendas",
+      "seniority": "pleno"
+    },
+    {
+      "id": "juliana-peixoto",
+      "name": "Juliana Peixoto",
+      "role": "Head de Customer Success",
+      "teamId": "cs",
+      "seniority": "liderança"
+    },
+    {
+      "id": "otavio-neves",
+      "name": "Otávio Neves",
+      "role": "CSM Sênior",
+      "teamId": "cs",
+      "seniority": "sênior"
+    },
+    {
+      "id": "aline-serra",
+      "name": "Aline Serra",
+      "role": "CSM Pleno",
+      "teamId": "cs",
+      "seniority": "pleno"
+    },
+    {
+      "id": "vitor-camargo",
+      "name": "Vítor Camargo",
+      "role": "Analista de Suporte Sênior",
+      "teamId": "cs",
+      "seniority": "sênior"
+    },
+    {
+      "id": "natalia-brito",
+      "name": "Natália Brito",
+      "role": "CSM Júnior",
+      "teamId": "cs",
+      "seniority": "júnior"
+    },
+    {
+      "id": "eduardo-sales",
+      "name": "Eduardo Sales",
+      "role": "Analista de Suporte Pleno",
+      "teamId": "cs",
+      "seniority": "pleno"
+    },
+    {
+      "id": "patricia-lemos",
+      "name": "Patrícia Lemos",
+      "role": "Head de Operações",
+      "teamId": "ops",
+      "seniority": "liderança"
+    },
+    {
+      "id": "henrique-dias",
+      "name": "Henrique Dias",
+      "role": "Analista Financeiro Sênior",
+      "teamId": "ops",
+      "seniority": "sênior"
+    },
+    {
+      "id": "carolina-freire",
+      "name": "Carolina Freire",
+      "role": "People Ops",
+      "teamId": "ops",
+      "seniority": "pleno"
+    },
+    {
+      "id": "lucas-macedo",
+      "name": "Lucas Macedo",
+      "role": "Analista de Operações Pleno",
+      "teamId": "ops",
+      "seniority": "pleno"
+    },
+    {
+      "id": "tania-quintela",
+      "name": "Tânia Quintela",
+      "role": "Jurídico & Compliance",
+      "teamId": "ops",
+      "seniority": "sênior"
+    },
+    {
+      "id": "rodrigo-antunes",
+      "name": "Rodrigo Antunes",
+      "role": "Facilities & Admin",
+      "teamId": "ops",
+      "seniority": "pleno"
+    }
+  ]
+}

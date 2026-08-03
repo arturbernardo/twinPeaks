@@ -1,0 +1,355 @@
+[
+  {
+    "subjectId": "patricia-lemos",
+    "authorId": "patricia-lemos",
+    "source": "self",
+    "text": "No fechamento do trimestre, mantive uma planilha aberta com cada pendência e o nome de quem tinha assumido. Na segunda seguinte, fui uma por uma cobrando o que não tinha sido entregue, inclusive as minhas. Ninguém fica muito confortável, mas nada cai no esquecimento.",
+    "tags": [
+      { "tagId": "accountability", "quote": "fui uma por uma cobrando o que não tinha sido entregue, inclusive as minhas", "confidence": 0.9 }
+    ]
+  },
+  {
+    "subjectId": "patricia-lemos",
+    "authorId": "patricia-lemos",
+    "source": "self",
+    "text": "Recebemos três propostas de sistema de folha e as duas mais baratas pareciam ótimas no papel. Passei um fim de semana montando um comparativo de custo total em três anos antes de decidir. Acabei escolhendo a mais cara na proposta, que era a mais barata no cenário real.",
+    "tags": [
+      { "tagId": "critical_evaluation", "quote": "montando um comparativo de custo total em três anos antes de decidir", "confidence": 0.85 }
+    ]
+  },
+  {
+    "subjectId": "patricia-lemos",
+    "authorId": "henrique-dias",
+    "source": "peer",
+    "text": "Na auditoria externa, a Patrícia assumiu na frente do auditor um erro de classificação que tinha vindo de uma decisão dela e trouxe o plano de correção no dia seguinte. Depois cobrou cada um de nós pelos itens do plano, com prazo e dono definidos.",
+    "tags": [
+      { "tagId": "trust_building", "quote": "assumiu na frente do auditor um erro de classificação que tinha vindo de uma decisão dela", "confidence": 0.8 },
+      { "tagId": "accountability", "quote": "cobrou cada um de nós pelos itens do plano, com prazo e dono definidos", "confidence": 0.85 }
+    ]
+  },
+  {
+    "subjectId": "patricia-lemos",
+    "authorId": "carolina-freire",
+    "source": "peer",
+    "text": "Quando propus um programa novo de benefícios, a Patrícia cortou justamente a parte que era mais a minha cara e manteve o que alcançava o time inteiro. Doeu na hora, mas ela estava certa: o orçamento foi pro que movia o ponteiro, não pro projeto de estimação de ninguém.",
+    "tags": [
+      { "tagId": "results_focus", "quote": "o orçamento foi pro que movia o ponteiro, não pro projeto de estimação de ninguém", "confidence": 0.8 }
+    ]
+  },
+  {
+    "subjectId": "patricia-lemos",
+    "authorId": "lucas-macedo",
+    "source": "peer",
+    "text": "Levei pra Patrícia uma proposta de automatizar a conciliação e ela desmontou minha estimativa em dez minutos, com os números do último fechamento na mão. Refiz o caso com premissas melhores e ela aprovou na hora. Prefiro mil vezes esse escrutínio a um sim vazio.",
+    "tags": [
+      { "tagId": "critical_evaluation", "quote": "desmontou minha estimativa em dez minutos, com os números do último fechamento na mão", "confidence": 0.85 }
+    ]
+  },
+  {
+    "subjectId": "patricia-lemos",
+    "authorId": "tania-quintela",
+    "source": "peer",
+    "text": "No fim do ano, a Patrícia abriu mão de duas contratações da própria área pra segurar o caixa que garantia o bônus coletivo. E explicou o porquê pra gente sem rodeio nenhum, numa reunião de quinze minutos.",
+    "tags": [
+      { "tagId": "results_focus", "quote": "abriu mão de duas contratações da própria área pra segurar o caixa que garantia o bônus coletivo", "confidence": 0.85 }
+    ]
+  },
+  {
+    "subjectId": "patricia-lemos",
+    "authorId": "rodrigo-antunes",
+    "source": "peer",
+    "text": "Na semana do offsite, a Patrícia dividiu comigo a van do aeroporto e passamos a viagem conversando sobre a reforma da sala de reunião grande. Chegando lá, cada um foi cuidar da sua parte da agenda.",
+    "tags": []
+  },
+  {
+    "subjectId": "henrique-dias",
+    "authorId": "henrique-dias",
+    "source": "self",
+    "text": "Antes de enviar a folha pro banco, eu sempre rodo uma conferência linha a linha contra o mês anterior. Neste mês peguei um adicional noturno duplicado que passaria batido e viraria retrabalho pra todo mundo depois.",
+    "tags": [
+      { "tagId": "attention_to_detail", "quote": "peguei um adicional noturno duplicado que passaria batido", "confidence": 0.9 }
+    ]
+  },
+  {
+    "subjectId": "henrique-dias",
+    "authorId": "lucas-macedo",
+    "source": "peer",
+    "text": "No fechamento de junho, o Henrique achou uma diferença de doze centavos na conciliação e não sossegou até rastrear a origem, um lançamento trocado de conta. E ainda me lembrou do combinado de documentar o ajuste antes de virar o mês.",
+    "tags": [
+      { "tagId": "attention_to_detail", "quote": "achou uma diferença de doze centavos na conciliação e não sossegou até rastrear a origem", "confidence": 0.9 },
+      { "tagId": "accountability", "quote": "me lembrou do combinado de documentar o ajuste antes de virar o mês", "confidence": 0.75 }
+    ]
+  },
+  {
+    "subjectId": "henrique-dias",
+    "authorId": "tania-quintela",
+    "source": "peer",
+    "text": "Pedi pro Henrique revisar os anexos financeiros de um contrato grande e ele voltou com três inconsistências entre a minuta e a planilha de preços que nem o jurídico da outra parte tinha visto. Assinamos com os valores certos por causa dessa revisão.",
+    "tags": [
+      { "tagId": "attention_to_detail", "quote": "voltou com três inconsistências entre a minuta e a planilha de preços", "confidence": 0.9 }
+    ]
+  },
+  {
+    "subjectId": "henrique-dias",
+    "authorId": "rodrigo-antunes",
+    "source": "peer",
+    "text": "O Henrique e eu ficamos responsáveis por escolher o restaurante do jantar de fim de ano da área. Trocamos uns dez links no chat e acabamos fechando o mesmo lugar do ano passado.",
+    "tags": []
+  },
+  {
+    "subjectId": "henrique-dias",
+    "authorId": "fernanda-said",
+    "source": "peer",
+    "text": "Todo mês eu mando a base de comissões pro Henrique e, se atraso um dia, ele já aparece na minha mesa cobrando, com razão. Desde que ele assumiu esse fluxo, nunca mais uma comissão saiu errada ou fora do prazo.",
+    "tags": [
+      { "tagId": "accountability", "quote": "se atraso um dia, ele já aparece na minha mesa cobrando", "confidence": 0.8 },
+      { "tagId": "execution_reliability", "quote": "nunca mais uma comissão saiu errada ou fora do prazo", "confidence": 0.7 }
+    ]
+  },
+  {
+    "subjectId": "henrique-dias",
+    "authorId": "patricia-lemos",
+    "source": "manager",
+    "text": "Na preparação da auditoria, o Henrique revisou pasta por pasta e achou dois comprovantes com data errada antes de o auditor pedir qualquer coisa. Depois cobrou cada área até o último documento chegar no prazo, sem precisar que eu entrasse no circuito.",
+    "tags": [
+      { "tagId": "attention_to_detail", "quote": "revisou pasta por pasta e achou dois comprovantes com data errada", "confidence": 0.9 },
+      { "tagId": "accountability", "quote": "cobrou cada área até o último documento chegar no prazo", "confidence": 0.85 }
+    ]
+  },
+  {
+    "subjectId": "carolina-freire",
+    "authorId": "carolina-freire",
+    "source": "self",
+    "text": "Na integração dos novos contratados, eu sempre conto o erro que cometi na minha primeira folha de pagamento aqui. Percebo que, depois disso, as pessoas passam a me trazer dúvidas que teriam vergonha de levar pro gestor.",
+    "tags": [
+      { "tagId": "trust_building", "quote": "eu sempre conto o erro que cometi na minha primeira folha de pagamento aqui", "confidence": 0.75 },
+      { "tagId": "psych_safety", "quote": "as pessoas passam a me trazer dúvidas que teriam vergonha de levar pro gestor", "confidence": 0.8 }
+    ]
+  },
+  {
+    "subjectId": "carolina-freire",
+    "authorId": "carolina-freire",
+    "source": "self",
+    "text": "Passei a terça atualizando o organograma no sistema de RH porque duas pessoas mudaram de time. Aproveitei pra corrigir uns cargos que estavam desatualizados desde o ano passado.",
+    "tags": []
+  },
+  {
+    "subjectId": "carolina-freire",
+    "authorId": "tania-quintela",
+    "source": "peer",
+    "text": "Um gestor e uma liderada estavam há semanas trocando indiretas por causa de férias negadas, e a Carolina sentou com os dois na mesma sala. Saíram com um acordo de escala e o assunto morreu ali. Ela tem um jeito de baixar a temperatura sem passar pano pra ninguém.",
+    "tags": [
+      { "tagId": "diplomacy", "quote": "Ela tem um jeito de baixar a temperatura sem passar pano pra ninguém", "confidence": 0.9 }
+    ]
+  },
+  {
+    "subjectId": "carolina-freire",
+    "authorId": "lucas-macedo",
+    "source": "peer",
+    "text": "Na semana do fechamento da folha eu estava afundado e nem tinha pedido ajuda. A Carolina percebeu, assumiu a triagem dos chamados de benefícios e ainda deixou um chocolate na minha mesa. Só me dei conta do tamanho da ajuda quando o pico passou.",
+    "tags": [
+      { "tagId": "supportiveness", "quote": "percebeu, assumiu a triagem dos chamados de benefícios", "confidence": 0.85 }
+    ]
+  },
+  {
+    "subjectId": "carolina-freire",
+    "authorId": "sofia-brandao",
+    "source": "peer",
+    "text": "Dois engenheiros meus travaram numa discussão sobre home office que já estava contaminando o resto do time, e eu chamei a Carolina. Ela conduziu a conversa difícil que eu vinha adiando e os dois saíram com um combinado por escrito. É a pessoa que eu procuro quando o assunto é espinhoso.",
+    "tags": [
+      { "tagId": "diplomacy", "quote": "conduziu a conversa difícil que eu vinha adiando e os dois saíram com um combinado por escrito", "confidence": 0.9 }
+    ]
+  },
+  {
+    "subjectId": "carolina-freire",
+    "authorId": "henrique-dias",
+    "source": "peer",
+    "text": "Quando anunciaram a mudança no plano de saúde, o clima azedou no todos-mãos e a Carolina assumiu a sala. Deu a palavra primeiro pra quem estava mais bravo, sem cortar ninguém, e transformou uma pauta explosiva numa conversa civilizada.",
+    "tags": [
+      { "tagId": "psych_safety", "quote": "Deu a palavra primeiro pra quem estava mais bravo, sem cortar ninguém", "confidence": 0.75 },
+      { "tagId": "diplomacy", "quote": "transformou uma pauta explosiva numa conversa civilizada", "confidence": 0.85 }
+    ]
+  },
+  {
+    "subjectId": "carolina-freire",
+    "authorId": "patricia-lemos",
+    "source": "manager",
+    "text": "No ciclo de avaliações, dois gestores de outras áreas quase se estranharam numa calibragem e a Carolina mediou a sessão até saírem com um critério comum. Fora isso, foi ela quem segurou a barra da analista nova na primeira folha, sem que ninguém pedisse.",
+    "tags": [
+      { "tagId": "diplomacy", "quote": "mediou a sessão até saírem com um critério comum", "confidence": 0.85 },
+      { "tagId": "supportiveness", "quote": "segurou a barra da analista nova na primeira folha, sem que ninguém pedisse", "confidence": 0.8 }
+    ]
+  },
+  {
+    "subjectId": "lucas-macedo",
+    "authorId": "lucas-macedo",
+    "source": "self",
+    "text": "O relatório de despesas de viagem nem era meu, mas vivia atrasando e travava o fechamento de todo mundo. Assumi o processo, automatizei a coleta dos comprovantes e hoje ele sai dois dias antes do prazo.",
+    "tags": [
+      { "tagId": "ownership", "quote": "nem era meu, mas vivia atrasando e travava o fechamento de todo mundo. Assumi o processo", "confidence": 0.85 },
+      { "tagId": "execution_reliability", "quote": "hoje ele sai dois dias antes do prazo", "confidence": 0.65 }
+    ]
+  },
+  {
+    "subjectId": "lucas-macedo",
+    "authorId": "henrique-dias",
+    "source": "peer",
+    "text": "Todo dia 25 o Lucas me entrega as conciliações bancárias fechadas, e em dois anos não lembro de um único atraso. No fechamento contábil eu monto meu cronograma em cima da entrega dele de olhos fechados.",
+    "tags": [
+      { "tagId": "execution_reliability", "quote": "em dois anos não lembro de um único atraso", "confidence": 0.9 }
+    ]
+  },
+  {
+    "subjectId": "lucas-macedo",
+    "authorId": "rodrigo-antunes",
+    "source": "peer",
+    "text": "Eu e o Lucas dividimos a tarefa de receber os técnicos da manutenção do ar-condicionado na sexta. Ele ficou com a manhã, eu com a tarde, e aproveitamos pra atualizar o inventário das salas.",
+    "tags": []
+  },
+  {
+    "subjectId": "lucas-macedo",
+    "authorId": "carolina-freire",
+    "source": "peer",
+    "text": "Descobrimos um erro de desconto de vale-transporte que afetava umas trinta pessoas, e o assunto nem era do escopo do Lucas. Ele mapeou os casos, calculou os estornos e só largou o tema quando o último colega confirmou o acerto na folha seguinte.",
+    "tags": [
+      { "tagId": "ownership", "quote": "só largou o tema quando o último colega confirmou o acerto na folha seguinte", "confidence": 0.85 }
+    ]
+  },
+  {
+    "subjectId": "lucas-macedo",
+    "authorId": "felipe-armond",
+    "source": "peer",
+    "text": "Peço pro Lucas os números de custo por squad todo início de trimestre e a resposta chega sempre antes do combinado, no formato que a gente alinhou uma única vez. Virou a parte do meu planejamento com que eu simplesmente não me preocupo.",
+    "tags": [
+      { "tagId": "execution_reliability", "quote": "chega sempre antes do combinado, no formato que a gente alinhou uma única vez", "confidence": 0.85 }
+    ]
+  },
+  {
+    "subjectId": "lucas-macedo",
+    "authorId": "patricia-lemos",
+    "source": "manager",
+    "text": "Quando o banco mudou o layout do arquivo de pagamento no meio do fechamento, o Lucas reescreveu a rotina de madrugada e a folha caiu na conta de todo mundo no dia certo. Ele não me trouxe o problema, me trouxe o problema já resolvido.",
+    "tags": [
+      { "tagId": "execution_reliability", "quote": "a folha caiu na conta de todo mundo no dia certo", "confidence": 0.85 },
+      { "tagId": "ownership", "quote": "me trouxe o problema já resolvido", "confidence": 0.8 }
+    ]
+  },
+  {
+    "subjectId": "tania-quintela",
+    "authorId": "tania-quintela",
+    "source": "self",
+    "text": "Antes de aprovar o novo contrato padrão de clientes, listei os cinco riscos que já viraram disputa em contratos antigos e testei a minuta nova contra cada um. Dois artigos caíram nesse pente-fino e voltaram pra redação.",
+    "tags": [
+      { "tagId": "critical_evaluation", "quote": "listei os cinco riscos que já viraram disputa em contratos antigos e testei a minuta nova contra cada um", "confidence": 0.85 },
+      { "tagId": "attention_to_detail", "quote": "Dois artigos caíram nesse pente-fino", "confidence": 0.6 }
+    ]
+  },
+  {
+    "subjectId": "tania-quintela",
+    "authorId": "tania-quintela",
+    "source": "self",
+    "text": "Passei a manhã reorganizando o repositório de contratos por ano e por contraparte, que estava uma bagunça desde a migração de sistema. Agora pelo menos a busca encontra as coisas.",
+    "tags": []
+  },
+  {
+    "subjectId": "tania-quintela",
+    "authorId": "henrique-dias",
+    "source": "peer",
+    "text": "A gente ia travar um fornecedor por causa de uma cláusula de multa, e a Tânia redigiu uma alternativa que protegia a Lumina sem humilhar o outro lado. Fechou em uma semana o que estava parado fazia um mês. De quebra, ela achou uma divergência de CNPJ nos anexos que ninguém tinha visto.",
+    "tags": [
+      { "tagId": "diplomacy", "quote": "redigiu uma alternativa que protegia a Lumina sem humilhar o outro lado", "confidence": 0.85 },
+      { "tagId": "attention_to_detail", "quote": "achou uma divergência de CNPJ nos anexos que ninguém tinha visto", "confidence": 0.85 }
+    ]
+  },
+  {
+    "subjectId": "tania-quintela",
+    "authorId": "ricardo-bastos",
+    "source": "peer",
+    "text": "Meu time chegou espumando porque o jurídico tinha barrado um desconto agressivo, e a Tânia, em vez de bater na regra, montou com a gente um formato de contrato anual que passava no compliance e que o cliente aceitou na hora. Saímos da sala todos achando que tínhamos ganhado.",
+    "tags": [
+      { "tagId": "diplomacy", "quote": "em vez de bater na regra, montou com a gente um formato de contrato anual que passava no compliance", "confidence": 0.9 }
+    ]
+  },
+  {
+    "subjectId": "tania-quintela",
+    "authorId": "carolina-freire",
+    "source": "peer",
+    "text": "Numa disputa sobre política de dados entre a engenharia e um cliente enorme, a Tânia fez as duas partes listarem o que era inegociável antes de discutir qualquer texto. O que parecia caminho certo pra briga virou um aditivo assinado sem uma única reunião tensa.",
+    "tags": [
+      { "tagId": "diplomacy", "quote": "O que parecia caminho certo pra briga virou um aditivo assinado sem uma única reunião tensa", "confidence": 0.85 }
+    ]
+  },
+  {
+    "subjectId": "tania-quintela",
+    "authorId": "lucas-macedo",
+    "source": "peer",
+    "text": "Levei pra Tânia um contrato de software que parecia padrão e ela me devolveu uma análise comparando a cláusula de reajuste com a inflação dos últimos três anos. Cancelamos a renovação automática e economizamos um valor que eu nem sabia que estava em jogo.",
+    "tags": [
+      { "tagId": "critical_evaluation", "quote": "me devolveu uma análise comparando a cláusula de reajuste com a inflação dos últimos três anos", "confidence": 0.85 }
+    ]
+  },
+  {
+    "subjectId": "tania-quintela",
+    "authorId": "patricia-lemos",
+    "source": "manager",
+    "text": "Na auditoria, a Tânia foi a única que notou que duas procurações estavam vencidas antes de o auditor abrir a pasta. E quando discutimos a resposta ao apontamento, ela separou o que era risco real do que era ruído, o que ajudou a sala inteira a decidir rápido.",
+    "tags": [
+      { "tagId": "attention_to_detail", "quote": "notou que duas procurações estavam vencidas antes de o auditor abrir a pasta", "confidence": 0.9 },
+      { "tagId": "critical_evaluation", "quote": "separou o que era risco real do que era ruído", "confidence": 0.85 }
+    ]
+  },
+  {
+    "subjectId": "rodrigo-antunes",
+    "authorId": "rodrigo-antunes",
+    "source": "self",
+    "text": "Fiquei responsável pela logística do offsite: transporte, salas, equipamento e as restrições alimentares de 36 pessoas. Montei um checklist com prazo pra cada item e no dia não faltou nem o adaptador de projetor que sempre esquecem.",
+    "tags": [
+      { "tagId": "execution_reliability", "quote": "no dia não faltou nem o adaptador de projetor que sempre esquecem", "confidence": 0.8 }
+    ]
+  },
+  {
+    "subjectId": "rodrigo-antunes",
+    "authorId": "carolina-freire",
+    "source": "peer",
+    "text": "Na semana da mudança de escritório, o Rodrigo viu que eu estava atolada com as admissões e apareceu com as caixas do arquivo de People Ops já etiquetadas. Ninguém pediu, ele só percebeu e fez.",
+    "tags": [
+      { "tagId": "supportiveness", "quote": "Ninguém pediu, ele só percebeu e fez", "confidence": 0.9 }
+    ]
+  },
+  {
+    "subjectId": "rodrigo-antunes",
+    "authorId": "lucas-macedo",
+    "source": "peer",
+    "text": "No dia da visita do nosso maior cliente, caiu a energia do andar uma hora antes da reunião. O Rodrigo, sem alterar a voz, remanejou todo mundo pro coworking do prédio ao lado e a reunião começou no horário.",
+    "tags": [
+      { "tagId": "calm_under_pressure", "quote": "sem alterar a voz, remanejou todo mundo pro coworking do prédio ao lado", "confidence": 0.85 },
+      { "tagId": "execution_reliability", "quote": "a reunião começou no horário", "confidence": 0.65 }
+    ]
+  },
+  {
+    "subjectId": "rodrigo-antunes",
+    "authorId": "juliana-peixoto",
+    "source": "peer",
+    "text": "Meu time estava virando noites num pico de chamados e o Rodrigo, que nem é da minha área, apareceu com jantar e deixou a sala de reunião grande reservada pra gente a semana toda. Ele repara nessas coisas antes de qualquer um pedir.",
+    "tags": [
+      { "tagId": "supportiveness", "quote": "apareceu com jantar e deixou a sala de reunião grande reservada pra gente a semana toda", "confidence": 0.85 }
+    ]
+  },
+  {
+    "subjectId": "rodrigo-antunes",
+    "authorId": "henrique-dias",
+    "source": "peer",
+    "text": "O Rodrigo me ajudou a escolher o novo modelo de crachá porque o fornecedor antigo descontinuou o material. Ficamos na dúvida entre dois acabamentos e acabamos pedindo amostra dos dois.",
+    "tags": []
+  },
+  {
+    "subjectId": "rodrigo-antunes",
+    "authorId": "patricia-lemos",
+    "source": "manager",
+    "text": "Quando o alarme de incêndio disparou por engano no meio da auditoria, o Rodrigo evacuou o andar, acionou a manutenção e nos devolveu à sala em quarenta minutos, sem uma nota de pânico. Tudo que ele assume some da minha lista de preocupações.",
+    "tags": [
+      { "tagId": "calm_under_pressure", "quote": "sem uma nota de pânico", "confidence": 0.8 },
+      { "tagId": "execution_reliability", "quote": "Tudo que ele assume some da minha lista de preocupações", "confidence": 0.7 }
+    ]
+  }
+]

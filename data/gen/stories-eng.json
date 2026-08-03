@@ -1,0 +1,570 @@
+[
+  {
+    "subjectId": "sofia-brandao",
+    "authorId": "sofia-brandao",
+    "source": "self",
+    "text": "Na retro do trimestre eu contei que a decisão de adiar a migração do Postgres tinha sido minha e que ela nos custou duas semanas de retrabalho. Preferi assumir o erro na frente de todo mundo a deixar o time achando que o problema era o planejamento deles. Depois disso as conversas sobre estimativa ficaram bem mais francas.",
+    "tags": [
+      { "tagId": "trust_building", "quote": "Preferi assumir o erro na frente de todo mundo", "confidence": 0.9 }
+    ]
+  },
+  {
+    "subjectId": "sofia-brandao",
+    "authorId": "sofia-brandao",
+    "source": "self",
+    "text": "Passei boa parte da terça revisando o orçamento de cloud do próximo semestre com o financeiro. Aproveitei para atualizar a planilha de custos por serviço e agendar a renovação das licenças da ferramenta de observabilidade.",
+    "tags": []
+  },
+  {
+    "subjectId": "sofia-brandao",
+    "authorId": "marina-duarte",
+    "source": "peer",
+    "text": "A planning da release 4.2 estava virando um bate-boca de estimativas quando a Sofia parou tudo, listou as três decisões que precisavam sair dali e deu a palavra a cada um por dois minutos. Saímos em quarenta minutos com escopo fechado e donos definidos para cada épico. É impressionante como reunião com ela no comando termina com decisão tomada.",
+    "tags": [
+      { "tagId": "facilitation", "quote": "listou as três decisões que precisavam sair dali e deu a palavra a cada um por dois minutos", "confidence": 0.9 }
+    ]
+  },
+  {
+    "subjectId": "sofia-brandao",
+    "authorId": "caio-teixeira",
+    "source": "peer",
+    "text": "Combinei com a Sofia que a dívida técnica do serviço de billing entraria na sprint seguinte e, confesso, deixei escorregar. Na segunda ela apareceu na minha mesa com o combinado anotado e me perguntou o que eu precisava para cumprir o prazo. Com ela nada do que a gente acorda em reunião cai no esquecimento.",
+    "tags": [
+      { "tagId": "accountability", "quote": "nada do que a gente acorda em reunião cai no esquecimento", "confidence": 0.85 }
+    ]
+  },
+  {
+    "subjectId": "sofia-brandao",
+    "authorId": "andre-nogueira",
+    "source": "peer",
+    "text": "No post-mortem da queda do gateway, a Sofia começou dizendo que ela mesma tinha aprovado o deploy sem janela de contingência, antes de qualquer um apontar dedo. Isso mudou o tom da sala na hora: todo mundo passou a descrever o que fez sem medo. O documento final saiu com cinco ações e nenhum culpado.",
+    "tags": [
+      { "tagId": "trust_building", "quote": "ela mesma tinha aprovado o deploy sem janela de contingência", "confidence": 0.8 },
+      { "tagId": "psych_safety", "quote": "todo mundo passou a descrever o que fez sem medo", "confidence": 0.7 }
+    ]
+  },
+  {
+    "subjectId": "sofia-brandao",
+    "authorId": "renata-luz",
+    "source": "peer",
+    "text": "Quando o combinado de cobrir os testes de regressão antes do freeze começou a atrasar, a Sofia chamou a mim e ao Tomás e refez o plano com datas e responsáveis na frente de todos. Na semana seguinte ela mesma voltou no tópico da daily para conferir o andamento, item por item.",
+    "tags": [
+      { "tagId": "accountability", "quote": "refez o plano com datas e responsáveis na frente de todos", "confidence": 0.85 }
+    ]
+  },
+  {
+    "subjectId": "sofia-brandao",
+    "authorId": "diego-fagundes",
+    "source": "peer",
+    "text": "Na minha primeira sprint eu estava perdido entre três demandas e a Sofia montou uma sessão rápida com o Caio e a Marina para alinhar prioridade e dividir quem me apoiava em quê. Em meia hora cada um saiu sabendo exatamente sua parte. Ela tem um jeito de organizar as pessoas que faz o trabalho simplesmente andar.",
+    "tags": [
+      { "tagId": "facilitation", "quote": "montou uma sessão rápida com o Caio e a Marina para alinhar prioridade e dividir quem me apoiava em quê", "confidence": 0.8 }
+    ]
+  },
+  {
+    "subjectId": "marina-duarte",
+    "authorId": "marina-duarte",
+    "source": "self",
+    "text": "O Bruno e o Tomás estavam há dois dias travados discutindo se o serviço de notificações ia de fila ou de webhook, e o clima já tinha azedado no canal. Chamei os dois numa sala, pedi que cada um escrevesse os trade-offs no quadro e propus um teste de carga de um dia para decidir com número. Saíram almoçando juntos e a decisão veio no dia seguinte.",
+    "tags": [
+      { "tagId": "diplomacy", "quote": "Chamei os dois numa sala, pedi que cada um escrevesse os trade-offs no quadro", "confidence": 0.85 }
+    ]
+  },
+  {
+    "subjectId": "marina-duarte",
+    "authorId": "bruno-carvalho",
+    "source": "peer",
+    "text": "Na discussão sobre o corte do monólito, eu e o André já estávamos trocando farpas em thread quando a Marina entrou, resumiu os dois lados com uma neutralidade impressionante e sugeriu levar o assunto para o RFC em vez do chat. A tensão morreu ali e o RFC saiu aprovado sem ninguém magoado.",
+    "tags": [
+      { "tagId": "diplomacy", "quote": "resumiu os dois lados com uma neutralidade impressionante", "confidence": 0.9 }
+    ]
+  },
+  {
+    "subjectId": "marina-duarte",
+    "authorId": "caio-teixeira",
+    "source": "peer",
+    "text": "Entreguei para a Marina o épico de auditoria de logs com prazo apertado por causa da certificação. Ela quebrou em entregas semanais, avisou na quarta que um item ia atrasar dois dias e compensou no seguinte. Fechou o épico na data combinada, sem sobressalto nenhum.",
+    "tags": [
+      { "tagId": "execution_reliability", "quote": "Fechou o épico na data combinada, sem sobressalto nenhum", "confidence": 0.9 }
+    ]
+  },
+  {
+    "subjectId": "marina-duarte",
+    "authorId": "felipe-armond",
+    "source": "peer",
+    "text": "Teve uma semana em que produto e engenharia empacaram por causa do prazo do relatório de exportação, com gente reclamando dos dois lados. A Marina se ofereceu para sentar comigo e com o João e traduziu a briga em duas opções de escopo com datas realistas. A reunião que prometia ser tensa acabou em acordo em vinte minutos.",
+    "tags": [
+      { "tagId": "diplomacy", "quote": "traduziu a briga em duas opções de escopo com datas realistas", "confidence": 0.85 }
+    ]
+  },
+  {
+    "subjectId": "marina-duarte",
+    "authorId": "leticia-ramos",
+    "source": "peer",
+    "text": "Dividi com a Marina a bancada nova do escritório durante a reforma do terceiro andar. A gente acabou sincronizando os horários de foco e o rodízio da sala de reunião pequena. No mais, foi uma semana comum de sprint.",
+    "tags": []
+  },
+  {
+    "subjectId": "marina-duarte",
+    "authorId": "sofia-brandao",
+    "source": "manager",
+    "text": "Quando a Letícia ficou soterrada com os bugs do design system às vésperas do freeze, a Marina percebeu antes de mim e assumiu duas correções sem que ninguém pedisse. Ela também tem sido meu termômetro do time: quando uma discussão técnica começa a esquentar, ela entra e traz todo mundo de volta para o problema. É a pessoa que mantém a temperatura da sala em ordem.",
+    "tags": [
+      { "tagId": "supportiveness", "quote": "assumiu duas correções sem que ninguém pedisse", "confidence": 0.9 },
+      { "tagId": "diplomacy", "quote": "quando uma discussão técnica começa a esquentar, ela entra e traz todo mundo de volta para o problema", "confidence": 0.8 }
+    ]
+  },
+  {
+    "subjectId": "caio-teixeira",
+    "authorId": "caio-teixeira",
+    "source": "self",
+    "text": "Antes de aprovarmos a troca do barramento de eventos, montei uma matriz comparando custo, latência e maturidade das três opções e rodei um protótipo de fim de semana com dados reais. O resultado derrubou a opção que era minha favorita, e foi ela que descartei primeiro. Prefiro perder uma aposta pessoal a empurrar uma decisão sem evidência.",
+    "tags": [
+      { "tagId": "critical_evaluation", "quote": "montei uma matriz comparando custo, latência e maturidade das três opções", "confidence": 0.9 },
+      { "tagId": "results_focus", "quote": "Prefiro perder uma aposta pessoal a empurrar uma decisão sem evidência", "confidence": 0.65 }
+    ]
+  },
+  {
+    "subjectId": "caio-teixeira",
+    "authorId": "caio-teixeira",
+    "source": "self",
+    "text": "Nesta sprint fiquei de plantão nas entrevistas técnicas e revisei o roteiro de perguntas de system design com o pessoal de recrutamento. Também migrei minhas anotações de arquitetura para o novo wiki. Semana corrida, mas dentro do normal.",
+    "tags": []
+  },
+  {
+    "subjectId": "caio-teixeira",
+    "authorId": "diego-fagundes",
+    "source": "peer",
+    "text": "Meu primeiro code review na Lumina voltou com dezessete comentários do Caio e nenhum deles era só 'muda isso': cada um explicava o porquê e linkava um exemplo no nosso código. Depois ele reservou meia hora para pairear comigo na parte de concorrência que eu não tinha entendido. Em dois meses eu evoluí mais do que no ano anterior inteiro.",
+    "tags": [
+      { "tagId": "mentorship", "quote": "cada um explicava o porquê e linkava um exemplo no nosso código", "confidence": 0.9 }
+    ]
+  },
+  {
+    "subjectId": "caio-teixeira",
+    "authorId": "marina-duarte",
+    "source": "peer",
+    "text": "No desenho da nova API de permissões, o Caio foi o único que perguntou o que acontecia quando o cache expirasse no meio de uma sessão, e desmontou a proposta com dois cenários que ninguém tinha considerado. A gente refez o design e evitou o que seria um incidente certo em produção.",
+    "tags": [
+      { "tagId": "critical_evaluation", "quote": "desmontou a proposta com dois cenários que ninguém tinha considerado", "confidence": 0.9 }
+    ]
+  },
+  {
+    "subjectId": "caio-teixeira",
+    "authorId": "paula-vidal",
+    "source": "peer",
+    "text": "Quando assumi o pipeline de eventos, o Caio montou comigo um plano de estudo de três semanas e revisava meus diagramas toda sexta, sempre apontando onde meu raciocínio pulava etapa. Ele não dá a resposta: faz a pergunta que obriga a gente a achar sozinha.",
+    "tags": [
+      { "tagId": "mentorship", "quote": "montou comigo um plano de estudo de três semanas e revisava meus diagramas toda sexta", "confidence": 0.9 }
+    ]
+  },
+  {
+    "subjectId": "caio-teixeira",
+    "authorId": "joao-prado",
+    "source": "peer",
+    "text": "Como PM, eu já vi tech lead deixar acordo de roadmap evaporar, mas com o Caio é o oposto: ele registra cada compromisso da revisão de sprint e cobra, inclusive de mim, quando algo desvia. No trimestre passado ele me chamou para renegociar publicamente um item que a engenharia não ia conseguir entregar, em vez de deixar morrer em silêncio.",
+    "tags": [
+      { "tagId": "accountability", "quote": "ele registra cada compromisso da revisão de sprint e cobra, inclusive de mim, quando algo desvia", "confidence": 0.9 }
+    ]
+  },
+  {
+    "subjectId": "caio-teixeira",
+    "authorId": "sofia-brandao",
+    "source": "manager",
+    "text": "O Caio instituiu no time a revisão quinzenal de pendências técnicas e não deixa um item sair da lista sem dono e data. Quando a discussão da fila de mensageria esquentou, ele trouxe benchmarks e um comparativo de falhas antes de dar opinião. É o meu contraponto mais confiável nas decisões difíceis.",
+    "tags": [
+      { "tagId": "accountability", "quote": "não deixa um item sair da lista sem dono e data", "confidence": 0.85 },
+      { "tagId": "critical_evaluation", "quote": "trouxe benchmarks e um comparativo de falhas antes de dar opinião", "confidence": 0.8 }
+    ]
+  },
+  {
+    "subjectId": "bruno-carvalho",
+    "authorId": "bruno-carvalho",
+    "source": "self",
+    "text": "Peguei a reescrita do serviço de cobrança em janeiro com o compromisso de virar a chave antes do fechamento fiscal. Fatiei a migração em sete entregas, publiquei o progresso toda sexta no canal e viramos com três dias de folga. Não teve heroísmo, só o plano sendo cumprido semana a semana.",
+    "tags": [
+      { "tagId": "execution_reliability", "quote": "Fatiei a migração em sete entregas, publiquei o progresso toda sexta no canal e viramos com três dias de folga", "confidence": 0.9 }
+    ]
+  },
+  {
+    "subjectId": "bruno-carvalho",
+    "authorId": "renata-luz",
+    "source": "peer",
+    "text": "Revisando um PR do Bruno, percebi que ele tinha deixado comentários no próprio código apontando dois casos de borda de timezone que nem meus testes cobriam. Ele ainda anexou na descrição uma tabela com os cenários de arredondamento de centavos que validou manualmente. É raro QA achar algo depois que ele revisa o próprio trabalho.",
+    "tags": [
+      { "tagId": "attention_to_detail", "quote": "apontando dois casos de borda de timezone que nem meus testes cobriam", "confidence": 0.9 }
+    ]
+  },
+  {
+    "subjectId": "bruno-carvalho",
+    "authorId": "tomas-ribeiro",
+    "source": "peer",
+    "text": "Dividi com o Bruno a integração do novo provedor de pagamento e combinamos que ele entregaria a camada de conciliação até o dia 20. No dia 18 estava em produção atrás de feature flag, com runbook escrito. Trabalhar com ele é poder planejar em cima da palavra dele.",
+    "tags": [
+      { "tagId": "execution_reliability", "quote": "No dia 18 estava em produção atrás de feature flag, com runbook escrito", "confidence": 0.85 }
+    ]
+  },
+  {
+    "subjectId": "bruno-carvalho",
+    "authorId": "lucas-macedo",
+    "source": "peer",
+    "text": "Todo fim de mês eu dependo do job de conciliação que o Bruno mantém para fechar os números de operações. Num desses fechamentos ele me avisou de uma divergência de quatro centavos que o sistema antigo vinha ignorando havia meses, com a query que provava a origem. Fechamos o mês sem ajuste manual pela primeira vez no ano.",
+    "tags": [
+      { "tagId": "attention_to_detail", "quote": "me avisou de uma divergência de quatro centavos que o sistema antigo vinha ignorando havia meses", "confidence": 0.85 }
+    ]
+  },
+  {
+    "subjectId": "bruno-carvalho",
+    "authorId": "marina-duarte",
+    "source": "peer",
+    "text": "Na mudança de sala, o Bruno ficou responsável por etiquetar os equipamentos da bancada e organizar os cabos que sobraram no armário. Aproveitamos para atualizar o inventário de monitores com o pessoal de facilities.",
+    "tags": []
+  },
+  {
+    "subjectId": "bruno-carvalho",
+    "authorId": "sofia-brandao",
+    "source": "manager",
+    "text": "Nas últimas seis sprints o Bruno entregou tudo que puxou, e quando percebeu que a história de idempotência era maior do que parecia, avisou na segunda daily e replanejou junto comigo, não na véspera. É o tipo de previsibilidade que me deixa dormir tranquila em semana de release.",
+    "tags": [
+      { "tagId": "execution_reliability", "quote": "Nas últimas seis sprints o Bruno entregou tudo que puxou", "confidence": 0.85 }
+    ]
+  },
+  {
+    "subjectId": "leticia-ramos",
+    "authorId": "leticia-ramos",
+    "source": "self",
+    "text": "Antes de liberar a nova tela de faturas, montei uma checklist com os estados vazios, de erro e de carregamento em três tamanhos de tela, e achei um estouro de layout que só aparecia com nomes de empresa muito longos. Corrigi e adicionei o caso na suíte visual para não voltar.",
+    "tags": [
+      { "tagId": "attention_to_detail", "quote": "achei um estouro de layout que só aparecia com nomes de empresa muito longos", "confidence": 0.9 }
+    ]
+  },
+  {
+    "subjectId": "leticia-ramos",
+    "authorId": "diego-fagundes",
+    "source": "peer",
+    "text": "Eu estava afundado tentando fechar o formulário de onboarding e nem tinha pedido ajuda quando a Letícia apareceu com um branch de rascunho resolvendo a parte da validação que me travava. Ela percebeu pelo canal que eu estava rodando em círculos. Ainda ficou comigo até o fim do dia revisando o restante.",
+    "tags": [
+      { "tagId": "supportiveness", "quote": "nem tinha pedido ajuda quando a Letícia apareceu com um branch de rascunho", "confidence": 0.9 }
+    ]
+  },
+  {
+    "subjectId": "leticia-ramos",
+    "authorId": "renata-luz",
+    "source": "peer",
+    "text": "Na revisão do fluxo de exportação, a Letícia listou oito inconsistências de máscara de data e moeda entre telas que estavam passando batido fazia meses. Veio tudo documentado com print e passo a passo de reprodução. Meu trabalho de QA rende o dobro quando o PR é dela.",
+    "tags": [
+      { "tagId": "attention_to_detail", "quote": "listou oito inconsistências de máscara de data e moeda entre telas", "confidence": 0.9 }
+    ]
+  },
+  {
+    "subjectId": "leticia-ramos",
+    "authorId": "gustavo-lins",
+    "source": "peer",
+    "text": "Entreguei o redesign dos componentes de tabela e a Letícia devolveu a implementação com os espaçamentos e estados de foco fiéis ao spec até o pixel, incluindo um estado de teclado que eu mesmo tinha esquecido de desenhar. Ela ainda apontou duas inconsistências no meu arquivo do Figma.",
+    "tags": [
+      { "tagId": "attention_to_detail", "quote": "incluindo um estado de teclado que eu mesmo tinha esquecido de desenhar", "confidence": 0.8 }
+    ]
+  },
+  {
+    "subjectId": "leticia-ramos",
+    "authorId": "bruno-carvalho",
+    "source": "peer",
+    "text": "Fiquei sabendo que a Letícia assumiu a organização do bolão da Copa do time e a agenda do rodízio de demos das sextas. Nas dailies dessa semana a gente só sincronizou o merge da branch de release, semana tranquila.",
+    "tags": []
+  },
+  {
+    "subjectId": "leticia-ramos",
+    "authorId": "sofia-brandao",
+    "source": "manager",
+    "text": "Duas vezes neste trimestre a Letícia remanejou as próprias tarefas para socorrer colegas atolados, uma nos ajustes de acessibilidade do checkout e outra na fila de bugs do freeze, sem que eu precisasse pedir. E segue sendo a pessoa que mais barra problema visual antes de o QA sequer olhar.",
+    "tags": [
+      { "tagId": "supportiveness", "quote": "remanejou as próprias tarefas para socorrer colegas atolados", "confidence": 0.85 },
+      { "tagId": "attention_to_detail", "quote": "a pessoa que mais barra problema visual antes de o QA sequer olhar", "confidence": 0.7 }
+    ]
+  },
+  {
+    "subjectId": "andre-nogueira",
+    "authorId": "andre-nogueira",
+    "source": "self",
+    "text": "Quando o cluster de produção começou a derrubar pods às 3h da manhã, abri a chamada de incidente, designei quem olhava banco e quem olhava rede e fui narrando cada hipótese testada no canal. Em quarenta minutos isolamos o vazamento de memória e só então fui entender por que o alerta demorou. Pânico não diagnostica nada.",
+    "tags": [
+      { "tagId": "calm_under_pressure", "quote": "abri a chamada de incidente, designei quem olhava banco e quem olhava rede e fui narrando cada hipótese testada no canal", "confidence": 0.8 }
+    ]
+  },
+  {
+    "subjectId": "andre-nogueira",
+    "authorId": "andre-nogueira",
+    "source": "self",
+    "text": "Terminei de documentar o processo de rotação das chaves de acesso e atualizei o diagrama da topologia de rede no wiki. Também deixei agendada a manutenção trimestral dos runners de CI para o feriado.",
+    "tags": []
+  },
+  {
+    "subjectId": "andre-nogueira",
+    "authorId": "tomas-ribeiro",
+    "source": "peer",
+    "text": "Na sexta do apagão do provedor de DNS, com metade da plataforma fora e o comercial em pânico no canal geral, o André respondia com o mesmo tom de sempre, listando o que já sabíamos e o que faltava confirmar. Ele pediu dez minutos de silêncio operacional, aplicou o failover e voltamos antes do SLA estourar.",
+    "tags": [
+      { "tagId": "calm_under_pressure", "quote": "respondia com o mesmo tom de sempre, listando o que já sabíamos e o que faltava confirmar", "confidence": 0.9 }
+    ]
+  },
+  {
+    "subjectId": "andre-nogueira",
+    "authorId": "bruno-carvalho",
+    "source": "peer",
+    "text": "O flaky test que derrubava nosso deploy nem era do domínio do André, mas ele ficou incomodado, rastreou a causa até uma condição de corrida no serviço de sessões e abriu o fix junto com um alerta novo. Levou o problema até o fim quando poderia só ter reencaminhado o ticket.",
+    "tags": [
+      { "tagId": "ownership", "quote": "rastreou a causa até uma condição de corrida no serviço de sessões e abriu o fix junto com um alerta novo", "confidence": 0.85 }
+    ]
+  },
+  {
+    "subjectId": "andre-nogueira",
+    "authorId": "vitor-camargo",
+    "source": "peer",
+    "text": "Trabalho na ponta do suporte e já entrei em várias war rooms com o André. Na do estouro de fila de dezembro, ele me passava atualizações a cada quinze minutos com o que eu podia repassar internamente, sem uma nota de estresse na voz. A previsão de normalização que ele deu bateu com dez minutos de diferença.",
+    "tags": [
+      { "tagId": "calm_under_pressure", "quote": "sem uma nota de estresse na voz", "confidence": 0.8 },
+      { "tagId": "execution_reliability", "quote": "A previsão de normalização que ele deu bateu com dez minutos de diferença", "confidence": 0.6 }
+    ]
+  },
+  {
+    "subjectId": "andre-nogueira",
+    "authorId": "marina-duarte",
+    "source": "peer",
+    "text": "O André prometeu que a migração de observabilidade não geraria nem um minuto de indisponibilidade e entregou exatamente isso, com plano de rollback ensaiado em staging duas vezes. Os painéis novos viraram referência para o time inteiro.",
+    "tags": [
+      { "tagId": "execution_reliability", "quote": "entregou exatamente isso, com plano de rollback ensaiado em staging duas vezes", "confidence": 0.85 }
+    ]
+  },
+  {
+    "subjectId": "andre-nogueira",
+    "authorId": "sofia-brandao",
+    "source": "manager",
+    "text": "No incidente do banco de réplicas, o André assumiu o comando sem que eu precisasse designar, coordenou três pessoas com uma serenidade que acalmou até o pessoal de fora da engenharia e depois escreveu o post-mortem mais completo que já recebi. Ele trata qualquer problema da plataforma como se fosse dele até alguém assumir formalmente.",
+    "tags": [
+      { "tagId": "ownership", "quote": "Ele trata qualquer problema da plataforma como se fosse dele", "confidence": 0.85 },
+      { "tagId": "calm_under_pressure", "quote": "uma serenidade que acalmou até o pessoal de fora da engenharia", "confidence": 0.85 }
+    ]
+  },
+  {
+    "subjectId": "paula-vidal",
+    "authorId": "paula-vidal",
+    "source": "self",
+    "text": "Precisávamos trocar o orquestrador de pipelines e eu nunca tinha tocado no Airflow. Passei um fim de semana com a documentação e um cluster de brinquedo, e na quarta apresentei um comparativo com o que testei de fato, incluindo os pontos em que minha hipótese inicial estava errada. Mudei de recomendação no meio do estudo porque os números não sustentavam a primeira.",
+    "tags": [
+      { "tagId": "learning_agility", "quote": "Mudei de recomendação no meio do estudo porque os números não sustentavam a primeira", "confidence": 0.85 },
+      { "tagId": "critical_evaluation", "quote": "apresentei um comparativo com o que testei de fato", "confidence": 0.7 }
+    ]
+  },
+  {
+    "subjectId": "paula-vidal",
+    "authorId": "caio-teixeira",
+    "source": "peer",
+    "text": "Na proposta de duplicar o cluster de dados, a Paula pediu uma semana, voltou com a análise de custo por consulta e mostrou que o gargalo era um join mal particionado, não capacidade. Economizamos a expansão inteira porque ela não aceitou o diagnóstico óbvio.",
+    "tags": [
+      { "tagId": "critical_evaluation", "quote": "mostrou que o gargalo era um join mal particionado, não capacidade", "confidence": 0.9 }
+    ]
+  },
+  {
+    "subjectId": "paula-vidal",
+    "authorId": "tomas-ribeiro",
+    "source": "peer",
+    "text": "A Paula e eu dividimos o slot de apresentação na all-hands do mês passado para mostrar o roadmap interno da plataforma de dados. Ensaiamos na véspera na sala grande e deu tudo certo com o projetor novo.",
+    "tags": []
+  },
+  {
+    "subjectId": "paula-vidal",
+    "authorId": "clara-menezes",
+    "source": "peer",
+    "text": "Pedi ajuda à Paula num cruzamento de dados do meu último estudo e descobri que ela tinha aprendido sozinha, em duas semanas, a biblioteca de análise estatística que meu time levou meses para adotar. Ela ainda me devolveu um notebook reproduzível comentando cada decisão do modelo.",
+    "tags": [
+      { "tagId": "learning_agility", "quote": "aprendido sozinha, em duas semanas, a biblioteca de análise estatística", "confidence": 0.85 }
+    ]
+  },
+  {
+    "subjectId": "paula-vidal",
+    "authorId": "bruno-carvalho",
+    "source": "peer",
+    "text": "Quando migramos os eventos para o novo esquema, a Paula era a única que nunca tinha trabalhado com Protobuf e em dez dias já estava revisando os meus PRs, apontando pegadinhas de compatibilidade que eu não conhecia. Ela transforma documentação em prática numa velocidade que impressiona.",
+    "tags": [
+      { "tagId": "learning_agility", "quote": "em dez dias já estava revisando os meus PRs", "confidence": 0.85 }
+    ]
+  },
+  {
+    "subjectId": "paula-vidal",
+    "authorId": "sofia-brandao",
+    "source": "manager",
+    "text": "Antes de qualquer decisão cara na plataforma de dados eu passo pela Paula: ela desmonta a proposta em premissas, testa as que dá para testar e me devolve o risco em números. Foi assim que evitamos assinar um contrato de warehouse superdimensionado no último trimestre.",
+    "tags": [
+      { "tagId": "critical_evaluation", "quote": "ela desmonta a proposta em premissas, testa as que dá para testar e me devolve o risco em números", "confidence": 0.9 }
+    ]
+  },
+  {
+    "subjectId": "diego-fagundes",
+    "authorId": "diego-fagundes",
+    "source": "self",
+    "text": "Entrei na Lumina sem nunca ter mexido com Go e três meses depois assumi sozinho o worker de reprocessamento. Fiz um diário de erros das minhas primeiras semanas e voltei nele toda sexta para não repetir os mesmos tropeços. O que mais me ajudou foi pedir revisão cedo, antes de o código estar bonito.",
+    "tags": [
+      { "tagId": "learning_agility", "quote": "Entrei na Lumina sem nunca ter mexido com Go e três meses depois assumi sozinho o worker de reprocessamento", "confidence": 0.85 }
+    ]
+  },
+  {
+    "subjectId": "diego-fagundes",
+    "authorId": "caio-teixeira",
+    "source": "peer",
+    "text": "A força-tarefa de reduzir o tempo de build estava se arrastando havia duas sprints até o Diego puxar um mutirão de uma tarde, com placar dos minutos economizados no quadro. A energia dele contagiou até quem tinha dito que não tinha tempo, e o build caiu de 22 para 9 minutos naquela semana.",
+    "tags": [
+      { "tagId": "drive_energy", "quote": "puxar um mutirão de uma tarde, com placar dos minutos economizados no quadro", "confidence": 0.9 }
+    ]
+  },
+  {
+    "subjectId": "diego-fagundes",
+    "authorId": "leticia-ramos",
+    "source": "peer",
+    "text": "Emprestei o Diego para me ajudar no front por uma sprint e ele nunca tinha tocado em React. No terceiro dia já estava abrindo PRs decentes e no fim da sprint corrigiu sozinho um bug de estado que me tomaria uma tarde. Ele anota tudo e não faz a mesma pergunta duas vezes.",
+    "tags": [
+      { "tagId": "learning_agility", "quote": "No terceiro dia já estava abrindo PRs decentes", "confidence": 0.85 }
+    ]
+  },
+  {
+    "subjectId": "diego-fagundes",
+    "authorId": "rafael-siqueira",
+    "source": "peer",
+    "text": "Precisei de um protótipo de API para validar o fluxo de relatórios antes da revisão de roadmap e o Diego se ofereceu na hora, montou o esqueleto no mesmo dia e ficou me mandando atualizações à noite sem eu pedir. O ritmo dele destravou uma discussão que estava parada fazia duas semanas.",
+    "tags": [
+      { "tagId": "drive_energy", "quote": "montou o esqueleto no mesmo dia e ficou me mandando atualizações à noite sem eu pedir", "confidence": 0.8 }
+    ]
+  },
+  {
+    "subjectId": "diego-fagundes",
+    "authorId": "andre-nogueira",
+    "source": "peer",
+    "text": "O Diego ficou responsável por atualizar a escala de on-call no calendário compartilhado depois da troca de fuso do time. Fizemos juntos a conferência dos feriados do semestre e ajustamos as trocas combinadas.",
+    "tags": []
+  },
+  {
+    "subjectId": "diego-fagundes",
+    "authorId": "sofia-brandao",
+    "source": "manager",
+    "text": "O Diego é o júnior que mais rápido saiu do colo do time: em quatro meses passou de tarefas guiadas para puxar sozinho a modernização dos jobs de fila. Nas plannings ele é sempre o primeiro a se voluntariar, e mais de uma vez o entusiasmo dele tirou a sprint da inércia depois de uma semana ruim.",
+    "tags": [
+      { "tagId": "learning_agility", "quote": "em quatro meses passou de tarefas guiadas para puxar sozinho a modernização dos jobs de fila", "confidence": 0.8 },
+      { "tagId": "drive_energy", "quote": "mais de uma vez o entusiasmo dele tirou a sprint da inércia", "confidence": 0.8 }
+    ]
+  },
+  {
+    "subjectId": "renata-luz",
+    "authorId": "renata-luz",
+    "source": "self",
+    "text": "Na regressão da release 4.1, desconfiei de uma diferença de um pixel na coluna de totais e fui puxar o fio: era um arredondamento que somava errado só em faturas com desconto parcelado. Escrevi o caso de teste, mapeei as três telas afetadas e segurei a release até o fix entrar.",
+    "tags": [
+      { "tagId": "attention_to_detail", "quote": "desconfiei de uma diferença de um pixel na coluna de totais e fui puxar o fio", "confidence": 0.9 },
+      { "tagId": "accountability", "quote": "segurei a release até o fix entrar", "confidence": 0.65 }
+    ]
+  },
+  {
+    "subjectId": "renata-luz",
+    "authorId": "renata-luz",
+    "source": "self",
+    "text": "Passei a manhã reorganizando o repositório de evidências de teste por release e arquivando os planos antigos. À tarde participei do treinamento de segurança da informação obrigatório do semestre.",
+    "tags": []
+  },
+  {
+    "subjectId": "renata-luz",
+    "authorId": "bruno-carvalho",
+    "source": "peer",
+    "text": "Achei que meu PR do módulo de cobrança estava blindado até a Renata devolver um roteiro com quatorze cenários, incluindo um de virada de mês bissexto que quebrava o cálculo de pro rata. Ela tinha até massa de dados pronta para reproduzir. Não passa nada por ela.",
+    "tags": [
+      { "tagId": "attention_to_detail", "quote": "um de virada de mês bissexto que quebrava o cálculo de pro rata", "confidence": 0.9 }
+    ]
+  },
+  {
+    "subjectId": "renata-luz",
+    "authorId": "tomas-ribeiro",
+    "source": "peer",
+    "text": "Combinamos no início do freeze que nenhum bug crítico entraria em produção sem regressão completa, e quando tentei abrir uma exceção 'só dessa vez', a Renata me lembrou do acordo na frente do time e propôs um caminho que cabia no prazo. Ela cobra o combinado de todo mundo, inclusive dos sêniores.",
+    "tags": [
+      { "tagId": "accountability", "quote": "me lembrou do acordo na frente do time e propôs um caminho que cabia no prazo", "confidence": 0.85 }
+    ]
+  },
+  {
+    "subjectId": "renata-luz",
+    "authorId": "eduardo-sales",
+    "source": "peer",
+    "text": "Encaminhei para a engenharia um comportamento estranho no relatório de consumo e foi a Renata quem pegou o caso. Ela reproduziu o cenário com três combinações de configuração que eu nem sabia que existiam e me devolveu um passo a passo do que estava errado em cada uma. O ticket voltou mais completo do que eu enviei.",
+    "tags": [
+      { "tagId": "attention_to_detail", "quote": "reproduziu o cenário com três combinações de configuração que eu nem sabia que existiam", "confidence": 0.8 }
+    ]
+  },
+  {
+    "subjectId": "renata-luz",
+    "authorId": "sofia-brandao",
+    "source": "manager",
+    "text": "A Renata é dona do nosso critério de pronto: quando o time começou a afrouxar a cobertura mínima nas entregas de fim de trimestre, ela trouxe os números na retro e fez a gente renovar o acordo por escrito. Desde então é ela quem audita, release a release, se estamos cumprindo o que assinamos.",
+    "tags": [
+      { "tagId": "accountability", "quote": "trouxe os números na retro e fez a gente renovar o acordo por escrito", "confidence": 0.9 }
+    ]
+  },
+  {
+    "subjectId": "tomas-ribeiro",
+    "authorId": "tomas-ribeiro",
+    "source": "self",
+    "text": "Assumi a entrega do módulo de exportação com data prometida para o fechamento do trimestre e cortei duas melhorias que eu mesmo tinha proposto quando vi que colocavam a data em risco. Entregamos no dia combinado e as melhorias entraram na sprint seguinte. Prefiro entregar o essencial na data do que tudo atrasado.",
+    "tags": [
+      { "tagId": "execution_reliability", "quote": "Entregamos no dia combinado", "confidence": 0.8 },
+      { "tagId": "results_focus", "quote": "cortei duas melhorias que eu mesmo tinha proposto quando vi que colocavam a data em risco", "confidence": 0.85 }
+    ]
+  },
+  {
+    "subjectId": "tomas-ribeiro",
+    "authorId": "tomas-ribeiro",
+    "source": "self",
+    "text": "Atualizei minha máquina para o novo setup de desenvolvimento em contêiner e aproveitei para regravar o vídeo de onboarding técnico que estava desatualizado desde o ano passado. Também troquei o teclado que estava falhando.",
+    "tags": []
+  },
+  {
+    "subjectId": "tomas-ribeiro",
+    "authorId": "bruno-carvalho",
+    "source": "peer",
+    "text": "Todo trimestre a gente aposta em quem entrega o planejado, e com o Tomás nem tem graça: nas últimas quatro releases ele cravou o escopo sem estourar um dia. Quando o serviço de PDF ameaçou atrasar, ele renegociou o corte na segunda-feira, não na véspera da demo.",
+    "tags": [
+      { "tagId": "execution_reliability", "quote": "nas últimas quatro releases ele cravou o escopo sem estourar um dia", "confidence": 0.9 }
+    ]
+  },
+  {
+    "subjectId": "tomas-ribeiro",
+    "authorId": "marina-duarte",
+    "source": "peer",
+    "text": "Na disputa sobre qual squad ficaria com o serviço de relatórios, o Tomás abriu mão de um projeto que claramente lhe daria destaque porque o outro caminho desafogava a release do time inteiro. Ele mesmo apresentou o plano de transição. Ego não entra na conta dele quando o objetivo do time está em jogo.",
+    "tags": [
+      { "tagId": "results_focus", "quote": "abriu mão de um projeto que claramente lhe daria destaque porque o outro caminho desafogava a release do time inteiro", "confidence": 0.9 }
+    ]
+  },
+  {
+    "subjectId": "tomas-ribeiro",
+    "authorId": "andre-nogueira",
+    "source": "peer",
+    "text": "Sempre que o Tomás me passa uma janela de deploy, eu bloqueio a agenda sem medo: o artefato chega testado, com checklist de rollback preenchido e no horário que ele falou. Em dois anos de plantão junto, nunca precisei correr atrás dele.",
+    "tags": [
+      { "tagId": "execution_reliability", "quote": "o artefato chega testado, com checklist de rollback preenchido e no horário que ele falou", "confidence": 0.9 }
+    ]
+  },
+  {
+    "subjectId": "tomas-ribeiro",
+    "authorId": "henrique-dias",
+    "source": "peer",
+    "text": "O relatório de reconhecimento de receita dependia de uma extração que a engenharia nunca priorizava, até o Tomás assumir. Ele me entregou a primeira versão na sexta prometida e automatizou o envio mensal sem que eu pedisse. Fecho o financeiro dois dias mais cedo por causa disso.",
+    "tags": [
+      { "tagId": "execution_reliability", "quote": "Ele me entregou a primeira versão na sexta prometida", "confidence": 0.8 }
+    ]
+  },
+  {
+    "subjectId": "tomas-ribeiro",
+    "authorId": "sofia-brandao",
+    "source": "manager",
+    "text": "Quando precisei escolher quem seguraria a entrega da release da certificação, escolhi o Tomás e ele repriorizou o backlog do squad em função da data, tirando inclusive itens dele próprio da frente. É a pessoa que eu uso como referência de previsibilidade quando negocio prazos com as outras áreas.",
+    "tags": [
+      { "tagId": "results_focus", "quote": "repriorizou o backlog do squad em função da data, tirando inclusive itens dele próprio da frente", "confidence": 0.8 },
+      { "tagId": "execution_reliability", "quote": "referência de previsibilidade quando negocio prazos com as outras áreas", "confidence": 0.7 }
+    ]
+  }
+]

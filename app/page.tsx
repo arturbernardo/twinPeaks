@@ -1,69 +1,114 @@
-import Image from "next/image";
+import Link from "next/link";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { TagBadge } from "@/components/TagBadge";
+import { getEmployees, getStories, getTeams } from "@/lib/db";
+import { findOutliers, teamProfile } from "@/lib/scoring";
+import { TAG_BY_ID } from "@/lib/taxonomy";
 
-export default function Home() {
+export const dynamic = "force-dynamic";
+
+export default function Dashboard() {
+  const teams = getTeams();
+  const employees = getEmployees();
+  const stories = getStories();
+  const company = teamProfile("company");
+  const outliers = findOutliers("company", 3);
+
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert h-5 w-[100px]"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the{" "}
-            <code className="rounded bg-black/[.06] px-1.5 py-0.5 font-mono text-[0.9em] dark:bg-white/[.08]">
-              page.tsx
-            </code>{" "}
-            file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+    <div className="space-y-8">
+      <div>
+        <h1 className="text-2xl font-semibold">A cultura da Lumina, como evidência</h1>
+        <p className="mt-1 max-w-2xl text-sm text-muted-foreground">
+          {stories.length} histórias sobre {employees.length} pessoas em {teams.length} times, destiladas em
+          tags positivas de cultura. Cada número é rastreável às histórias que o sustentam.
+        </p>
+      </div>
+
+      <div className="grid gap-6 lg:grid-cols-3">
+        <Card className="lg:col-span-2">
+          <CardHeader>
+            <CardTitle className="text-base">O que a empresa mais demonstra</CardTitle>
+          </CardHeader>
+          <CardContent className="space-y-3">
+            {company.slice(0, 8).map((t) => (
+              <div key={t.tagId}>
+                <div className="flex items-baseline justify-between text-sm">
+                  <span>{TAG_BY_ID[t.tagId].labelPt}</span>
+                  <span className="font-mono text-xs text-muted-foreground">
+                    média {t.mean.toFixed(2)} · máx {t.max.toFixed(2)}
+                  </span>
+                </div>
+                <div className="mt-1 h-2 rounded-full bg-muted">
+                  <div className="h-2 rounded-full bg-violet-500" style={{ width: `${Math.round(t.mean * 100)}%` }} />
+                </div>
+              </div>
+            ))}
+          </CardContent>
+        </Card>
+
+        <Card className="border-violet-200 dark:border-violet-900">
+          <CardHeader>
+            <CardTitle className="text-base">Outliers positivos de cultura</CardTitle>
+            <p className="text-xs text-muted-foreground">Quem mais destoa — para o bem — da média da empresa.</p>
+          </CardHeader>
+          <CardContent className="space-y-4">
+            {outliers.map((o) => (
+              <div key={o.employee.id}>
+                <Link href={`/people/${o.employee.id}`} className="text-sm font-medium text-violet-700 hover:underline dark:text-violet-400">
+                  {o.employee.name}
+                </Link>
+                <p className="text-xs text-muted-foreground">{o.employee.role}</p>
+                <div className="mt-1 flex flex-wrap gap-1">
+                  {o.drivingTags.slice(0, 3).map((d) => (
+                    <TagBadge key={d.tagId} tagId={d.tagId} />
+                  ))}
+                </div>
+              </div>
+            ))}
+          </CardContent>
+        </Card>
+      </div>
+
+      <div>
+        <h2 className="mb-3 text-lg font-medium">Times</h2>
+        <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+          {teams.map((team) => {
+            const members = employees.filter((e) => e.teamId === team.id);
+            const profile = teamProfile(team.id).slice(0, 3);
+            return (
+              <Link key={team.id} href={`/teams/${team.id}`}>
+                <Card className="h-full transition-colors hover:border-violet-400">
+                  <CardHeader>
+                    <CardTitle className="text-base">{team.name}</CardTitle>
+                    <p className="text-xs text-muted-foreground">
+                      {members.length} pessoas · {team.description}
+                    </p>
+                  </CardHeader>
+                  <CardContent className="flex flex-wrap gap-1.5">
+                    {profile.map((t) => (
+                      <TagBadge key={t.tagId} tagId={t.tagId} strength={t.mean} />
+                    ))}
+                  </CardContent>
+                </Card>
+              </Link>
+            );
+          })}
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert h-[14px] w-4"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={14}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
+      </div>
+
+      <Card className="bg-violet-50 dark:bg-violet-950/40">
+        <CardContent className="flex flex-col gap-3 py-5 md:flex-row md:items-center md:justify-between">
+          <div>
+            <p className="font-medium">Pergunte ao agente o que a gestão não consegue ver</p>
+            <p className="text-sm text-muted-foreground">
+              “Monte um time onde todos são ótimos em evitar conflito” · “Que perfil falta na Engenharia para uma startup?”
+            </p>
+          </div>
+          <Link href="/chat" className="rounded-md bg-violet-600 px-4 py-2 text-center text-sm text-white hover:bg-violet-700">
+            Abrir o agente
+          </Link>
+        </CardContent>
+      </Card>
     </div>
   );
 }

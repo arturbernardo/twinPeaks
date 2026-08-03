@@ -1,0 +1,400 @@
+[
+  {
+    "subjectId": "isabela-franco",
+    "authorId": "isabela-franco",
+    "source": "self",
+    "text": "No planejamento do trimestre, cortei do roadmap um projeto que eu mesma tinha proposto: os números do piloto com a Vetra não sustentavam o investimento. Prefiro entregar duas apostas que movem renovação do que cinco que ficam bonitas no slide. Comuniquei o corte no mesmo dia para ninguém trabalhar em cima de plano velho.",
+    "tags": [
+      { "tagId": "results_focus", "quote": "Prefiro entregar duas apostas que movem renovação do que cinco que ficam bonitas no slide.", "confidence": 0.85 },
+      { "tagId": "critical_evaluation", "quote": "os números do piloto com a Vetra não sustentavam o investimento", "confidence": 0.7 }
+    ]
+  },
+  {
+    "subjectId": "isabela-franco",
+    "authorId": "isabela-franco",
+    "source": "self",
+    "text": "Na revisão de roadmap com a Sofia, discordei na frente de todo mundo da sequência de entregas do módulo de permissões e coloquei meus argumentos na mesa. Foi uma discussão dura sobre a ideia, não sobre pessoas, e saímos com uma sequência melhor do que as duas propostas originais.",
+    "tags": [
+      { "tagId": "healthy_conflict", "quote": "Foi uma discussão dura sobre a ideia, não sobre pessoas", "confidence": 0.85 }
+    ]
+  },
+  {
+    "subjectId": "isabela-franco",
+    "authorId": "rafael-siqueira",
+    "source": "peer",
+    "text": "Levei para a Isabela uma proposta de expandir o módulo de exportação e ela desmontou meu caso em vinte minutos: pediu a base de clientes que pediam aquilo, comparou com o custo de oportunidade e mostrou que eu estava extrapolando três conversas. Saí sem o projeto, mas com um critério claro do que precisaria provar.",
+    "tags": [
+      { "tagId": "critical_evaluation", "quote": "pediu a base de clientes que pediam aquilo, comparou com o custo de oportunidade", "confidence": 0.85 }
+    ]
+  },
+  {
+    "subjectId": "isabela-franco",
+    "authorId": "clara-menezes",
+    "source": "peer",
+    "text": "Na retro do trimestre, a Isabela discordou do Rafael sobre a meta de ativação de um jeito que eu raramente vejo: direta, olhando no olho, sem rodeio nenhum, e terminou perguntando o que faria ela mudar de ideia. A discussão esquentou e ninguém saiu machucado; o plano saiu melhor.",
+    "tags": [
+      { "tagId": "healthy_conflict", "quote": "direta, olhando no olho, sem rodeio nenhum", "confidence": 0.8 }
+    ]
+  },
+  {
+    "subjectId": "isabela-franco",
+    "authorId": "joao-prado",
+    "source": "peer",
+    "text": "Quando o Grupo Altamira ameaçou não renovar, a Isabela cancelou duas iniciativas do próprio time — incluindo uma que era a menina dos olhos dela — para liberar a gente para o que salvava a conta. Ela mesma avisou os stakeholders e assumiu o desgaste da decisão.",
+    "tags": [
+      { "tagId": "results_focus", "quote": "cancelou duas iniciativas do próprio time — incluindo uma que era a menina dos olhos dela — para liberar a gente para o que salvava a conta", "confidence": 0.85 }
+    ]
+  },
+  {
+    "subjectId": "isabela-franco",
+    "authorId": "gustavo-lins",
+    "source": "peer",
+    "text": "A Isabela mudou nossa weekly de segunda para terça por causa da sequência de feriados e aproveitou para testar um formato novo de ata no Notion. No fim do mês a gente decide se mantém ou volta ao formato antigo.",
+    "tags": []
+  },
+  {
+    "subjectId": "isabela-franco",
+    "authorId": "felipe-armond",
+    "source": "peer",
+    "text": "No comitê de priorização, a Isabela pegou a proposta do funil novo e listou as três premissas que precisavam ser verdade para o número fechar, uma a uma, antes de qualquer opinião. Duas não paravam em pé e ela devolveu o caso para refazer a conta, sem drama.",
+    "tags": [
+      { "tagId": "critical_evaluation", "quote": "listou as três premissas que precisavam ser verdade para o número fechar", "confidence": 0.85 }
+    ]
+  },
+  {
+    "subjectId": "rafael-siqueira",
+    "authorId": "rafael-siqueira",
+    "source": "self",
+    "text": "Eu compro as brigas que precisam ser compradas: na última revisão de roadmap, bati de frente com a Engenharia sobre a data do módulo de relatórios e sustentei meu ponto até o fim da reunião. Acho que o time espera de mim exatamente esse debate duro, de bater na mesa quando a prioridade está errada.",
+    "tags": [
+      { "tagId": "healthy_conflict", "quote": "bati de frente com a Engenharia sobre a data do módulo de relatórios", "confidence": 0.7 }
+    ]
+  },
+  {
+    "subjectId": "rafael-siqueira",
+    "authorId": "rafael-siqueira",
+    "source": "self",
+    "text": "Quando Vendas tentou furar a fila com um pedido do banco Meridiano, eu disse não na cara do Ricardo e defendi o combinado do trimestre sem amaciar. Gosto de discussão franca e fujo de consenso morno; prefiro o embate aberto a deixar a decisão apodrecer.",
+    "tags": [
+      { "tagId": "healthy_conflict", "quote": "prefiro o embate aberto a deixar a decisão apodrecer", "confidence": 0.7 }
+    ]
+  },
+  {
+    "subjectId": "rafael-siqueira",
+    "authorId": "joao-prado",
+    "source": "peer",
+    "text": "Na planning em que Engenharia e Design quase se estranharam por causa do atraso do onboarding, o Rafael pediu cinco minutos, reformulou o que cada lado estava pedindo e propôs um meio-termo que os dois aceitaram na hora. A reunião, que estava subindo de tom, terminou tranquila e com plano.",
+    "tags": [
+      { "tagId": "diplomacy", "quote": "reformulou o que cada lado estava pedindo e propôs um meio-termo que os dois aceitaram na hora", "confidence": 0.85 },
+      { "tagId": "facilitation", "quote": "A reunião, que estava subindo de tom, terminou tranquila e com plano.", "confidence": 0.6 }
+    ]
+  },
+  {
+    "subjectId": "rafael-siqueira",
+    "authorId": "gustavo-lins",
+    "source": "peer",
+    "text": "O cliente TransLog escalou uma reclamação e Vendas queria apontar culpado no nosso time. O Rafael não entrou no bate-boca: chamou cada um para conversar em separado, costurou uma versão comum da história e no dia seguinte os dois times apresentaram um plano conjunto como se nunca tivesse havido atrito.",
+    "tags": [
+      { "tagId": "diplomacy", "quote": "chamou cada um para conversar em separado, costurou uma versão comum da história", "confidence": 0.9 }
+    ]
+  },
+  {
+    "subjectId": "rafael-siqueira",
+    "authorId": "sofia-brandao",
+    "source": "peer",
+    "text": "Tivemos um impasse feio de dependências entre o roadmap de produto e a nossa fila de plataforma, e eu esperava uma queda de braço. O Rafael evitou o confronto na sala: suavizou os pontos mais duros, adiou o item mais polêmico para uma conversa menor e saiu todo mundo acomodado. Resolveu o clima, ainda que a divergência de fundo tenha ficado para depois.",
+    "tags": [
+      { "tagId": "diplomacy", "quote": "suavizou os pontos mais duros, adiou o item mais polêmico para uma conversa menor", "confidence": 0.85 }
+    ]
+  },
+  {
+    "subjectId": "rafael-siqueira",
+    "authorId": "clara-menezes",
+    "source": "peer",
+    "text": "O Rafael migrou nossos boards de discovery para o template novo e aproveitou para arquivar as iniciativas de 2024. Também combinou com a gente uma rotação de quem escreve o resumo semanal do produto.",
+    "tags": []
+  },
+  {
+    "subjectId": "rafael-siqueira",
+    "authorId": "isabela-franco",
+    "source": "manager",
+    "text": "Sempre que uma priorização ameaça virar embate, o Rafael baixa a temperatura: reconhece o ponto de cada lado, tira a decisão espinhosa da sala e volta depois com um acordo já costurado nos bastidores. Quase nunca o vejo comprar a briga de frente; ele contorna o conflito até o assunto caber numa conversa calma.",
+    "tags": [
+      { "tagId": "diplomacy", "quote": "volta depois com um acordo já costurado nos bastidores", "confidence": 0.9 }
+    ]
+  },
+  {
+    "subjectId": "gustavo-lins",
+    "authorId": "gustavo-lins",
+    "source": "self",
+    "text": "Passei dois dias na operação da TransLog vendo os despachantes usarem nosso painel e voltei com o fluxo de exceções redesenhado do zero: em vez de formulário, um rascunho que o sistema preenche e a pessoa só corrige. A ideia veio de ver o operador colando print no WhatsApp para pedir ajuda.",
+    "tags": [
+      { "tagId": "customer_focus", "quote": "Passei dois dias na operação da TransLog vendo os despachantes usarem nosso painel", "confidence": 0.85 },
+      { "tagId": "creative_innovation", "quote": "em vez de formulário, um rascunho que o sistema preenche e a pessoa só corrige", "confidence": 0.8 }
+    ]
+  },
+  {
+    "subjectId": "gustavo-lins",
+    "authorId": "beatriz-tavares",
+    "source": "peer",
+    "text": "A gente estava travado há semanas no problema do onboarding de contas multi-CNPJ e o Gustavo apareceu na crit com uma solução que ninguém tinha considerado: tratar a segunda empresa como um convite, não como um cadastro. Simplificou três telas em uma e destravou a discussão inteira.",
+    "tags": [
+      { "tagId": "creative_innovation", "quote": "uma solução que ninguém tinha considerado: tratar a segunda empresa como um convite, não como um cadastro", "confidence": 0.9 }
+    ]
+  },
+  {
+    "subjectId": "gustavo-lins",
+    "authorId": "clara-menezes",
+    "source": "peer",
+    "text": "O Gustavo é o único designer que aparece em todas as minhas sessões de pesquisa sem eu precisar convidar. Na última crit, ele abriu com o áudio de uma cliente da Clínicas Salus reclamando do relatório, e a discussão inteira girou em torno do problema dela em vez das nossas preferências.",
+    "tags": [
+      { "tagId": "customer_focus", "quote": "ele abriu com o áudio de uma cliente da Clínicas Salus reclamando do relatório", "confidence": 0.85 }
+    ]
+  },
+  {
+    "subjectId": "gustavo-lins",
+    "authorId": "leticia-ramos",
+    "source": "peer",
+    "text": "Num gap de sprint, o Gustavo me chamou para transformar uma ideia maluca dele em protótipo: um modo de comparação lado a lado que ninguém tinha pedido, montado com componentes que já existiam. Em dois dias tínhamos algo clicável que acabou entrando no roadmap do trimestre.",
+    "tags": [
+      { "tagId": "creative_innovation", "quote": "um modo de comparação lado a lado que ninguém tinha pedido, montado com componentes que já existiam", "confidence": 0.75 }
+    ]
+  },
+  {
+    "subjectId": "gustavo-lins",
+    "authorId": "felipe-armond",
+    "source": "peer",
+    "text": "O Gustavo terminou a migração da nossa biblioteca no Figma para a versão nova e marcou uma sessão rápida para mostrar onde ficou cada componente. Combinamos de aposentar os arquivos antigos até o fim do mês.",
+    "tags": []
+  },
+  {
+    "subjectId": "gustavo-lins",
+    "authorId": "isabela-franco",
+    "source": "manager",
+    "text": "Dei ao Gustavo o problema mais ingrato do trimestre, o relatório regulatório, e ele voltou com uma abordagem que ninguém esperava: transformar o relatório em um checklist guiado. Antes de desenhar qualquer tela, ele ligou para três clientes para validar se aquilo resolvia o dia deles.",
+    "tags": [
+      { "tagId": "creative_innovation", "quote": "transformar o relatório em um checklist guiado", "confidence": 0.8 },
+      { "tagId": "customer_focus", "quote": "ele ligou para três clientes para validar se aquilo resolvia o dia deles", "confidence": 0.85 }
+    ]
+  },
+  {
+    "subjectId": "clara-menezes",
+    "authorId": "clara-menezes",
+    "source": "self",
+    "text": "Montei um painel de atendimento com recortes das entrevistas do mês e agora abro toda review de produto com dois minutos de voz de cliente. Na última, o trecho da coordenadora da Clínicas Salus mudou a discussão da feature nova para o problema de adoção que ninguém queria encarar.",
+    "tags": [
+      { "tagId": "customer_focus", "quote": "abro toda review de produto com dois minutos de voz de cliente", "confidence": 0.85 }
+    ]
+  },
+  {
+    "subjectId": "clara-menezes",
+    "authorId": "gustavo-lins",
+    "source": "peer",
+    "text": "Nos debriefs de pesquisa da Clara, os juniores falam primeiro e hipótese furada é tratada como achado, não como vergonha. Quando a Beatriz errou a previsão do teste de usabilidade, a Clara agradeceu na frente de todo mundo por ela ter se exposto, e desde então o time inteiro arrisca mais palpite.",
+    "tags": [
+      { "tagId": "psych_safety", "quote": "hipótese furada é tratada como achado, não como vergonha", "confidence": 0.85 }
+    ]
+  },
+  {
+    "subjectId": "clara-menezes",
+    "authorId": "joao-prado",
+    "source": "peer",
+    "text": "Eu estava vendido na solução de notificações e a Clara me fez desmontar o caso: colocou lado a lado o que os clientes tinham dito nas oito entrevistas e o que eu estava assumindo, e a sobreposição era mínima. Adiei o projeto e fui atrás do problema certo.",
+    "tags": [
+      { "tagId": "critical_evaluation", "quote": "colocou lado a lado o que os clientes tinham dito nas oito entrevistas e o que eu estava assumindo", "confidence": 0.85 },
+      { "tagId": "customer_focus", "quote": "o que os clientes tinham dito nas oito entrevistas", "confidence": 0.6 }
+    ]
+  },
+  {
+    "subjectId": "clara-menezes",
+    "authorId": "aline-serra",
+    "source": "peer",
+    "text": "A Clara topou entrevistar comigo cinco clientes que cancelaram no semestre, montou o roteiro e conduziu as conversas mais difíceis. O relatório dela circulou até em Vendas e mudou o discurso de renovação do banco Meridiano.",
+    "tags": [
+      { "tagId": "customer_focus", "quote": "topou entrevistar comigo cinco clientes que cancelaram no semestre", "confidence": 0.75 }
+    ]
+  },
+  {
+    "subjectId": "clara-menezes",
+    "authorId": "beatriz-tavares",
+    "source": "peer",
+    "text": "A Clara reorganizou a agenda do laboratório de pesquisa e agora a gente reserva as salas de teste pelo mesmo calendário do time. Ela também montou uma escala de quem toma nota em cada sessão do mês.",
+    "tags": []
+  },
+  {
+    "subjectId": "clara-menezes",
+    "authorId": "isabela-franco",
+    "source": "manager",
+    "text": "Quando o comitê já estava convencido a construir o portal de parceiros, a Clara pediu a palavra e mostrou, dado a dado, que a demanda vinha de dois clientes barulhentos e não da base. Foi a única análise fria da sala e nos poupou um trimestre.",
+    "tags": [
+      { "tagId": "critical_evaluation", "quote": "mostrou, dado a dado, que a demanda vinha de dois clientes barulhentos e não da base", "confidence": 0.9 }
+    ]
+  },
+  {
+    "subjectId": "joao-prado",
+    "authorId": "joao-prado",
+    "source": "self",
+    "text": "O bug de cobrança da integração com o banco Meridiano não era do meu squad, mas o cliente era meu, então assumi: mapeei o fluxo com Financeiro, abri os chamados com a Engenharia e só soltei o assunto quando o estorno saiu na fatura seguinte. Fiquei com o postmortem também.",
+    "tags": [
+      { "tagId": "ownership", "quote": "assumi: mapeei o fluxo com Financeiro, abri os chamados com a Engenharia e só soltei o assunto quando o estorno saiu na fatura seguinte", "confidence": 0.9 }
+    ]
+  },
+  {
+    "subjectId": "joao-prado",
+    "authorId": "joao-prado",
+    "source": "self",
+    "text": "Passei a quarta organizando o calendário de releases do trimestre com o marketing e escolhendo as datas dos webinars. No fim sobrou tempo para atualizar a página de novidades do produto.",
+    "tags": []
+  },
+  {
+    "subjectId": "joao-prado",
+    "authorId": "felipe-armond",
+    "source": "peer",
+    "text": "O João nunca tinha mexido com SQL e em duas semanas estava puxando as próprias análises de funil para responder uma pergunta do comitê. Quando os dados contrariaram a aposta dele de ativação, ele trocou de rota sem se apegar ao plano antigo.",
+    "tags": [
+      { "tagId": "learning_agility", "quote": "nunca tinha mexido com SQL e em duas semanas estava puxando as próprias análises de funil", "confidence": 0.85 }
+    ]
+  },
+  {
+    "subjectId": "joao-prado",
+    "authorId": "caio-teixeira",
+    "source": "peer",
+    "text": "Quando a migração quebrou o webhook da TransLog numa sexta à noite, o João ficou na ponte com a gente até meia-noite, escreveu ele mesmo a comunicação para o cliente e no sábado de manhã já tinha validado o fix em produção. Não era papel dele, mas ninguém precisou pedir.",
+    "tags": [
+      { "tagId": "ownership", "quote": "ficou na ponte com a gente até meia-noite, escreveu ele mesmo a comunicação para o cliente", "confidence": 0.9 }
+    ]
+  },
+  {
+    "subjectId": "joao-prado",
+    "authorId": "rafael-siqueira",
+    "source": "peer",
+    "text": "O João defendia a tese do plano self-service fazia meses, mas quando o teste de preço voltou com conversão abaixo do piso, ele mesmo apresentou os números e propôs mudar a abordagem na semana seguinte. Reescreveu a spec inteira em dois dias com o aprendizado novo.",
+    "tags": [
+      { "tagId": "learning_agility", "quote": "quando o teste de preço voltou com conversão abaixo do piso, ele mesmo apresentou os números e propôs mudar a abordagem", "confidence": 0.8 }
+    ]
+  },
+  {
+    "subjectId": "joao-prado",
+    "authorId": "isabela-franco",
+    "source": "manager",
+    "text": "O contrato do Grupo Altamira travou por causa de um requisito de auditoria que não era de ninguém, e o João encampou: estudou a norma, sentou com o jurídico e devolveu uma proposta de escopo em uma semana. Ele trata problema órfão como se tivesse o nome dele escrito.",
+    "tags": [
+      { "tagId": "ownership", "quote": "Ele trata problema órfão como se tivesse o nome dele escrito", "confidence": 0.85 },
+      { "tagId": "learning_agility", "quote": "estudou a norma, sentou com o jurídico e devolveu uma proposta de escopo em uma semana", "confidence": 0.6 }
+    ]
+  },
+  {
+    "subjectId": "beatriz-tavares",
+    "authorId": "beatriz-tavares",
+    "source": "self",
+    "text": "Precisávamos de um protótipo navegável para o teste com a Vetra e eu nunca tinha usado a ferramenta nova de motion; passei o fim de semana nos tutoriais e na terça o protótipo estava rodando com as transições que o teste pedia. Anotei o que aprendi num guia curto para o resto do time.",
+    "tags": [
+      { "tagId": "learning_agility", "quote": "nunca tinha usado a ferramenta nova de motion; passei o fim de semana nos tutoriais e na terça o protótipo estava rodando", "confidence": 0.85 }
+    ]
+  },
+  {
+    "subjectId": "beatriz-tavares",
+    "authorId": "gustavo-lins",
+    "source": "peer",
+    "text": "Na crit do estado vazio do dashboard, a Beatriz sugeriu usar os próprios dados de exemplo do setor do cliente como primeiro conteúdo, em vez de ilustração genérica. Ninguém tinha pensado por esse ângulo e a ideia virou o padrão dos outros módulos.",
+    "tags": [
+      { "tagId": "creative_innovation", "quote": "sugeriu usar os próprios dados de exemplo do setor do cliente como primeiro conteúdo, em vez de ilustração genérica", "confidence": 0.85 }
+    ]
+  },
+  {
+    "subjectId": "beatriz-tavares",
+    "authorId": "clara-menezes",
+    "source": "peer",
+    "text": "O teste de usabilidade derrubou duas das três telas da Beatriz e, em vez de defender o desenho, ela pediu os vídeos, remontou o fluxo no dia seguinte e voltou com uma versão que atacava exatamente os tropeços observados. Da rodada um para a dois, o tempo de conclusão caiu pela metade.",
+    "tags": [
+      { "tagId": "learning_agility", "quote": "pediu os vídeos, remontou o fluxo no dia seguinte e voltou com uma versão que atacava exatamente os tropeços observados", "confidence": 0.85 }
+    ]
+  },
+  {
+    "subjectId": "beatriz-tavares",
+    "authorId": "marina-duarte",
+    "source": "peer",
+    "text": "Na handoff do módulo de permissões, a Beatriz percebeu que o componente que o design pedia ia custar caro e propôs uma variação com os elementos que já tínhamos no design system, com um efeito de foco que resolvia o mesmo problema. Saiu mais simples do que o desenho original e ninguém sentiu falta.",
+    "tags": [
+      { "tagId": "creative_innovation", "quote": "propôs uma variação com os elementos que já tínhamos no design system, com um efeito de foco que resolvia o mesmo problema", "confidence": 0.7 }
+    ]
+  },
+  {
+    "subjectId": "beatriz-tavares",
+    "authorId": "felipe-armond",
+    "source": "peer",
+    "text": "A Beatriz atualizou a biblioteca de ícones e arrumou a nomenclatura das pastas no drive do time. Também assumiu a vez dela na escala de notas da weekly deste mês.",
+    "tags": []
+  },
+  {
+    "subjectId": "beatriz-tavares",
+    "authorId": "isabela-franco",
+    "source": "manager",
+    "text": "Pedi à Beatriz uma alternativa para o e-mail de resumo semanal que os clientes ignoravam e ela voltou com três direções que eu não tinha visto em lugar nenhum, incluindo um resumo em áudio de um minuto. Testamos a mais ousada com um grupo pequeno e a taxa de abertura dobrou.",
+    "tags": [
+      { "tagId": "creative_innovation", "quote": "voltou com três direções que eu não tinha visto em lugar nenhum, incluindo um resumo em áudio de um minuto", "confidence": 0.85 }
+    ]
+  },
+  {
+    "subjectId": "felipe-armond",
+    "authorId": "felipe-armond",
+    "source": "self",
+    "text": "Revisando o dashboard da QBR, percebi que a taxa de retenção estava usando a base antiga de contas e divergia do número do Financeiro em dois pontos. Refiz a consulta, documentei a diferença e avisei os dois times antes de a apresentação subir para a diretoria.",
+    "tags": [
+      { "tagId": "attention_to_detail", "quote": "percebi que a taxa de retenção estava usando a base antiga de contas e divergia do número do Financeiro em dois pontos", "confidence": 0.9 }
+    ]
+  },
+  {
+    "subjectId": "felipe-armond",
+    "authorId": "felipe-armond",
+    "source": "self",
+    "text": "Fechei a logística do offsite de produto: hotel, salas e a agenda dos dois dias já estão no convite. Falta só definir quem leva a caixa de som.",
+    "tags": []
+  },
+  {
+    "subjectId": "felipe-armond",
+    "authorId": "rafael-siqueira",
+    "source": "peer",
+    "text": "Quando a Engenharia atrasou a handoff e o clima azedou entre os squads, o Felipe chamou os dois leads para um café antes da reunião conjunta e alinhou as versões da história. A conversa que prometia briga virou um replanejamento tranquilo de datas.",
+    "tags": [
+      { "tagId": "diplomacy", "quote": "chamou os dois leads para um café antes da reunião conjunta e alinhou as versões da história", "confidence": 0.85 }
+    ]
+  },
+  {
+    "subjectId": "felipe-armond",
+    "authorId": "bruno-carvalho",
+    "source": "peer",
+    "text": "A gente estava irritado com as specs mudando no meio da sprint e o Felipe veio até a nossa daily, ouviu as reclamações sem rebater e voltou com um combinado de janela de mudanças que os PMs toparam. O atrito com produto, que vinha crescendo, esvaziou em uma semana.",
+    "tags": [
+      { "tagId": "diplomacy", "quote": "ouviu as reclamações sem rebater e voltou com um combinado de janela de mudanças que os PMs toparam", "confidence": 0.8 }
+    ]
+  },
+  {
+    "subjectId": "felipe-armond",
+    "authorId": "clara-menezes",
+    "source": "peer",
+    "text": "O Felipe revisou meu formulário de consentimento e achou uma cláusula desatualizada e dois campos que se contradiziam, coisa que já tinha passado por três pessoas. Ele mantém um checklist próprio para esses documentos e não deixa passar nada.",
+    "tags": [
+      { "tagId": "attention_to_detail", "quote": "achou uma cláusula desatualizada e dois campos que se contradiziam, coisa que já tinha passado por três pessoas", "confidence": 0.9 }
+    ]
+  },
+  {
+    "subjectId": "felipe-armond",
+    "authorId": "joao-prado",
+    "source": "peer",
+    "text": "No checklist de release do Felipe, ele pegou que o preço do plano anual estava com o valor antigo na tela de checkout de um dos ambientes. Se tivesse subido assim, o banco Meridiano teria visto o desconto errado no dia da renovação.",
+    "tags": [
+      { "tagId": "attention_to_detail", "quote": "pegou que o preço do plano anual estava com o valor antigo na tela de checkout", "confidence": 0.85 }
+    ]
+  },
+  {
+    "subjectId": "felipe-armond",
+    "authorId": "isabela-franco",
+    "source": "manager",
+    "text": "O Felipe é quem eu mando na frente quando uma conversa entre produto e engenharia ameaça descarrilar: ele mapeia onde cada lado pode ceder e chega com meio caminho andado. De quebra, os rituais que ele organiza saem sem uma ponta solta, da pauta ao follow-up.",
+    "tags": [
+      { "tagId": "diplomacy", "quote": "ele mapeia onde cada lado pode ceder e chega com meio caminho andado", "confidence": 0.85 },
+      { "tagId": "attention_to_detail", "quote": "os rituais que ele organiza saem sem uma ponta solta, da pauta ao follow-up", "confidence": 0.7 }
+    ]
+  }
+]

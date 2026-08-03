@@ -1,0 +1,1986 @@
+[
+  {
+    "id": "ev-001",
+    "storyId": "st-001",
+    "subjectId": "juliana-peixoto",
+    "tagId": "customer_focus",
+    "quote": "passei vinte minutos só mapeando o que mudou na operação deles e levei três desses pontos para a reunião de roadmap",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-002",
+    "storyId": "st-003",
+    "subjectId": "juliana-peixoto",
+    "tagId": "facilitation",
+    "quote": "montou uma pauta fixa em três blocos, deixa claro quem decide o quê e fecha cada tema com responsável e prazo",
+    "confidence": 0.9
+  },
+  {
+    "id": "ev-003",
+    "storyId": "st-004",
+    "subjectId": "juliana-peixoto",
+    "tagId": "trust_building",
+    "quote": "ela mesma abriu o assunto na reunião de time antes que alguém perguntasse",
+    "confidence": 0.8
+  },
+  {
+    "id": "ev-004",
+    "storyId": "st-005",
+    "subjectId": "juliana-peixoto",
+    "tagId": "customer_focus",
+    "quote": "chegou com gravações de três clientes reclamando do fluxo de exportação e fez todo mundo assistir antes de abrir o backlog",
+    "confidence": 0.9
+  },
+  {
+    "id": "ev-005",
+    "storyId": "st-006",
+    "subjectId": "juliana-peixoto",
+    "tagId": "trust_building",
+    "quote": "contou de um erro parecido que ela mesma cometeu quando era CSM",
+    "confidence": 0.7
+  },
+  {
+    "id": "ev-006",
+    "storyId": "st-006",
+    "subjectId": "juliana-peixoto",
+    "tagId": "psych_safety",
+    "quote": "Saí da conversa querendo acertar, não querendo me esconder",
+    "confidence": 0.7
+  },
+  {
+    "id": "ev-007",
+    "storyId": "st-007",
+    "subjectId": "juliana-peixoto",
+    "tagId": "facilitation",
+    "quote": "juntou os dois lados numa sala, desenhou o fluxo no quadro e só encerrou quando cada etapa tinha um dono definido",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-008",
+    "storyId": "st-008",
+    "subjectId": "otavio-neves",
+    "tagId": "diplomacy",
+    "quote": "Deixei ele falar dez minutos sem interromper, reconheci ponto a ponto o que fazia sentido e propus revermos o escopo antes de falar de preço",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-009",
+    "storyId": "st-009",
+    "subjectId": "otavio-neves",
+    "tagId": "customer_focus",
+    "quote": "escrevi um resumo com as citações literais dos clientes e levei para a reunião de roadmap com produto",
+    "confidence": 0.8
+  },
+  {
+    "id": "ev-010",
+    "storyId": "st-010",
+    "subjectId": "otavio-neves",
+    "tagId": "diplomacy",
+    "quote": "chamou os dois num papo rápido, traduziu o que cada lado estava realmente pedindo e a discussão morreu ali",
+    "confidence": 0.9
+  },
+  {
+    "id": "ev-011",
+    "storyId": "st-011",
+    "subjectId": "otavio-neves",
+    "tagId": "diplomacy",
+    "quote": "respondeu num tom que desarmou o cliente na primeira mensagem",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-012",
+    "storyId": "st-011",
+    "subjectId": "otavio-neves",
+    "tagId": "supportiveness",
+    "quote": "ficou até mais tarde revisando comigo os tickets abertos da conta",
+    "confidence": 0.7
+  },
+  {
+    "id": "ev-013",
+    "storyId": "st-013",
+    "subjectId": "otavio-neves",
+    "tagId": "diplomacy",
+    "quote": "conduziu a reunião de transição sem apontar dedo para ninguém, realinhou as expectativas item a item",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-014",
+    "storyId": "st-014",
+    "subjectId": "otavio-neves",
+    "tagId": "customer_focus",
+    "quote": "ligou pessoalmente para cada um dos oito clientes afetados antes que qualquer um abrisse ticket",
+    "confidence": 0.75
+  },
+  {
+    "id": "ev-015",
+    "storyId": "st-014",
+    "subjectId": "otavio-neves",
+    "tagId": "supportiveness",
+    "quote": "apareceu na daily do suporte perguntando onde podia ajudar a limpar a fila",
+    "confidence": 0.7
+  },
+  {
+    "id": "ev-016",
+    "storyId": "st-015",
+    "subjectId": "aline-serra",
+    "tagId": "customer_focus",
+    "quote": "entrevistei quatro usuários finais além do sponsor",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-017",
+    "storyId": "st-016",
+    "subjectId": "aline-serra",
+    "tagId": "psych_safety",
+    "quote": "Hoje pergunto qualquer coisa sem pensar duas vezes",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-018",
+    "storyId": "st-017",
+    "subjectId": "aline-serra",
+    "tagId": "customer_focus",
+    "quote": "apareceu com prints de conversas reais de clientes mostrando exatamente onde eles travavam",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-019",
+    "storyId": "st-019",
+    "subjectId": "aline-serra",
+    "tagId": "psych_safety",
+    "quote": "os clientes relaxaram e contaram coisas que nunca apareceriam num formulário",
+    "confidence": 0.65
+  },
+  {
+    "id": "ev-020",
+    "storyId": "st-020",
+    "subjectId": "aline-serra",
+    "tagId": "psych_safety",
+    "quote": "o time inteiro dissecou o caso sem ninguém se colocar na defensiva",
+    "confidence": 0.75
+  },
+  {
+    "id": "ev-021",
+    "storyId": "st-020",
+    "subjectId": "aline-serra",
+    "tagId": "trust_building",
+    "quote": "dizendo primeiro o que ela mesma teria feito diferente",
+    "confidence": 0.65
+  },
+  {
+    "id": "ev-022",
+    "storyId": "st-021",
+    "subjectId": "vitor-camargo",
+    "tagId": "ownership",
+    "quote": "fui puxando o fio e descobri que o job de integração falhava em silêncio desde a última atualização",
+    "confidence": 0.8
+  },
+  {
+    "id": "ev-023",
+    "storyId": "st-023",
+    "subjectId": "vitor-camargo",
+    "tagId": "calm_under_pressure",
+    "quote": "ditou a resposta padrão com a mesma voz de quem lê o cardápio",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-024",
+    "storyId": "st-023",
+    "subjectId": "vitor-camargo",
+    "tagId": "facilitation",
+    "quote": "abriu uma chamada, dividiu a fila em três blocos",
+    "confidence": 0.6
+  },
+  {
+    "id": "ev-025",
+    "storyId": "st-024",
+    "subjectId": "vitor-camargo",
+    "tagId": "calm_under_pressure",
+    "quote": "foi me guiando passo a passo, sem uma nota de irritação na voz, até o serviço voltar",
+    "confidence": 0.8
+  },
+  {
+    "id": "ev-026",
+    "storyId": "st-025",
+    "subjectId": "vitor-camargo",
+    "tagId": "ownership",
+    "quote": "montou por conta própria um comparativo de tempos de carregamento, levou para a engenharia e acompanhou o caso até o deploy da correção",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-027",
+    "storyId": "st-026",
+    "subjectId": "vitor-camargo",
+    "tagId": "calm_under_pressure",
+    "quote": "mandava atualizações a cada vinte minutos num tom que segurou até as contas mais nervosas",
+    "confidence": 0.75
+  },
+  {
+    "id": "ev-028",
+    "storyId": "st-027",
+    "subjectId": "vitor-camargo",
+    "tagId": "ownership",
+    "quote": "pediu para ser o ponto único da conta, mapeou os cinco problemas recorrentes e fechou um a um em três semanas, mesmo os que dependiam de outras áreas",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-029",
+    "storyId": "st-027",
+    "subjectId": "vitor-camargo",
+    "tagId": "execution_reliability",
+    "quote": "fechou um a um em três semanas",
+    "confidence": 0.6
+  },
+  {
+    "id": "ev-030",
+    "storyId": "st-028",
+    "subjectId": "natalia-brito",
+    "tagId": "learning_agility",
+    "quote": "Passei duas noites no curso interno de webhooks, montei um ambiente de teste para praticar e na semana seguinte conduzi a call técnica sozinha",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-031",
+    "storyId": "st-029",
+    "subjectId": "natalia-brito",
+    "tagId": "supportiveness",
+    "quote": "percebeu sem eu falar nada e apareceu com os decks de dados de uso das três contas já preenchidos",
+    "confidence": 0.9
+  },
+  {
+    "id": "ev-032",
+    "storyId": "st-030",
+    "subjectId": "natalia-brito",
+    "tagId": "learning_agility",
+    "quote": "foi a primeira a dominar o editor novo",
+    "confidence": 0.75
+  },
+  {
+    "id": "ev-033",
+    "storyId": "st-030",
+    "subjectId": "natalia-brito",
+    "tagId": "supportiveness",
+    "quote": "gravou um vídeo curto ensinando o resto do time, sem que ninguém pedisse",
+    "confidence": 0.7
+  },
+  {
+    "id": "ev-034",
+    "storyId": "st-032",
+    "subjectId": "natalia-brito",
+    "tagId": "supportiveness",
+    "quote": "se ofereceu para revisar conta a conta comigo numa hora vaga do plantão dela",
+    "confidence": 0.75
+  },
+  {
+    "id": "ev-035",
+    "storyId": "st-033",
+    "subjectId": "natalia-brito",
+    "tagId": "learning_agility",
+    "quote": "Em um mês ela absorveu o vocabulário do setor de logística",
+    "confidence": 0.8
+  },
+  {
+    "id": "ev-036",
+    "storyId": "st-034",
+    "subjectId": "eduardo-sales",
+    "tagId": "customer_focus",
+    "quote": "Liguei para entender a rotina deles, documentei o caso de uso e levei para a reunião com produto os números de quanto tempo o cliente perdia por semana",
+    "confidence": 0.8
+  },
+  {
+    "id": "ev-037",
+    "storyId": "st-036",
+    "subjectId": "eduardo-sales",
+    "tagId": "execution_reliability",
+    "quote": "prometeu os quatrocentos dele até sexta e entregou na quinta à noite",
+    "confidence": 0.9
+  },
+  {
+    "id": "ev-038",
+    "storyId": "st-037",
+    "subjectId": "eduardo-sales",
+    "tagId": "execution_reliability",
+    "quote": "deu o retorno na data exata que tinha combinado comigo",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-039",
+    "storyId": "st-037",
+    "subjectId": "eduardo-sales",
+    "tagId": "accountability",
+    "quote": "precisou cobrar duas áreas para não estourar o prazo",
+    "confidence": 0.6
+  },
+  {
+    "id": "ev-040",
+    "storyId": "st-038",
+    "subjectId": "eduardo-sales",
+    "tagId": "customer_focus",
+    "quote": "percebeu pelo tom das mensagens que o problema real era o fechamento contábil do cliente",
+    "confidence": 0.8
+  },
+  {
+    "id": "ev-041",
+    "storyId": "st-039",
+    "subjectId": "eduardo-sales",
+    "tagId": "execution_reliability",
+    "quote": "entregou o pacote completo e na data combinada, mesmo com a fila de suporte cheia naquela semana",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-042",
+    "storyId": "st-040",
+    "subjectId": "eduardo-sales",
+    "tagId": "execution_reliability",
+    "quote": "fechou três semanas seguidas dentro do alvo",
+    "confidence": 0.8
+  },
+  {
+    "id": "ev-043",
+    "storyId": "st-040",
+    "subjectId": "eduardo-sales",
+    "tagId": "customer_focus",
+    "quote": "ajustando o próprio turno para cobrir o horário em que os clientes do varejo mais abrem chamado",
+    "confidence": 0.65
+  },
+  {
+    "id": "ev-044",
+    "storyId": "st-041",
+    "subjectId": "sofia-brandao",
+    "tagId": "trust_building",
+    "quote": "Preferi assumir o erro na frente de todo mundo",
+    "confidence": 0.9
+  },
+  {
+    "id": "ev-045",
+    "storyId": "st-043",
+    "subjectId": "sofia-brandao",
+    "tagId": "facilitation",
+    "quote": "listou as três decisões que precisavam sair dali e deu a palavra a cada um por dois minutos",
+    "confidence": 0.9
+  },
+  {
+    "id": "ev-046",
+    "storyId": "st-044",
+    "subjectId": "sofia-brandao",
+    "tagId": "accountability",
+    "quote": "nada do que a gente acorda em reunião cai no esquecimento",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-047",
+    "storyId": "st-045",
+    "subjectId": "sofia-brandao",
+    "tagId": "trust_building",
+    "quote": "ela mesma tinha aprovado o deploy sem janela de contingência",
+    "confidence": 0.8
+  },
+  {
+    "id": "ev-048",
+    "storyId": "st-045",
+    "subjectId": "sofia-brandao",
+    "tagId": "psych_safety",
+    "quote": "todo mundo passou a descrever o que fez sem medo",
+    "confidence": 0.7
+  },
+  {
+    "id": "ev-049",
+    "storyId": "st-046",
+    "subjectId": "sofia-brandao",
+    "tagId": "accountability",
+    "quote": "refez o plano com datas e responsáveis na frente de todos",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-050",
+    "storyId": "st-047",
+    "subjectId": "sofia-brandao",
+    "tagId": "facilitation",
+    "quote": "montou uma sessão rápida com o Caio e a Marina para alinhar prioridade e dividir quem me apoiava em quê",
+    "confidence": 0.8
+  },
+  {
+    "id": "ev-051",
+    "storyId": "st-048",
+    "subjectId": "marina-duarte",
+    "tagId": "diplomacy",
+    "quote": "Chamei os dois numa sala, pedi que cada um escrevesse os trade-offs no quadro",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-052",
+    "storyId": "st-049",
+    "subjectId": "marina-duarte",
+    "tagId": "diplomacy",
+    "quote": "resumiu os dois lados com uma neutralidade impressionante",
+    "confidence": 0.9
+  },
+  {
+    "id": "ev-053",
+    "storyId": "st-050",
+    "subjectId": "marina-duarte",
+    "tagId": "execution_reliability",
+    "quote": "Fechou o épico na data combinada, sem sobressalto nenhum",
+    "confidence": 0.9
+  },
+  {
+    "id": "ev-054",
+    "storyId": "st-051",
+    "subjectId": "marina-duarte",
+    "tagId": "diplomacy",
+    "quote": "traduziu a briga em duas opções de escopo com datas realistas",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-055",
+    "storyId": "st-053",
+    "subjectId": "marina-duarte",
+    "tagId": "supportiveness",
+    "quote": "assumiu duas correções sem que ninguém pedisse",
+    "confidence": 0.9
+  },
+  {
+    "id": "ev-056",
+    "storyId": "st-053",
+    "subjectId": "marina-duarte",
+    "tagId": "diplomacy",
+    "quote": "quando uma discussão técnica começa a esquentar, ela entra e traz todo mundo de volta para o problema",
+    "confidence": 0.8
+  },
+  {
+    "id": "ev-057",
+    "storyId": "st-054",
+    "subjectId": "caio-teixeira",
+    "tagId": "critical_evaluation",
+    "quote": "montei uma matriz comparando custo, latência e maturidade das três opções",
+    "confidence": 0.9
+  },
+  {
+    "id": "ev-058",
+    "storyId": "st-054",
+    "subjectId": "caio-teixeira",
+    "tagId": "results_focus",
+    "quote": "Prefiro perder uma aposta pessoal a empurrar uma decisão sem evidência",
+    "confidence": 0.65
+  },
+  {
+    "id": "ev-059",
+    "storyId": "st-056",
+    "subjectId": "caio-teixeira",
+    "tagId": "mentorship",
+    "quote": "cada um explicava o porquê e linkava um exemplo no nosso código",
+    "confidence": 0.9
+  },
+  {
+    "id": "ev-060",
+    "storyId": "st-057",
+    "subjectId": "caio-teixeira",
+    "tagId": "critical_evaluation",
+    "quote": "desmontou a proposta com dois cenários que ninguém tinha considerado",
+    "confidence": 0.9
+  },
+  {
+    "id": "ev-061",
+    "storyId": "st-058",
+    "subjectId": "caio-teixeira",
+    "tagId": "mentorship",
+    "quote": "montou comigo um plano de estudo de três semanas e revisava meus diagramas toda sexta",
+    "confidence": 0.9
+  },
+  {
+    "id": "ev-062",
+    "storyId": "st-059",
+    "subjectId": "caio-teixeira",
+    "tagId": "accountability",
+    "quote": "ele registra cada compromisso da revisão de sprint e cobra, inclusive de mim, quando algo desvia",
+    "confidence": 0.9
+  },
+  {
+    "id": "ev-063",
+    "storyId": "st-060",
+    "subjectId": "caio-teixeira",
+    "tagId": "accountability",
+    "quote": "não deixa um item sair da lista sem dono e data",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-064",
+    "storyId": "st-060",
+    "subjectId": "caio-teixeira",
+    "tagId": "critical_evaluation",
+    "quote": "trouxe benchmarks e um comparativo de falhas antes de dar opinião",
+    "confidence": 0.8
+  },
+  {
+    "id": "ev-065",
+    "storyId": "st-061",
+    "subjectId": "bruno-carvalho",
+    "tagId": "execution_reliability",
+    "quote": "Fatiei a migração em sete entregas, publiquei o progresso toda sexta no canal e viramos com três dias de folga",
+    "confidence": 0.9
+  },
+  {
+    "id": "ev-066",
+    "storyId": "st-062",
+    "subjectId": "bruno-carvalho",
+    "tagId": "attention_to_detail",
+    "quote": "apontando dois casos de borda de timezone que nem meus testes cobriam",
+    "confidence": 0.9
+  },
+  {
+    "id": "ev-067",
+    "storyId": "st-063",
+    "subjectId": "bruno-carvalho",
+    "tagId": "execution_reliability",
+    "quote": "No dia 18 estava em produção atrás de feature flag, com runbook escrito",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-068",
+    "storyId": "st-064",
+    "subjectId": "bruno-carvalho",
+    "tagId": "attention_to_detail",
+    "quote": "me avisou de uma divergência de quatro centavos que o sistema antigo vinha ignorando havia meses",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-069",
+    "storyId": "st-066",
+    "subjectId": "bruno-carvalho",
+    "tagId": "execution_reliability",
+    "quote": "Nas últimas seis sprints o Bruno entregou tudo que puxou",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-070",
+    "storyId": "st-067",
+    "subjectId": "leticia-ramos",
+    "tagId": "attention_to_detail",
+    "quote": "achei um estouro de layout que só aparecia com nomes de empresa muito longos",
+    "confidence": 0.9
+  },
+  {
+    "id": "ev-071",
+    "storyId": "st-068",
+    "subjectId": "leticia-ramos",
+    "tagId": "supportiveness",
+    "quote": "nem tinha pedido ajuda quando a Letícia apareceu com um branch de rascunho",
+    "confidence": 0.9
+  },
+  {
+    "id": "ev-072",
+    "storyId": "st-069",
+    "subjectId": "leticia-ramos",
+    "tagId": "attention_to_detail",
+    "quote": "listou oito inconsistências de máscara de data e moeda entre telas",
+    "confidence": 0.9
+  },
+  {
+    "id": "ev-073",
+    "storyId": "st-070",
+    "subjectId": "leticia-ramos",
+    "tagId": "attention_to_detail",
+    "quote": "incluindo um estado de teclado que eu mesmo tinha esquecido de desenhar",
+    "confidence": 0.8
+  },
+  {
+    "id": "ev-074",
+    "storyId": "st-072",
+    "subjectId": "leticia-ramos",
+    "tagId": "supportiveness",
+    "quote": "remanejou as próprias tarefas para socorrer colegas atolados",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-075",
+    "storyId": "st-072",
+    "subjectId": "leticia-ramos",
+    "tagId": "attention_to_detail",
+    "quote": "a pessoa que mais barra problema visual antes de o QA sequer olhar",
+    "confidence": 0.7
+  },
+  {
+    "id": "ev-076",
+    "storyId": "st-073",
+    "subjectId": "andre-nogueira",
+    "tagId": "calm_under_pressure",
+    "quote": "abri a chamada de incidente, designei quem olhava banco e quem olhava rede e fui narrando cada hipótese testada no canal",
+    "confidence": 0.8
+  },
+  {
+    "id": "ev-077",
+    "storyId": "st-075",
+    "subjectId": "andre-nogueira",
+    "tagId": "calm_under_pressure",
+    "quote": "respondia com o mesmo tom de sempre, listando o que já sabíamos e o que faltava confirmar",
+    "confidence": 0.9
+  },
+  {
+    "id": "ev-078",
+    "storyId": "st-076",
+    "subjectId": "andre-nogueira",
+    "tagId": "ownership",
+    "quote": "rastreou a causa até uma condição de corrida no serviço de sessões e abriu o fix junto com um alerta novo",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-079",
+    "storyId": "st-077",
+    "subjectId": "andre-nogueira",
+    "tagId": "calm_under_pressure",
+    "quote": "sem uma nota de estresse na voz",
+    "confidence": 0.8
+  },
+  {
+    "id": "ev-080",
+    "storyId": "st-077",
+    "subjectId": "andre-nogueira",
+    "tagId": "execution_reliability",
+    "quote": "A previsão de normalização que ele deu bateu com dez minutos de diferença",
+    "confidence": 0.6
+  },
+  {
+    "id": "ev-081",
+    "storyId": "st-078",
+    "subjectId": "andre-nogueira",
+    "tagId": "execution_reliability",
+    "quote": "entregou exatamente isso, com plano de rollback ensaiado em staging duas vezes",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-082",
+    "storyId": "st-079",
+    "subjectId": "andre-nogueira",
+    "tagId": "ownership",
+    "quote": "Ele trata qualquer problema da plataforma como se fosse dele",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-083",
+    "storyId": "st-079",
+    "subjectId": "andre-nogueira",
+    "tagId": "calm_under_pressure",
+    "quote": "uma serenidade que acalmou até o pessoal de fora da engenharia",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-084",
+    "storyId": "st-080",
+    "subjectId": "paula-vidal",
+    "tagId": "learning_agility",
+    "quote": "Mudei de recomendação no meio do estudo porque os números não sustentavam a primeira",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-085",
+    "storyId": "st-080",
+    "subjectId": "paula-vidal",
+    "tagId": "critical_evaluation",
+    "quote": "apresentei um comparativo com o que testei de fato",
+    "confidence": 0.7
+  },
+  {
+    "id": "ev-086",
+    "storyId": "st-081",
+    "subjectId": "paula-vidal",
+    "tagId": "critical_evaluation",
+    "quote": "mostrou que o gargalo era um join mal particionado, não capacidade",
+    "confidence": 0.9
+  },
+  {
+    "id": "ev-087",
+    "storyId": "st-083",
+    "subjectId": "paula-vidal",
+    "tagId": "learning_agility",
+    "quote": "aprendido sozinha, em duas semanas, a biblioteca de análise estatística",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-088",
+    "storyId": "st-084",
+    "subjectId": "paula-vidal",
+    "tagId": "learning_agility",
+    "quote": "em dez dias já estava revisando os meus PRs",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-089",
+    "storyId": "st-085",
+    "subjectId": "paula-vidal",
+    "tagId": "critical_evaluation",
+    "quote": "ela desmonta a proposta em premissas, testa as que dá para testar e me devolve o risco em números",
+    "confidence": 0.9
+  },
+  {
+    "id": "ev-090",
+    "storyId": "st-086",
+    "subjectId": "diego-fagundes",
+    "tagId": "learning_agility",
+    "quote": "Entrei na Lumina sem nunca ter mexido com Go e três meses depois assumi sozinho o worker de reprocessamento",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-091",
+    "storyId": "st-087",
+    "subjectId": "diego-fagundes",
+    "tagId": "drive_energy",
+    "quote": "puxar um mutirão de uma tarde, com placar dos minutos economizados no quadro",
+    "confidence": 0.9
+  },
+  {
+    "id": "ev-092",
+    "storyId": "st-088",
+    "subjectId": "diego-fagundes",
+    "tagId": "learning_agility",
+    "quote": "No terceiro dia já estava abrindo PRs decentes",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-093",
+    "storyId": "st-089",
+    "subjectId": "diego-fagundes",
+    "tagId": "drive_energy",
+    "quote": "montou o esqueleto no mesmo dia e ficou me mandando atualizações à noite sem eu pedir",
+    "confidence": 0.8
+  },
+  {
+    "id": "ev-094",
+    "storyId": "st-091",
+    "subjectId": "diego-fagundes",
+    "tagId": "learning_agility",
+    "quote": "em quatro meses passou de tarefas guiadas para puxar sozinho a modernização dos jobs de fila",
+    "confidence": 0.8
+  },
+  {
+    "id": "ev-095",
+    "storyId": "st-091",
+    "subjectId": "diego-fagundes",
+    "tagId": "drive_energy",
+    "quote": "mais de uma vez o entusiasmo dele tirou a sprint da inércia",
+    "confidence": 0.8
+  },
+  {
+    "id": "ev-096",
+    "storyId": "st-092",
+    "subjectId": "renata-luz",
+    "tagId": "attention_to_detail",
+    "quote": "desconfiei de uma diferença de um pixel na coluna de totais e fui puxar o fio",
+    "confidence": 0.9
+  },
+  {
+    "id": "ev-097",
+    "storyId": "st-092",
+    "subjectId": "renata-luz",
+    "tagId": "accountability",
+    "quote": "segurei a release até o fix entrar",
+    "confidence": 0.65
+  },
+  {
+    "id": "ev-098",
+    "storyId": "st-094",
+    "subjectId": "renata-luz",
+    "tagId": "attention_to_detail",
+    "quote": "um de virada de mês bissexto que quebrava o cálculo de pro rata",
+    "confidence": 0.9
+  },
+  {
+    "id": "ev-099",
+    "storyId": "st-095",
+    "subjectId": "renata-luz",
+    "tagId": "accountability",
+    "quote": "me lembrou do acordo na frente do time e propôs um caminho que cabia no prazo",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-100",
+    "storyId": "st-096",
+    "subjectId": "renata-luz",
+    "tagId": "attention_to_detail",
+    "quote": "reproduziu o cenário com três combinações de configuração que eu nem sabia que existiam",
+    "confidence": 0.8
+  },
+  {
+    "id": "ev-101",
+    "storyId": "st-097",
+    "subjectId": "renata-luz",
+    "tagId": "accountability",
+    "quote": "trouxe os números na retro e fez a gente renovar o acordo por escrito",
+    "confidence": 0.9
+  },
+  {
+    "id": "ev-102",
+    "storyId": "st-098",
+    "subjectId": "tomas-ribeiro",
+    "tagId": "execution_reliability",
+    "quote": "Entregamos no dia combinado",
+    "confidence": 0.8
+  },
+  {
+    "id": "ev-103",
+    "storyId": "st-098",
+    "subjectId": "tomas-ribeiro",
+    "tagId": "results_focus",
+    "quote": "cortei duas melhorias que eu mesmo tinha proposto quando vi que colocavam a data em risco",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-104",
+    "storyId": "st-100",
+    "subjectId": "tomas-ribeiro",
+    "tagId": "execution_reliability",
+    "quote": "nas últimas quatro releases ele cravou o escopo sem estourar um dia",
+    "confidence": 0.9
+  },
+  {
+    "id": "ev-105",
+    "storyId": "st-101",
+    "subjectId": "tomas-ribeiro",
+    "tagId": "results_focus",
+    "quote": "abriu mão de um projeto que claramente lhe daria destaque porque o outro caminho desafogava a release do time inteiro",
+    "confidence": 0.9
+  },
+  {
+    "id": "ev-106",
+    "storyId": "st-102",
+    "subjectId": "tomas-ribeiro",
+    "tagId": "execution_reliability",
+    "quote": "o artefato chega testado, com checklist de rollback preenchido e no horário que ele falou",
+    "confidence": 0.9
+  },
+  {
+    "id": "ev-107",
+    "storyId": "st-103",
+    "subjectId": "tomas-ribeiro",
+    "tagId": "execution_reliability",
+    "quote": "Ele me entregou a primeira versão na sexta prometida",
+    "confidence": 0.8
+  },
+  {
+    "id": "ev-108",
+    "storyId": "st-104",
+    "subjectId": "tomas-ribeiro",
+    "tagId": "results_focus",
+    "quote": "repriorizou o backlog do squad em função da data, tirando inclusive itens dele próprio da frente",
+    "confidence": 0.8
+  },
+  {
+    "id": "ev-109",
+    "storyId": "st-104",
+    "subjectId": "tomas-ribeiro",
+    "tagId": "execution_reliability",
+    "quote": "referência de previsibilidade quando negocio prazos com as outras áreas",
+    "confidence": 0.7
+  },
+  {
+    "id": "ev-110",
+    "storyId": "st-105",
+    "subjectId": "patricia-lemos",
+    "tagId": "accountability",
+    "quote": "fui uma por uma cobrando o que não tinha sido entregue, inclusive as minhas",
+    "confidence": 0.9
+  },
+  {
+    "id": "ev-111",
+    "storyId": "st-106",
+    "subjectId": "patricia-lemos",
+    "tagId": "critical_evaluation",
+    "quote": "montando um comparativo de custo total em três anos antes de decidir",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-112",
+    "storyId": "st-107",
+    "subjectId": "patricia-lemos",
+    "tagId": "trust_building",
+    "quote": "assumiu na frente do auditor um erro de classificação que tinha vindo de uma decisão dela",
+    "confidence": 0.8
+  },
+  {
+    "id": "ev-113",
+    "storyId": "st-107",
+    "subjectId": "patricia-lemos",
+    "tagId": "accountability",
+    "quote": "cobrou cada um de nós pelos itens do plano, com prazo e dono definidos",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-114",
+    "storyId": "st-108",
+    "subjectId": "patricia-lemos",
+    "tagId": "results_focus",
+    "quote": "o orçamento foi pro que movia o ponteiro, não pro projeto de estimação de ninguém",
+    "confidence": 0.8
+  },
+  {
+    "id": "ev-115",
+    "storyId": "st-109",
+    "subjectId": "patricia-lemos",
+    "tagId": "critical_evaluation",
+    "quote": "desmontou minha estimativa em dez minutos, com os números do último fechamento na mão",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-116",
+    "storyId": "st-110",
+    "subjectId": "patricia-lemos",
+    "tagId": "results_focus",
+    "quote": "abriu mão de duas contratações da própria área pra segurar o caixa que garantia o bônus coletivo",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-117",
+    "storyId": "st-112",
+    "subjectId": "henrique-dias",
+    "tagId": "attention_to_detail",
+    "quote": "peguei um adicional noturno duplicado que passaria batido",
+    "confidence": 0.9
+  },
+  {
+    "id": "ev-118",
+    "storyId": "st-113",
+    "subjectId": "henrique-dias",
+    "tagId": "attention_to_detail",
+    "quote": "achou uma diferença de doze centavos na conciliação e não sossegou até rastrear a origem",
+    "confidence": 0.9
+  },
+  {
+    "id": "ev-119",
+    "storyId": "st-113",
+    "subjectId": "henrique-dias",
+    "tagId": "accountability",
+    "quote": "me lembrou do combinado de documentar o ajuste antes de virar o mês",
+    "confidence": 0.75
+  },
+  {
+    "id": "ev-120",
+    "storyId": "st-114",
+    "subjectId": "henrique-dias",
+    "tagId": "attention_to_detail",
+    "quote": "voltou com três inconsistências entre a minuta e a planilha de preços",
+    "confidence": 0.9
+  },
+  {
+    "id": "ev-121",
+    "storyId": "st-116",
+    "subjectId": "henrique-dias",
+    "tagId": "accountability",
+    "quote": "se atraso um dia, ele já aparece na minha mesa cobrando",
+    "confidence": 0.8
+  },
+  {
+    "id": "ev-122",
+    "storyId": "st-116",
+    "subjectId": "henrique-dias",
+    "tagId": "execution_reliability",
+    "quote": "nunca mais uma comissão saiu errada ou fora do prazo",
+    "confidence": 0.7
+  },
+  {
+    "id": "ev-123",
+    "storyId": "st-117",
+    "subjectId": "henrique-dias",
+    "tagId": "attention_to_detail",
+    "quote": "revisou pasta por pasta e achou dois comprovantes com data errada",
+    "confidence": 0.9
+  },
+  {
+    "id": "ev-124",
+    "storyId": "st-117",
+    "subjectId": "henrique-dias",
+    "tagId": "accountability",
+    "quote": "cobrou cada área até o último documento chegar no prazo",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-125",
+    "storyId": "st-118",
+    "subjectId": "carolina-freire",
+    "tagId": "trust_building",
+    "quote": "eu sempre conto o erro que cometi na minha primeira folha de pagamento aqui",
+    "confidence": 0.75
+  },
+  {
+    "id": "ev-126",
+    "storyId": "st-118",
+    "subjectId": "carolina-freire",
+    "tagId": "psych_safety",
+    "quote": "as pessoas passam a me trazer dúvidas que teriam vergonha de levar pro gestor",
+    "confidence": 0.8
+  },
+  {
+    "id": "ev-127",
+    "storyId": "st-120",
+    "subjectId": "carolina-freire",
+    "tagId": "diplomacy",
+    "quote": "Ela tem um jeito de baixar a temperatura sem passar pano pra ninguém",
+    "confidence": 0.9
+  },
+  {
+    "id": "ev-128",
+    "storyId": "st-121",
+    "subjectId": "carolina-freire",
+    "tagId": "supportiveness",
+    "quote": "percebeu, assumiu a triagem dos chamados de benefícios",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-129",
+    "storyId": "st-122",
+    "subjectId": "carolina-freire",
+    "tagId": "diplomacy",
+    "quote": "conduziu a conversa difícil que eu vinha adiando e os dois saíram com um combinado por escrito",
+    "confidence": 0.9
+  },
+  {
+    "id": "ev-130",
+    "storyId": "st-123",
+    "subjectId": "carolina-freire",
+    "tagId": "psych_safety",
+    "quote": "Deu a palavra primeiro pra quem estava mais bravo, sem cortar ninguém",
+    "confidence": 0.75
+  },
+  {
+    "id": "ev-131",
+    "storyId": "st-123",
+    "subjectId": "carolina-freire",
+    "tagId": "diplomacy",
+    "quote": "transformou uma pauta explosiva numa conversa civilizada",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-132",
+    "storyId": "st-124",
+    "subjectId": "carolina-freire",
+    "tagId": "diplomacy",
+    "quote": "mediou a sessão até saírem com um critério comum",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-133",
+    "storyId": "st-124",
+    "subjectId": "carolina-freire",
+    "tagId": "supportiveness",
+    "quote": "segurou a barra da analista nova na primeira folha, sem que ninguém pedisse",
+    "confidence": 0.8
+  },
+  {
+    "id": "ev-134",
+    "storyId": "st-125",
+    "subjectId": "lucas-macedo",
+    "tagId": "ownership",
+    "quote": "nem era meu, mas vivia atrasando e travava o fechamento de todo mundo. Assumi o processo",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-135",
+    "storyId": "st-125",
+    "subjectId": "lucas-macedo",
+    "tagId": "execution_reliability",
+    "quote": "hoje ele sai dois dias antes do prazo",
+    "confidence": 0.65
+  },
+  {
+    "id": "ev-136",
+    "storyId": "st-126",
+    "subjectId": "lucas-macedo",
+    "tagId": "execution_reliability",
+    "quote": "em dois anos não lembro de um único atraso",
+    "confidence": 0.9
+  },
+  {
+    "id": "ev-137",
+    "storyId": "st-128",
+    "subjectId": "lucas-macedo",
+    "tagId": "ownership",
+    "quote": "só largou o tema quando o último colega confirmou o acerto na folha seguinte",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-138",
+    "storyId": "st-129",
+    "subjectId": "lucas-macedo",
+    "tagId": "execution_reliability",
+    "quote": "chega sempre antes do combinado, no formato que a gente alinhou uma única vez",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-139",
+    "storyId": "st-130",
+    "subjectId": "lucas-macedo",
+    "tagId": "execution_reliability",
+    "quote": "a folha caiu na conta de todo mundo no dia certo",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-140",
+    "storyId": "st-130",
+    "subjectId": "lucas-macedo",
+    "tagId": "ownership",
+    "quote": "me trouxe o problema já resolvido",
+    "confidence": 0.8
+  },
+  {
+    "id": "ev-141",
+    "storyId": "st-131",
+    "subjectId": "tania-quintela",
+    "tagId": "critical_evaluation",
+    "quote": "listei os cinco riscos que já viraram disputa em contratos antigos e testei a minuta nova contra cada um",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-142",
+    "storyId": "st-131",
+    "subjectId": "tania-quintela",
+    "tagId": "attention_to_detail",
+    "quote": "Dois artigos caíram nesse pente-fino",
+    "confidence": 0.6
+  },
+  {
+    "id": "ev-143",
+    "storyId": "st-133",
+    "subjectId": "tania-quintela",
+    "tagId": "diplomacy",
+    "quote": "redigiu uma alternativa que protegia a Lumina sem humilhar o outro lado",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-144",
+    "storyId": "st-133",
+    "subjectId": "tania-quintela",
+    "tagId": "attention_to_detail",
+    "quote": "achou uma divergência de CNPJ nos anexos que ninguém tinha visto",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-145",
+    "storyId": "st-134",
+    "subjectId": "tania-quintela",
+    "tagId": "diplomacy",
+    "quote": "em vez de bater na regra, montou com a gente um formato de contrato anual que passava no compliance",
+    "confidence": 0.9
+  },
+  {
+    "id": "ev-146",
+    "storyId": "st-135",
+    "subjectId": "tania-quintela",
+    "tagId": "diplomacy",
+    "quote": "O que parecia caminho certo pra briga virou um aditivo assinado sem uma única reunião tensa",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-147",
+    "storyId": "st-136",
+    "subjectId": "tania-quintela",
+    "tagId": "critical_evaluation",
+    "quote": "me devolveu uma análise comparando a cláusula de reajuste com a inflação dos últimos três anos",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-148",
+    "storyId": "st-137",
+    "subjectId": "tania-quintela",
+    "tagId": "attention_to_detail",
+    "quote": "notou que duas procurações estavam vencidas antes de o auditor abrir a pasta",
+    "confidence": 0.9
+  },
+  {
+    "id": "ev-149",
+    "storyId": "st-137",
+    "subjectId": "tania-quintela",
+    "tagId": "critical_evaluation",
+    "quote": "separou o que era risco real do que era ruído",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-150",
+    "storyId": "st-138",
+    "subjectId": "rodrigo-antunes",
+    "tagId": "execution_reliability",
+    "quote": "no dia não faltou nem o adaptador de projetor que sempre esquecem",
+    "confidence": 0.8
+  },
+  {
+    "id": "ev-151",
+    "storyId": "st-139",
+    "subjectId": "rodrigo-antunes",
+    "tagId": "supportiveness",
+    "quote": "Ninguém pediu, ele só percebeu e fez",
+    "confidence": 0.9
+  },
+  {
+    "id": "ev-152",
+    "storyId": "st-140",
+    "subjectId": "rodrigo-antunes",
+    "tagId": "calm_under_pressure",
+    "quote": "sem alterar a voz, remanejou todo mundo pro coworking do prédio ao lado",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-153",
+    "storyId": "st-140",
+    "subjectId": "rodrigo-antunes",
+    "tagId": "execution_reliability",
+    "quote": "a reunião começou no horário",
+    "confidence": 0.65
+  },
+  {
+    "id": "ev-154",
+    "storyId": "st-141",
+    "subjectId": "rodrigo-antunes",
+    "tagId": "supportiveness",
+    "quote": "apareceu com jantar e deixou a sala de reunião grande reservada pra gente a semana toda",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-155",
+    "storyId": "st-143",
+    "subjectId": "rodrigo-antunes",
+    "tagId": "calm_under_pressure",
+    "quote": "sem uma nota de pânico",
+    "confidence": 0.8
+  },
+  {
+    "id": "ev-156",
+    "storyId": "st-143",
+    "subjectId": "rodrigo-antunes",
+    "tagId": "execution_reliability",
+    "quote": "Tudo que ele assume some da minha lista de preocupações",
+    "confidence": 0.7
+  },
+  {
+    "id": "ev-157",
+    "storyId": "st-144",
+    "subjectId": "isabela-franco",
+    "tagId": "results_focus",
+    "quote": "Prefiro entregar duas apostas que movem renovação do que cinco que ficam bonitas no slide.",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-158",
+    "storyId": "st-144",
+    "subjectId": "isabela-franco",
+    "tagId": "critical_evaluation",
+    "quote": "os números do piloto com a Vetra não sustentavam o investimento",
+    "confidence": 0.7
+  },
+  {
+    "id": "ev-159",
+    "storyId": "st-145",
+    "subjectId": "isabela-franco",
+    "tagId": "healthy_conflict",
+    "quote": "Foi uma discussão dura sobre a ideia, não sobre pessoas",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-160",
+    "storyId": "st-146",
+    "subjectId": "isabela-franco",
+    "tagId": "critical_evaluation",
+    "quote": "pediu a base de clientes que pediam aquilo, comparou com o custo de oportunidade",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-161",
+    "storyId": "st-147",
+    "subjectId": "isabela-franco",
+    "tagId": "healthy_conflict",
+    "quote": "direta, olhando no olho, sem rodeio nenhum",
+    "confidence": 0.8
+  },
+  {
+    "id": "ev-162",
+    "storyId": "st-148",
+    "subjectId": "isabela-franco",
+    "tagId": "results_focus",
+    "quote": "cancelou duas iniciativas do próprio time — incluindo uma que era a menina dos olhos dela — para liberar a gente para o que salvava a conta",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-163",
+    "storyId": "st-150",
+    "subjectId": "isabela-franco",
+    "tagId": "critical_evaluation",
+    "quote": "listou as três premissas que precisavam ser verdade para o número fechar",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-164",
+    "storyId": "st-151",
+    "subjectId": "rafael-siqueira",
+    "tagId": "healthy_conflict",
+    "quote": "bati de frente com a Engenharia sobre a data do módulo de relatórios",
+    "confidence": 0.7
+  },
+  {
+    "id": "ev-165",
+    "storyId": "st-152",
+    "subjectId": "rafael-siqueira",
+    "tagId": "healthy_conflict",
+    "quote": "prefiro o embate aberto a deixar a decisão apodrecer",
+    "confidence": 0.7
+  },
+  {
+    "id": "ev-166",
+    "storyId": "st-153",
+    "subjectId": "rafael-siqueira",
+    "tagId": "diplomacy",
+    "quote": "reformulou o que cada lado estava pedindo e propôs um meio-termo que os dois aceitaram na hora",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-167",
+    "storyId": "st-153",
+    "subjectId": "rafael-siqueira",
+    "tagId": "facilitation",
+    "quote": "A reunião, que estava subindo de tom, terminou tranquila e com plano.",
+    "confidence": 0.6
+  },
+  {
+    "id": "ev-168",
+    "storyId": "st-154",
+    "subjectId": "rafael-siqueira",
+    "tagId": "diplomacy",
+    "quote": "chamou cada um para conversar em separado, costurou uma versão comum da história",
+    "confidence": 0.9
+  },
+  {
+    "id": "ev-169",
+    "storyId": "st-155",
+    "subjectId": "rafael-siqueira",
+    "tagId": "diplomacy",
+    "quote": "suavizou os pontos mais duros, adiou o item mais polêmico para uma conversa menor",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-170",
+    "storyId": "st-157",
+    "subjectId": "rafael-siqueira",
+    "tagId": "diplomacy",
+    "quote": "volta depois com um acordo já costurado nos bastidores",
+    "confidence": 0.9
+  },
+  {
+    "id": "ev-171",
+    "storyId": "st-158",
+    "subjectId": "gustavo-lins",
+    "tagId": "customer_focus",
+    "quote": "Passei dois dias na operação da TransLog vendo os despachantes usarem nosso painel",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-172",
+    "storyId": "st-158",
+    "subjectId": "gustavo-lins",
+    "tagId": "creative_innovation",
+    "quote": "em vez de formulário, um rascunho que o sistema preenche e a pessoa só corrige",
+    "confidence": 0.8
+  },
+  {
+    "id": "ev-173",
+    "storyId": "st-159",
+    "subjectId": "gustavo-lins",
+    "tagId": "creative_innovation",
+    "quote": "uma solução que ninguém tinha considerado: tratar a segunda empresa como um convite, não como um cadastro",
+    "confidence": 0.9
+  },
+  {
+    "id": "ev-174",
+    "storyId": "st-160",
+    "subjectId": "gustavo-lins",
+    "tagId": "customer_focus",
+    "quote": "ele abriu com o áudio de uma cliente da Clínicas Salus reclamando do relatório",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-175",
+    "storyId": "st-161",
+    "subjectId": "gustavo-lins",
+    "tagId": "creative_innovation",
+    "quote": "um modo de comparação lado a lado que ninguém tinha pedido, montado com componentes que já existiam",
+    "confidence": 0.75
+  },
+  {
+    "id": "ev-176",
+    "storyId": "st-163",
+    "subjectId": "gustavo-lins",
+    "tagId": "creative_innovation",
+    "quote": "transformar o relatório em um checklist guiado",
+    "confidence": 0.8
+  },
+  {
+    "id": "ev-177",
+    "storyId": "st-163",
+    "subjectId": "gustavo-lins",
+    "tagId": "customer_focus",
+    "quote": "ele ligou para três clientes para validar se aquilo resolvia o dia deles",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-178",
+    "storyId": "st-164",
+    "subjectId": "clara-menezes",
+    "tagId": "customer_focus",
+    "quote": "abro toda review de produto com dois minutos de voz de cliente",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-179",
+    "storyId": "st-165",
+    "subjectId": "clara-menezes",
+    "tagId": "psych_safety",
+    "quote": "hipótese furada é tratada como achado, não como vergonha",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-180",
+    "storyId": "st-166",
+    "subjectId": "clara-menezes",
+    "tagId": "critical_evaluation",
+    "quote": "colocou lado a lado o que os clientes tinham dito nas oito entrevistas e o que eu estava assumindo",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-181",
+    "storyId": "st-166",
+    "subjectId": "clara-menezes",
+    "tagId": "customer_focus",
+    "quote": "o que os clientes tinham dito nas oito entrevistas",
+    "confidence": 0.6
+  },
+  {
+    "id": "ev-182",
+    "storyId": "st-167",
+    "subjectId": "clara-menezes",
+    "tagId": "customer_focus",
+    "quote": "topou entrevistar comigo cinco clientes que cancelaram no semestre",
+    "confidence": 0.75
+  },
+  {
+    "id": "ev-183",
+    "storyId": "st-169",
+    "subjectId": "clara-menezes",
+    "tagId": "critical_evaluation",
+    "quote": "mostrou, dado a dado, que a demanda vinha de dois clientes barulhentos e não da base",
+    "confidence": 0.9
+  },
+  {
+    "id": "ev-184",
+    "storyId": "st-170",
+    "subjectId": "joao-prado",
+    "tagId": "ownership",
+    "quote": "assumi: mapeei o fluxo com Financeiro, abri os chamados com a Engenharia e só soltei o assunto quando o estorno saiu na fatura seguinte",
+    "confidence": 0.9
+  },
+  {
+    "id": "ev-185",
+    "storyId": "st-172",
+    "subjectId": "joao-prado",
+    "tagId": "learning_agility",
+    "quote": "nunca tinha mexido com SQL e em duas semanas estava puxando as próprias análises de funil",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-186",
+    "storyId": "st-173",
+    "subjectId": "joao-prado",
+    "tagId": "ownership",
+    "quote": "ficou na ponte com a gente até meia-noite, escreveu ele mesmo a comunicação para o cliente",
+    "confidence": 0.9
+  },
+  {
+    "id": "ev-187",
+    "storyId": "st-174",
+    "subjectId": "joao-prado",
+    "tagId": "learning_agility",
+    "quote": "quando o teste de preço voltou com conversão abaixo do piso, ele mesmo apresentou os números e propôs mudar a abordagem",
+    "confidence": 0.8
+  },
+  {
+    "id": "ev-188",
+    "storyId": "st-175",
+    "subjectId": "joao-prado",
+    "tagId": "ownership",
+    "quote": "Ele trata problema órfão como se tivesse o nome dele escrito",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-189",
+    "storyId": "st-175",
+    "subjectId": "joao-prado",
+    "tagId": "learning_agility",
+    "quote": "estudou a norma, sentou com o jurídico e devolveu uma proposta de escopo em uma semana",
+    "confidence": 0.6
+  },
+  {
+    "id": "ev-190",
+    "storyId": "st-176",
+    "subjectId": "beatriz-tavares",
+    "tagId": "learning_agility",
+    "quote": "nunca tinha usado a ferramenta nova de motion; passei o fim de semana nos tutoriais e na terça o protótipo estava rodando",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-191",
+    "storyId": "st-177",
+    "subjectId": "beatriz-tavares",
+    "tagId": "creative_innovation",
+    "quote": "sugeriu usar os próprios dados de exemplo do setor do cliente como primeiro conteúdo, em vez de ilustração genérica",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-192",
+    "storyId": "st-178",
+    "subjectId": "beatriz-tavares",
+    "tagId": "learning_agility",
+    "quote": "pediu os vídeos, remontou o fluxo no dia seguinte e voltou com uma versão que atacava exatamente os tropeços observados",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-193",
+    "storyId": "st-179",
+    "subjectId": "beatriz-tavares",
+    "tagId": "creative_innovation",
+    "quote": "propôs uma variação com os elementos que já tínhamos no design system, com um efeito de foco que resolvia o mesmo problema",
+    "confidence": 0.7
+  },
+  {
+    "id": "ev-194",
+    "storyId": "st-181",
+    "subjectId": "beatriz-tavares",
+    "tagId": "creative_innovation",
+    "quote": "voltou com três direções que eu não tinha visto em lugar nenhum, incluindo um resumo em áudio de um minuto",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-195",
+    "storyId": "st-182",
+    "subjectId": "felipe-armond",
+    "tagId": "attention_to_detail",
+    "quote": "percebi que a taxa de retenção estava usando a base antiga de contas e divergia do número do Financeiro em dois pontos",
+    "confidence": 0.9
+  },
+  {
+    "id": "ev-196",
+    "storyId": "st-184",
+    "subjectId": "felipe-armond",
+    "tagId": "diplomacy",
+    "quote": "chamou os dois leads para um café antes da reunião conjunta e alinhou as versões da história",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-197",
+    "storyId": "st-185",
+    "subjectId": "felipe-armond",
+    "tagId": "diplomacy",
+    "quote": "ouviu as reclamações sem rebater e voltou com um combinado de janela de mudanças que os PMs toparam",
+    "confidence": 0.8
+  },
+  {
+    "id": "ev-198",
+    "storyId": "st-186",
+    "subjectId": "felipe-armond",
+    "tagId": "attention_to_detail",
+    "quote": "achou uma cláusula desatualizada e dois campos que se contradiziam, coisa que já tinha passado por três pessoas",
+    "confidence": 0.9
+  },
+  {
+    "id": "ev-199",
+    "storyId": "st-187",
+    "subjectId": "felipe-armond",
+    "tagId": "attention_to_detail",
+    "quote": "pegou que o preço do plano anual estava com o valor antigo na tela de checkout",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-200",
+    "storyId": "st-188",
+    "subjectId": "felipe-armond",
+    "tagId": "diplomacy",
+    "quote": "ele mapeia onde cada lado pode ceder e chega com meio caminho andado",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-201",
+    "storyId": "st-188",
+    "subjectId": "felipe-armond",
+    "tagId": "attention_to_detail",
+    "quote": "os rituais que ele organiza saem sem uma ponta solta, da pauta ao follow-up",
+    "confidence": 0.7
+  },
+  {
+    "id": "ev-202",
+    "storyId": "st-189",
+    "subjectId": "ricardo-bastos",
+    "tagId": "results_focus",
+    "quote": "Prefiro mexer no plano dez vezes a aceitar terminar o mês abaixo da meta",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-203",
+    "storyId": "st-189",
+    "subjectId": "ricardo-bastos",
+    "tagId": "drive_energy",
+    "quote": "remontei o plano da semana em uma tarde e redistribuí as contas quentes",
+    "confidence": 0.7
+  },
+  {
+    "id": "ev-204",
+    "storyId": "st-191",
+    "subjectId": "ricardo-bastos",
+    "tagId": "results_focus",
+    "quote": "ninguém sairia da sala sem saber exatamente quais três negócios fecham até sexta",
+    "confidence": 0.8
+  },
+  {
+    "id": "ev-205",
+    "storyId": "st-191",
+    "subjectId": "ricardo-bastos",
+    "tagId": "drive_energy",
+    "quote": "É impossível ficar parado perto dele",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-206",
+    "storyId": "st-192",
+    "subjectId": "ricardo-bastos",
+    "tagId": "accountability",
+    "quote": "Ele anota cada combinado do pipeline review e cobra um por um na semana seguinte",
+    "confidence": 0.9
+  },
+  {
+    "id": "ev-207",
+    "storyId": "st-193",
+    "subjectId": "ricardo-bastos",
+    "tagId": "results_focus",
+    "quote": "Ele repete que troféu de esforço não paga meta",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-208",
+    "storyId": "st-193",
+    "subjectId": "ricardo-bastos",
+    "tagId": "accountability",
+    "quote": "cobra o resultado do time e o dele com a mesma dureza",
+    "confidence": 0.7
+  },
+  {
+    "id": "ev-209",
+    "storyId": "st-194",
+    "subjectId": "ricardo-bastos",
+    "tagId": "drive_energy",
+    "quote": "O ritmo que ele imprime puxa todo mundo ao redor",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-210",
+    "storyId": "st-195",
+    "subjectId": "helena-fontes",
+    "tagId": "mentorship",
+    "quote": "a gente grava as ligações, escuta junto e eu mostro onde a pergunta poderia abrir mais o cliente",
+    "confidence": 0.9
+  },
+  {
+    "id": "ev-211",
+    "storyId": "st-197",
+    "subjectId": "helena-fontes",
+    "tagId": "psych_safety",
+    "quote": "disse que erro contado cedo é erro barato",
+    "confidence": 0.9
+  },
+  {
+    "id": "ev-212",
+    "storyId": "st-197",
+    "subjectId": "helena-fontes",
+    "tagId": "mentorship",
+    "quote": "montou comigo um checklist para as próximas ligações",
+    "confidence": 0.75
+  },
+  {
+    "id": "ev-213",
+    "storyId": "st-198",
+    "subjectId": "helena-fontes",
+    "tagId": "mentorship",
+    "quote": "sentou do meu lado nas primeiras cold calls e depois me passava feedback linha por linha",
+    "confidence": 0.95
+  },
+  {
+    "id": "ev-214",
+    "storyId": "st-199",
+    "subjectId": "helena-fontes",
+    "tagId": "mentorship",
+    "quote": "me ensinou o racional que usa para ancorar o desconto, em vez de simplesmente corrigir",
+    "confidence": 0.9
+  },
+  {
+    "id": "ev-215",
+    "storyId": "st-200",
+    "subjectId": "helena-fontes",
+    "tagId": "facilitation",
+    "quote": "ela preparou a pauta, garantiu que os SDRs falassem antes dos sêniores e fechou com combinados claros",
+    "confidence": 0.9
+  },
+  {
+    "id": "ev-216",
+    "storyId": "st-200",
+    "subjectId": "helena-fontes",
+    "tagId": "psych_safety",
+    "quote": "ela foi quem criou espaço para todo mundo falar",
+    "confidence": 0.75
+  },
+  {
+    "id": "ev-217",
+    "storyId": "st-201",
+    "subjectId": "helena-fontes",
+    "tagId": "mentorship",
+    "quote": "os dois SDRs que rampearam mais rápido este ano passaram pela escolinha dela de discovery",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-218",
+    "storyId": "st-201",
+    "subjectId": "helena-fontes",
+    "tagId": "facilitation",
+    "quote": "a reunião passou a durar metade do tempo com o dobro de decisão",
+    "confidence": 0.8
+  },
+  {
+    "id": "ev-219",
+    "storyId": "st-202",
+    "subjectId": "camila-arruda",
+    "tagId": "drive_energy",
+    "quote": "Bati minha meta de reuniões agendadas na segunda semana do mês",
+    "confidence": 0.7
+  },
+  {
+    "id": "ev-220",
+    "storyId": "st-202",
+    "subjectId": "camila-arruda",
+    "tagId": "learning_agility",
+    "quote": "Anotei o que funcionou de cada ligação numa planilha e na sexta já estava com uma taxa de resposta bem melhor",
+    "confidence": 0.8
+  },
+  {
+    "id": "ev-221",
+    "storyId": "st-203",
+    "subjectId": "camila-arruda",
+    "tagId": "drive_energy",
+    "quote": "teve uma sexta que ela fez sessenta cold calls porque faltavam três reuniões para a meta do time",
+    "confidence": 0.9
+  },
+  {
+    "id": "ev-222",
+    "storyId": "st-204",
+    "subjectId": "camila-arruda",
+    "tagId": "learning_agility",
+    "quote": "Ela devora as gravações dos executivos sêniores e aplica na semana seguinte o que ouviu",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-223",
+    "storyId": "st-206",
+    "subjectId": "camila-arruda",
+    "tagId": "drive_energy",
+    "quote": "ela varou a tarde ligando para a lista inteira antes do prazo",
+    "confidence": 0.8
+  },
+  {
+    "id": "ev-224",
+    "storyId": "st-207",
+    "subjectId": "camila-arruda",
+    "tagId": "learning_agility",
+    "quote": "Quando mudamos o ICP no meio do trimestre, ela refez as listas sozinha em dois dias",
+    "confidence": 0.8
+  },
+  {
+    "id": "ev-225",
+    "storyId": "st-207",
+    "subjectId": "camila-arruda",
+    "tagId": "drive_energy",
+    "quote": "não deixou o ritmo de agendamentos cair",
+    "confidence": 0.65
+  },
+  {
+    "id": "ev-226",
+    "storyId": "st-208",
+    "subjectId": "pedro-galvao",
+    "tagId": "customer_focus",
+    "quote": "abri mão de empurrar o módulo extra porque o problema deles era outro",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-227",
+    "storyId": "st-209",
+    "subjectId": "pedro-galvao",
+    "tagId": "results_focus",
+    "quote": "passou dois leads quentes para mim porque eu estava mais perto da meta do time",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-228",
+    "storyId": "st-210",
+    "subjectId": "pedro-galvao",
+    "tagId": "customer_focus",
+    "quote": "Ele liga para usuários finais antes de cada proposta para entender o dia a dia de quem vai usar a ferramenta",
+    "confidence": 0.9
+  },
+  {
+    "id": "ev-229",
+    "storyId": "st-212",
+    "subjectId": "pedro-galvao",
+    "tagId": "customer_focus",
+    "quote": "É raro ver vendedor freando o próprio deal para o cliente não se frustrar depois",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-230",
+    "storyId": "st-213",
+    "subjectId": "pedro-galvao",
+    "tagId": "results_focus",
+    "quote": "ele mesmo propôs trocar duas contas de vitrine por três com ciclo mais curto e fechou o gap",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-231",
+    "storyId": "st-214",
+    "subjectId": "luana-cardoso",
+    "tagId": "drive_energy",
+    "quote": "passei os últimos três dias úteis praticamente morando no telefone",
+    "confidence": 0.8
+  },
+  {
+    "id": "ev-232",
+    "storyId": "st-214",
+    "subjectId": "luana-cardoso",
+    "tagId": "results_focus",
+    "quote": "Meta para mim não é aproximação, ou bateu ou não bateu",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-233",
+    "storyId": "st-215",
+    "subjectId": "luana-cardoso",
+    "tagId": "drive_energy",
+    "quote": "fez em um dia o follow-up de todas as vinte propostas paradas do time",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-234",
+    "storyId": "st-216",
+    "subjectId": "luana-cardoso",
+    "tagId": "results_focus",
+    "quote": "Ela recalcula o funil toda semana e corta sem dó o que não vai virar receita",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-235",
+    "storyId": "st-218",
+    "subjectId": "luana-cardoso",
+    "tagId": "drive_energy",
+    "quote": "devolveu no mesmo dia três clientes dispostos a gravar depoimento, já com horário marcado",
+    "confidence": 0.8
+  },
+  {
+    "id": "ev-236",
+    "storyId": "st-219",
+    "subjectId": "luana-cardoso",
+    "tagId": "drive_energy",
+    "quote": "assumiu o dobro de demos sem reclamar",
+    "confidence": 0.7
+  },
+  {
+    "id": "ev-237",
+    "storyId": "st-219",
+    "subjectId": "luana-cardoso",
+    "tagId": "results_focus",
+    "quote": "a constância de estar sempre acima da meta",
+    "confidence": 0.8
+  },
+  {
+    "id": "ev-238",
+    "storyId": "st-220",
+    "subjectId": "mateus-vilela",
+    "tagId": "ownership",
+    "quote": "assumi a fila, criei uma regra de resposta em até uma hora e segurei o processo até a Fernanda automatizar",
+    "confidence": 0.9
+  },
+  {
+    "id": "ev-239",
+    "storyId": "st-221",
+    "subjectId": "mateus-vilela",
+    "tagId": "drive_energy",
+    "quote": "ele coloca o cronômetro na TV e sai discando junto",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-240",
+    "storyId": "st-222",
+    "subjectId": "mateus-vilela",
+    "tagId": "ownership",
+    "quote": "rastreou o erro até uma automação antiga, avisou as contas afetadas e só soltou o assunto quando o fluxo foi corrigido",
+    "confidence": 0.9
+  },
+  {
+    "id": "ev-241",
+    "storyId": "st-224",
+    "subjectId": "mateus-vilela",
+    "tagId": "ownership",
+    "quote": "foi o Mateus quem me procurou, cruzou as planilhas comigo numa tarde e documentou a correção",
+    "confidence": 0.8
+  },
+  {
+    "id": "ev-242",
+    "storyId": "st-225",
+    "subjectId": "mateus-vilela",
+    "tagId": "drive_energy",
+    "quote": "ele propôs um mutirão de prospecção e puxou o time inteiro para discar junto por dois dias",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-243",
+    "storyId": "st-226",
+    "subjectId": "fernanda-said",
+    "tagId": "execution_reliability",
+    "quote": "Fechei a migração das regras de comissão para o sistema novo no prazo que tinha prometido",
+    "confidence": 0.8
+  },
+  {
+    "id": "ev-244",
+    "storyId": "st-226",
+    "subjectId": "fernanda-said",
+    "tagId": "attention_to_detail",
+    "quote": "rodando em paralelo com o antigo por duas semanas para conferir centavo por centavo",
+    "confidence": 0.85
+  },
+  {
+    "id": "ev-245",
+    "storyId": "st-227",
+    "subjectId": "fernanda-said",
+    "tagId": "attention_to_detail",
+    "quote": "Ela revisa cada minuta contra a tabela de preços",
+    "confidence": 0.9
+  },
+  {
+    "id": "ev-246",
+    "storyId": "st-228",
+    "subjectId": "fernanda-said",
+    "tagId": "execution_reliability",
+    "quote": "Todo dia primeiro, às 9h, o relatório de fechamento da Fernanda está na caixa de entrada, sem atraso desde que entrei",
+    "confidence": 0.9
+  },
+  {
+    "id": "ev-247",
+    "storyId": "st-230",
+    "subjectId": "fernanda-said",
+    "tagId": "attention_to_detail",
+    "quote": "cada exceção documentada com print e justificativa, nenhuma linha fora do padrão",
+    "confidence": 0.9
+  },
+  {
+    "id": "ev-248",
+    "storyId": "st-231",
+    "subjectId": "fernanda-said",
+    "tagId": "execution_reliability",
+    "quote": "Em dois anos, não lembro de um compromisso que ela tenha deixado cair",
+    "confidence": 0.9
+  }
+]

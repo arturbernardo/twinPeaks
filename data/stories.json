@@ -1,0 +1,1850 @@
+[
+  {
+    "id": "st-001",
+    "subjectId": "juliana-peixoto",
+    "authorId": "juliana-peixoto",
+    "source": "self",
+    "text": "Na QBR da Vetra, o diretor deles abriu dizendo que estava avaliando concorrentes. Em vez de defender a Lumina de cara, passei vinte minutos só mapeando o que mudou na operação deles e levei três desses pontos para a reunião de roadmap na semana seguinte. A renovação saiu com upgrade de plano.",
+    "createdAt": "2025-08-21T00:00:00.000Z"
+  },
+  {
+    "id": "st-002",
+    "subjectId": "juliana-peixoto",
+    "authorId": "juliana-peixoto",
+    "source": "self",
+    "text": "Passei a tarde de quinta migrando nossas contas do planilhão antigo para o CRM novo e agendando os treinamentos da ferramenta para o time. Nada glamouroso, mas ficou tudo pronto antes do fim do dia.",
+    "createdAt": "2025-09-01T00:00:00.000Z"
+  },
+  {
+    "id": "st-003",
+    "subjectId": "juliana-peixoto",
+    "authorId": "otavio-neves",
+    "source": "peer",
+    "text": "Nossa reunião semanal de carteira vivia virando desabafo sem conclusão. A Juliana montou uma pauta fixa em três blocos, deixa claro quem decide o quê e fecha cada tema com responsável e prazo. Hoje a gente sai da sala em quarenta minutos com tudo encaminhado.",
+    "createdAt": "2025-09-12T00:00:00.000Z"
+  },
+  {
+    "id": "st-004",
+    "subjectId": "juliana-peixoto",
+    "authorId": "aline-serra",
+    "source": "peer",
+    "text": "Quando a Juliana perdeu o prazo de enviar a proposta de renovação do Grupo Almeida, ela mesma abriu o assunto na reunião de time antes que alguém perguntasse, explicou o que ia mudar no processo dela e pediu que a gente avisasse se visse acontecer de novo.",
+    "createdAt": "2025-09-23T00:00:00.000Z"
+  },
+  {
+    "id": "st-005",
+    "subjectId": "juliana-peixoto",
+    "authorId": "vitor-camargo",
+    "source": "peer",
+    "text": "No comitê de priorização com produto, a Juliana chegou com gravações de três clientes reclamando do fluxo de exportação e fez todo mundo assistir antes de abrir o backlog. A discussão mudou de opinião para evidência, e o item subiu de prioridade ali mesmo.",
+    "createdAt": "2025-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "st-006",
+    "subjectId": "juliana-peixoto",
+    "authorId": "natalia-brito",
+    "source": "peer",
+    "text": "No meu primeiro mês, passei uma informação errada de contrato para a TechNorte e fiquei apavorada. A Juliana me chamou, contou de um erro parecido que ela mesma cometeu quando era CSM e montou comigo o e-mail de correção para o cliente. Saí da conversa querendo acertar, não querendo me esconder.",
+    "createdAt": "2025-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "st-007",
+    "subjectId": "juliana-peixoto",
+    "authorId": "eduardo-sales",
+    "source": "peer",
+    "text": "A passagem de contas entre suporte e CS era uma zona cinzenta e vivia caindo ticket no vácuo. A Juliana juntou os dois lados numa sala, desenhou o fluxo no quadro e só encerrou quando cada etapa tinha um dono definido. Faz dois meses que nenhum chamado se perde na transição.",
+    "createdAt": "2025-10-26T00:00:00.000Z"
+  },
+  {
+    "id": "st-008",
+    "subjectId": "otavio-neves",
+    "authorId": "otavio-neves",
+    "source": "self",
+    "text": "O CFO da LogiMax entrou na call de renovação já anunciando que ia cancelar por causa do reajuste. Deixei ele falar dez minutos sem interromper, reconheci ponto a ponto o que fazia sentido e propus revermos o escopo antes de falar de preço. Saímos com a renovação assinada por mais doze meses.",
+    "createdAt": "2025-11-06T00:00:00.000Z"
+  },
+  {
+    "id": "st-009",
+    "subjectId": "otavio-neves",
+    "authorId": "otavio-neves",
+    "source": "self",
+    "text": "Depois de ouvir a mesma reclamação sobre o relatório de churn em duas QBRs seguidas, escrevi um resumo com as citações literais dos clientes e levei para a reunião de roadmap com produto. Duas semanas depois o ajuste entrou no plano do trimestre.",
+    "createdAt": "2025-11-17T00:00:00.000Z"
+  },
+  {
+    "id": "st-010",
+    "subjectId": "otavio-neves",
+    "authorId": "aline-serra",
+    "source": "peer",
+    "text": "Na sprint passada, suporte e engenharia estavam trocando farpas no canal sobre de quem era o bug da Farmus. O Otávio chamou os dois num papo rápido, traduziu o que cada lado estava realmente pedindo e a discussão morreu ali, com o fix combinado para quinta.",
+    "createdAt": "2025-11-28T00:00:00.000Z"
+  },
+  {
+    "id": "st-011",
+    "subjectId": "otavio-neves",
+    "authorId": "vitor-camargo",
+    "source": "peer",
+    "text": "Quando o diretor do Banco Sollo mandou aquele e-mail em caixa alta ameaçando escalar para o CEO, o Otávio pediu para entrar na conta comigo e respondeu num tom que desarmou o cliente na primeira mensagem. Depois ainda ficou até mais tarde revisando comigo os tickets abertos da conta.",
+    "createdAt": "2025-12-09T00:00:00.000Z"
+  },
+  {
+    "id": "st-012",
+    "subjectId": "otavio-neves",
+    "authorId": "natalia-brito",
+    "source": "peer",
+    "text": "Dividi estande com o Otávio no evento de clientes em São Paulo. A gente revezou nos horários de pico, catalogou os crachás dos leads no fim de cada dia e ainda deu tempo de assistir duas palestras da trilha de produto.",
+    "createdAt": "2025-12-20T00:00:00.000Z"
+  },
+  {
+    "id": "st-013",
+    "subjectId": "otavio-neves",
+    "authorId": "pedro-galvao",
+    "source": "peer",
+    "text": "Na virada da conta Orbita Foods de vendas para CS, o cliente estava irritado com promessas que ele achava que não tinham sido cumpridas. O Otávio conduziu a reunião de transição sem apontar dedo para ninguém, realinhou as expectativas item a item e o cliente terminou a call agradecendo.",
+    "createdAt": "2025-12-31T00:00:00.000Z"
+  },
+  {
+    "id": "st-014",
+    "subjectId": "otavio-neves",
+    "authorId": "juliana-peixoto",
+    "source": "manager",
+    "text": "Na crise do bug de faturamento, o Otávio ligou pessoalmente para cada um dos oito clientes afetados antes que qualquer um abrisse ticket. No dia seguinte ainda apareceu na daily do suporte perguntando onde podia ajudar a limpar a fila. Duas das contas elogiaram a Lumina por e-mail depois disso.",
+    "createdAt": "2026-01-11T00:00:00.000Z"
+  },
+  {
+    "id": "st-015",
+    "subjectId": "aline-serra",
+    "authorId": "aline-serra",
+    "source": "self",
+    "text": "Na preparação da QBR da ClaraMed, entrevistei quatro usuários finais além do sponsor e descobri que o time de campo nem sabia que existia o modo offline. Refiz a apresentação inteira em cima do dia a dia deles, e o sponsor pediu para repetirmos o formato no próximo trimestre.",
+    "createdAt": "2026-01-22T00:00:00.000Z"
+  },
+  {
+    "id": "st-016",
+    "subjectId": "aline-serra",
+    "authorId": "natalia-brito",
+    "source": "peer",
+    "text": "Quando entrei, morria de medo de fazer pergunta boba no canal do time. A Aline criou o hábito de responder qualquer dúvida minha começando com um exemplo de onde ela mesma já tinha tropeçado no assunto. Hoje pergunto qualquer coisa sem pensar duas vezes.",
+    "createdAt": "2026-02-02T00:00:00.000Z"
+  },
+  {
+    "id": "st-017",
+    "subjectId": "aline-serra",
+    "authorId": "eduardo-sales",
+    "source": "peer",
+    "text": "No redesenho do fluxo de cancelamento, a Aline apareceu com prints de conversas reais de clientes mostrando exatamente onde eles travavam, e fez a gente refazer dois passos que internamente pareciam ótimos. O NPS do offboarding subiu no mês seguinte.",
+    "createdAt": "2026-02-13T00:00:00.000Z"
+  },
+  {
+    "id": "st-018",
+    "subjectId": "aline-serra",
+    "authorId": "vitor-camargo",
+    "source": "peer",
+    "text": "A Aline e eu ficamos responsáveis pela escala do plantão de fim de ano. Fechamos as trocas de datas em uma tarde e mandamos o calendário para o time ainda naquela semana.",
+    "createdAt": "2026-02-24T00:00:00.000Z"
+  },
+  {
+    "id": "st-019",
+    "subjectId": "aline-serra",
+    "authorId": "clara-menezes",
+    "source": "peer",
+    "text": "Convidei a Aline para cofacilitar uma rodada de entrevistas com clientes em churn. Ela abriu cada conversa reconhecendo o que a Lumina tinha errado com aquela conta, e os clientes relaxaram e contaram coisas que nunca apareceriam num formulário.",
+    "createdAt": "2026-03-07T00:00:00.000Z"
+  },
+  {
+    "id": "st-020",
+    "subjectId": "aline-serra",
+    "authorId": "juliana-peixoto",
+    "source": "manager",
+    "text": "Na retro do trimestre, a Aline puxou a conversa sobre o churn da Farmus dizendo primeiro o que ela mesma teria feito diferente, e o time inteiro dissecou o caso sem ninguém se colocar na defensiva. Saíram três mudanças concretas no playbook de onboarding.",
+    "createdAt": "2026-03-18T00:00:00.000Z"
+  },
+  {
+    "id": "st-021",
+    "subjectId": "vitor-camargo",
+    "authorId": "vitor-camargo",
+    "source": "self",
+    "text": "O ticket da TechNorte parecia só um erro de importação, mas fui puxando o fio e descobri que o job de integração falhava em silêncio desde a última atualização. Escrevi a reprodução passo a passo, abri o incidente com engenharia e só marquei como resolvido depois de validar os dados com o cliente.",
+    "createdAt": "2026-03-29T00:00:00.000Z"
+  },
+  {
+    "id": "st-022",
+    "subjectId": "vitor-camargo",
+    "authorId": "vitor-camargo",
+    "source": "self",
+    "text": "Aproveitei a sexta mais tranquila do mês para arrumar as macros antigas do Zendesk e atualizar a lista de contatos internos que usamos para direcionar chamados. Nada urgente, mas estava na minha fila havia semanas.",
+    "createdAt": "2026-04-09T00:00:00.000Z"
+  },
+  {
+    "id": "st-023",
+    "subjectId": "vitor-camargo",
+    "authorId": "eduardo-sales",
+    "source": "peer",
+    "text": "No apagão da integração de pagamentos, a fila saltou para noventa tickets em uma hora e todo mundo começou a responder no atropelo. O Vítor abriu uma chamada, dividiu a fila em três blocos e ditou a resposta padrão com a mesma voz de quem lê o cardápio. Ninguém mais entrou em pânico depois disso.",
+    "createdAt": "2026-04-20T00:00:00.000Z"
+  },
+  {
+    "id": "st-024",
+    "subjectId": "vitor-camargo",
+    "authorId": "natalia-brito",
+    "source": "peer",
+    "text": "Meu primeiro plantão de madrugada caiu justo na janela de migração que deu errado. Liguei para o Vítor às três da manhã achando que era o fim do mundo, e ele foi me guiando passo a passo, sem uma nota de irritação na voz, até o serviço voltar.",
+    "createdAt": "2026-05-01T00:00:00.000Z"
+  },
+  {
+    "id": "st-025",
+    "subjectId": "vitor-camargo",
+    "authorId": "otavio-neves",
+    "source": "peer",
+    "text": "O Banco Sollo reclamava havia meses de lentidão no dashboard e a resposta padrão era que estávamos monitorando. O Vítor montou por conta própria um comparativo de tempos de carregamento, levou para a engenharia e acompanhou o caso até o deploy da correção, avisando o cliente a cada etapa.",
+    "createdAt": "2026-05-12T00:00:00.000Z"
+  },
+  {
+    "id": "st-026",
+    "subjectId": "vitor-camargo",
+    "authorId": "andre-nogueira",
+    "source": "peer",
+    "text": "Durante o incidente do banco de dados, o Vítor foi a nossa ponte com os clientes. Enquanto a gente debugava, ele mandava atualizações a cada vinte minutos num tom que segurou até as contas mais nervosas, e filtrou o ruído para o nosso lado seguir focado.",
+    "createdAt": "2026-05-23T00:00:00.000Z"
+  },
+  {
+    "id": "st-027",
+    "subjectId": "vitor-camargo",
+    "authorId": "juliana-peixoto",
+    "source": "manager",
+    "text": "Quando a Farmus ameaçou cancelar por causa dos chamados repetidos, o Vítor pediu para ser o ponto único da conta, mapeou os cinco problemas recorrentes e fechou um a um em três semanas, mesmo os que dependiam de outras áreas. A conta renovou sem desconto.",
+    "createdAt": "2026-06-03T00:00:00.000Z"
+  },
+  {
+    "id": "st-028",
+    "subjectId": "natalia-brito",
+    "authorId": "natalia-brito",
+    "source": "self",
+    "text": "Entrei sem saber nada de API e a Orbita Foods vivia perguntando da integração. Passei duas noites no curso interno de webhooks, montei um ambiente de teste para praticar e na semana seguinte conduzi a call técnica sozinha, só com o plantão na escuta por segurança.",
+    "createdAt": "2026-06-14T00:00:00.000Z"
+  },
+  {
+    "id": "st-029",
+    "subjectId": "natalia-brito",
+    "authorId": "aline-serra",
+    "source": "peer",
+    "text": "Na semana em que acumulei três QBRs, a Natália percebeu sem eu falar nada e apareceu com os decks de dados de uso das três contas já preenchidos. Só precisei revisar e gravar meus comentários por cima.",
+    "createdAt": "2026-06-25T00:00:00.000Z"
+  },
+  {
+    "id": "st-030",
+    "subjectId": "natalia-brito",
+    "authorId": "eduardo-sales",
+    "source": "peer",
+    "text": "Quando migramos o help center de ferramenta, a Natália foi a primeira a dominar o editor novo. Em duas semanas já tinha refeito vinte artigos e gravou um vídeo curto ensinando o resto do time, sem que ninguém pedisse.",
+    "createdAt": "2026-07-06T00:00:00.000Z"
+  },
+  {
+    "id": "st-031",
+    "subjectId": "natalia-brito",
+    "authorId": "vitor-camargo",
+    "source": "peer",
+    "text": "A Natália ficou de coletar os temas para o nosso café mensal com clientes e montou a agenda do próximo encontro. Ficou definido que vai ser no formato online mesmo, na última quinta do mês.",
+    "createdAt": "2026-07-17T00:00:00.000Z"
+  },
+  {
+    "id": "st-032",
+    "subjectId": "natalia-brito",
+    "authorId": "camila-arruda",
+    "source": "peer",
+    "text": "Eu estava travada com uma lista de prospects que já tinham sido clientes da Lumina e não entendia os motivos de cancelamento. A Natália, que nem é do meu time, se ofereceu para revisar conta a conta comigo numa hora vaga do plantão dela e me explicou o histórico de cada uma.",
+    "createdAt": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "id": "st-033",
+    "subjectId": "natalia-brito",
+    "authorId": "juliana-peixoto",
+    "source": "manager",
+    "text": "Dei para a Natália a conta mais técnica da carteira quase como um teste. Em um mês ela absorveu o vocabulário do setor de logística, refez o plano de sucesso da LogiMax com métricas que faziam sentido para o cliente e trocou de abordagem rápido quando a primeira proposta não colou.",
+    "createdAt": "2025-08-13T00:00:00.000Z"
+  },
+  {
+    "id": "st-034",
+    "subjectId": "eduardo-sales",
+    "authorId": "eduardo-sales",
+    "source": "self",
+    "text": "Notei que os tickets da Vetra chegavam sempre com o mesmo pedido de exportação manual. Liguei para entender a rotina deles, documentei o caso de uso e levei para a reunião com produto os números de quanto tempo o cliente perdia por semana com aquilo.",
+    "createdAt": "2025-08-24T00:00:00.000Z"
+  },
+  {
+    "id": "st-035",
+    "subjectId": "eduardo-sales",
+    "authorId": "eduardo-sales",
+    "source": "self",
+    "text": "Esta semana atualizei minha assinatura de e-mail para o padrão novo da empresa e arquivei as pastas antigas de tickets encerrados. Aproveitei para apagar uns rascunhos de resposta que nunca cheguei a usar.",
+    "createdAt": "2025-09-04T00:00:00.000Z"
+  },
+  {
+    "id": "st-036",
+    "subjectId": "eduardo-sales",
+    "authorId": "vitor-camargo",
+    "source": "peer",
+    "text": "Dividimos o mutirão de migração dos tickets antigos e o Eduardo cravou: prometeu os quatrocentos dele até sexta e entregou na quinta à noite, com o log de cada lote registrado na planilha. É o tipo de combinado que com ele a gente nem precisa conferir.",
+    "createdAt": "2025-09-15T00:00:00.000Z"
+  },
+  {
+    "id": "st-037",
+    "subjectId": "eduardo-sales",
+    "authorId": "natalia-brito",
+    "source": "peer",
+    "text": "Sempre que prometo retorno de um ticket escalado para um cliente meu, é o Eduardo quem está do outro lado. Nos últimos três casos da ClaraMed, ele deu o retorno na data exata que tinha combinado comigo, incluindo um em que precisou cobrar duas áreas para não estourar o prazo.",
+    "createdAt": "2025-09-26T00:00:00.000Z"
+  },
+  {
+    "id": "st-038",
+    "subjectId": "eduardo-sales",
+    "authorId": "otavio-neves",
+    "source": "peer",
+    "text": "Na triagem, o Eduardo não fecha ticket resolvendo só o sintoma. No caso do Grupo Almeida, ele percebeu pelo tom das mensagens que o problema real era o fechamento contábil do cliente, subiu a prioridade e explicou esse contexto para a engenharia no próprio chamado.",
+    "createdAt": "2025-10-07T00:00:00.000Z"
+  },
+  {
+    "id": "st-039",
+    "subjectId": "eduardo-sales",
+    "authorId": "fernanda-said",
+    "source": "peer",
+    "text": "Precisei dos dados de uso de dez contas para a força-tarefa de renovações e o Eduardo foi o único que entregou o pacote completo e na data combinada, mesmo com a fila de suporte cheia naquela semana. Nem precisei mandar lembrete.",
+    "createdAt": "2025-10-18T00:00:00.000Z"
+  },
+  {
+    "id": "st-040",
+    "subjectId": "eduardo-sales",
+    "authorId": "juliana-peixoto",
+    "source": "manager",
+    "text": "No projeto de reduzir o tempo de primeira resposta, o Eduardo assumiu a meta de quatro horas e fechou três semanas seguidas dentro do alvo, ajustando o próprio turno para cobrir o horário em que os clientes do varejo mais abrem chamado.",
+    "createdAt": "2025-10-29T00:00:00.000Z"
+  },
+  {
+    "id": "st-041",
+    "subjectId": "sofia-brandao",
+    "authorId": "sofia-brandao",
+    "source": "self",
+    "text": "Na retro do trimestre eu contei que a decisão de adiar a migração do Postgres tinha sido minha e que ela nos custou duas semanas de retrabalho. Preferi assumir o erro na frente de todo mundo a deixar o time achando que o problema era o planejamento deles. Depois disso as conversas sobre estimativa ficaram bem mais francas.",
+    "createdAt": "2025-11-09T00:00:00.000Z"
+  },
+  {
+    "id": "st-042",
+    "subjectId": "sofia-brandao",
+    "authorId": "sofia-brandao",
+    "source": "self",
+    "text": "Passei boa parte da terça revisando o orçamento de cloud do próximo semestre com o financeiro. Aproveitei para atualizar a planilha de custos por serviço e agendar a renovação das licenças da ferramenta de observabilidade.",
+    "createdAt": "2025-11-20T00:00:00.000Z"
+  },
+  {
+    "id": "st-043",
+    "subjectId": "sofia-brandao",
+    "authorId": "marina-duarte",
+    "source": "peer",
+    "text": "A planning da release 4.2 estava virando um bate-boca de estimativas quando a Sofia parou tudo, listou as três decisões que precisavam sair dali e deu a palavra a cada um por dois minutos. Saímos em quarenta minutos com escopo fechado e donos definidos para cada épico. É impressionante como reunião com ela no comando termina com decisão tomada.",
+    "createdAt": "2025-12-01T00:00:00.000Z"
+  },
+  {
+    "id": "st-044",
+    "subjectId": "sofia-brandao",
+    "authorId": "caio-teixeira",
+    "source": "peer",
+    "text": "Combinei com a Sofia que a dívida técnica do serviço de billing entraria na sprint seguinte e, confesso, deixei escorregar. Na segunda ela apareceu na minha mesa com o combinado anotado e me perguntou o que eu precisava para cumprir o prazo. Com ela nada do que a gente acorda em reunião cai no esquecimento.",
+    "createdAt": "2025-12-12T00:00:00.000Z"
+  },
+  {
+    "id": "st-045",
+    "subjectId": "sofia-brandao",
+    "authorId": "andre-nogueira",
+    "source": "peer",
+    "text": "No post-mortem da queda do gateway, a Sofia começou dizendo que ela mesma tinha aprovado o deploy sem janela de contingência, antes de qualquer um apontar dedo. Isso mudou o tom da sala na hora: todo mundo passou a descrever o que fez sem medo. O documento final saiu com cinco ações e nenhum culpado.",
+    "createdAt": "2025-12-23T00:00:00.000Z"
+  },
+  {
+    "id": "st-046",
+    "subjectId": "sofia-brandao",
+    "authorId": "renata-luz",
+    "source": "peer",
+    "text": "Quando o combinado de cobrir os testes de regressão antes do freeze começou a atrasar, a Sofia chamou a mim e ao Tomás e refez o plano com datas e responsáveis na frente de todos. Na semana seguinte ela mesma voltou no tópico da daily para conferir o andamento, item por item.",
+    "createdAt": "2026-01-03T00:00:00.000Z"
+  },
+  {
+    "id": "st-047",
+    "subjectId": "sofia-brandao",
+    "authorId": "diego-fagundes",
+    "source": "peer",
+    "text": "Na minha primeira sprint eu estava perdido entre três demandas e a Sofia montou uma sessão rápida com o Caio e a Marina para alinhar prioridade e dividir quem me apoiava em quê. Em meia hora cada um saiu sabendo exatamente sua parte. Ela tem um jeito de organizar as pessoas que faz o trabalho simplesmente andar.",
+    "createdAt": "2026-01-14T00:00:00.000Z"
+  },
+  {
+    "id": "st-048",
+    "subjectId": "marina-duarte",
+    "authorId": "marina-duarte",
+    "source": "self",
+    "text": "O Bruno e o Tomás estavam há dois dias travados discutindo se o serviço de notificações ia de fila ou de webhook, e o clima já tinha azedado no canal. Chamei os dois numa sala, pedi que cada um escrevesse os trade-offs no quadro e propus um teste de carga de um dia para decidir com número. Saíram almoçando juntos e a decisão veio no dia seguinte.",
+    "createdAt": "2026-01-25T00:00:00.000Z"
+  },
+  {
+    "id": "st-049",
+    "subjectId": "marina-duarte",
+    "authorId": "bruno-carvalho",
+    "source": "peer",
+    "text": "Na discussão sobre o corte do monólito, eu e o André já estávamos trocando farpas em thread quando a Marina entrou, resumiu os dois lados com uma neutralidade impressionante e sugeriu levar o assunto para o RFC em vez do chat. A tensão morreu ali e o RFC saiu aprovado sem ninguém magoado.",
+    "createdAt": "2026-02-05T00:00:00.000Z"
+  },
+  {
+    "id": "st-050",
+    "subjectId": "marina-duarte",
+    "authorId": "caio-teixeira",
+    "source": "peer",
+    "text": "Entreguei para a Marina o épico de auditoria de logs com prazo apertado por causa da certificação. Ela quebrou em entregas semanais, avisou na quarta que um item ia atrasar dois dias e compensou no seguinte. Fechou o épico na data combinada, sem sobressalto nenhum.",
+    "createdAt": "2026-02-16T00:00:00.000Z"
+  },
+  {
+    "id": "st-051",
+    "subjectId": "marina-duarte",
+    "authorId": "felipe-armond",
+    "source": "peer",
+    "text": "Teve uma semana em que produto e engenharia empacaram por causa do prazo do relatório de exportação, com gente reclamando dos dois lados. A Marina se ofereceu para sentar comigo e com o João e traduziu a briga em duas opções de escopo com datas realistas. A reunião que prometia ser tensa acabou em acordo em vinte minutos.",
+    "createdAt": "2026-02-27T00:00:00.000Z"
+  },
+  {
+    "id": "st-052",
+    "subjectId": "marina-duarte",
+    "authorId": "leticia-ramos",
+    "source": "peer",
+    "text": "Dividi com a Marina a bancada nova do escritório durante a reforma do terceiro andar. A gente acabou sincronizando os horários de foco e o rodízio da sala de reunião pequena. No mais, foi uma semana comum de sprint.",
+    "createdAt": "2026-03-10T00:00:00.000Z"
+  },
+  {
+    "id": "st-053",
+    "subjectId": "marina-duarte",
+    "authorId": "sofia-brandao",
+    "source": "manager",
+    "text": "Quando a Letícia ficou soterrada com os bugs do design system às vésperas do freeze, a Marina percebeu antes de mim e assumiu duas correções sem que ninguém pedisse. Ela também tem sido meu termômetro do time: quando uma discussão técnica começa a esquentar, ela entra e traz todo mundo de volta para o problema. É a pessoa que mantém a temperatura da sala em ordem.",
+    "createdAt": "2026-03-21T00:00:00.000Z"
+  },
+  {
+    "id": "st-054",
+    "subjectId": "caio-teixeira",
+    "authorId": "caio-teixeira",
+    "source": "self",
+    "text": "Antes de aprovarmos a troca do barramento de eventos, montei uma matriz comparando custo, latência e maturidade das três opções e rodei um protótipo de fim de semana com dados reais. O resultado derrubou a opção que era minha favorita, e foi ela que descartei primeiro. Prefiro perder uma aposta pessoal a empurrar uma decisão sem evidência.",
+    "createdAt": "2026-04-01T00:00:00.000Z"
+  },
+  {
+    "id": "st-055",
+    "subjectId": "caio-teixeira",
+    "authorId": "caio-teixeira",
+    "source": "self",
+    "text": "Nesta sprint fiquei de plantão nas entrevistas técnicas e revisei o roteiro de perguntas de system design com o pessoal de recrutamento. Também migrei minhas anotações de arquitetura para o novo wiki. Semana corrida, mas dentro do normal.",
+    "createdAt": "2026-04-12T00:00:00.000Z"
+  },
+  {
+    "id": "st-056",
+    "subjectId": "caio-teixeira",
+    "authorId": "diego-fagundes",
+    "source": "peer",
+    "text": "Meu primeiro code review na Lumina voltou com dezessete comentários do Caio e nenhum deles era só 'muda isso': cada um explicava o porquê e linkava um exemplo no nosso código. Depois ele reservou meia hora para pairear comigo na parte de concorrência que eu não tinha entendido. Em dois meses eu evoluí mais do que no ano anterior inteiro.",
+    "createdAt": "2026-04-23T00:00:00.000Z"
+  },
+  {
+    "id": "st-057",
+    "subjectId": "caio-teixeira",
+    "authorId": "marina-duarte",
+    "source": "peer",
+    "text": "No desenho da nova API de permissões, o Caio foi o único que perguntou o que acontecia quando o cache expirasse no meio de uma sessão, e desmontou a proposta com dois cenários que ninguém tinha considerado. A gente refez o design e evitou o que seria um incidente certo em produção.",
+    "createdAt": "2026-05-04T00:00:00.000Z"
+  },
+  {
+    "id": "st-058",
+    "subjectId": "caio-teixeira",
+    "authorId": "paula-vidal",
+    "source": "peer",
+    "text": "Quando assumi o pipeline de eventos, o Caio montou comigo um plano de estudo de três semanas e revisava meus diagramas toda sexta, sempre apontando onde meu raciocínio pulava etapa. Ele não dá a resposta: faz a pergunta que obriga a gente a achar sozinha.",
+    "createdAt": "2026-05-15T00:00:00.000Z"
+  },
+  {
+    "id": "st-059",
+    "subjectId": "caio-teixeira",
+    "authorId": "joao-prado",
+    "source": "peer",
+    "text": "Como PM, eu já vi tech lead deixar acordo de roadmap evaporar, mas com o Caio é o oposto: ele registra cada compromisso da revisão de sprint e cobra, inclusive de mim, quando algo desvia. No trimestre passado ele me chamou para renegociar publicamente um item que a engenharia não ia conseguir entregar, em vez de deixar morrer em silêncio.",
+    "createdAt": "2026-05-26T00:00:00.000Z"
+  },
+  {
+    "id": "st-060",
+    "subjectId": "caio-teixeira",
+    "authorId": "sofia-brandao",
+    "source": "manager",
+    "text": "O Caio instituiu no time a revisão quinzenal de pendências técnicas e não deixa um item sair da lista sem dono e data. Quando a discussão da fila de mensageria esquentou, ele trouxe benchmarks e um comparativo de falhas antes de dar opinião. É o meu contraponto mais confiável nas decisões difíceis.",
+    "createdAt": "2026-06-06T00:00:00.000Z"
+  },
+  {
+    "id": "st-061",
+    "subjectId": "bruno-carvalho",
+    "authorId": "bruno-carvalho",
+    "source": "self",
+    "text": "Peguei a reescrita do serviço de cobrança em janeiro com o compromisso de virar a chave antes do fechamento fiscal. Fatiei a migração em sete entregas, publiquei o progresso toda sexta no canal e viramos com três dias de folga. Não teve heroísmo, só o plano sendo cumprido semana a semana.",
+    "createdAt": "2026-06-17T00:00:00.000Z"
+  },
+  {
+    "id": "st-062",
+    "subjectId": "bruno-carvalho",
+    "authorId": "renata-luz",
+    "source": "peer",
+    "text": "Revisando um PR do Bruno, percebi que ele tinha deixado comentários no próprio código apontando dois casos de borda de timezone que nem meus testes cobriam. Ele ainda anexou na descrição uma tabela com os cenários de arredondamento de centavos que validou manualmente. É raro QA achar algo depois que ele revisa o próprio trabalho.",
+    "createdAt": "2026-06-28T00:00:00.000Z"
+  },
+  {
+    "id": "st-063",
+    "subjectId": "bruno-carvalho",
+    "authorId": "tomas-ribeiro",
+    "source": "peer",
+    "text": "Dividi com o Bruno a integração do novo provedor de pagamento e combinamos que ele entregaria a camada de conciliação até o dia 20. No dia 18 estava em produção atrás de feature flag, com runbook escrito. Trabalhar com ele é poder planejar em cima da palavra dele.",
+    "createdAt": "2026-07-09T00:00:00.000Z"
+  },
+  {
+    "id": "st-064",
+    "subjectId": "bruno-carvalho",
+    "authorId": "lucas-macedo",
+    "source": "peer",
+    "text": "Todo fim de mês eu dependo do job de conciliação que o Bruno mantém para fechar os números de operações. Num desses fechamentos ele me avisou de uma divergência de quatro centavos que o sistema antigo vinha ignorando havia meses, com a query que provava a origem. Fechamos o mês sem ajuste manual pela primeira vez no ano.",
+    "createdAt": "2026-07-20T00:00:00.000Z"
+  },
+  {
+    "id": "st-065",
+    "subjectId": "bruno-carvalho",
+    "authorId": "marina-duarte",
+    "source": "peer",
+    "text": "Na mudança de sala, o Bruno ficou responsável por etiquetar os equipamentos da bancada e organizar os cabos que sobraram no armário. Aproveitamos para atualizar o inventário de monitores com o pessoal de facilities.",
+    "createdAt": "2026-07-31T00:00:00.000Z"
+  },
+  {
+    "id": "st-066",
+    "subjectId": "bruno-carvalho",
+    "authorId": "sofia-brandao",
+    "source": "manager",
+    "text": "Nas últimas seis sprints o Bruno entregou tudo que puxou, e quando percebeu que a história de idempotência era maior do que parecia, avisou na segunda daily e replanejou junto comigo, não na véspera. É o tipo de previsibilidade que me deixa dormir tranquila em semana de release.",
+    "createdAt": "2025-08-16T00:00:00.000Z"
+  },
+  {
+    "id": "st-067",
+    "subjectId": "leticia-ramos",
+    "authorId": "leticia-ramos",
+    "source": "self",
+    "text": "Antes de liberar a nova tela de faturas, montei uma checklist com os estados vazios, de erro e de carregamento em três tamanhos de tela, e achei um estouro de layout que só aparecia com nomes de empresa muito longos. Corrigi e adicionei o caso na suíte visual para não voltar.",
+    "createdAt": "2025-08-27T00:00:00.000Z"
+  },
+  {
+    "id": "st-068",
+    "subjectId": "leticia-ramos",
+    "authorId": "diego-fagundes",
+    "source": "peer",
+    "text": "Eu estava afundado tentando fechar o formulário de onboarding e nem tinha pedido ajuda quando a Letícia apareceu com um branch de rascunho resolvendo a parte da validação que me travava. Ela percebeu pelo canal que eu estava rodando em círculos. Ainda ficou comigo até o fim do dia revisando o restante.",
+    "createdAt": "2025-09-07T00:00:00.000Z"
+  },
+  {
+    "id": "st-069",
+    "subjectId": "leticia-ramos",
+    "authorId": "renata-luz",
+    "source": "peer",
+    "text": "Na revisão do fluxo de exportação, a Letícia listou oito inconsistências de máscara de data e moeda entre telas que estavam passando batido fazia meses. Veio tudo documentado com print e passo a passo de reprodução. Meu trabalho de QA rende o dobro quando o PR é dela.",
+    "createdAt": "2025-09-18T00:00:00.000Z"
+  },
+  {
+    "id": "st-070",
+    "subjectId": "leticia-ramos",
+    "authorId": "gustavo-lins",
+    "source": "peer",
+    "text": "Entreguei o redesign dos componentes de tabela e a Letícia devolveu a implementação com os espaçamentos e estados de foco fiéis ao spec até o pixel, incluindo um estado de teclado que eu mesmo tinha esquecido de desenhar. Ela ainda apontou duas inconsistências no meu arquivo do Figma.",
+    "createdAt": "2025-09-29T00:00:00.000Z"
+  },
+  {
+    "id": "st-071",
+    "subjectId": "leticia-ramos",
+    "authorId": "bruno-carvalho",
+    "source": "peer",
+    "text": "Fiquei sabendo que a Letícia assumiu a organização do bolão da Copa do time e a agenda do rodízio de demos das sextas. Nas dailies dessa semana a gente só sincronizou o merge da branch de release, semana tranquila.",
+    "createdAt": "2025-10-10T00:00:00.000Z"
+  },
+  {
+    "id": "st-072",
+    "subjectId": "leticia-ramos",
+    "authorId": "sofia-brandao",
+    "source": "manager",
+    "text": "Duas vezes neste trimestre a Letícia remanejou as próprias tarefas para socorrer colegas atolados, uma nos ajustes de acessibilidade do checkout e outra na fila de bugs do freeze, sem que eu precisasse pedir. E segue sendo a pessoa que mais barra problema visual antes de o QA sequer olhar.",
+    "createdAt": "2025-10-21T00:00:00.000Z"
+  },
+  {
+    "id": "st-073",
+    "subjectId": "andre-nogueira",
+    "authorId": "andre-nogueira",
+    "source": "self",
+    "text": "Quando o cluster de produção começou a derrubar pods às 3h da manhã, abri a chamada de incidente, designei quem olhava banco e quem olhava rede e fui narrando cada hipótese testada no canal. Em quarenta minutos isolamos o vazamento de memória e só então fui entender por que o alerta demorou. Pânico não diagnostica nada.",
+    "createdAt": "2025-11-01T00:00:00.000Z"
+  },
+  {
+    "id": "st-074",
+    "subjectId": "andre-nogueira",
+    "authorId": "andre-nogueira",
+    "source": "self",
+    "text": "Terminei de documentar o processo de rotação das chaves de acesso e atualizei o diagrama da topologia de rede no wiki. Também deixei agendada a manutenção trimestral dos runners de CI para o feriado.",
+    "createdAt": "2025-11-12T00:00:00.000Z"
+  },
+  {
+    "id": "st-075",
+    "subjectId": "andre-nogueira",
+    "authorId": "tomas-ribeiro",
+    "source": "peer",
+    "text": "Na sexta do apagão do provedor de DNS, com metade da plataforma fora e o comercial em pânico no canal geral, o André respondia com o mesmo tom de sempre, listando o que já sabíamos e o que faltava confirmar. Ele pediu dez minutos de silêncio operacional, aplicou o failover e voltamos antes do SLA estourar.",
+    "createdAt": "2025-11-23T00:00:00.000Z"
+  },
+  {
+    "id": "st-076",
+    "subjectId": "andre-nogueira",
+    "authorId": "bruno-carvalho",
+    "source": "peer",
+    "text": "O flaky test que derrubava nosso deploy nem era do domínio do André, mas ele ficou incomodado, rastreou a causa até uma condição de corrida no serviço de sessões e abriu o fix junto com um alerta novo. Levou o problema até o fim quando poderia só ter reencaminhado o ticket.",
+    "createdAt": "2025-12-04T00:00:00.000Z"
+  },
+  {
+    "id": "st-077",
+    "subjectId": "andre-nogueira",
+    "authorId": "vitor-camargo",
+    "source": "peer",
+    "text": "Trabalho na ponta do suporte e já entrei em várias war rooms com o André. Na do estouro de fila de dezembro, ele me passava atualizações a cada quinze minutos com o que eu podia repassar internamente, sem uma nota de estresse na voz. A previsão de normalização que ele deu bateu com dez minutos de diferença.",
+    "createdAt": "2025-12-15T00:00:00.000Z"
+  },
+  {
+    "id": "st-078",
+    "subjectId": "andre-nogueira",
+    "authorId": "marina-duarte",
+    "source": "peer",
+    "text": "O André prometeu que a migração de observabilidade não geraria nem um minuto de indisponibilidade e entregou exatamente isso, com plano de rollback ensaiado em staging duas vezes. Os painéis novos viraram referência para o time inteiro.",
+    "createdAt": "2025-12-26T00:00:00.000Z"
+  },
+  {
+    "id": "st-079",
+    "subjectId": "andre-nogueira",
+    "authorId": "sofia-brandao",
+    "source": "manager",
+    "text": "No incidente do banco de réplicas, o André assumiu o comando sem que eu precisasse designar, coordenou três pessoas com uma serenidade que acalmou até o pessoal de fora da engenharia e depois escreveu o post-mortem mais completo que já recebi. Ele trata qualquer problema da plataforma como se fosse dele até alguém assumir formalmente.",
+    "createdAt": "2026-01-06T00:00:00.000Z"
+  },
+  {
+    "id": "st-080",
+    "subjectId": "paula-vidal",
+    "authorId": "paula-vidal",
+    "source": "self",
+    "text": "Precisávamos trocar o orquestrador de pipelines e eu nunca tinha tocado no Airflow. Passei um fim de semana com a documentação e um cluster de brinquedo, e na quarta apresentei um comparativo com o que testei de fato, incluindo os pontos em que minha hipótese inicial estava errada. Mudei de recomendação no meio do estudo porque os números não sustentavam a primeira.",
+    "createdAt": "2026-01-17T00:00:00.000Z"
+  },
+  {
+    "id": "st-081",
+    "subjectId": "paula-vidal",
+    "authorId": "caio-teixeira",
+    "source": "peer",
+    "text": "Na proposta de duplicar o cluster de dados, a Paula pediu uma semana, voltou com a análise de custo por consulta e mostrou que o gargalo era um join mal particionado, não capacidade. Economizamos a expansão inteira porque ela não aceitou o diagnóstico óbvio.",
+    "createdAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "st-082",
+    "subjectId": "paula-vidal",
+    "authorId": "tomas-ribeiro",
+    "source": "peer",
+    "text": "A Paula e eu dividimos o slot de apresentação na all-hands do mês passado para mostrar o roadmap interno da plataforma de dados. Ensaiamos na véspera na sala grande e deu tudo certo com o projetor novo.",
+    "createdAt": "2026-02-08T00:00:00.000Z"
+  },
+  {
+    "id": "st-083",
+    "subjectId": "paula-vidal",
+    "authorId": "clara-menezes",
+    "source": "peer",
+    "text": "Pedi ajuda à Paula num cruzamento de dados do meu último estudo e descobri que ela tinha aprendido sozinha, em duas semanas, a biblioteca de análise estatística que meu time levou meses para adotar. Ela ainda me devolveu um notebook reproduzível comentando cada decisão do modelo.",
+    "createdAt": "2026-02-19T00:00:00.000Z"
+  },
+  {
+    "id": "st-084",
+    "subjectId": "paula-vidal",
+    "authorId": "bruno-carvalho",
+    "source": "peer",
+    "text": "Quando migramos os eventos para o novo esquema, a Paula era a única que nunca tinha trabalhado com Protobuf e em dez dias já estava revisando os meus PRs, apontando pegadinhas de compatibilidade que eu não conhecia. Ela transforma documentação em prática numa velocidade que impressiona.",
+    "createdAt": "2026-03-02T00:00:00.000Z"
+  },
+  {
+    "id": "st-085",
+    "subjectId": "paula-vidal",
+    "authorId": "sofia-brandao",
+    "source": "manager",
+    "text": "Antes de qualquer decisão cara na plataforma de dados eu passo pela Paula: ela desmonta a proposta em premissas, testa as que dá para testar e me devolve o risco em números. Foi assim que evitamos assinar um contrato de warehouse superdimensionado no último trimestre.",
+    "createdAt": "2026-03-13T00:00:00.000Z"
+  },
+  {
+    "id": "st-086",
+    "subjectId": "diego-fagundes",
+    "authorId": "diego-fagundes",
+    "source": "self",
+    "text": "Entrei na Lumina sem nunca ter mexido com Go e três meses depois assumi sozinho o worker de reprocessamento. Fiz um diário de erros das minhas primeiras semanas e voltei nele toda sexta para não repetir os mesmos tropeços. O que mais me ajudou foi pedir revisão cedo, antes de o código estar bonito.",
+    "createdAt": "2026-03-24T00:00:00.000Z"
+  },
+  {
+    "id": "st-087",
+    "subjectId": "diego-fagundes",
+    "authorId": "caio-teixeira",
+    "source": "peer",
+    "text": "A força-tarefa de reduzir o tempo de build estava se arrastando havia duas sprints até o Diego puxar um mutirão de uma tarde, com placar dos minutos economizados no quadro. A energia dele contagiou até quem tinha dito que não tinha tempo, e o build caiu de 22 para 9 minutos naquela semana.",
+    "createdAt": "2026-04-04T00:00:00.000Z"
+  },
+  {
+    "id": "st-088",
+    "subjectId": "diego-fagundes",
+    "authorId": "leticia-ramos",
+    "source": "peer",
+    "text": "Emprestei o Diego para me ajudar no front por uma sprint e ele nunca tinha tocado em React. No terceiro dia já estava abrindo PRs decentes e no fim da sprint corrigiu sozinho um bug de estado que me tomaria uma tarde. Ele anota tudo e não faz a mesma pergunta duas vezes.",
+    "createdAt": "2026-04-15T00:00:00.000Z"
+  },
+  {
+    "id": "st-089",
+    "subjectId": "diego-fagundes",
+    "authorId": "rafael-siqueira",
+    "source": "peer",
+    "text": "Precisei de um protótipo de API para validar o fluxo de relatórios antes da revisão de roadmap e o Diego se ofereceu na hora, montou o esqueleto no mesmo dia e ficou me mandando atualizações à noite sem eu pedir. O ritmo dele destravou uma discussão que estava parada fazia duas semanas.",
+    "createdAt": "2026-04-26T00:00:00.000Z"
+  },
+  {
+    "id": "st-090",
+    "subjectId": "diego-fagundes",
+    "authorId": "andre-nogueira",
+    "source": "peer",
+    "text": "O Diego ficou responsável por atualizar a escala de on-call no calendário compartilhado depois da troca de fuso do time. Fizemos juntos a conferência dos feriados do semestre e ajustamos as trocas combinadas.",
+    "createdAt": "2026-05-07T00:00:00.000Z"
+  },
+  {
+    "id": "st-091",
+    "subjectId": "diego-fagundes",
+    "authorId": "sofia-brandao",
+    "source": "manager",
+    "text": "O Diego é o júnior que mais rápido saiu do colo do time: em quatro meses passou de tarefas guiadas para puxar sozinho a modernização dos jobs de fila. Nas plannings ele é sempre o primeiro a se voluntariar, e mais de uma vez o entusiasmo dele tirou a sprint da inércia depois de uma semana ruim.",
+    "createdAt": "2026-05-18T00:00:00.000Z"
+  },
+  {
+    "id": "st-092",
+    "subjectId": "renata-luz",
+    "authorId": "renata-luz",
+    "source": "self",
+    "text": "Na regressão da release 4.1, desconfiei de uma diferença de um pixel na coluna de totais e fui puxar o fio: era um arredondamento que somava errado só em faturas com desconto parcelado. Escrevi o caso de teste, mapeei as três telas afetadas e segurei a release até o fix entrar.",
+    "createdAt": "2026-05-29T00:00:00.000Z"
+  },
+  {
+    "id": "st-093",
+    "subjectId": "renata-luz",
+    "authorId": "renata-luz",
+    "source": "self",
+    "text": "Passei a manhã reorganizando o repositório de evidências de teste por release e arquivando os planos antigos. À tarde participei do treinamento de segurança da informação obrigatório do semestre.",
+    "createdAt": "2026-06-09T00:00:00.000Z"
+  },
+  {
+    "id": "st-094",
+    "subjectId": "renata-luz",
+    "authorId": "bruno-carvalho",
+    "source": "peer",
+    "text": "Achei que meu PR do módulo de cobrança estava blindado até a Renata devolver um roteiro com quatorze cenários, incluindo um de virada de mês bissexto que quebrava o cálculo de pro rata. Ela tinha até massa de dados pronta para reproduzir. Não passa nada por ela.",
+    "createdAt": "2026-06-20T00:00:00.000Z"
+  },
+  {
+    "id": "st-095",
+    "subjectId": "renata-luz",
+    "authorId": "tomas-ribeiro",
+    "source": "peer",
+    "text": "Combinamos no início do freeze que nenhum bug crítico entraria em produção sem regressão completa, e quando tentei abrir uma exceção 'só dessa vez', a Renata me lembrou do acordo na frente do time e propôs um caminho que cabia no prazo. Ela cobra o combinado de todo mundo, inclusive dos sêniores.",
+    "createdAt": "2026-07-01T00:00:00.000Z"
+  },
+  {
+    "id": "st-096",
+    "subjectId": "renata-luz",
+    "authorId": "eduardo-sales",
+    "source": "peer",
+    "text": "Encaminhei para a engenharia um comportamento estranho no relatório de consumo e foi a Renata quem pegou o caso. Ela reproduziu o cenário com três combinações de configuração que eu nem sabia que existiam e me devolveu um passo a passo do que estava errado em cada uma. O ticket voltou mais completo do que eu enviei.",
+    "createdAt": "2026-07-12T00:00:00.000Z"
+  },
+  {
+    "id": "st-097",
+    "subjectId": "renata-luz",
+    "authorId": "sofia-brandao",
+    "source": "manager",
+    "text": "A Renata é dona do nosso critério de pronto: quando o time começou a afrouxar a cobertura mínima nas entregas de fim de trimestre, ela trouxe os números na retro e fez a gente renovar o acordo por escrito. Desde então é ela quem audita, release a release, se estamos cumprindo o que assinamos.",
+    "createdAt": "2026-07-23T00:00:00.000Z"
+  },
+  {
+    "id": "st-098",
+    "subjectId": "tomas-ribeiro",
+    "authorId": "tomas-ribeiro",
+    "source": "self",
+    "text": "Assumi a entrega do módulo de exportação com data prometida para o fechamento do trimestre e cortei duas melhorias que eu mesmo tinha proposto quando vi que colocavam a data em risco. Entregamos no dia combinado e as melhorias entraram na sprint seguinte. Prefiro entregar o essencial na data do que tudo atrasado.",
+    "createdAt": "2026-08-03T00:00:00.000Z"
+  },
+  {
+    "id": "st-099",
+    "subjectId": "tomas-ribeiro",
+    "authorId": "tomas-ribeiro",
+    "source": "self",
+    "text": "Atualizei minha máquina para o novo setup de desenvolvimento em contêiner e aproveitei para regravar o vídeo de onboarding técnico que estava desatualizado desde o ano passado. Também troquei o teclado que estava falhando.",
+    "createdAt": "2025-08-19T00:00:00.000Z"
+  },
+  {
+    "id": "st-100",
+    "subjectId": "tomas-ribeiro",
+    "authorId": "bruno-carvalho",
+    "source": "peer",
+    "text": "Todo trimestre a gente aposta em quem entrega o planejado, e com o Tomás nem tem graça: nas últimas quatro releases ele cravou o escopo sem estourar um dia. Quando o serviço de PDF ameaçou atrasar, ele renegociou o corte na segunda-feira, não na véspera da demo.",
+    "createdAt": "2025-08-30T00:00:00.000Z"
+  },
+  {
+    "id": "st-101",
+    "subjectId": "tomas-ribeiro",
+    "authorId": "marina-duarte",
+    "source": "peer",
+    "text": "Na disputa sobre qual squad ficaria com o serviço de relatórios, o Tomás abriu mão de um projeto que claramente lhe daria destaque porque o outro caminho desafogava a release do time inteiro. Ele mesmo apresentou o plano de transição. Ego não entra na conta dele quando o objetivo do time está em jogo.",
+    "createdAt": "2025-09-10T00:00:00.000Z"
+  },
+  {
+    "id": "st-102",
+    "subjectId": "tomas-ribeiro",
+    "authorId": "andre-nogueira",
+    "source": "peer",
+    "text": "Sempre que o Tomás me passa uma janela de deploy, eu bloqueio a agenda sem medo: o artefato chega testado, com checklist de rollback preenchido e no horário que ele falou. Em dois anos de plantão junto, nunca precisei correr atrás dele.",
+    "createdAt": "2025-09-21T00:00:00.000Z"
+  },
+  {
+    "id": "st-103",
+    "subjectId": "tomas-ribeiro",
+    "authorId": "henrique-dias",
+    "source": "peer",
+    "text": "O relatório de reconhecimento de receita dependia de uma extração que a engenharia nunca priorizava, até o Tomás assumir. Ele me entregou a primeira versão na sexta prometida e automatizou o envio mensal sem que eu pedisse. Fecho o financeiro dois dias mais cedo por causa disso.",
+    "createdAt": "2025-10-02T00:00:00.000Z"
+  },
+  {
+    "id": "st-104",
+    "subjectId": "tomas-ribeiro",
+    "authorId": "sofia-brandao",
+    "source": "manager",
+    "text": "Quando precisei escolher quem seguraria a entrega da release da certificação, escolhi o Tomás e ele repriorizou o backlog do squad em função da data, tirando inclusive itens dele próprio da frente. É a pessoa que eu uso como referência de previsibilidade quando negocio prazos com as outras áreas.",
+    "createdAt": "2025-10-13T00:00:00.000Z"
+  },
+  {
+    "id": "st-105",
+    "subjectId": "patricia-lemos",
+    "authorId": "patricia-lemos",
+    "source": "self",
+    "text": "No fechamento do trimestre, mantive uma planilha aberta com cada pendência e o nome de quem tinha assumido. Na segunda seguinte, fui uma por uma cobrando o que não tinha sido entregue, inclusive as minhas. Ninguém fica muito confortável, mas nada cai no esquecimento.",
+    "createdAt": "2025-10-24T00:00:00.000Z"
+  },
+  {
+    "id": "st-106",
+    "subjectId": "patricia-lemos",
+    "authorId": "patricia-lemos",
+    "source": "self",
+    "text": "Recebemos três propostas de sistema de folha e as duas mais baratas pareciam ótimas no papel. Passei um fim de semana montando um comparativo de custo total em três anos antes de decidir. Acabei escolhendo a mais cara na proposta, que era a mais barata no cenário real.",
+    "createdAt": "2025-11-04T00:00:00.000Z"
+  },
+  {
+    "id": "st-107",
+    "subjectId": "patricia-lemos",
+    "authorId": "henrique-dias",
+    "source": "peer",
+    "text": "Na auditoria externa, a Patrícia assumiu na frente do auditor um erro de classificação que tinha vindo de uma decisão dela e trouxe o plano de correção no dia seguinte. Depois cobrou cada um de nós pelos itens do plano, com prazo e dono definidos.",
+    "createdAt": "2025-11-15T00:00:00.000Z"
+  },
+  {
+    "id": "st-108",
+    "subjectId": "patricia-lemos",
+    "authorId": "carolina-freire",
+    "source": "peer",
+    "text": "Quando propus um programa novo de benefícios, a Patrícia cortou justamente a parte que era mais a minha cara e manteve o que alcançava o time inteiro. Doeu na hora, mas ela estava certa: o orçamento foi pro que movia o ponteiro, não pro projeto de estimação de ninguém.",
+    "createdAt": "2025-11-26T00:00:00.000Z"
+  },
+  {
+    "id": "st-109",
+    "subjectId": "patricia-lemos",
+    "authorId": "lucas-macedo",
+    "source": "peer",
+    "text": "Levei pra Patrícia uma proposta de automatizar a conciliação e ela desmontou minha estimativa em dez minutos, com os números do último fechamento na mão. Refiz o caso com premissas melhores e ela aprovou na hora. Prefiro mil vezes esse escrutínio a um sim vazio.",
+    "createdAt": "2025-12-07T00:00:00.000Z"
+  },
+  {
+    "id": "st-110",
+    "subjectId": "patricia-lemos",
+    "authorId": "tania-quintela",
+    "source": "peer",
+    "text": "No fim do ano, a Patrícia abriu mão de duas contratações da própria área pra segurar o caixa que garantia o bônus coletivo. E explicou o porquê pra gente sem rodeio nenhum, numa reunião de quinze minutos.",
+    "createdAt": "2025-12-18T00:00:00.000Z"
+  },
+  {
+    "id": "st-111",
+    "subjectId": "patricia-lemos",
+    "authorId": "rodrigo-antunes",
+    "source": "peer",
+    "text": "Na semana do offsite, a Patrícia dividiu comigo a van do aeroporto e passamos a viagem conversando sobre a reforma da sala de reunião grande. Chegando lá, cada um foi cuidar da sua parte da agenda.",
+    "createdAt": "2025-12-29T00:00:00.000Z"
+  },
+  {
+    "id": "st-112",
+    "subjectId": "henrique-dias",
+    "authorId": "henrique-dias",
+    "source": "self",
+    "text": "Antes de enviar a folha pro banco, eu sempre rodo uma conferência linha a linha contra o mês anterior. Neste mês peguei um adicional noturno duplicado que passaria batido e viraria retrabalho pra todo mundo depois.",
+    "createdAt": "2026-01-09T00:00:00.000Z"
+  },
+  {
+    "id": "st-113",
+    "subjectId": "henrique-dias",
+    "authorId": "lucas-macedo",
+    "source": "peer",
+    "text": "No fechamento de junho, o Henrique achou uma diferença de doze centavos na conciliação e não sossegou até rastrear a origem, um lançamento trocado de conta. E ainda me lembrou do combinado de documentar o ajuste antes de virar o mês.",
+    "createdAt": "2026-01-20T00:00:00.000Z"
+  },
+  {
+    "id": "st-114",
+    "subjectId": "henrique-dias",
+    "authorId": "tania-quintela",
+    "source": "peer",
+    "text": "Pedi pro Henrique revisar os anexos financeiros de um contrato grande e ele voltou com três inconsistências entre a minuta e a planilha de preços que nem o jurídico da outra parte tinha visto. Assinamos com os valores certos por causa dessa revisão.",
+    "createdAt": "2026-01-31T00:00:00.000Z"
+  },
+  {
+    "id": "st-115",
+    "subjectId": "henrique-dias",
+    "authorId": "rodrigo-antunes",
+    "source": "peer",
+    "text": "O Henrique e eu ficamos responsáveis por escolher o restaurante do jantar de fim de ano da área. Trocamos uns dez links no chat e acabamos fechando o mesmo lugar do ano passado.",
+    "createdAt": "2026-02-11T00:00:00.000Z"
+  },
+  {
+    "id": "st-116",
+    "subjectId": "henrique-dias",
+    "authorId": "fernanda-said",
+    "source": "peer",
+    "text": "Todo mês eu mando a base de comissões pro Henrique e, se atraso um dia, ele já aparece na minha mesa cobrando, com razão. Desde que ele assumiu esse fluxo, nunca mais uma comissão saiu errada ou fora do prazo.",
+    "createdAt": "2026-02-22T00:00:00.000Z"
+  },
+  {
+    "id": "st-117",
+    "subjectId": "henrique-dias",
+    "authorId": "patricia-lemos",
+    "source": "manager",
+    "text": "Na preparação da auditoria, o Henrique revisou pasta por pasta e achou dois comprovantes com data errada antes de o auditor pedir qualquer coisa. Depois cobrou cada área até o último documento chegar no prazo, sem precisar que eu entrasse no circuito.",
+    "createdAt": "2026-03-05T00:00:00.000Z"
+  },
+  {
+    "id": "st-118",
+    "subjectId": "carolina-freire",
+    "authorId": "carolina-freire",
+    "source": "self",
+    "text": "Na integração dos novos contratados, eu sempre conto o erro que cometi na minha primeira folha de pagamento aqui. Percebo que, depois disso, as pessoas passam a me trazer dúvidas que teriam vergonha de levar pro gestor.",
+    "createdAt": "2026-03-16T00:00:00.000Z"
+  },
+  {
+    "id": "st-119",
+    "subjectId": "carolina-freire",
+    "authorId": "carolina-freire",
+    "source": "self",
+    "text": "Passei a terça atualizando o organograma no sistema de RH porque duas pessoas mudaram de time. Aproveitei pra corrigir uns cargos que estavam desatualizados desde o ano passado.",
+    "createdAt": "2026-03-27T00:00:00.000Z"
+  },
+  {
+    "id": "st-120",
+    "subjectId": "carolina-freire",
+    "authorId": "tania-quintela",
+    "source": "peer",
+    "text": "Um gestor e uma liderada estavam há semanas trocando indiretas por causa de férias negadas, e a Carolina sentou com os dois na mesma sala. Saíram com um acordo de escala e o assunto morreu ali. Ela tem um jeito de baixar a temperatura sem passar pano pra ninguém.",
+    "createdAt": "2026-04-07T00:00:00.000Z"
+  },
+  {
+    "id": "st-121",
+    "subjectId": "carolina-freire",
+    "authorId": "lucas-macedo",
+    "source": "peer",
+    "text": "Na semana do fechamento da folha eu estava afundado e nem tinha pedido ajuda. A Carolina percebeu, assumiu a triagem dos chamados de benefícios e ainda deixou um chocolate na minha mesa. Só me dei conta do tamanho da ajuda quando o pico passou.",
+    "createdAt": "2026-04-18T00:00:00.000Z"
+  },
+  {
+    "id": "st-122",
+    "subjectId": "carolina-freire",
+    "authorId": "sofia-brandao",
+    "source": "peer",
+    "text": "Dois engenheiros meus travaram numa discussão sobre home office que já estava contaminando o resto do time, e eu chamei a Carolina. Ela conduziu a conversa difícil que eu vinha adiando e os dois saíram com um combinado por escrito. É a pessoa que eu procuro quando o assunto é espinhoso.",
+    "createdAt": "2026-04-29T00:00:00.000Z"
+  },
+  {
+    "id": "st-123",
+    "subjectId": "carolina-freire",
+    "authorId": "henrique-dias",
+    "source": "peer",
+    "text": "Quando anunciaram a mudança no plano de saúde, o clima azedou no todos-mãos e a Carolina assumiu a sala. Deu a palavra primeiro pra quem estava mais bravo, sem cortar ninguém, e transformou uma pauta explosiva numa conversa civilizada.",
+    "createdAt": "2026-05-10T00:00:00.000Z"
+  },
+  {
+    "id": "st-124",
+    "subjectId": "carolina-freire",
+    "authorId": "patricia-lemos",
+    "source": "manager",
+    "text": "No ciclo de avaliações, dois gestores de outras áreas quase se estranharam numa calibragem e a Carolina mediou a sessão até saírem com um critério comum. Fora isso, foi ela quem segurou a barra da analista nova na primeira folha, sem que ninguém pedisse.",
+    "createdAt": "2026-05-21T00:00:00.000Z"
+  },
+  {
+    "id": "st-125",
+    "subjectId": "lucas-macedo",
+    "authorId": "lucas-macedo",
+    "source": "self",
+    "text": "O relatório de despesas de viagem nem era meu, mas vivia atrasando e travava o fechamento de todo mundo. Assumi o processo, automatizei a coleta dos comprovantes e hoje ele sai dois dias antes do prazo.",
+    "createdAt": "2026-06-01T00:00:00.000Z"
+  },
+  {
+    "id": "st-126",
+    "subjectId": "lucas-macedo",
+    "authorId": "henrique-dias",
+    "source": "peer",
+    "text": "Todo dia 25 o Lucas me entrega as conciliações bancárias fechadas, e em dois anos não lembro de um único atraso. No fechamento contábil eu monto meu cronograma em cima da entrega dele de olhos fechados.",
+    "createdAt": "2026-06-12T00:00:00.000Z"
+  },
+  {
+    "id": "st-127",
+    "subjectId": "lucas-macedo",
+    "authorId": "rodrigo-antunes",
+    "source": "peer",
+    "text": "Eu e o Lucas dividimos a tarefa de receber os técnicos da manutenção do ar-condicionado na sexta. Ele ficou com a manhã, eu com a tarde, e aproveitamos pra atualizar o inventário das salas.",
+    "createdAt": "2026-06-23T00:00:00.000Z"
+  },
+  {
+    "id": "st-128",
+    "subjectId": "lucas-macedo",
+    "authorId": "carolina-freire",
+    "source": "peer",
+    "text": "Descobrimos um erro de desconto de vale-transporte que afetava umas trinta pessoas, e o assunto nem era do escopo do Lucas. Ele mapeou os casos, calculou os estornos e só largou o tema quando o último colega confirmou o acerto na folha seguinte.",
+    "createdAt": "2026-07-04T00:00:00.000Z"
+  },
+  {
+    "id": "st-129",
+    "subjectId": "lucas-macedo",
+    "authorId": "felipe-armond",
+    "source": "peer",
+    "text": "Peço pro Lucas os números de custo por squad todo início de trimestre e a resposta chega sempre antes do combinado, no formato que a gente alinhou uma única vez. Virou a parte do meu planejamento com que eu simplesmente não me preocupo.",
+    "createdAt": "2026-07-15T00:00:00.000Z"
+  },
+  {
+    "id": "st-130",
+    "subjectId": "lucas-macedo",
+    "authorId": "patricia-lemos",
+    "source": "manager",
+    "text": "Quando o banco mudou o layout do arquivo de pagamento no meio do fechamento, o Lucas reescreveu a rotina de madrugada e a folha caiu na conta de todo mundo no dia certo. Ele não me trouxe o problema, me trouxe o problema já resolvido.",
+    "createdAt": "2026-07-26T00:00:00.000Z"
+  },
+  {
+    "id": "st-131",
+    "subjectId": "tania-quintela",
+    "authorId": "tania-quintela",
+    "source": "self",
+    "text": "Antes de aprovar o novo contrato padrão de clientes, listei os cinco riscos que já viraram disputa em contratos antigos e testei a minuta nova contra cada um. Dois artigos caíram nesse pente-fino e voltaram pra redação.",
+    "createdAt": "2025-08-11T00:00:00.000Z"
+  },
+  {
+    "id": "st-132",
+    "subjectId": "tania-quintela",
+    "authorId": "tania-quintela",
+    "source": "self",
+    "text": "Passei a manhã reorganizando o repositório de contratos por ano e por contraparte, que estava uma bagunça desde a migração de sistema. Agora pelo menos a busca encontra as coisas.",
+    "createdAt": "2025-08-22T00:00:00.000Z"
+  },
+  {
+    "id": "st-133",
+    "subjectId": "tania-quintela",
+    "authorId": "henrique-dias",
+    "source": "peer",
+    "text": "A gente ia travar um fornecedor por causa de uma cláusula de multa, e a Tânia redigiu uma alternativa que protegia a Lumina sem humilhar o outro lado. Fechou em uma semana o que estava parado fazia um mês. De quebra, ela achou uma divergência de CNPJ nos anexos que ninguém tinha visto.",
+    "createdAt": "2025-09-02T00:00:00.000Z"
+  },
+  {
+    "id": "st-134",
+    "subjectId": "tania-quintela",
+    "authorId": "ricardo-bastos",
+    "source": "peer",
+    "text": "Meu time chegou espumando porque o jurídico tinha barrado um desconto agressivo, e a Tânia, em vez de bater na regra, montou com a gente um formato de contrato anual que passava no compliance e que o cliente aceitou na hora. Saímos da sala todos achando que tínhamos ganhado.",
+    "createdAt": "2025-09-13T00:00:00.000Z"
+  },
+  {
+    "id": "st-135",
+    "subjectId": "tania-quintela",
+    "authorId": "carolina-freire",
+    "source": "peer",
+    "text": "Numa disputa sobre política de dados entre a engenharia e um cliente enorme, a Tânia fez as duas partes listarem o que era inegociável antes de discutir qualquer texto. O que parecia caminho certo pra briga virou um aditivo assinado sem uma única reunião tensa.",
+    "createdAt": "2025-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "st-136",
+    "subjectId": "tania-quintela",
+    "authorId": "lucas-macedo",
+    "source": "peer",
+    "text": "Levei pra Tânia um contrato de software que parecia padrão e ela me devolveu uma análise comparando a cláusula de reajuste com a inflação dos últimos três anos. Cancelamos a renovação automática e economizamos um valor que eu nem sabia que estava em jogo.",
+    "createdAt": "2025-10-05T00:00:00.000Z"
+  },
+  {
+    "id": "st-137",
+    "subjectId": "tania-quintela",
+    "authorId": "patricia-lemos",
+    "source": "manager",
+    "text": "Na auditoria, a Tânia foi a única que notou que duas procurações estavam vencidas antes de o auditor abrir a pasta. E quando discutimos a resposta ao apontamento, ela separou o que era risco real do que era ruído, o que ajudou a sala inteira a decidir rápido.",
+    "createdAt": "2025-10-16T00:00:00.000Z"
+  },
+  {
+    "id": "st-138",
+    "subjectId": "rodrigo-antunes",
+    "authorId": "rodrigo-antunes",
+    "source": "self",
+    "text": "Fiquei responsável pela logística do offsite: transporte, salas, equipamento e as restrições alimentares de 36 pessoas. Montei um checklist com prazo pra cada item e no dia não faltou nem o adaptador de projetor que sempre esquecem.",
+    "createdAt": "2025-10-27T00:00:00.000Z"
+  },
+  {
+    "id": "st-139",
+    "subjectId": "rodrigo-antunes",
+    "authorId": "carolina-freire",
+    "source": "peer",
+    "text": "Na semana da mudança de escritório, o Rodrigo viu que eu estava atolada com as admissões e apareceu com as caixas do arquivo de People Ops já etiquetadas. Ninguém pediu, ele só percebeu e fez.",
+    "createdAt": "2025-11-07T00:00:00.000Z"
+  },
+  {
+    "id": "st-140",
+    "subjectId": "rodrigo-antunes",
+    "authorId": "lucas-macedo",
+    "source": "peer",
+    "text": "No dia da visita do nosso maior cliente, caiu a energia do andar uma hora antes da reunião. O Rodrigo, sem alterar a voz, remanejou todo mundo pro coworking do prédio ao lado e a reunião começou no horário.",
+    "createdAt": "2025-11-18T00:00:00.000Z"
+  },
+  {
+    "id": "st-141",
+    "subjectId": "rodrigo-antunes",
+    "authorId": "juliana-peixoto",
+    "source": "peer",
+    "text": "Meu time estava virando noites num pico de chamados e o Rodrigo, que nem é da minha área, apareceu com jantar e deixou a sala de reunião grande reservada pra gente a semana toda. Ele repara nessas coisas antes de qualquer um pedir.",
+    "createdAt": "2025-11-29T00:00:00.000Z"
+  },
+  {
+    "id": "st-142",
+    "subjectId": "rodrigo-antunes",
+    "authorId": "henrique-dias",
+    "source": "peer",
+    "text": "O Rodrigo me ajudou a escolher o novo modelo de crachá porque o fornecedor antigo descontinuou o material. Ficamos na dúvida entre dois acabamentos e acabamos pedindo amostra dos dois.",
+    "createdAt": "2025-12-10T00:00:00.000Z"
+  },
+  {
+    "id": "st-143",
+    "subjectId": "rodrigo-antunes",
+    "authorId": "patricia-lemos",
+    "source": "manager",
+    "text": "Quando o alarme de incêndio disparou por engano no meio da auditoria, o Rodrigo evacuou o andar, acionou a manutenção e nos devolveu à sala em quarenta minutos, sem uma nota de pânico. Tudo que ele assume some da minha lista de preocupações.",
+    "createdAt": "2025-12-21T00:00:00.000Z"
+  },
+  {
+    "id": "st-144",
+    "subjectId": "isabela-franco",
+    "authorId": "isabela-franco",
+    "source": "self",
+    "text": "No planejamento do trimestre, cortei do roadmap um projeto que eu mesma tinha proposto: os números do piloto com a Vetra não sustentavam o investimento. Prefiro entregar duas apostas que movem renovação do que cinco que ficam bonitas no slide. Comuniquei o corte no mesmo dia para ninguém trabalhar em cima de plano velho.",
+    "createdAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "st-145",
+    "subjectId": "isabela-franco",
+    "authorId": "isabela-franco",
+    "source": "self",
+    "text": "Na revisão de roadmap com a Sofia, discordei na frente de todo mundo da sequência de entregas do módulo de permissões e coloquei meus argumentos na mesa. Foi uma discussão dura sobre a ideia, não sobre pessoas, e saímos com uma sequência melhor do que as duas propostas originais.",
+    "createdAt": "2026-01-12T00:00:00.000Z"
+  },
+  {
+    "id": "st-146",
+    "subjectId": "isabela-franco",
+    "authorId": "rafael-siqueira",
+    "source": "peer",
+    "text": "Levei para a Isabela uma proposta de expandir o módulo de exportação e ela desmontou meu caso em vinte minutos: pediu a base de clientes que pediam aquilo, comparou com o custo de oportunidade e mostrou que eu estava extrapolando três conversas. Saí sem o projeto, mas com um critério claro do que precisaria provar.",
+    "createdAt": "2026-01-23T00:00:00.000Z"
+  },
+  {
+    "id": "st-147",
+    "subjectId": "isabela-franco",
+    "authorId": "clara-menezes",
+    "source": "peer",
+    "text": "Na retro do trimestre, a Isabela discordou do Rafael sobre a meta de ativação de um jeito que eu raramente vejo: direta, olhando no olho, sem rodeio nenhum, e terminou perguntando o que faria ela mudar de ideia. A discussão esquentou e ninguém saiu machucado; o plano saiu melhor.",
+    "createdAt": "2026-02-03T00:00:00.000Z"
+  },
+  {
+    "id": "st-148",
+    "subjectId": "isabela-franco",
+    "authorId": "joao-prado",
+    "source": "peer",
+    "text": "Quando o Grupo Altamira ameaçou não renovar, a Isabela cancelou duas iniciativas do próprio time — incluindo uma que era a menina dos olhos dela — para liberar a gente para o que salvava a conta. Ela mesma avisou os stakeholders e assumiu o desgaste da decisão.",
+    "createdAt": "2026-02-14T00:00:00.000Z"
+  },
+  {
+    "id": "st-149",
+    "subjectId": "isabela-franco",
+    "authorId": "gustavo-lins",
+    "source": "peer",
+    "text": "A Isabela mudou nossa weekly de segunda para terça por causa da sequência de feriados e aproveitou para testar um formato novo de ata no Notion. No fim do mês a gente decide se mantém ou volta ao formato antigo.",
+    "createdAt": "2026-02-25T00:00:00.000Z"
+  },
+  {
+    "id": "st-150",
+    "subjectId": "isabela-franco",
+    "authorId": "felipe-armond",
+    "source": "peer",
+    "text": "No comitê de priorização, a Isabela pegou a proposta do funil novo e listou as três premissas que precisavam ser verdade para o número fechar, uma a uma, antes de qualquer opinião. Duas não paravam em pé e ela devolveu o caso para refazer a conta, sem drama.",
+    "createdAt": "2026-03-08T00:00:00.000Z"
+  },
+  {
+    "id": "st-151",
+    "subjectId": "rafael-siqueira",
+    "authorId": "rafael-siqueira",
+    "source": "self",
+    "text": "Eu compro as brigas que precisam ser compradas: na última revisão de roadmap, bati de frente com a Engenharia sobre a data do módulo de relatórios e sustentei meu ponto até o fim da reunião. Acho que o time espera de mim exatamente esse debate duro, de bater na mesa quando a prioridade está errada.",
+    "createdAt": "2026-03-19T00:00:00.000Z"
+  },
+  {
+    "id": "st-152",
+    "subjectId": "rafael-siqueira",
+    "authorId": "rafael-siqueira",
+    "source": "self",
+    "text": "Quando Vendas tentou furar a fila com um pedido do banco Meridiano, eu disse não na cara do Ricardo e defendi o combinado do trimestre sem amaciar. Gosto de discussão franca e fujo de consenso morno; prefiro o embate aberto a deixar a decisão apodrecer.",
+    "createdAt": "2026-03-30T00:00:00.000Z"
+  },
+  {
+    "id": "st-153",
+    "subjectId": "rafael-siqueira",
+    "authorId": "joao-prado",
+    "source": "peer",
+    "text": "Na planning em que Engenharia e Design quase se estranharam por causa do atraso do onboarding, o Rafael pediu cinco minutos, reformulou o que cada lado estava pedindo e propôs um meio-termo que os dois aceitaram na hora. A reunião, que estava subindo de tom, terminou tranquila e com plano.",
+    "createdAt": "2026-04-10T00:00:00.000Z"
+  },
+  {
+    "id": "st-154",
+    "subjectId": "rafael-siqueira",
+    "authorId": "gustavo-lins",
+    "source": "peer",
+    "text": "O cliente TransLog escalou uma reclamação e Vendas queria apontar culpado no nosso time. O Rafael não entrou no bate-boca: chamou cada um para conversar em separado, costurou uma versão comum da história e no dia seguinte os dois times apresentaram um plano conjunto como se nunca tivesse havido atrito.",
+    "createdAt": "2026-04-21T00:00:00.000Z"
+  },
+  {
+    "id": "st-155",
+    "subjectId": "rafael-siqueira",
+    "authorId": "sofia-brandao",
+    "source": "peer",
+    "text": "Tivemos um impasse feio de dependências entre o roadmap de produto e a nossa fila de plataforma, e eu esperava uma queda de braço. O Rafael evitou o confronto na sala: suavizou os pontos mais duros, adiou o item mais polêmico para uma conversa menor e saiu todo mundo acomodado. Resolveu o clima, ainda que a divergência de fundo tenha ficado para depois.",
+    "createdAt": "2026-05-02T00:00:00.000Z"
+  },
+  {
+    "id": "st-156",
+    "subjectId": "rafael-siqueira",
+    "authorId": "clara-menezes",
+    "source": "peer",
+    "text": "O Rafael migrou nossos boards de discovery para o template novo e aproveitou para arquivar as iniciativas de 2024. Também combinou com a gente uma rotação de quem escreve o resumo semanal do produto.",
+    "createdAt": "2026-05-13T00:00:00.000Z"
+  },
+  {
+    "id": "st-157",
+    "subjectId": "rafael-siqueira",
+    "authorId": "isabela-franco",
+    "source": "manager",
+    "text": "Sempre que uma priorização ameaça virar embate, o Rafael baixa a temperatura: reconhece o ponto de cada lado, tira a decisão espinhosa da sala e volta depois com um acordo já costurado nos bastidores. Quase nunca o vejo comprar a briga de frente; ele contorna o conflito até o assunto caber numa conversa calma.",
+    "createdAt": "2026-05-24T00:00:00.000Z"
+  },
+  {
+    "id": "st-158",
+    "subjectId": "gustavo-lins",
+    "authorId": "gustavo-lins",
+    "source": "self",
+    "text": "Passei dois dias na operação da TransLog vendo os despachantes usarem nosso painel e voltei com o fluxo de exceções redesenhado do zero: em vez de formulário, um rascunho que o sistema preenche e a pessoa só corrige. A ideia veio de ver o operador colando print no WhatsApp para pedir ajuda.",
+    "createdAt": "2026-06-04T00:00:00.000Z"
+  },
+  {
+    "id": "st-159",
+    "subjectId": "gustavo-lins",
+    "authorId": "beatriz-tavares",
+    "source": "peer",
+    "text": "A gente estava travado há semanas no problema do onboarding de contas multi-CNPJ e o Gustavo apareceu na crit com uma solução que ninguém tinha considerado: tratar a segunda empresa como um convite, não como um cadastro. Simplificou três telas em uma e destravou a discussão inteira.",
+    "createdAt": "2026-06-15T00:00:00.000Z"
+  },
+  {
+    "id": "st-160",
+    "subjectId": "gustavo-lins",
+    "authorId": "clara-menezes",
+    "source": "peer",
+    "text": "O Gustavo é o único designer que aparece em todas as minhas sessões de pesquisa sem eu precisar convidar. Na última crit, ele abriu com o áudio de uma cliente da Clínicas Salus reclamando do relatório, e a discussão inteira girou em torno do problema dela em vez das nossas preferências.",
+    "createdAt": "2026-06-26T00:00:00.000Z"
+  },
+  {
+    "id": "st-161",
+    "subjectId": "gustavo-lins",
+    "authorId": "leticia-ramos",
+    "source": "peer",
+    "text": "Num gap de sprint, o Gustavo me chamou para transformar uma ideia maluca dele em protótipo: um modo de comparação lado a lado que ninguém tinha pedido, montado com componentes que já existiam. Em dois dias tínhamos algo clicável que acabou entrando no roadmap do trimestre.",
+    "createdAt": "2026-07-07T00:00:00.000Z"
+  },
+  {
+    "id": "st-162",
+    "subjectId": "gustavo-lins",
+    "authorId": "felipe-armond",
+    "source": "peer",
+    "text": "O Gustavo terminou a migração da nossa biblioteca no Figma para a versão nova e marcou uma sessão rápida para mostrar onde ficou cada componente. Combinamos de aposentar os arquivos antigos até o fim do mês.",
+    "createdAt": "2026-07-18T00:00:00.000Z"
+  },
+  {
+    "id": "st-163",
+    "subjectId": "gustavo-lins",
+    "authorId": "isabela-franco",
+    "source": "manager",
+    "text": "Dei ao Gustavo o problema mais ingrato do trimestre, o relatório regulatório, e ele voltou com uma abordagem que ninguém esperava: transformar o relatório em um checklist guiado. Antes de desenhar qualquer tela, ele ligou para três clientes para validar se aquilo resolvia o dia deles.",
+    "createdAt": "2026-07-29T00:00:00.000Z"
+  },
+  {
+    "id": "st-164",
+    "subjectId": "clara-menezes",
+    "authorId": "clara-menezes",
+    "source": "self",
+    "text": "Montei um painel de atendimento com recortes das entrevistas do mês e agora abro toda review de produto com dois minutos de voz de cliente. Na última, o trecho da coordenadora da Clínicas Salus mudou a discussão da feature nova para o problema de adoção que ninguém queria encarar.",
+    "createdAt": "2025-08-14T00:00:00.000Z"
+  },
+  {
+    "id": "st-165",
+    "subjectId": "clara-menezes",
+    "authorId": "gustavo-lins",
+    "source": "peer",
+    "text": "Nos debriefs de pesquisa da Clara, os juniores falam primeiro e hipótese furada é tratada como achado, não como vergonha. Quando a Beatriz errou a previsão do teste de usabilidade, a Clara agradeceu na frente de todo mundo por ela ter se exposto, e desde então o time inteiro arrisca mais palpite.",
+    "createdAt": "2025-08-25T00:00:00.000Z"
+  },
+  {
+    "id": "st-166",
+    "subjectId": "clara-menezes",
+    "authorId": "joao-prado",
+    "source": "peer",
+    "text": "Eu estava vendido na solução de notificações e a Clara me fez desmontar o caso: colocou lado a lado o que os clientes tinham dito nas oito entrevistas e o que eu estava assumindo, e a sobreposição era mínima. Adiei o projeto e fui atrás do problema certo.",
+    "createdAt": "2025-09-05T00:00:00.000Z"
+  },
+  {
+    "id": "st-167",
+    "subjectId": "clara-menezes",
+    "authorId": "aline-serra",
+    "source": "peer",
+    "text": "A Clara topou entrevistar comigo cinco clientes que cancelaram no semestre, montou o roteiro e conduziu as conversas mais difíceis. O relatório dela circulou até em Vendas e mudou o discurso de renovação do banco Meridiano.",
+    "createdAt": "2025-09-16T00:00:00.000Z"
+  },
+  {
+    "id": "st-168",
+    "subjectId": "clara-menezes",
+    "authorId": "beatriz-tavares",
+    "source": "peer",
+    "text": "A Clara reorganizou a agenda do laboratório de pesquisa e agora a gente reserva as salas de teste pelo mesmo calendário do time. Ela também montou uma escala de quem toma nota em cada sessão do mês.",
+    "createdAt": "2025-09-27T00:00:00.000Z"
+  },
+  {
+    "id": "st-169",
+    "subjectId": "clara-menezes",
+    "authorId": "isabela-franco",
+    "source": "manager",
+    "text": "Quando o comitê já estava convencido a construir o portal de parceiros, a Clara pediu a palavra e mostrou, dado a dado, que a demanda vinha de dois clientes barulhentos e não da base. Foi a única análise fria da sala e nos poupou um trimestre.",
+    "createdAt": "2025-10-08T00:00:00.000Z"
+  },
+  {
+    "id": "st-170",
+    "subjectId": "joao-prado",
+    "authorId": "joao-prado",
+    "source": "self",
+    "text": "O bug de cobrança da integração com o banco Meridiano não era do meu squad, mas o cliente era meu, então assumi: mapeei o fluxo com Financeiro, abri os chamados com a Engenharia e só soltei o assunto quando o estorno saiu na fatura seguinte. Fiquei com o postmortem também.",
+    "createdAt": "2025-10-19T00:00:00.000Z"
+  },
+  {
+    "id": "st-171",
+    "subjectId": "joao-prado",
+    "authorId": "joao-prado",
+    "source": "self",
+    "text": "Passei a quarta organizando o calendário de releases do trimestre com o marketing e escolhendo as datas dos webinars. No fim sobrou tempo para atualizar a página de novidades do produto.",
+    "createdAt": "2025-10-30T00:00:00.000Z"
+  },
+  {
+    "id": "st-172",
+    "subjectId": "joao-prado",
+    "authorId": "felipe-armond",
+    "source": "peer",
+    "text": "O João nunca tinha mexido com SQL e em duas semanas estava puxando as próprias análises de funil para responder uma pergunta do comitê. Quando os dados contrariaram a aposta dele de ativação, ele trocou de rota sem se apegar ao plano antigo.",
+    "createdAt": "2025-11-10T00:00:00.000Z"
+  },
+  {
+    "id": "st-173",
+    "subjectId": "joao-prado",
+    "authorId": "caio-teixeira",
+    "source": "peer",
+    "text": "Quando a migração quebrou o webhook da TransLog numa sexta à noite, o João ficou na ponte com a gente até meia-noite, escreveu ele mesmo a comunicação para o cliente e no sábado de manhã já tinha validado o fix em produção. Não era papel dele, mas ninguém precisou pedir.",
+    "createdAt": "2025-11-21T00:00:00.000Z"
+  },
+  {
+    "id": "st-174",
+    "subjectId": "joao-prado",
+    "authorId": "rafael-siqueira",
+    "source": "peer",
+    "text": "O João defendia a tese do plano self-service fazia meses, mas quando o teste de preço voltou com conversão abaixo do piso, ele mesmo apresentou os números e propôs mudar a abordagem na semana seguinte. Reescreveu a spec inteira em dois dias com o aprendizado novo.",
+    "createdAt": "2025-12-02T00:00:00.000Z"
+  },
+  {
+    "id": "st-175",
+    "subjectId": "joao-prado",
+    "authorId": "isabela-franco",
+    "source": "manager",
+    "text": "O contrato do Grupo Altamira travou por causa de um requisito de auditoria que não era de ninguém, e o João encampou: estudou a norma, sentou com o jurídico e devolveu uma proposta de escopo em uma semana. Ele trata problema órfão como se tivesse o nome dele escrito.",
+    "createdAt": "2025-12-13T00:00:00.000Z"
+  },
+  {
+    "id": "st-176",
+    "subjectId": "beatriz-tavares",
+    "authorId": "beatriz-tavares",
+    "source": "self",
+    "text": "Precisávamos de um protótipo navegável para o teste com a Vetra e eu nunca tinha usado a ferramenta nova de motion; passei o fim de semana nos tutoriais e na terça o protótipo estava rodando com as transições que o teste pedia. Anotei o que aprendi num guia curto para o resto do time.",
+    "createdAt": "2025-12-24T00:00:00.000Z"
+  },
+  {
+    "id": "st-177",
+    "subjectId": "beatriz-tavares",
+    "authorId": "gustavo-lins",
+    "source": "peer",
+    "text": "Na crit do estado vazio do dashboard, a Beatriz sugeriu usar os próprios dados de exemplo do setor do cliente como primeiro conteúdo, em vez de ilustração genérica. Ninguém tinha pensado por esse ângulo e a ideia virou o padrão dos outros módulos.",
+    "createdAt": "2026-01-04T00:00:00.000Z"
+  },
+  {
+    "id": "st-178",
+    "subjectId": "beatriz-tavares",
+    "authorId": "clara-menezes",
+    "source": "peer",
+    "text": "O teste de usabilidade derrubou duas das três telas da Beatriz e, em vez de defender o desenho, ela pediu os vídeos, remontou o fluxo no dia seguinte e voltou com uma versão que atacava exatamente os tropeços observados. Da rodada um para a dois, o tempo de conclusão caiu pela metade.",
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "st-179",
+    "subjectId": "beatriz-tavares",
+    "authorId": "marina-duarte",
+    "source": "peer",
+    "text": "Na handoff do módulo de permissões, a Beatriz percebeu que o componente que o design pedia ia custar caro e propôs uma variação com os elementos que já tínhamos no design system, com um efeito de foco que resolvia o mesmo problema. Saiu mais simples do que o desenho original e ninguém sentiu falta.",
+    "createdAt": "2026-01-26T00:00:00.000Z"
+  },
+  {
+    "id": "st-180",
+    "subjectId": "beatriz-tavares",
+    "authorId": "felipe-armond",
+    "source": "peer",
+    "text": "A Beatriz atualizou a biblioteca de ícones e arrumou a nomenclatura das pastas no drive do time. Também assumiu a vez dela na escala de notas da weekly deste mês.",
+    "createdAt": "2026-02-06T00:00:00.000Z"
+  },
+  {
+    "id": "st-181",
+    "subjectId": "beatriz-tavares",
+    "authorId": "isabela-franco",
+    "source": "manager",
+    "text": "Pedi à Beatriz uma alternativa para o e-mail de resumo semanal que os clientes ignoravam e ela voltou com três direções que eu não tinha visto em lugar nenhum, incluindo um resumo em áudio de um minuto. Testamos a mais ousada com um grupo pequeno e a taxa de abertura dobrou.",
+    "createdAt": "2026-02-17T00:00:00.000Z"
+  },
+  {
+    "id": "st-182",
+    "subjectId": "felipe-armond",
+    "authorId": "felipe-armond",
+    "source": "self",
+    "text": "Revisando o dashboard da QBR, percebi que a taxa de retenção estava usando a base antiga de contas e divergia do número do Financeiro em dois pontos. Refiz a consulta, documentei a diferença e avisei os dois times antes de a apresentação subir para a diretoria.",
+    "createdAt": "2026-02-28T00:00:00.000Z"
+  },
+  {
+    "id": "st-183",
+    "subjectId": "felipe-armond",
+    "authorId": "felipe-armond",
+    "source": "self",
+    "text": "Fechei a logística do offsite de produto: hotel, salas e a agenda dos dois dias já estão no convite. Falta só definir quem leva a caixa de som.",
+    "createdAt": "2026-03-11T00:00:00.000Z"
+  },
+  {
+    "id": "st-184",
+    "subjectId": "felipe-armond",
+    "authorId": "rafael-siqueira",
+    "source": "peer",
+    "text": "Quando a Engenharia atrasou a handoff e o clima azedou entre os squads, o Felipe chamou os dois leads para um café antes da reunião conjunta e alinhou as versões da história. A conversa que prometia briga virou um replanejamento tranquilo de datas.",
+    "createdAt": "2026-03-22T00:00:00.000Z"
+  },
+  {
+    "id": "st-185",
+    "subjectId": "felipe-armond",
+    "authorId": "bruno-carvalho",
+    "source": "peer",
+    "text": "A gente estava irritado com as specs mudando no meio da sprint e o Felipe veio até a nossa daily, ouviu as reclamações sem rebater e voltou com um combinado de janela de mudanças que os PMs toparam. O atrito com produto, que vinha crescendo, esvaziou em uma semana.",
+    "createdAt": "2026-04-02T00:00:00.000Z"
+  },
+  {
+    "id": "st-186",
+    "subjectId": "felipe-armond",
+    "authorId": "clara-menezes",
+    "source": "peer",
+    "text": "O Felipe revisou meu formulário de consentimento e achou uma cláusula desatualizada e dois campos que se contradiziam, coisa que já tinha passado por três pessoas. Ele mantém um checklist próprio para esses documentos e não deixa passar nada.",
+    "createdAt": "2026-04-13T00:00:00.000Z"
+  },
+  {
+    "id": "st-187",
+    "subjectId": "felipe-armond",
+    "authorId": "joao-prado",
+    "source": "peer",
+    "text": "No checklist de release do Felipe, ele pegou que o preço do plano anual estava com o valor antigo na tela de checkout de um dos ambientes. Se tivesse subido assim, o banco Meridiano teria visto o desconto errado no dia da renovação.",
+    "createdAt": "2026-04-24T00:00:00.000Z"
+  },
+  {
+    "id": "st-188",
+    "subjectId": "felipe-armond",
+    "authorId": "isabela-franco",
+    "source": "manager",
+    "text": "O Felipe é quem eu mando na frente quando uma conversa entre produto e engenharia ameaça descarrilar: ele mapeia onde cada lado pode ceder e chega com meio caminho andado. De quebra, os rituais que ele organiza saem sem uma ponta solta, da pauta ao follow-up.",
+    "createdAt": "2026-05-05T00:00:00.000Z"
+  },
+  {
+    "id": "st-189",
+    "subjectId": "ricardo-bastos",
+    "authorId": "ricardo-bastos",
+    "source": "self",
+    "text": "Fechei o trimestre revisando o forecast conta a conta com cada executivo; quando vi que a TechCorreio ia escorregar para julho, remontei o plano da semana em uma tarde e redistribuí as contas quentes. Prefiro mexer no plano dez vezes a aceitar terminar o mês abaixo da meta.",
+    "createdAt": "2026-05-16T00:00:00.000Z"
+  },
+  {
+    "id": "st-190",
+    "subjectId": "ricardo-bastos",
+    "authorId": "ricardo-bastos",
+    "source": "self",
+    "text": "Esta semana finalmente migrei meus one-on-ones para o novo calendário e aproveitei para atualizar os modelos de proposta no drive do time. Também troquei a sala das segundas porque a antiga não tinha TV para projetar o pipeline.",
+    "createdAt": "2026-05-27T00:00:00.000Z"
+  },
+  {
+    "id": "st-191",
+    "subjectId": "ricardo-bastos",
+    "authorId": "luana-cardoso",
+    "source": "peer",
+    "text": "O Ricardo abriu a segunda-feira dizendo que ninguém sairia da sala sem saber exatamente quais três negócios fecham até sexta. Ele mesmo pegou o telefone e destravou o desconto da Vetria com o financeiro em meia hora. É impossível ficar parado perto dele.",
+    "createdAt": "2026-06-07T00:00:00.000Z"
+  },
+  {
+    "id": "st-192",
+    "subjectId": "ricardo-bastos",
+    "authorId": "pedro-galvao",
+    "source": "peer",
+    "text": "Prometi ao Ricardo que mandaria a proposta da Brastel na terça e deixei passar. Na quarta de manhã ele estava na minha mesa perguntando o que tinha acontecido e o que eu precisava para não repetir. Ele anota cada combinado do pipeline review e cobra um por um na semana seguinte.",
+    "createdAt": "2026-06-18T00:00:00.000Z"
+  },
+  {
+    "id": "st-193",
+    "subjectId": "ricardo-bastos",
+    "authorId": "fernanda-said",
+    "source": "peer",
+    "text": "Quando o número de junho apertou, o Ricardo cortou a própria viagem ao evento em São Paulo para ficar em cima das renovações. Ele repete que troféu de esforço não paga meta, e cobra o resultado do time e o dele com a mesma dureza.",
+    "createdAt": "2026-06-29T00:00:00.000Z"
+  },
+  {
+    "id": "st-194",
+    "subjectId": "ricardo-bastos",
+    "authorId": "juliana-peixoto",
+    "source": "peer",
+    "text": "Fizemos juntos a virada da conta Mundivox de vendas para CS e o Ricardo não deixou o assunto esfriar um dia: agenda marcada em 24 horas, próximos passos por escrito, follow-up antes mesmo do prazo. O ritmo que ele imprime puxa todo mundo ao redor.",
+    "createdAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "st-195",
+    "subjectId": "helena-fontes",
+    "authorId": "helena-fontes",
+    "source": "self",
+    "text": "Reservei minhas quartas de manhã para treinar a Camila e o Mateus em discovery call: a gente grava as ligações, escuta junto e eu mostro onde a pergunta poderia abrir mais o cliente. Enquanto o quadro de metas pisca na parede, eu sigo achando que SDR bem formado fecha mais que SDR apressado.",
+    "createdAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "id": "st-196",
+    "subjectId": "helena-fontes",
+    "authorId": "helena-fontes",
+    "source": "self",
+    "text": "Semana passada organizei meu CRM e arquivei umas quarenta oportunidades antigas que ainda apareciam no meu painel. Aproveitei para atualizar os contatos da conta Ardosia, que tinham mudado de e-mail depois da fusão.",
+    "createdAt": "2026-08-01T00:00:00.000Z"
+  },
+  {
+    "id": "st-197",
+    "subjectId": "helena-fontes",
+    "authorId": "camila-arruda",
+    "source": "peer",
+    "text": "Perdi um lead grande por ter pulado a etapa de qualificação e fui contar para a Helena esperando bronca. Ela agradeceu por eu ter avisado rápido, disse que erro contado cedo é erro barato e montou comigo um checklist para as próximas ligações. Foi a primeira vez desde que entrei que errar não pareceu o fim do mundo.",
+    "createdAt": "2025-08-17T00:00:00.000Z"
+  },
+  {
+    "id": "st-198",
+    "subjectId": "helena-fontes",
+    "authorId": "mateus-vilela",
+    "source": "peer",
+    "text": "Meu onboarding aqui foi basicamente a Helena: ela montou um plano de trinta dias, sentou do meu lado nas primeiras cold calls e depois me passava feedback linha por linha do que eu tinha falado. Enquanto o resto do time corria atrás da própria meta, ela reservava uma hora por dia para mim.",
+    "createdAt": "2025-08-28T00:00:00.000Z"
+  },
+  {
+    "id": "st-199",
+    "subjectId": "helena-fontes",
+    "authorId": "pedro-galvao",
+    "source": "peer",
+    "text": "Antes de mandar a proposta da Coplan, pedi para a Helena revisar; ela reestruturou comigo a página de pricing e me ensinou o racional que usa para ancorar o desconto, em vez de simplesmente corrigir. É a única pessoa do time que para a própria prospecção para desenvolver os outros.",
+    "createdAt": "2025-09-08T00:00:00.000Z"
+  },
+  {
+    "id": "st-200",
+    "subjectId": "helena-fontes",
+    "authorId": "carolina-freire",
+    "source": "peer",
+    "text": "Depois de um trimestre tenso em vendas, a Helena me procurou e desenhamos juntas uma retro do time; ela preparou a pauta, garantiu que os SDRs falassem antes dos sêniores e fechou com combinados claros de quem faz o quê. Num grupo acostumado a gritar número, ela foi quem criou espaço para todo mundo falar.",
+    "createdAt": "2025-09-19T00:00:00.000Z"
+  },
+  {
+    "id": "st-201",
+    "subjectId": "helena-fontes",
+    "authorId": "ricardo-bastos",
+    "source": "manager",
+    "text": "A Helena bate meta sem alarde, mas o que ela faz de diferente é formar gente: os dois SDRs que rampearam mais rápido este ano passaram pela escolinha dela de discovery. Ela também assumiu a organização do pipeline review das segundas, e a reunião passou a durar metade do tempo com o dobro de decisão.",
+    "createdAt": "2025-09-30T00:00:00.000Z"
+  },
+  {
+    "id": "st-202",
+    "subjectId": "camila-arruda",
+    "authorId": "camila-arruda",
+    "source": "self",
+    "text": "Bati minha meta de reuniões agendadas na segunda semana do mês e resolvi testar um roteiro novo de cold call no restante dos dias. Anotei o que funcionou de cada ligação numa planilha e na sexta já estava com uma taxa de resposta bem melhor.",
+    "createdAt": "2025-10-11T00:00:00.000Z"
+  },
+  {
+    "id": "st-203",
+    "subjectId": "camila-arruda",
+    "authorId": "mateus-vilela",
+    "source": "peer",
+    "text": "A Camila chega antes de todo mundo e abre o dia já com a lista de ligações pronta; teve uma sexta que ela fez sessenta cold calls porque faltavam três reuniões para a meta do time. O placar dela no quadro raramente fica atrás.",
+    "createdAt": "2025-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "st-204",
+    "subjectId": "camila-arruda",
+    "authorId": "luana-cardoso",
+    "source": "peer",
+    "text": "Passei um feedback para a Camila sobre como ela abria as ligações e no dia seguinte ela já estava usando uma abertura nova, melhor que a minha sugestão. Ela devora as gravações dos executivos sêniores e aplica na semana seguinte o que ouviu.",
+    "createdAt": "2025-11-02T00:00:00.000Z"
+  },
+  {
+    "id": "st-205",
+    "subjectId": "camila-arruda",
+    "authorId": "fernanda-said",
+    "source": "peer",
+    "text": "A Camila me ajudou a testar o novo campo de origem de lead no CRM antes de liberarmos para o resto do time. Também ficou responsável por recolher os crachás do estande depois da feira de tecnologia.",
+    "createdAt": "2025-11-13T00:00:00.000Z"
+  },
+  {
+    "id": "st-206",
+    "subjectId": "camila-arruda",
+    "authorId": "natalia-brito",
+    "source": "peer",
+    "text": "Dividi com a Camila a maratona de follow-ups pós-webinar e ela varou a tarde ligando para a lista inteira antes do prazo, e ainda me mandou os aprendizados organizados por segmento. O gás dela contagiou até o nosso time.",
+    "createdAt": "2025-11-24T00:00:00.000Z"
+  },
+  {
+    "id": "st-207",
+    "subjectId": "camila-arruda",
+    "authorId": "ricardo-bastos",
+    "source": "manager",
+    "text": "A Camila é a primeira SDR que rampou em menos de dois meses aqui. Quando mudamos o ICP no meio do trimestre, ela refez as listas sozinha em dois dias e não deixou o ritmo de agendamentos cair.",
+    "createdAt": "2025-12-05T00:00:00.000Z"
+  },
+  {
+    "id": "st-208",
+    "subjectId": "pedro-galvao",
+    "authorId": "pedro-galvao",
+    "source": "self",
+    "text": "Na negociação com a Redemar, abri mão de empurrar o módulo extra porque o problema deles era outro; fechei um contrato menor agora e deixei mapeada a expansão para o segundo semestre. Prefiro um cliente com o problema certo resolvido do que um ticket inflado que cancela em seis meses.",
+    "createdAt": "2025-12-16T00:00:00.000Z"
+  },
+  {
+    "id": "st-209",
+    "subjectId": "pedro-galvao",
+    "authorId": "luana-cardoso",
+    "source": "peer",
+    "text": "No fim do trimestre o Pedro percebeu que o negócio dele com a Altavia não fecharia a tempo e, em vez de segurar a conta, passou dois leads quentes para mim porque eu estava mais perto da meta do time. Para ele, o número que importa é o do quadro coletivo.",
+    "createdAt": "2025-12-27T00:00:00.000Z"
+  },
+  {
+    "id": "st-210",
+    "subjectId": "pedro-galvao",
+    "authorId": "helena-fontes",
+    "source": "peer",
+    "text": "Na demo para a Sollux, o Pedro largou o roteiro padrão no terceiro slide e passou o resto da call montando o fluxo com os dados reais que o cliente tinha mandado. Ele liga para usuários finais antes de cada proposta para entender o dia a dia de quem vai usar a ferramenta.",
+    "createdAt": "2026-01-07T00:00:00.000Z"
+  },
+  {
+    "id": "st-211",
+    "subjectId": "pedro-galvao",
+    "authorId": "mateus-vilela",
+    "source": "peer",
+    "text": "O Pedro me deu carona para o evento da associação comercial e aproveitamos para revisar a escala de plantão do estande. Ele também descobriu uma churrascaria boa perto do escritório novo para os almoços de fechamento de mês.",
+    "createdAt": "2026-01-18T00:00:00.000Z"
+  },
+  {
+    "id": "st-212",
+    "subjectId": "pedro-galvao",
+    "authorId": "eduardo-sales",
+    "source": "peer",
+    "text": "O Pedro me chamou antes de fechar a venda para a Vetria para conferir se o suporte dava conta do fluxo que ele estava prometendo; ajustou o escopo da proposta depois da nossa conversa. É raro ver vendedor freando o próprio deal para o cliente não se frustrar depois.",
+    "createdAt": "2026-01-29T00:00:00.000Z"
+  },
+  {
+    "id": "st-213",
+    "subjectId": "pedro-galvao",
+    "authorId": "ricardo-bastos",
+    "source": "manager",
+    "text": "O Pedro terminou os últimos quatro trimestres acima de cem por cento e nunca precisei lembrar ele do número. Quando a meta apertou em maio, ele mesmo propôs trocar duas contas de vitrine por três com ciclo mais curto e fechou o gap.",
+    "createdAt": "2026-02-09T00:00:00.000Z"
+  },
+  {
+    "id": "st-214",
+    "subjectId": "luana-cardoso",
+    "authorId": "luana-cardoso",
+    "source": "self",
+    "text": "Terminei maio a oito mil reais da meta e passei os últimos três dias úteis praticamente morando no telefone: reabri duas oportunidades perdidas e fechei a segunda no último dia, às 19h. Meta para mim não é aproximação, ou bateu ou não bateu.",
+    "createdAt": "2026-02-20T00:00:00.000Z"
+  },
+  {
+    "id": "st-215",
+    "subjectId": "luana-cardoso",
+    "authorId": "pedro-galvao",
+    "source": "peer",
+    "text": "A Luana fez em um dia o follow-up de todas as vinte propostas paradas do time quando o forecast do mês travou; à tarde já tinha três reaberturas. Quando o pipeline esfria, é ela quem esquenta a sala.",
+    "createdAt": "2026-03-03T00:00:00.000Z"
+  },
+  {
+    "id": "st-216",
+    "subjectId": "luana-cardoso",
+    "authorId": "camila-arruda",
+    "source": "peer",
+    "text": "A Luana me pediu para priorizar agendamentos no segmento de logística porque era onde o time tinha mais chance de fechar dentro do trimestre, mesmo sendo contas menores que as dela. Ela recalcula o funil toda semana e corta sem dó o que não vai virar receita.",
+    "createdAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "id": "st-217",
+    "subjectId": "luana-cardoso",
+    "authorId": "fernanda-said",
+    "source": "peer",
+    "text": "A Luana topou revezar comigo a atualização do painel de comissões enquanto o sistema novo não chega. Ela também trouxe as canecas personalizadas do kickoff de vendas, que ficaram ótimas.",
+    "createdAt": "2026-03-25T00:00:00.000Z"
+  },
+  {
+    "id": "st-218",
+    "subjectId": "luana-cardoso",
+    "authorId": "joao-prado",
+    "source": "peer",
+    "text": "Precisei de cases para o lançamento da nova funcionalidade e a Luana devolveu no mesmo dia três clientes dispostos a gravar depoimento, já com horário marcado. Ela responde antes de todo mundo e não deixa nada em aberto até sexta.",
+    "createdAt": "2026-04-05T00:00:00.000Z"
+  },
+  {
+    "id": "st-219",
+    "subjectId": "luana-cardoso",
+    "authorId": "ricardo-bastos",
+    "source": "manager",
+    "text": "A Luana carregou o número do time em fevereiro quando dois executivos estavam de férias: assumiu o dobro de demos sem reclamar e fechou o mês como primeira do ranking. Ela negocia duro, mas o que me impressiona é a constância de estar sempre acima da meta.",
+    "createdAt": "2026-04-16T00:00:00.000Z"
+  },
+  {
+    "id": "st-220",
+    "subjectId": "mateus-vilela",
+    "authorId": "mateus-vilela",
+    "source": "self",
+    "text": "Percebi que os leads do formulário do site ficavam dois dias sem resposta e ninguém era dono disso; assumi a fila, criei uma regra de resposta em até uma hora e segurei o processo até a Fernanda automatizar. Não era minha função, mas lead esfriando é dinheiro do time indo embora.",
+    "createdAt": "2026-04-27T00:00:00.000Z"
+  },
+  {
+    "id": "st-221",
+    "subjectId": "mateus-vilela",
+    "authorId": "camila-arruda",
+    "source": "peer",
+    "text": "O Mateus transformou a última hora da sexta na nossa power hour de ligações: ele coloca o cronômetro na TV e sai discando junto. Na semana do fechamento ele fez quarenta ligações a mais que a própria meta para garantir os agendamentos do time.",
+    "createdAt": "2026-05-08T00:00:00.000Z"
+  },
+  {
+    "id": "st-222",
+    "subjectId": "mateus-vilela",
+    "authorId": "helena-fontes",
+    "source": "peer",
+    "text": "Um lead reclamou que recebeu proposta duplicada com valores diferentes e o Mateus, mesmo sem ser dele, rastreou o erro até uma automação antiga, avisou as contas afetadas e só soltou o assunto quando o fluxo foi corrigido. Novato com esse senso de dono é raro.",
+    "createdAt": "2026-05-19T00:00:00.000Z"
+  },
+  {
+    "id": "st-223",
+    "subjectId": "mateus-vilela",
+    "authorId": "luana-cardoso",
+    "source": "peer",
+    "text": "O Mateus ficou responsável pela playlist do fechamento de mês e pelo bolo do aniversário do Ricardo, tudo na mesma semana. Também organizou o armário de brindes, que estava um caos desde o evento de março.",
+    "createdAt": "2026-05-30T00:00:00.000Z"
+  },
+  {
+    "id": "st-224",
+    "subjectId": "mateus-vilela",
+    "authorId": "lucas-macedo",
+    "source": "peer",
+    "text": "O relatório de leads do faturamento vinha com divergência havia semanas e foi o Mateus quem me procurou, cruzou as planilhas comigo numa tarde e documentou a correção. SDR se importando com conciliação de dados de outra área não é algo que eu esperava ver.",
+    "createdAt": "2026-06-10T00:00:00.000Z"
+  },
+  {
+    "id": "st-225",
+    "subjectId": "mateus-vilela",
+    "authorId": "ricardo-bastos",
+    "source": "manager",
+    "text": "O Mateus abre o dia com a cadência já rodando e costuma ser o primeiro do ranking de atividades sem que eu peça nada. Quando o funil de topo secou em abril, ele propôs um mutirão de prospecção e puxou o time inteiro para discar junto por dois dias.",
+    "createdAt": "2026-06-21T00:00:00.000Z"
+  },
+  {
+    "id": "st-226",
+    "subjectId": "fernanda-said",
+    "authorId": "fernanda-said",
+    "source": "self",
+    "text": "Fechei a migração das regras de comissão para o sistema novo no prazo que tinha prometido, rodando em paralelo com o antigo por duas semanas para conferir centavo por centavo. Achei três divergências antes da virada e ninguém recebeu errado.",
+    "createdAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "st-227",
+    "subjectId": "fernanda-said",
+    "authorId": "pedro-galvao",
+    "source": "peer",
+    "text": "A Fernanda pegou um desconto de 15% que eu tinha lançado como 51% na proposta da Brastel minutos antes de o contrato sair. Ela revisa cada minuta contra a tabela de preços e já salvou o time de pelo menos três contratos com erro.",
+    "createdAt": "2026-07-13T00:00:00.000Z"
+  },
+  {
+    "id": "st-228",
+    "subjectId": "fernanda-said",
+    "authorId": "luana-cardoso",
+    "source": "peer",
+    "text": "Todo dia primeiro, às 9h, o relatório de fechamento da Fernanda está na caixa de entrada, sem atraso desde que entrei. Quando ela diz que o dashboard novo fica pronto na sexta, eu marco reunião com cliente na segunda sem medo.",
+    "createdAt": "2026-07-24T00:00:00.000Z"
+  },
+  {
+    "id": "st-229",
+    "subjectId": "fernanda-said",
+    "authorId": "camila-arruda",
+    "source": "peer",
+    "text": "A Fernanda ficou de referência para as dúvidas do CRM novo e combinou com facilities uma segunda tela para a fileira dos SDRs. Na sexta ela trouxe as amostras dos novos cartões de visita para o time escolher.",
+    "createdAt": "2026-08-04T00:00:00.000Z"
+  },
+  {
+    "id": "st-230",
+    "subjectId": "fernanda-said",
+    "authorId": "henrique-dias",
+    "source": "peer",
+    "text": "Fechamos juntos a conciliação de comissões do semestre e a Fernanda chegou com tudo conferido: cada exceção documentada com print e justificativa, nenhuma linha fora do padrão. É a única planilha de área que eu não preciso auditar duas vezes.",
+    "createdAt": "2025-08-20T00:00:00.000Z"
+  },
+  {
+    "id": "st-231",
+    "subjectId": "fernanda-said",
+    "authorId": "ricardo-bastos",
+    "source": "manager",
+    "text": "Delego para a Fernanda qualquer mudança de processo sabendo que vai acontecer na data combinada: foi assim com o novo fluxo de aprovação de descontos, entregue redondo enquanto o time nem percebeu a troca. Em dois anos, não lembro de um compromisso que ela tenha deixado cair.",
+    "createdAt": "2025-08-31T00:00:00.000Z"
+  }
+]

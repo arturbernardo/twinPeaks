@@ -1,0 +1,364 @@
+[
+  {
+    "subjectId": "juliana-peixoto",
+    "authorId": "juliana-peixoto",
+    "source": "self",
+    "text": "Na QBR da Vetra, o diretor deles abriu dizendo que estava avaliando concorrentes. Em vez de defender a Lumina de cara, passei vinte minutos só mapeando o que mudou na operação deles e levei três desses pontos para a reunião de roadmap na semana seguinte. A renovação saiu com upgrade de plano.",
+    "tags": [
+      { "tagId": "customer_focus", "quote": "passei vinte minutos só mapeando o que mudou na operação deles e levei três desses pontos para a reunião de roadmap", "confidence": 0.85 }
+    ]
+  },
+  {
+    "subjectId": "juliana-peixoto",
+    "authorId": "juliana-peixoto",
+    "source": "self",
+    "text": "Passei a tarde de quinta migrando nossas contas do planilhão antigo para o CRM novo e agendando os treinamentos da ferramenta para o time. Nada glamouroso, mas ficou tudo pronto antes do fim do dia.",
+    "tags": []
+  },
+  {
+    "subjectId": "juliana-peixoto",
+    "authorId": "otavio-neves",
+    "source": "peer",
+    "text": "Nossa reunião semanal de carteira vivia virando desabafo sem conclusão. A Juliana montou uma pauta fixa em três blocos, deixa claro quem decide o quê e fecha cada tema com responsável e prazo. Hoje a gente sai da sala em quarenta minutos com tudo encaminhado.",
+    "tags": [
+      { "tagId": "facilitation", "quote": "montou uma pauta fixa em três blocos, deixa claro quem decide o quê e fecha cada tema com responsável e prazo", "confidence": 0.9 }
+    ]
+  },
+  {
+    "subjectId": "juliana-peixoto",
+    "authorId": "aline-serra",
+    "source": "peer",
+    "text": "Quando a Juliana perdeu o prazo de enviar a proposta de renovação do Grupo Almeida, ela mesma abriu o assunto na reunião de time antes que alguém perguntasse, explicou o que ia mudar no processo dela e pediu que a gente avisasse se visse acontecer de novo.",
+    "tags": [
+      { "tagId": "trust_building", "quote": "ela mesma abriu o assunto na reunião de time antes que alguém perguntasse", "confidence": 0.8 }
+    ]
+  },
+  {
+    "subjectId": "juliana-peixoto",
+    "authorId": "vitor-camargo",
+    "source": "peer",
+    "text": "No comitê de priorização com produto, a Juliana chegou com gravações de três clientes reclamando do fluxo de exportação e fez todo mundo assistir antes de abrir o backlog. A discussão mudou de opinião para evidência, e o item subiu de prioridade ali mesmo.",
+    "tags": [
+      { "tagId": "customer_focus", "quote": "chegou com gravações de três clientes reclamando do fluxo de exportação e fez todo mundo assistir antes de abrir o backlog", "confidence": 0.9 }
+    ]
+  },
+  {
+    "subjectId": "juliana-peixoto",
+    "authorId": "natalia-brito",
+    "source": "peer",
+    "text": "No meu primeiro mês, passei uma informação errada de contrato para a TechNorte e fiquei apavorada. A Juliana me chamou, contou de um erro parecido que ela mesma cometeu quando era CSM e montou comigo o e-mail de correção para o cliente. Saí da conversa querendo acertar, não querendo me esconder.",
+    "tags": [
+      { "tagId": "trust_building", "quote": "contou de um erro parecido que ela mesma cometeu quando era CSM", "confidence": 0.7 },
+      { "tagId": "psych_safety", "quote": "Saí da conversa querendo acertar, não querendo me esconder", "confidence": 0.7 }
+    ]
+  },
+  {
+    "subjectId": "juliana-peixoto",
+    "authorId": "eduardo-sales",
+    "source": "peer",
+    "text": "A passagem de contas entre suporte e CS era uma zona cinzenta e vivia caindo ticket no vácuo. A Juliana juntou os dois lados numa sala, desenhou o fluxo no quadro e só encerrou quando cada etapa tinha um dono definido. Faz dois meses que nenhum chamado se perde na transição.",
+    "tags": [
+      { "tagId": "facilitation", "quote": "juntou os dois lados numa sala, desenhou o fluxo no quadro e só encerrou quando cada etapa tinha um dono definido", "confidence": 0.85 }
+    ]
+  },
+
+  {
+    "subjectId": "otavio-neves",
+    "authorId": "otavio-neves",
+    "source": "self",
+    "text": "O CFO da LogiMax entrou na call de renovação já anunciando que ia cancelar por causa do reajuste. Deixei ele falar dez minutos sem interromper, reconheci ponto a ponto o que fazia sentido e propus revermos o escopo antes de falar de preço. Saímos com a renovação assinada por mais doze meses.",
+    "tags": [
+      { "tagId": "diplomacy", "quote": "Deixei ele falar dez minutos sem interromper, reconheci ponto a ponto o que fazia sentido e propus revermos o escopo antes de falar de preço", "confidence": 0.85 }
+    ]
+  },
+  {
+    "subjectId": "otavio-neves",
+    "authorId": "otavio-neves",
+    "source": "self",
+    "text": "Depois de ouvir a mesma reclamação sobre o relatório de churn em duas QBRs seguidas, escrevi um resumo com as citações literais dos clientes e levei para a reunião de roadmap com produto. Duas semanas depois o ajuste entrou no plano do trimestre.",
+    "tags": [
+      { "tagId": "customer_focus", "quote": "escrevi um resumo com as citações literais dos clientes e levei para a reunião de roadmap com produto", "confidence": 0.8 }
+    ]
+  },
+  {
+    "subjectId": "otavio-neves",
+    "authorId": "aline-serra",
+    "source": "peer",
+    "text": "Na sprint passada, suporte e engenharia estavam trocando farpas no canal sobre de quem era o bug da Farmus. O Otávio chamou os dois num papo rápido, traduziu o que cada lado estava realmente pedindo e a discussão morreu ali, com o fix combinado para quinta.",
+    "tags": [
+      { "tagId": "diplomacy", "quote": "chamou os dois num papo rápido, traduziu o que cada lado estava realmente pedindo e a discussão morreu ali", "confidence": 0.9 }
+    ]
+  },
+  {
+    "subjectId": "otavio-neves",
+    "authorId": "vitor-camargo",
+    "source": "peer",
+    "text": "Quando o diretor do Banco Sollo mandou aquele e-mail em caixa alta ameaçando escalar para o CEO, o Otávio pediu para entrar na conta comigo e respondeu num tom que desarmou o cliente na primeira mensagem. Depois ainda ficou até mais tarde revisando comigo os tickets abertos da conta.",
+    "tags": [
+      { "tagId": "diplomacy", "quote": "respondeu num tom que desarmou o cliente na primeira mensagem", "confidence": 0.85 },
+      { "tagId": "supportiveness", "quote": "ficou até mais tarde revisando comigo os tickets abertos da conta", "confidence": 0.7 }
+    ]
+  },
+  {
+    "subjectId": "otavio-neves",
+    "authorId": "natalia-brito",
+    "source": "peer",
+    "text": "Dividi estande com o Otávio no evento de clientes em São Paulo. A gente revezou nos horários de pico, catalogou os crachás dos leads no fim de cada dia e ainda deu tempo de assistir duas palestras da trilha de produto.",
+    "tags": []
+  },
+  {
+    "subjectId": "otavio-neves",
+    "authorId": "pedro-galvao",
+    "source": "peer",
+    "text": "Na virada da conta Orbita Foods de vendas para CS, o cliente estava irritado com promessas que ele achava que não tinham sido cumpridas. O Otávio conduziu a reunião de transição sem apontar dedo para ninguém, realinhou as expectativas item a item e o cliente terminou a call agradecendo.",
+    "tags": [
+      { "tagId": "diplomacy", "quote": "conduziu a reunião de transição sem apontar dedo para ninguém, realinhou as expectativas item a item", "confidence": 0.85 }
+    ]
+  },
+  {
+    "subjectId": "otavio-neves",
+    "authorId": "juliana-peixoto",
+    "source": "manager",
+    "text": "Na crise do bug de faturamento, o Otávio ligou pessoalmente para cada um dos oito clientes afetados antes que qualquer um abrisse ticket. No dia seguinte ainda apareceu na daily do suporte perguntando onde podia ajudar a limpar a fila. Duas das contas elogiaram a Lumina por e-mail depois disso.",
+    "tags": [
+      { "tagId": "customer_focus", "quote": "ligou pessoalmente para cada um dos oito clientes afetados antes que qualquer um abrisse ticket", "confidence": 0.75 },
+      { "tagId": "supportiveness", "quote": "apareceu na daily do suporte perguntando onde podia ajudar a limpar a fila", "confidence": 0.7 }
+    ]
+  },
+
+  {
+    "subjectId": "aline-serra",
+    "authorId": "aline-serra",
+    "source": "self",
+    "text": "Na preparação da QBR da ClaraMed, entrevistei quatro usuários finais além do sponsor e descobri que o time de campo nem sabia que existia o modo offline. Refiz a apresentação inteira em cima do dia a dia deles, e o sponsor pediu para repetirmos o formato no próximo trimestre.",
+    "tags": [
+      { "tagId": "customer_focus", "quote": "entrevistei quatro usuários finais além do sponsor", "confidence": 0.85 }
+    ]
+  },
+  {
+    "subjectId": "aline-serra",
+    "authorId": "natalia-brito",
+    "source": "peer",
+    "text": "Quando entrei, morria de medo de fazer pergunta boba no canal do time. A Aline criou o hábito de responder qualquer dúvida minha começando com um exemplo de onde ela mesma já tinha tropeçado no assunto. Hoje pergunto qualquer coisa sem pensar duas vezes.",
+    "tags": [
+      { "tagId": "psych_safety", "quote": "Hoje pergunto qualquer coisa sem pensar duas vezes", "confidence": 0.85 }
+    ]
+  },
+  {
+    "subjectId": "aline-serra",
+    "authorId": "eduardo-sales",
+    "source": "peer",
+    "text": "No redesenho do fluxo de cancelamento, a Aline apareceu com prints de conversas reais de clientes mostrando exatamente onde eles travavam, e fez a gente refazer dois passos que internamente pareciam ótimos. O NPS do offboarding subiu no mês seguinte.",
+    "tags": [
+      { "tagId": "customer_focus", "quote": "apareceu com prints de conversas reais de clientes mostrando exatamente onde eles travavam", "confidence": 0.85 }
+    ]
+  },
+  {
+    "subjectId": "aline-serra",
+    "authorId": "vitor-camargo",
+    "source": "peer",
+    "text": "A Aline e eu ficamos responsáveis pela escala do plantão de fim de ano. Fechamos as trocas de datas em uma tarde e mandamos o calendário para o time ainda naquela semana.",
+    "tags": []
+  },
+  {
+    "subjectId": "aline-serra",
+    "authorId": "clara-menezes",
+    "source": "peer",
+    "text": "Convidei a Aline para cofacilitar uma rodada de entrevistas com clientes em churn. Ela abriu cada conversa reconhecendo o que a Lumina tinha errado com aquela conta, e os clientes relaxaram e contaram coisas que nunca apareceriam num formulário.",
+    "tags": [
+      { "tagId": "psych_safety", "quote": "os clientes relaxaram e contaram coisas que nunca apareceriam num formulário", "confidence": 0.65 }
+    ]
+  },
+  {
+    "subjectId": "aline-serra",
+    "authorId": "juliana-peixoto",
+    "source": "manager",
+    "text": "Na retro do trimestre, a Aline puxou a conversa sobre o churn da Farmus dizendo primeiro o que ela mesma teria feito diferente, e o time inteiro dissecou o caso sem ninguém se colocar na defensiva. Saíram três mudanças concretas no playbook de onboarding.",
+    "tags": [
+      { "tagId": "psych_safety", "quote": "o time inteiro dissecou o caso sem ninguém se colocar na defensiva", "confidence": 0.75 },
+      { "tagId": "trust_building", "quote": "dizendo primeiro o que ela mesma teria feito diferente", "confidence": 0.65 }
+    ]
+  },
+
+  {
+    "subjectId": "vitor-camargo",
+    "authorId": "vitor-camargo",
+    "source": "self",
+    "text": "O ticket da TechNorte parecia só um erro de importação, mas fui puxando o fio e descobri que o job de integração falhava em silêncio desde a última atualização. Escrevi a reprodução passo a passo, abri o incidente com engenharia e só marquei como resolvido depois de validar os dados com o cliente.",
+    "tags": [
+      { "tagId": "ownership", "quote": "fui puxando o fio e descobri que o job de integração falhava em silêncio desde a última atualização", "confidence": 0.8 }
+    ]
+  },
+  {
+    "subjectId": "vitor-camargo",
+    "authorId": "vitor-camargo",
+    "source": "self",
+    "text": "Aproveitei a sexta mais tranquila do mês para arrumar as macros antigas do Zendesk e atualizar a lista de contatos internos que usamos para direcionar chamados. Nada urgente, mas estava na minha fila havia semanas.",
+    "tags": []
+  },
+  {
+    "subjectId": "vitor-camargo",
+    "authorId": "eduardo-sales",
+    "source": "peer",
+    "text": "No apagão da integração de pagamentos, a fila saltou para noventa tickets em uma hora e todo mundo começou a responder no atropelo. O Vítor abriu uma chamada, dividiu a fila em três blocos e ditou a resposta padrão com a mesma voz de quem lê o cardápio. Ninguém mais entrou em pânico depois disso.",
+    "tags": [
+      { "tagId": "calm_under_pressure", "quote": "ditou a resposta padrão com a mesma voz de quem lê o cardápio", "confidence": 0.85 },
+      { "tagId": "facilitation", "quote": "abriu uma chamada, dividiu a fila em três blocos", "confidence": 0.6 }
+    ]
+  },
+  {
+    "subjectId": "vitor-camargo",
+    "authorId": "natalia-brito",
+    "source": "peer",
+    "text": "Meu primeiro plantão de madrugada caiu justo na janela de migração que deu errado. Liguei para o Vítor às três da manhã achando que era o fim do mundo, e ele foi me guiando passo a passo, sem uma nota de irritação na voz, até o serviço voltar.",
+    "tags": [
+      { "tagId": "calm_under_pressure", "quote": "foi me guiando passo a passo, sem uma nota de irritação na voz, até o serviço voltar", "confidence": 0.8 }
+    ]
+  },
+  {
+    "subjectId": "vitor-camargo",
+    "authorId": "otavio-neves",
+    "source": "peer",
+    "text": "O Banco Sollo reclamava havia meses de lentidão no dashboard e a resposta padrão era que estávamos monitorando. O Vítor montou por conta própria um comparativo de tempos de carregamento, levou para a engenharia e acompanhou o caso até o deploy da correção, avisando o cliente a cada etapa.",
+    "tags": [
+      { "tagId": "ownership", "quote": "montou por conta própria um comparativo de tempos de carregamento, levou para a engenharia e acompanhou o caso até o deploy da correção", "confidence": 0.85 }
+    ]
+  },
+  {
+    "subjectId": "vitor-camargo",
+    "authorId": "andre-nogueira",
+    "source": "peer",
+    "text": "Durante o incidente do banco de dados, o Vítor foi a nossa ponte com os clientes. Enquanto a gente debugava, ele mandava atualizações a cada vinte minutos num tom que segurou até as contas mais nervosas, e filtrou o ruído para o nosso lado seguir focado.",
+    "tags": [
+      { "tagId": "calm_under_pressure", "quote": "mandava atualizações a cada vinte minutos num tom que segurou até as contas mais nervosas", "confidence": 0.75 }
+    ]
+  },
+  {
+    "subjectId": "vitor-camargo",
+    "authorId": "juliana-peixoto",
+    "source": "manager",
+    "text": "Quando a Farmus ameaçou cancelar por causa dos chamados repetidos, o Vítor pediu para ser o ponto único da conta, mapeou os cinco problemas recorrentes e fechou um a um em três semanas, mesmo os que dependiam de outras áreas. A conta renovou sem desconto.",
+    "tags": [
+      { "tagId": "ownership", "quote": "pediu para ser o ponto único da conta, mapeou os cinco problemas recorrentes e fechou um a um em três semanas, mesmo os que dependiam de outras áreas", "confidence": 0.85 },
+      { "tagId": "execution_reliability", "quote": "fechou um a um em três semanas", "confidence": 0.6 }
+    ]
+  },
+
+  {
+    "subjectId": "natalia-brito",
+    "authorId": "natalia-brito",
+    "source": "self",
+    "text": "Entrei sem saber nada de API e a Orbita Foods vivia perguntando da integração. Passei duas noites no curso interno de webhooks, montei um ambiente de teste para praticar e na semana seguinte conduzi a call técnica sozinha, só com o plantão na escuta por segurança.",
+    "tags": [
+      { "tagId": "learning_agility", "quote": "Passei duas noites no curso interno de webhooks, montei um ambiente de teste para praticar e na semana seguinte conduzi a call técnica sozinha", "confidence": 0.85 }
+    ]
+  },
+  {
+    "subjectId": "natalia-brito",
+    "authorId": "aline-serra",
+    "source": "peer",
+    "text": "Na semana em que acumulei três QBRs, a Natália percebeu sem eu falar nada e apareceu com os decks de dados de uso das três contas já preenchidos. Só precisei revisar e gravar meus comentários por cima.",
+    "tags": [
+      { "tagId": "supportiveness", "quote": "percebeu sem eu falar nada e apareceu com os decks de dados de uso das três contas já preenchidos", "confidence": 0.9 }
+    ]
+  },
+  {
+    "subjectId": "natalia-brito",
+    "authorId": "eduardo-sales",
+    "source": "peer",
+    "text": "Quando migramos o help center de ferramenta, a Natália foi a primeira a dominar o editor novo. Em duas semanas já tinha refeito vinte artigos e gravou um vídeo curto ensinando o resto do time, sem que ninguém pedisse.",
+    "tags": [
+      { "tagId": "learning_agility", "quote": "foi a primeira a dominar o editor novo", "confidence": 0.75 },
+      { "tagId": "supportiveness", "quote": "gravou um vídeo curto ensinando o resto do time, sem que ninguém pedisse", "confidence": 0.7 }
+    ]
+  },
+  {
+    "subjectId": "natalia-brito",
+    "authorId": "vitor-camargo",
+    "source": "peer",
+    "text": "A Natália ficou de coletar os temas para o nosso café mensal com clientes e montou a agenda do próximo encontro. Ficou definido que vai ser no formato online mesmo, na última quinta do mês.",
+    "tags": []
+  },
+  {
+    "subjectId": "natalia-brito",
+    "authorId": "camila-arruda",
+    "source": "peer",
+    "text": "Eu estava travada com uma lista de prospects que já tinham sido clientes da Lumina e não entendia os motivos de cancelamento. A Natália, que nem é do meu time, se ofereceu para revisar conta a conta comigo numa hora vaga do plantão dela e me explicou o histórico de cada uma.",
+    "tags": [
+      { "tagId": "supportiveness", "quote": "se ofereceu para revisar conta a conta comigo numa hora vaga do plantão dela", "confidence": 0.75 }
+    ]
+  },
+  {
+    "subjectId": "natalia-brito",
+    "authorId": "juliana-peixoto",
+    "source": "manager",
+    "text": "Dei para a Natália a conta mais técnica da carteira quase como um teste. Em um mês ela absorveu o vocabulário do setor de logística, refez o plano de sucesso da LogiMax com métricas que faziam sentido para o cliente e trocou de abordagem rápido quando a primeira proposta não colou.",
+    "tags": [
+      { "tagId": "learning_agility", "quote": "Em um mês ela absorveu o vocabulário do setor de logística", "confidence": 0.8 }
+    ]
+  },
+
+  {
+    "subjectId": "eduardo-sales",
+    "authorId": "eduardo-sales",
+    "source": "self",
+    "text": "Notei que os tickets da Vetra chegavam sempre com o mesmo pedido de exportação manual. Liguei para entender a rotina deles, documentei o caso de uso e levei para a reunião com produto os números de quanto tempo o cliente perdia por semana com aquilo.",
+    "tags": [
+      { "tagId": "customer_focus", "quote": "Liguei para entender a rotina deles, documentei o caso de uso e levei para a reunião com produto os números de quanto tempo o cliente perdia por semana", "confidence": 0.8 }
+    ]
+  },
+  {
+    "subjectId": "eduardo-sales",
+    "authorId": "eduardo-sales",
+    "source": "self",
+    "text": "Esta semana atualizei minha assinatura de e-mail para o padrão novo da empresa e arquivei as pastas antigas de tickets encerrados. Aproveitei para apagar uns rascunhos de resposta que nunca cheguei a usar.",
+    "tags": []
+  },
+  {
+    "subjectId": "eduardo-sales",
+    "authorId": "vitor-camargo",
+    "source": "peer",
+    "text": "Dividimos o mutirão de migração dos tickets antigos e o Eduardo cravou: prometeu os quatrocentos dele até sexta e entregou na quinta à noite, com o log de cada lote registrado na planilha. É o tipo de combinado que com ele a gente nem precisa conferir.",
+    "tags": [
+      { "tagId": "execution_reliability", "quote": "prometeu os quatrocentos dele até sexta e entregou na quinta à noite", "confidence": 0.9 }
+    ]
+  },
+  {
+    "subjectId": "eduardo-sales",
+    "authorId": "natalia-brito",
+    "source": "peer",
+    "text": "Sempre que prometo retorno de um ticket escalado para um cliente meu, é o Eduardo quem está do outro lado. Nos últimos três casos da ClaraMed, ele deu o retorno na data exata que tinha combinado comigo, incluindo um em que precisou cobrar duas áreas para não estourar o prazo.",
+    "tags": [
+      { "tagId": "execution_reliability", "quote": "deu o retorno na data exata que tinha combinado comigo", "confidence": 0.85 },
+      { "tagId": "accountability", "quote": "precisou cobrar duas áreas para não estourar o prazo", "confidence": 0.6 }
+    ]
+  },
+  {
+    "subjectId": "eduardo-sales",
+    "authorId": "otavio-neves",
+    "source": "peer",
+    "text": "Na triagem, o Eduardo não fecha ticket resolvendo só o sintoma. No caso do Grupo Almeida, ele percebeu pelo tom das mensagens que o problema real era o fechamento contábil do cliente, subiu a prioridade e explicou esse contexto para a engenharia no próprio chamado.",
+    "tags": [
+      { "tagId": "customer_focus", "quote": "percebeu pelo tom das mensagens que o problema real era o fechamento contábil do cliente", "confidence": 0.8 }
+    ]
+  },
+  {
+    "subjectId": "eduardo-sales",
+    "authorId": "fernanda-said",
+    "source": "peer",
+    "text": "Precisei dos dados de uso de dez contas para a força-tarefa de renovações e o Eduardo foi o único que entregou o pacote completo e na data combinada, mesmo com a fila de suporte cheia naquela semana. Nem precisei mandar lembrete.",
+    "tags": [
+      { "tagId": "execution_reliability", "quote": "entregou o pacote completo e na data combinada, mesmo com a fila de suporte cheia naquela semana", "confidence": 0.85 }
+    ]
+  },
+  {
+    "subjectId": "eduardo-sales",
+    "authorId": "juliana-peixoto",
+    "source": "manager",
+    "text": "No projeto de reduzir o tempo de primeira resposta, o Eduardo assumiu a meta de quatro horas e fechou três semanas seguidas dentro do alvo, ajustando o próprio turno para cobrir o horário em que os clientes do varejo mais abrem chamado.",
+    "tags": [
+      { "tagId": "execution_reliability", "quote": "fechou três semanas seguidas dentro do alvo", "confidence": 0.8 },
+      { "tagId": "customer_focus", "quote": "ajustando o próprio turno para cobrir o horário em que os clientes do varejo mais abrem chamado", "confidence": 0.65 }
+    ]
+  }
+]
