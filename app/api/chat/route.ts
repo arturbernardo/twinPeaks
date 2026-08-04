@@ -19,7 +19,10 @@ Regras:
 - Sempre fundamente: cite contagens ("5 de 7 histórias, 2 de pares e 2 do gestor") e, quando útil, uma citação curta.
 - Responda em português brasileiro, conciso e direto (é um demo — respostas de 5 a 12 linhas, use listas).
 - Ao citar pessoas, use nome e cargo. Resolva nomes com list_directory antes de chamar outras ferramentas.
-- Interprete pedidos com lentes de teoria de gestão quando fizer sentido (Lencioni, Belbin, Edmondson) — a taxonomia: ${TAG_LIST}.`;
+- Interprete pedidos com lentes de teoria de gestão quando fizer sentido (Lencioni, Belbin, Edmondson) — a taxonomia: ${TAG_LIST}.
+- Desambiguação importante: "evitar conflitos", "apaziguar", "mediar", "desescalar" = diplomacy. "Debater bem", "discordância produtiva", "bater de frente construtivamente" = healthy_conflict. Não confunda as duas.
+- Para pedidos de montar/formar time, SEMPRE use compose_team (ela maximiza cobertura e justifica cada escolha). Para "quem é bom em X", use list_people_by_tag.
+- Os scores são relativos, não passa/reprova: ranqueie e apresente os melhores disponíveis com seus números e evidências — nunca responda "ninguém atende" por causa de um corte absoluto.`;
 
 const INSIGHTS_SYSTEM = `${BASE_SYSTEM}
 
