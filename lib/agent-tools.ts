@@ -38,6 +38,23 @@ function personLabel(id: string) {
   };
 }
 
+// Resolve "eng", "Engenharia", "engenharia" etc. para o id canônico do time.
+// Evita que um chute de id do modelo vire resultado vazio silencioso.
+function resolveScope(raw: string): "company" | string | null {
+  const q = raw.trim().toLowerCase();
+  if (q === "company" || q === "empresa" || q === "todos") return "company";
+  const team = getTeams().find(
+    (t) => t.id.toLowerCase() === q || t.name.toLowerCase() === q || t.name.toLowerCase().includes(q)
+  );
+  return team?.id ?? null;
+}
+
+const SCOPE_ERROR = (raw: string) => ({
+  error: `Time não encontrado: "${raw}". Times válidos: ${getTeams()
+    .map((t) => `${t.id} (${t.name})`)
+    .join(", ")} — ou "company" para a empresa toda.`,
+});
+
 // Anexa a fonte (self/peer/manager) a cada citação — sem isso o agente não
 // consegue distinguir auto-relato de evidência de terceiros.
 function quotesWithSource(subjectId: string, evidence: { storyId: string; quote: string }[]) {
@@ -178,7 +195,11 @@ export async function runTool(name: string, input: Record<string, unknown>): Pro
       const minStrength = (input.min_strength as number) ?? 0;
       // Só quem está na empresa — ranking serve para staffing.
       let people = getActiveEmployees();
-      if (input.team_id) people = people.filter((e) => e.teamId === input.team_id);
+      if (input.team_id) {
+        const scope = resolveScope(input.team_id as string);
+        if (!scope) return SCOPE_ERROR(input.team_id as string);
+        if (scope !== "company") people = people.filter((e) => e.teamId === scope);
+      }
       const ranked = people
         .map((e) => {
           const score = scoresFor(e.id).find((s) => s.tagId === tagId)!;
@@ -240,9 +261,9 @@ export async function runTool(name: string, input: Record<string, unknown>): Pro
     }
 
     case "get_team_profile": {
-      const scope = input.team_id as string;
-      const profile = teamProfile(scope === "company" ? "company" : scope);
-      if (profile.length === 0) return { error: `Time não encontrado: ${scope}` };
+      const scope = resolveScope(input.team_id as string);
+      if (!scope) return SCOPE_ERROR(input.team_id as string);
+      const profile = teamProfile(scope);
       return {
         scope,
         members:
@@ -260,8 +281,9 @@ export async function runTool(name: string, input: Record<string, unknown>): Pro
     }
 
     case "find_outliers": {
-      const scope = input.scope as string;
-      const outliers = findOutliers(scope === "company" ? "company" : scope, (input.top_k as number) ?? 3);
+      const scope = resolveScope(input.scope as string);
+      if (!scope) return SCOPE_ERROR(input.scope as string);
+      const outliers = findOutliers(scope, (input.top_k as number) ?? 3);
       return {
         scope,
         outliers: outliers.map((o) => ({
@@ -277,9 +299,11 @@ export async function runTool(name: string, input: Record<string, unknown>): Pro
     }
 
     case "gap_analysis": {
-      const scope = input.scope as string;
-      const items = gapAnalysis(scope === "company" ? "company" : scope, input.archetype_id as string);
+      const scope = resolveScope(input.scope as string);
+      if (!scope) return SCOPE_ERROR(input.scope as string);
+      const items = gapAnalysis(scope, input.archetype_id as string);
       if (!items) return { error: `Arquétipo não encontrado: ${input.archetype_id}` };
+      if (items.length === 0) return SCOPE_ERROR(input.scope as string);
       return {
         scope,
         archetype: input.archetype_id,
