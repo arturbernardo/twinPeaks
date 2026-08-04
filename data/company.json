@@ -32,252 +32,411 @@
       "name": "Sofia Brandão",
       "role": "Gerente de Engenharia",
       "teamId": "eng",
-      "seniority": "liderança"
+      "seniority": "liderança",
+      "status": "active",
+      "startDate": "2021-05",
+      "previousRoles": []
     },
     {
       "id": "marina-duarte",
       "name": "Marina Duarte",
       "role": "Engenheira de Software Sênior",
       "teamId": "eng",
-      "seniority": "sênior"
+      "seniority": "sênior",
+      "status": "active",
+      "startDate": "2021-11",
+      "previousRoles": [
+        {
+          "role": "Engenheira de Software Pleno",
+          "from": "2021-11",
+          "to": "2023-06"
+        }
+      ]
     },
     {
       "id": "caio-teixeira",
       "name": "Caio Teixeira",
       "role": "Tech Lead",
       "teamId": "eng",
-      "seniority": "sênior"
+      "seniority": "sênior",
+      "status": "active",
+      "startDate": "2021-08",
+      "previousRoles": [
+        {
+          "role": "Engenheiro de Software Sênior",
+          "from": "2021-08",
+          "to": "2024-01"
+        }
+      ]
     },
     {
       "id": "bruno-carvalho",
       "name": "Bruno Carvalho",
       "role": "Engenheiro Backend Pleno",
       "teamId": "eng",
-      "seniority": "pleno"
+      "seniority": "pleno",
+      "status": "active",
+      "startDate": "2023-02",
+      "previousRoles": []
     },
     {
       "id": "leticia-ramos",
       "name": "Letícia Ramos",
       "role": "Engenheira Frontend Pleno",
       "teamId": "eng",
-      "seniority": "pleno"
+      "seniority": "pleno",
+      "status": "active",
+      "startDate": "2023-07",
+      "previousRoles": []
     },
     {
       "id": "andre-nogueira",
       "name": "André Nogueira",
       "role": "SRE Sênior",
       "teamId": "eng",
-      "seniority": "sênior"
+      "seniority": "sênior",
+      "status": "active",
+      "startDate": "2022-03",
+      "previousRoles": []
     },
     {
       "id": "paula-vidal",
       "name": "Paula Vidal",
       "role": "Engenheira de Dados Pleno",
       "teamId": "eng",
-      "seniority": "pleno"
+      "seniority": "pleno",
+      "status": "active",
+      "startDate": "2023-09",
+      "previousRoles": []
     },
     {
       "id": "diego-fagundes",
       "name": "Diego Fagundes",
       "role": "Engenheiro Backend Júnior",
       "teamId": "eng",
-      "seniority": "júnior"
+      "seniority": "júnior",
+      "status": "active",
+      "startDate": "2024-06",
+      "previousRoles": [
+        {
+          "role": "Estagiário de Engenharia",
+          "from": "2024-06",
+          "to": "2025-01"
+        }
+      ]
     },
     {
       "id": "renata-luz",
       "name": "Renata Luz",
       "role": "QA Sênior",
       "teamId": "eng",
-      "seniority": "sênior"
+      "seniority": "sênior",
+      "status": "active",
+      "startDate": "2022-06",
+      "previousRoles": [
+        {
+          "role": "Analista de QA Pleno",
+          "from": "2022-06",
+          "to": "2024-03"
+        }
+      ]
     },
     {
       "id": "tomas-ribeiro",
       "name": "Tomás Ribeiro",
       "role": "Engenheiro de Software Sênior",
       "teamId": "eng",
-      "seniority": "sênior"
+      "seniority": "sênior",
+      "status": "resigned",
+      "startDate": "2021-09",
+      "endDate": "2026-06",
+      "previousRoles": []
     },
     {
       "id": "isabela-franco",
       "name": "Isabela Franco",
       "role": "Head de Produto",
       "teamId": "produto",
-      "seniority": "liderança"
+      "seniority": "liderança",
+      "status": "active",
+      "startDate": "2021-04",
+      "previousRoles": []
     },
     {
       "id": "rafael-siqueira",
       "name": "Rafael Siqueira",
       "role": "Product Manager Sênior",
       "teamId": "produto",
-      "seniority": "sênior"
+      "seniority": "sênior",
+      "status": "active",
+      "startDate": "2022-01",
+      "previousRoles": []
     },
     {
       "id": "gustavo-lins",
       "name": "Gustavo Lins",
       "role": "Product Designer Sênior",
       "teamId": "produto",
-      "seniority": "sênior"
+      "seniority": "sênior",
+      "status": "active",
+      "startDate": "2022-08",
+      "previousRoles": []
     },
     {
       "id": "clara-menezes",
       "name": "Clara Menezes",
       "role": "UX Researcher Pleno",
       "teamId": "produto",
-      "seniority": "pleno"
+      "seniority": "pleno",
+      "status": "active",
+      "startDate": "2023-05",
+      "previousRoles": []
     },
     {
       "id": "joao-prado",
       "name": "João Prado",
       "role": "Product Manager Pleno",
       "teamId": "produto",
-      "seniority": "pleno"
+      "seniority": "pleno",
+      "status": "active",
+      "startDate": "2023-11",
+      "previousRoles": [
+        {
+          "role": "Analista de Produto",
+          "from": "2023-11",
+          "to": "2025-02"
+        }
+      ]
     },
     {
       "id": "beatriz-tavares",
       "name": "Beatriz Tavares",
       "role": "Product Designer Júnior",
       "teamId": "produto",
-      "seniority": "júnior"
+      "seniority": "júnior",
+      "status": "active",
+      "startDate": "2025-03",
+      "previousRoles": []
     },
     {
       "id": "felipe-armond",
       "name": "Felipe Armond",
       "role": "Product Ops",
       "teamId": "produto",
-      "seniority": "pleno"
+      "seniority": "pleno",
+      "status": "moved_team",
+      "startDate": "2022-05",
+      "previousRoles": [
+        {
+          "role": "Engenheiro Backend Pleno",
+          "teamId": "eng",
+          "from": "2022-05",
+          "to": "2024-08"
+        }
+      ]
     },
     {
       "id": "ricardo-bastos",
       "name": "Ricardo Bastos",
       "role": "Head de Vendas",
       "teamId": "vendas",
-      "seniority": "liderança"
+      "seniority": "liderança",
+      "status": "active",
+      "startDate": "2021-06",
+      "previousRoles": []
     },
     {
       "id": "helena-fontes",
       "name": "Helena Fontes",
       "role": "Executiva de Contas Sênior",
       "teamId": "vendas",
-      "seniority": "sênior"
+      "seniority": "sênior",
+      "status": "active",
+      "startDate": "2021-10",
+      "previousRoles": [
+        {
+          "role": "Executiva de Contas Pleno",
+          "from": "2021-10",
+          "to": "2023-08"
+        }
+      ]
     },
     {
       "id": "camila-arruda",
       "name": "Camila Arruda",
       "role": "SDR",
       "teamId": "vendas",
-      "seniority": "júnior"
+      "seniority": "júnior",
+      "status": "active",
+      "startDate": "2025-02",
+      "previousRoles": []
     },
     {
       "id": "pedro-galvao",
       "name": "Pedro Galvão",
       "role": "Executivo de Contas Pleno",
       "teamId": "vendas",
-      "seniority": "pleno"
+      "seniority": "pleno",
+      "status": "active",
+      "startDate": "2023-04",
+      "previousRoles": []
     },
     {
       "id": "luana-cardoso",
       "name": "Luana Cardoso",
       "role": "Executiva de Contas Pleno",
       "teamId": "vendas",
-      "seniority": "pleno"
+      "seniority": "pleno",
+      "status": "terminated",
+      "startDate": "2022-11",
+      "endDate": "2026-04",
+      "previousRoles": []
     },
     {
       "id": "mateus-vilela",
       "name": "Mateus Vilela",
       "role": "SDR",
       "teamId": "vendas",
-      "seniority": "júnior"
+      "seniority": "júnior",
+      "status": "active",
+      "startDate": "2024-09",
+      "previousRoles": []
     },
     {
       "id": "fernanda-said",
       "name": "Fernanda Said",
       "role": "Sales Ops",
       "teamId": "vendas",
-      "seniority": "pleno"
+      "seniority": "pleno",
+      "status": "active",
+      "startDate": "2022-09",
+      "previousRoles": []
     },
     {
       "id": "juliana-peixoto",
       "name": "Juliana Peixoto",
       "role": "Head de Customer Success",
       "teamId": "cs",
-      "seniority": "liderança"
+      "seniority": "liderança",
+      "status": "active",
+      "startDate": "2021-07",
+      "previousRoles": []
     },
     {
       "id": "otavio-neves",
       "name": "Otávio Neves",
       "role": "CSM Sênior",
       "teamId": "cs",
-      "seniority": "sênior"
+      "seniority": "sênior",
+      "status": "active",
+      "startDate": "2022-02",
+      "previousRoles": [
+        {
+          "role": "CSM Pleno",
+          "from": "2022-02",
+          "to": "2024-05"
+        }
+      ]
     },
     {
       "id": "aline-serra",
       "name": "Aline Serra",
       "role": "CSM Pleno",
       "teamId": "cs",
-      "seniority": "pleno"
+      "seniority": "pleno",
+      "status": "active",
+      "startDate": "2023-08",
+      "previousRoles": []
     },
     {
       "id": "vitor-camargo",
       "name": "Vítor Camargo",
       "role": "Analista de Suporte Sênior",
       "teamId": "cs",
-      "seniority": "sênior"
+      "seniority": "sênior",
+      "status": "active",
+      "startDate": "2022-04",
+      "previousRoles": []
     },
     {
       "id": "natalia-brito",
       "name": "Natália Brito",
       "role": "CSM Júnior",
       "teamId": "cs",
-      "seniority": "júnior"
+      "seniority": "júnior",
+      "status": "active",
+      "startDate": "2024-11",
+      "previousRoles": []
     },
     {
       "id": "eduardo-sales",
       "name": "Eduardo Sales",
       "role": "Analista de Suporte Pleno",
       "teamId": "cs",
-      "seniority": "pleno"
+      "seniority": "pleno",
+      "status": "active",
+      "startDate": "2023-01",
+      "previousRoles": []
     },
     {
       "id": "patricia-lemos",
       "name": "Patrícia Lemos",
       "role": "Head de Operações",
       "teamId": "ops",
-      "seniority": "liderança"
+      "seniority": "liderança",
+      "status": "active",
+      "startDate": "2021-03",
+      "previousRoles": []
     },
     {
       "id": "henrique-dias",
       "name": "Henrique Dias",
       "role": "Analista Financeiro Sênior",
       "teamId": "ops",
-      "seniority": "sênior"
+      "seniority": "sênior",
+      "status": "active",
+      "startDate": "2021-12",
+      "previousRoles": []
     },
     {
       "id": "carolina-freire",
       "name": "Carolina Freire",
       "role": "People Ops",
       "teamId": "ops",
-      "seniority": "pleno"
+      "seniority": "pleno",
+      "status": "active",
+      "startDate": "2022-07",
+      "previousRoles": []
     },
     {
       "id": "lucas-macedo",
       "name": "Lucas Macedo",
       "role": "Analista de Operações Pleno",
       "teamId": "ops",
-      "seniority": "pleno"
+      "seniority": "pleno",
+      "status": "active",
+      "startDate": "2023-06",
+      "previousRoles": []
     },
     {
       "id": "tania-quintela",
       "name": "Tânia Quintela",
       "role": "Jurídico & Compliance",
       "teamId": "ops",
-      "seniority": "sênior"
+      "seniority": "sênior",
+      "status": "active",
+      "startDate": "2022-10",
+      "previousRoles": []
     },
     {
       "id": "rodrigo-antunes",
       "name": "Rodrigo Antunes",
       "role": "Facilities & Admin",
       "teamId": "ops",
-      "seniority": "pleno"
+      "seniority": "pleno",
+      "status": "active",
+      "startDate": "2023-03",
+      "previousRoles": []
     }
   ]
 }

@@ -2,7 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { TagBadge } from "@/components/TagBadge";
-import { getEmployees, getTeam } from "@/lib/db";
+import { getEmployees, getTeam, STATUS_LABELS } from "@/lib/db";
 import { findOutliers, gapAnalysis, scoresFor, teamProfile } from "@/lib/scoring";
 import { TAG_BY_ID } from "@/lib/taxonomy";
 
@@ -13,7 +13,9 @@ export default async function TeamPage({ params }: { params: Promise<{ id: strin
   const team = getTeam(id);
   if (!team) notFound();
 
-  const members = getEmployees().filter((e) => e.teamId === id);
+  const everyone = getEmployees().filter((e) => e.teamId === id);
+  const members = everyone.filter((e) => e.status === "active" || e.status === "moved_team");
+  const former = everyone.filter((e) => e.status === "resigned" || e.status === "terminated");
   const profile = teamProfile(id);
   const outliers = findOutliers(id, 1);
   const gaps = (gapAnalysis(id, "startup") ?? []).filter((g) => g.status !== "covered");
@@ -120,6 +122,24 @@ export default async function TeamPage({ params }: { params: Promise<{ id: strin
           })}
         </div>
       </div>
+
+      {former.length > 0 && (
+        <div>
+          <h2 className="mb-2 text-sm font-medium text-muted-foreground">Ex-integrantes</h2>
+          <div className="flex flex-wrap gap-3">
+            {former.map((m) => (
+              <Link
+                key={m.id}
+                href={`/people/${m.id}`}
+                className="rounded-lg border border-dashed px-3 py-2 text-sm text-muted-foreground hover:border-violet-400 hover:text-foreground"
+              >
+                {m.name} · {STATUS_LABELS[m.status]}
+                {m.endDate ? ` em ${m.endDate}` : ""}
+              </Link>
+            ))}
+          </div>
+        </div>
+      )}
     </div>
   );
 }

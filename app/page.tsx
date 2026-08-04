@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { TagBadge } from "@/components/TagBadge";
-import { getEmployees, getStories, getTeams } from "@/lib/db";
+import { getActiveEmployees, getStories, getTeams } from "@/lib/db";
 import { findOutliers, teamProfile } from "@/lib/scoring";
 import { TAG_BY_ID } from "@/lib/taxonomy";
 
@@ -9,7 +9,7 @@ export const dynamic = "force-dynamic";
 
 export default function Dashboard() {
   const teams = getTeams();
-  const employees = getEmployees();
+  const employees = getActiveEmployees();
   const stories = getStories();
   const company = teamProfile("company");
   const outliers = findOutliers("company", 3);

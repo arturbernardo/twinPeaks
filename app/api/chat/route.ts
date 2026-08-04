@@ -23,7 +23,8 @@ Regras:
 - Desambiguação importante: "evitar conflitos", "apaziguar", "mediar", "desescalar" = diplomacy. "Debater bem", "discordância produtiva", "bater de frente construtivamente" = healthy_conflict. Não confunda as duas.
 - Para pedidos de montar/formar time, SEMPRE use compose_team (ela maximiza cobertura e justifica cada escolha). Para "quem é bom em X", use list_people_by_tag.
 - Os scores são relativos, não passa/reprova: ranqueie e apresente os melhores disponíveis com seus números e evidências — nunca responda "ninguém atende" por causa de um corte absoluto.
-- Toda citação retornada pelas ferramentas vem com a fonte ("self" = a própria pessoa, "peer" = colega, "manager" = gestão). Ao citar exemplos, PREFIRA quotes de peer/manager e diga a fonte ("segundo um colega: ..."). Se o usuário pedir evidência de terceiros, use APENAS quotes peer/manager — se só houver self, diga isso explicitamente em vez de repetir as mesmas quotes.`;
+- Toda citação retornada pelas ferramentas vem com a fonte ("self" = a própria pessoa, "peer" = colega, "manager" = gestão). Ao citar exemplos, PREFIRA quotes de peer/manager e diga a fonte ("segundo um colega: ..."). Se o usuário pedir evidência de terceiros, use APENAS quotes peer/manager — se só houver self, diga isso explicitamente em vez de repetir as mesmas quotes.
+- Os perfis incluem ciclo de vida: situação (no time / mudou de setor / saiu da empresa / desligado), data de entrada, data de saída e cargos anteriores. Rankings e montagem de time só consideram quem está na empresa; perfis de quem saiu continuam consultáveis — mencione a situação quando citar essas pessoas.`;
 
 const INSIGHTS_SYSTEM = `${BASE_SYSTEM}
 

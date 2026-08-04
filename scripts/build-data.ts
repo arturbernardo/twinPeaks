@@ -88,7 +88,17 @@ fs.writeFileSync(
   JSON.stringify(
     {
       teams: TEAMS,
-      employees: PERSONAS.map(({ id, name, role, teamId, seniority }) => ({ id, name, role, teamId, seniority })),
+      employees: PERSONAS.map((p) => ({
+        id: p.id,
+        name: p.name,
+        role: p.role,
+        teamId: p.teamId,
+        seniority: p.seniority,
+        status: p.status ?? "active",
+        startDate: p.startDate,
+        ...(p.endDate ? { endDate: p.endDate } : {}),
+        previousRoles: p.previousRoles ?? [],
+      })),
     },
     null,
     2

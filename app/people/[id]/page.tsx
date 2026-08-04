@@ -5,7 +5,7 @@ import TagRadar from "@/components/TagRadar";
 import { StrengthBar } from "@/components/StrengthBar";
 import { EvidenceCard } from "@/components/EvidenceCard";
 import { JohariPanel } from "@/components/JohariPanel";
-import { getEmployee, getEmployees, getEvidenceFor, getStoriesFor, getTeam } from "@/lib/db";
+import { getEmployee, getEmployees, getEvidenceFor, getStoriesFor, getTeam, STATUS_LABELS } from "@/lib/db";
 import { divergencesFor, scoresFor, teamProfile } from "@/lib/scoring";
 import { TAG_BY_ID } from "@/lib/taxonomy";
 
@@ -46,10 +46,33 @@ export default async function PersonPage({
         <Link href={`/teams/${person.teamId}`} className="text-sm text-violet-600 hover:underline">
           ← {team?.name}
         </Link>
-        <h1 className="mt-1 text-2xl font-semibold">{person.name}</h1>
+        <div className="mt-1 flex items-center gap-2">
+          <h1 className="text-2xl font-semibold">{person.name}</h1>
+          {person.status !== "active" && (
+            <span
+              className={`rounded-full px-2.5 py-0.5 text-xs ${
+                person.status === "moved_team"
+                  ? "bg-sky-50 text-sky-700 dark:bg-sky-950 dark:text-sky-300"
+                  : "bg-zinc-100 text-zinc-600 dark:bg-zinc-800 dark:text-zinc-300"
+              }`}
+            >
+              {STATUS_LABELS[person.status]}
+              {person.endDate ? ` em ${person.endDate}` : ""}
+            </span>
+          )}
+        </div>
         <p className="text-sm text-muted-foreground">
-          {person.role} · {person.seniority} · {stories.length} histórias registradas
+          {person.role} · {person.seniority} · na Lumina desde {person.startDate} · {stories.length} histórias registradas
         </p>
+        {person.previousRoles.length > 0 && (
+          <p className="text-xs text-muted-foreground">
+            Trajetória:{" "}
+            {person.previousRoles
+              .map((r) => `${r.role}${r.teamId ? ` (${getTeam(r.teamId)?.name ?? r.teamId})` : ""} · ${r.from}–${r.to}`)
+              .join(" → ")}{" "}
+            → {person.role}
+          </p>
+        )}
       </div>
 
       <div className="grid gap-6 lg:grid-cols-2">

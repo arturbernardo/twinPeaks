@@ -4,11 +4,13 @@
 import type Anthropic from "@anthropic-ai/sdk";
 import {
   addLiveStory,
+  getActiveEmployees,
   getEmployee,
   getEmployees,
   getStories,
   getStoriesFor,
   getTeams,
+  STATUS_LABELS,
   type Source,
 } from "./db";
 import {
@@ -26,7 +28,14 @@ const r2 = (x: number) => Math.round(x * 100) / 100;
 
 function personLabel(id: string) {
   const e = getEmployee(id);
-  return e ? { id: e.id, name: e.name, role: e.role, teamId: e.teamId } : { id };
+  if (!e) return { id };
+  return {
+    id: e.id,
+    name: e.name,
+    role: e.role,
+    teamId: e.teamId,
+    ...(e.status !== "active" ? { situacao: STATUS_LABELS[e.status] } : {}),
+  };
 }
 
 // Anexa a fonte (self/peer/manager) a cada citação — sem isso o agente não
@@ -61,7 +70,7 @@ export const AGENT_TOOLS: Anthropic.Tool[] = [
   {
     name: "get_person_profile",
     description:
-      "Perfil completo de um colaborador: scores por tag com evidências (citações), divergências self vs. outros (Janela de Johari).",
+      "Perfil completo de um colaborador: scores por tag com evidências (citações), divergências self vs. outros (Janela de Johari), situação (ativo/saiu/desligado/mudou de setor), datas de entrada e saída e trajetória de cargos anteriores. Use SEMPRE que a pergunta for sobre uma pessoa específica — inclusive histórico e tempo de casa.",
     input_schema: {
       type: "object",
       properties: { person_id: { type: "string", description: "Id do colaborador (use list_directory para resolver nomes)" } },
@@ -151,7 +160,14 @@ export async function runTool(name: string, input: Record<string, unknown>): Pro
     case "list_directory":
       return {
         teams: getTeams(),
-        people: getEmployees().map((e) => ({ id: e.id, name: e.name, role: e.role, teamId: e.teamId })),
+        people: getEmployees().map((e) => ({
+          id: e.id,
+          name: e.name,
+          role: e.role,
+          teamId: e.teamId,
+          situacao: STATUS_LABELS[e.status],
+          desde: e.startDate,
+        })),
         tags: TAGS.map((t) => ({ id: t.id, labelPt: t.labelPt, theory: t.theory })),
         archetypes: ARCHETYPES.map((a) => ({ id: a.id, labelPt: a.labelPt, description: a.description })),
       };
@@ -160,7 +176,8 @@ export async function runTool(name: string, input: Record<string, unknown>): Pro
       const tagId = input.tag_id as TagId;
       const limit = (input.limit as number) ?? 8;
       const minStrength = (input.min_strength as number) ?? 0;
-      let people = getEmployees();
+      // Só quem está na empresa — ranking serve para staffing.
+      let people = getActiveEmployees();
       if (input.team_id) people = people.filter((e) => e.teamId === input.team_id);
       const ranked = people
         .map((e) => {
@@ -205,7 +222,21 @@ export async function runTool(name: string, input: Record<string, unknown>): Pro
         strengthSelf: r2(d.strengthSelf),
         strengthOthers: r2(d.strengthOthers),
       }));
-      return { person: personLabel(id), storiesCount: getStoriesFor(id).length, scores, divergences };
+      return {
+        person: personLabel(id),
+        situacao: STATUS_LABELS[e.status],
+        naEmpresaDesde: e.startDate,
+        ...(e.endDate ? { saiuEm: e.endDate } : {}),
+        cargoAtual: e.role,
+        cargosAnteriores: e.previousRoles.map((r) => ({
+          cargo: r.role,
+          ...(r.teamId ? { time: r.teamId } : {}),
+          periodo: `${r.from} a ${r.to}`,
+        })),
+        storiesCount: getStoriesFor(id).length,
+        scores,
+        divergences,
+      };
     }
 
     case "get_team_profile": {

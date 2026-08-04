@@ -14,12 +14,39 @@ export interface Team {
   description: string;
 }
 
+// active = no time atual; moved_team = segue na empresa, mas veio de outro setor;
+// resigned = saiu por conta própria; terminated = desligamento pela empresa.
+export type EmployeeStatus = "active" | "moved_team" | "resigned" | "terminated";
+
+export const STATUS_LABELS: Record<EmployeeStatus, string> = {
+  active: "no time",
+  moved_team: "mudou de setor",
+  resigned: "saiu da empresa",
+  terminated: "desligado(a)",
+};
+
+export interface RoleHistory {
+  role: string;
+  teamId?: string; // presente quando o cargo anterior era em outro time
+  from: string; // "AAAA-MM"
+  to: string;
+}
+
 export interface Employee {
   id: string;
   name: string;
   role: string;
   teamId: string;
   seniority: string;
+  status: EmployeeStatus;
+  startDate: string; // "AAAA-MM"
+  endDate?: string; // presente quando resigned/terminated
+  previousRoles: RoleHistory[];
+}
+
+/** Quem ainda está na empresa — é o universo válido para montar times, outliers e perfis de time. */
+export function getActiveEmployees(): Employee[] {
+  return getEmployees().filter((e) => e.status === "active" || e.status === "moved_team");
 }
 
 export interface Story {
