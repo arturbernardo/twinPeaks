@@ -1,7 +1,8 @@
 import Link from "next/link";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { buildCultureGraph } from "@/lib/graph";
-import { getTeams } from "@/lib/db";
+import NetworkGraph3D from "@/components/NetworkGraph3D";
+import { buildCultureGraph, buildPersonGraph } from "@/lib/graph";
+import { getTeams, STATUS_LABELS } from "@/lib/db";
 
 export const dynamic = "force-dynamic";
 
@@ -13,6 +14,17 @@ export default function NetworkPage() {
   const cell = new Map(graph.edges.map((e) => [`${e.fromTeamId}→${e.toTeamId}`, e.stories]));
   const maxCell = Math.max(...graph.edges.map((e) => e.stories), 1);
   const observedExternally = graph.visibility.length - graph.onlyInternal.length;
+
+  const person = buildPersonGraph();
+  const graphNodes = person.nodes.map((n) => ({
+    id: n.id,
+    name: n.name,
+    role: n.role,
+    teamId: n.teamId,
+    teamName: teamName(n.teamId),
+    statusLabel: n.status === "active" ? null : STATUS_LABELS[n.status],
+    storiesCount: n.storiesCount,
+  }));
 
   const imbalanced = graph.reciprocity
     .filter((r) => r.aAboutB !== r.bAboutA)
@@ -27,6 +39,19 @@ export default function NetworkPage() {
           Edges are aggregated by department — individual authorship stays anonymous.
         </p>
       </div>
+
+      <Card>
+        <CardHeader>
+          <CardTitle className="text-base">Relationship graph</CardTitle>
+          <p className="text-xs text-muted-foreground">
+            Each node is a person (size = stories they take part in); each edge connects a pair with stories
+            between them (thickness = how many). Edges are undirected — they never reveal who wrote about whom.
+          </p>
+        </CardHeader>
+        <CardContent>
+          <NetworkGraph3D nodes={graphNodes} links={person.links} teams={teams} />
+        </CardContent>
+      </Card>
 
       <div className="grid gap-6 lg:grid-cols-3">
         <Card className="lg:col-span-2">

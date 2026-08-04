@@ -9,7 +9,7 @@ bayesiano suavizado `(s + 1) / (n + 3)` em `lib/scoring.ts`, com pesos por fonte
 
 | # | Item | Impacto | Esforço | Status |
 |---|------|---------|---------|--------|
-| 1 | Grafo social da cultura | Alto (demo forte + insight novo) | M | **próximo** |
+| 1 | Grafo social da cultura | Alto (demo forte + insight novo) | M | **feito** (inclui grafo 3D pessoa-a-pessoa, arestas sem direção) |
 | 2 | Recência no scoring (decaimento temporal) | Alto (credibilidade dos números) | P–M | planejado |
 | 3 | Corroboração por autores distintos | Médio (honestidade do selo) | P | planejado |
 | 4 | Evidência ancorada ao time da época | Médio | M | planejado |

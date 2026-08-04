@@ -43,6 +43,64 @@ export interface CultureGraph {
   reciprocity: Reciprocity[]; // pares de setores com fluxo em cada direção
 }
 
+// Grafo pessoa-a-pessoa SEM direção: aresta = nº de histórias conectando o par
+// (em qualquer direção). Não expõe quem escreveu sobre quem — a direção é descartada
+// na agregação, preservando o anonimato de autoria prometido no perfil.
+export interface PersonNode {
+  id: string;
+  name: string;
+  role: string;
+  teamId: string;
+  status: Employee["status"];
+  storiesCount: number; // histórias em que a pessoa participa (como autor ou sujeito)
+}
+
+export interface PersonLink {
+  source: string;
+  target: string;
+  stories: number;
+}
+
+export function buildPersonGraph(): { nodes: PersonNode[]; links: PersonLink[] } {
+  const byId = new Map(getEmployees().map((e) => [e.id, e]));
+  const stories = getStories().filter(
+    (s) =>
+      s.source !== "self" &&
+      s.authorId &&
+      s.authorId !== s.subjectId &&
+      byId.has(s.authorId) &&
+      byId.has(s.subjectId)
+  );
+
+  const pairCount = new Map<string, number>();
+  const involvement = new Map<string, number>();
+  for (const s of stories) {
+    const key = [s.authorId!, s.subjectId].sort().join("|");
+    pairCount.set(key, (pairCount.get(key) ?? 0) + 1);
+    involvement.set(s.authorId!, (involvement.get(s.authorId!) ?? 0) + 1);
+    involvement.set(s.subjectId, (involvement.get(s.subjectId) ?? 0) + 1);
+  }
+
+  const links: PersonLink[] = [...pairCount.entries()].map(([key, stories]) => {
+    const [source, target] = key.split("|");
+    return { source, target, stories };
+  });
+
+  const nodes: PersonNode[] = [...new Set(links.flatMap((l) => [l.source, l.target]))].map((id) => {
+    const e = byId.get(id)!;
+    return {
+      id,
+      name: e.name,
+      role: e.role,
+      teamId: e.teamId,
+      status: e.status,
+      storiesCount: involvement.get(id) ?? 0,
+    };
+  });
+
+  return { nodes, links };
+}
+
 export function buildCultureGraph(): CultureGraph {
   const byId = new Map(getEmployees().map((e) => [e.id, e]));
   const stories = getStories().filter(
