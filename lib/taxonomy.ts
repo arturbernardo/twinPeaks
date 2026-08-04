@@ -96,3 +96,34 @@ export const ARCHETYPES: Archetype[] = [
 ];
 
 export const ARCHETYPE_BY_ID = Object.fromEntries(ARCHETYPES.map((a) => [a.id, a]));
+
+// Competing Values Framework (Cameron & Quinn): projeta as tags nos dois eixos
+// clássicos de cultura organizacional — foco interno ↔ externo e flexibilidade ↔
+// estabilidade — formando os quadrantes Clan/Adhocracy/Market/Hierarchy.
+// Só entram tags com encaixe claro no framework; as demais (healthy_conflict,
+// critical_evaluation, ownership, calm_under_pressure) são neutras e não puxam
+// o ponto de ninguém. Mapeamento declarado aqui para ser auditável como o resto.
+export type CVFQuadrant = "clan" | "adhocracy" | "market" | "hierarchy";
+
+export const CVF_QUADRANTS: Record<CVFQuadrant, { label: string; motto: string; tags: TagId[] }> = {
+  clan: {
+    label: "Clan",
+    motto: "Collaborate",
+    tags: ["trust_building", "psych_safety", "mentorship", "supportiveness", "diplomacy", "facilitation"],
+  },
+  adhocracy: {
+    label: "Adhocracy",
+    motto: "Create",
+    tags: ["creative_innovation", "learning_agility"],
+  },
+  market: {
+    label: "Market",
+    motto: "Compete",
+    tags: ["results_focus", "customer_focus", "drive_energy"],
+  },
+  hierarchy: {
+    label: "Hierarchy",
+    motto: "Control",
+    tags: ["execution_reliability", "attention_to_detail", "accountability"],
+  },
+};

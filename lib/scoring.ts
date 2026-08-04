@@ -12,7 +12,7 @@ import {
   type Story,
   type TagEvidence,
 } from "./db";
-import { ARCHETYPE_BY_ID, TAGS, type TagId } from "./taxonomy";
+import { ARCHETYPE_BY_ID, CVF_QUADRANTS, TAGS, type CVFQuadrant, type TagId } from "./taxonomy";
 
 export const SOURCE_WEIGHTS: Record<Source, number> = {
   manager: 1.5,
@@ -185,6 +185,62 @@ export function gapAnalysis(scope: "company" | string, archetypeId: string): Gap
       return { tagId: tagId as TagId, target: target!, teamMax, teamMean, status, closest: strengths[0] ?? null };
     })
     .sort((a, b) => a.teamMax - a.target - (b.teamMax - b.target));
+}
+
+// ---------- Mapa CVF (Competing Values Framework, Cameron & Quinn) ----------
+
+export interface CVFPoint {
+  employee: Employee;
+  x: number; // foco externo (+) ↔ interno (−)
+  y: number; // flexibilidade (+) ↔ estabilidade (−)
+  quadrants: Record<CVFQuadrant, number>; // força média das tags do quadrante (0 = sem evidência)
+  dominant: CVFQuadrant | null;
+}
+
+export interface CVFCentroid {
+  x: number;
+  y: number;
+}
+
+/** Posição de cada pessoa ativa no plano CVF + centróides por setor e da empresa.
+ * Score do quadrante = média das forças com evidência das tags mapeadas nele. */
+export function cvfMap(): { points: CVFPoint[]; teams: Record<string, CVFCentroid>; company: CVFCentroid } {
+  const quadrantIds = Object.keys(CVF_QUADRANTS) as CVFQuadrant[];
+
+  const points: CVFPoint[] = getActiveEmployees().map((employee) => {
+    const byTag = new Map(scoresFor(employee.id).map((s) => [s.tagId, s]));
+    const quadrants = Object.fromEntries(
+      quadrantIds.map((q) => {
+        const tags = CVF_QUADRANTS[q].tags;
+        const mean =
+          tags.reduce((acc, t) => {
+            const s = byTag.get(t)!;
+            return acc + (s.supportingStories > 0 ? s.strength : 0);
+          }, 0) / tags.length;
+        return [q, mean];
+      })
+    ) as Record<CVFQuadrant, number>;
+
+    const x = (quadrants.adhocracy + quadrants.market - quadrants.clan - quadrants.hierarchy) / 2;
+    const y = (quadrants.clan + quadrants.adhocracy - quadrants.market - quadrants.hierarchy) / 2;
+    const best = quadrantIds.reduce((a, b) => (quadrants[b] > quadrants[a] ? b : a));
+    return { employee, x, y, quadrants, dominant: quadrants[best] > 0 ? best : null };
+  });
+
+  const centroid = (ps: CVFPoint[]): CVFCentroid => ({
+    x: ps.reduce((acc, p) => acc + p.x, 0) / Math.max(ps.length, 1),
+    y: ps.reduce((acc, p) => acc + p.y, 0) / Math.max(ps.length, 1),
+  });
+
+  const teams: Record<string, CVFCentroid> = {};
+  for (const p of points) {
+    (teams[p.employee.teamId] ??= { x: 0, y: 0 });
+  }
+  for (const teamId of Object.keys(teams)) {
+    teams[teamId] = centroid(points.filter((p) => p.employee.teamId === teamId));
+  }
+
+  return { points, teams, company: centroid(points) };
 }
 
 // ---------- Perfil agregado de time/empresa ----------

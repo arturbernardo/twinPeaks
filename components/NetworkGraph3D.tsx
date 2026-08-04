@@ -25,12 +25,7 @@ interface TeamRef {
   name: string;
 }
 
-// Paletas categóricas por setor (ordem fixa = ordem de company.json), validadas
-// all-pairs para CVD contra a superfície clara e a escura — não trocar a olho.
-const PALETTE = {
-  light: ["#7c3aed", "#0ea5e9", "#f59e0b", "#10b981", "#e11d48"],
-  dark: ["#8b5cf6", "#0284c7", "#c98500", "#059669", "#e34948"],
-};
+import { TEAM_PALETTE as PALETTE } from "@/lib/palette";
 
 // WebGL pode estar indisponível (aceleração de hardware desligada, GPU bloqueada);
 // nesse caso o grafo cai para o renderer 2D em canvas, com a mesma física e dados.

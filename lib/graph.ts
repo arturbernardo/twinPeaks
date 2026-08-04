@@ -5,6 +5,8 @@
 // Histórias live (authorId null) ficam de fora das arestas por não terem autor conhecido.
 
 import { getActiveEmployees, getEmployees, getStories, type Employee } from "./db";
+import { scoresFor } from "./scoring";
+import { TAGS, type TagId, type Theory } from "./taxonomy";
 
 export interface GroupEdge {
   fromTeamId: string; // setor do autor
@@ -97,6 +99,59 @@ export function buildPersonGraph(): { nodes: PersonNode[]; links: PersonLink[] }
       storiesCount: involvement.get(id) ?? 0,
     };
   });
+
+  return { nodes, links };
+}
+
+// Grafo de co-ocorrência de tags: aresta = as duas tags aparecem com evidência real
+// (≥1 história) NA MESMA pessoa. Peso = Jaccard (pessoas com ambas / pessoas com alguma).
+// Mostra o "DNA cultural" da empresa: que características andam juntas nas pessoas.
+export interface TagNode {
+  id: TagId;
+  label: string;
+  theory: Theory;
+  people: number; // pessoas ativas com evidência na tag
+}
+
+export interface TagLink {
+  source: TagId;
+  target: TagId;
+  both: number; // pessoas com evidência nas duas tags
+  jaccard: number;
+}
+
+const TAG_LINK_MIN_PEOPLE = 2; // 1 pessoa em comum é ruído, não padrão
+const TAG_LINK_MIN_JACCARD = 0.2;
+
+export function buildTagGraph(): { nodes: TagNode[]; links: TagLink[] } {
+  const evidenced = getActiveEmployees().map(
+    (e) => new Set(scoresFor(e.id).filter((s) => s.supportingStories > 0).map((s) => s.tagId))
+  );
+
+  const nodes: TagNode[] = TAGS.map((t) => ({
+    id: t.id,
+    label: t.label,
+    theory: t.theory,
+    people: evidenced.filter((s) => s.has(t.id)).length,
+  }));
+
+  const links: TagLink[] = [];
+  for (let i = 0; i < TAGS.length; i++) {
+    for (let j = i + 1; j < TAGS.length; j++) {
+      let both = 0;
+      let either = 0;
+      for (const s of evidenced) {
+        const a = s.has(TAGS[i].id);
+        const b = s.has(TAGS[j].id);
+        if (a && b) both++;
+        if (a || b) either++;
+      }
+      const jaccard = either > 0 ? both / either : 0;
+      if (both >= TAG_LINK_MIN_PEOPLE && jaccard >= TAG_LINK_MIN_JACCARD) {
+        links.push({ source: TAGS[i].id, target: TAGS[j].id, both, jaccard });
+      }
+    }
+  }
 
   return { nodes, links };
 }

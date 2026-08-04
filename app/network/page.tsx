@@ -1,7 +1,10 @@
 import Link from "next/link";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import NetworkGraph3D from "@/components/NetworkGraph3D";
-import { buildCultureGraph, buildPersonGraph } from "@/lib/graph";
+import TagGraph from "@/components/TagGraph";
+import { CVFMap } from "@/components/CVFMap";
+import { buildCultureGraph, buildPersonGraph, buildTagGraph } from "@/lib/graph";
+import { cvfMap } from "@/lib/scoring";
 import { getTeams, STATUS_LABELS } from "@/lib/db";
 
 export const dynamic = "force-dynamic";
@@ -24,6 +27,23 @@ export default function NetworkPage() {
     teamName: teamName(n.teamId),
     statusLabel: n.status === "active" ? null : STATUS_LABELS[n.status],
     storiesCount: n.storiesCount,
+  }));
+
+  const tagGraph = buildTagGraph();
+
+  const cvf = cvfMap();
+  const cvfPoints = cvf.points.map((p) => ({
+    teamIndex: teams.findIndex((t) => t.id === p.employee.teamId),
+    teamName: teamName(p.employee.teamId),
+    x: p.x,
+    y: p.y,
+    dominant: p.dominant,
+  }));
+  const cvfCentroids = Object.entries(cvf.teams).map(([teamId, c]) => ({
+    teamIndex: teams.findIndex((t) => t.id === teamId),
+    teamName: teamName(teamId),
+    x: c.x,
+    y: c.y,
   }));
 
   const imbalanced = graph.reciprocity
@@ -50,6 +70,33 @@ export default function NetworkPage() {
         </CardHeader>
         <CardContent>
           <NetworkGraph3D nodes={graphNodes} links={person.links} teams={teams} />
+        </CardContent>
+      </Card>
+
+      <Card>
+        <CardHeader>
+          <CardTitle className="text-base">Tags that travel together</CardTitle>
+          <p className="text-xs text-muted-foreground">
+            The company&apos;s cultural DNA: two tags are connected when the same people show evidence of both.
+            Colors group tags by the management theory they come from.
+          </p>
+        </CardHeader>
+        <CardContent>
+          <TagGraph nodes={tagGraph.nodes} links={tagGraph.links} />
+        </CardContent>
+      </Card>
+
+      <Card>
+        <CardHeader>
+          <CardTitle className="text-base">Culture map — Competing Values Framework</CardTitle>
+          <p className="text-xs text-muted-foreground">
+            Cameron &amp; Quinn&apos;s classic culture plane: internal ↔ external focus vs. flexibility ↔ stability.
+            Each anonymous dot is one person, positioned by their evidenced strengths; the tag-to-quadrant
+            mapping is declared in the taxonomy, auditable like everything else.
+          </p>
+        </CardHeader>
+        <CardContent>
+          <CVFMap points={cvfPoints} centroids={cvfCentroids} company={cvf.company} teams={teams} />
         </CardContent>
       </Card>
 
