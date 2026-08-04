@@ -6,9 +6,9 @@ export default function ChatPage() {
   return (
     <div className="space-y-4">
       <div>
-        <h1 className="text-2xl font-semibold">Converse com o gêmeo digital</h1>
+        <h1 className="text-2xl font-semibold">Talk to the digital twin</h1>
         <p className="text-sm text-muted-foreground">
-          O agente consulta os dados por ferramentas — cada chip 🔧 é uma consulta real e auditável, não um chute.
+          The agent queries the data through tools — every 🔧 chip is a real, auditable query, not a guess.
         </p>
       </div>
       <ChatPanel />

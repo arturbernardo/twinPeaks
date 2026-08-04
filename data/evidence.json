@@ -4,7 +4,7 @@
     "storyId": "st-001",
     "subjectId": "juliana-peixoto",
     "tagId": "customer_focus",
-    "quote": "passei vinte minutos só mapeando o que mudou na operação deles e levei três desses pontos para a reunião de roadmap",
+    "quote": "I spent twenty minutes just mapping what had changed in their operation and brought three of those points to the roadmap meeting",
     "confidence": 0.85
   },
   {
@@ -12,7 +12,7 @@
     "storyId": "st-003",
     "subjectId": "juliana-peixoto",
     "tagId": "facilitation",
-    "quote": "montou uma pauta fixa em três blocos, deixa claro quem decide o quê e fecha cada tema com responsável e prazo",
+    "quote": "set up a fixed three-block agenda, makes it clear who decides what, and closes every topic with an owner and a deadline",
     "confidence": 0.9
   },
   {
@@ -20,7 +20,7 @@
     "storyId": "st-004",
     "subjectId": "juliana-peixoto",
     "tagId": "trust_building",
-    "quote": "ela mesma abriu o assunto na reunião de time antes que alguém perguntasse",
+    "quote": "she brought it up herself in the team meeting before anyone asked",
     "confidence": 0.8
   },
   {
@@ -28,7 +28,7 @@
     "storyId": "st-005",
     "subjectId": "juliana-peixoto",
     "tagId": "customer_focus",
-    "quote": "chegou com gravações de três clientes reclamando do fluxo de exportação e fez todo mundo assistir antes de abrir o backlog",
+    "quote": "showed up with recordings of three customers complaining about the export flow and made everyone watch them before opening the backlog",
     "confidence": 0.9
   },
   {
@@ -36,7 +36,7 @@
     "storyId": "st-006",
     "subjectId": "juliana-peixoto",
     "tagId": "trust_building",
-    "quote": "contou de um erro parecido que ela mesma cometeu quando era CSM",
+    "quote": "told me about a similar mistake she had made herself when she was a CSM",
     "confidence": 0.7
   },
   {
@@ -44,7 +44,7 @@
     "storyId": "st-006",
     "subjectId": "juliana-peixoto",
     "tagId": "psych_safety",
-    "quote": "Saí da conversa querendo acertar, não querendo me esconder",
+    "quote": "I left that conversation wanting to get it right, not wanting to hide",
     "confidence": 0.7
   },
   {
@@ -52,7 +52,7 @@
     "storyId": "st-007",
     "subjectId": "juliana-peixoto",
     "tagId": "facilitation",
-    "quote": "juntou os dois lados numa sala, desenhou o fluxo no quadro e só encerrou quando cada etapa tinha um dono definido",
+    "quote": "got both sides into one room, drew the flow on the whiteboard, and only wrapped up once every step had a defined owner",
     "confidence": 0.85
   },
   {
@@ -60,7 +60,7 @@
     "storyId": "st-008",
     "subjectId": "otavio-neves",
     "tagId": "diplomacy",
-    "quote": "Deixei ele falar dez minutos sem interromper, reconheci ponto a ponto o que fazia sentido e propus revermos o escopo antes de falar de preço",
+    "quote": "I let him talk for ten minutes without interrupting, acknowledged point by point what made sense, and proposed revisiting the scope before talking price",
     "confidence": 0.85
   },
   {
@@ -68,7 +68,7 @@
     "storyId": "st-009",
     "subjectId": "otavio-neves",
     "tagId": "customer_focus",
-    "quote": "escrevi um resumo com as citações literais dos clientes e levei para a reunião de roadmap com produto",
+    "quote": "I wrote a summary with the customers' verbatim quotes and took it to the roadmap meeting with product",
     "confidence": 0.8
   },
   {
@@ -76,7 +76,7 @@
     "storyId": "st-010",
     "subjectId": "otavio-neves",
     "tagId": "diplomacy",
-    "quote": "chamou os dois num papo rápido, traduziu o que cada lado estava realmente pedindo e a discussão morreu ali",
+    "quote": "pulled the two of them into a quick chat, translated what each side was actually asking for, and the argument died right there",
     "confidence": 0.9
   },
   {
@@ -84,7 +84,7 @@
     "storyId": "st-011",
     "subjectId": "otavio-neves",
     "tagId": "diplomacy",
-    "quote": "respondeu num tom que desarmou o cliente na primeira mensagem",
+    "quote": "replied in a tone that disarmed the client with the very first message",
     "confidence": 0.85
   },
   {
@@ -92,7 +92,7 @@
     "storyId": "st-011",
     "subjectId": "otavio-neves",
     "tagId": "supportiveness",
-    "quote": "ficou até mais tarde revisando comigo os tickets abertos da conta",
+    "quote": "stayed late reviewing the account's open tickets with me",
     "confidence": 0.7
   },
   {
@@ -100,7 +100,7 @@
     "storyId": "st-013",
     "subjectId": "otavio-neves",
     "tagId": "diplomacy",
-    "quote": "conduziu a reunião de transição sem apontar dedo para ninguém, realinhou as expectativas item a item",
+    "quote": "ran the transition meeting without pointing fingers at anyone, realigned expectations item by item",
     "confidence": 0.85
   },
   {
@@ -108,7 +108,7 @@
     "storyId": "st-014",
     "subjectId": "otavio-neves",
     "tagId": "customer_focus",
-    "quote": "ligou pessoalmente para cada um dos oito clientes afetados antes que qualquer um abrisse ticket",
+    "quote": "personally called each of the eight affected customers before any of them opened a ticket",
     "confidence": 0.75
   },
   {
@@ -116,7 +116,7 @@
     "storyId": "st-014",
     "subjectId": "otavio-neves",
     "tagId": "supportiveness",
-    "quote": "apareceu na daily do suporte perguntando onde podia ajudar a limpar a fila",
+    "quote": "showed up at the support daily asking where he could help clear the queue",
     "confidence": 0.7
   },
   {
@@ -124,7 +124,7 @@
     "storyId": "st-015",
     "subjectId": "aline-serra",
     "tagId": "customer_focus",
-    "quote": "entrevistei quatro usuários finais além do sponsor",
+    "quote": "I interviewed four end users on top of the sponsor",
     "confidence": 0.85
   },
   {
@@ -132,7 +132,7 @@
     "storyId": "st-016",
     "subjectId": "aline-serra",
     "tagId": "psych_safety",
-    "quote": "Hoje pergunto qualquer coisa sem pensar duas vezes",
+    "quote": "These days I ask anything without thinking twice",
     "confidence": 0.85
   },
   {
@@ -140,7 +140,7 @@
     "storyId": "st-017",
     "subjectId": "aline-serra",
     "tagId": "customer_focus",
-    "quote": "apareceu com prints de conversas reais de clientes mostrando exatamente onde eles travavam",
+    "quote": "came in with screenshots of real customer conversations showing exactly where they got stuck",
     "confidence": 0.85
   },
   {
@@ -148,7 +148,7 @@
     "storyId": "st-019",
     "subjectId": "aline-serra",
     "tagId": "psych_safety",
-    "quote": "os clientes relaxaram e contaram coisas que nunca apareceriam num formulário",
+    "quote": "the customers relaxed and shared things that would never show up in a survey",
     "confidence": 0.65
   },
   {
@@ -156,7 +156,7 @@
     "storyId": "st-020",
     "subjectId": "aline-serra",
     "tagId": "psych_safety",
-    "quote": "o time inteiro dissecou o caso sem ninguém se colocar na defensiva",
+    "quote": "the whole team dissected the case without anyone getting defensive",
     "confidence": 0.75
   },
   {
@@ -164,7 +164,7 @@
     "storyId": "st-020",
     "subjectId": "aline-serra",
     "tagId": "trust_building",
-    "quote": "dizendo primeiro o que ela mesma teria feito diferente",
+    "quote": "first saying what she herself would have done differently",
     "confidence": 0.65
   },
   {
@@ -172,7 +172,7 @@
     "storyId": "st-021",
     "subjectId": "vitor-camargo",
     "tagId": "ownership",
-    "quote": "fui puxando o fio e descobri que o job de integração falhava em silêncio desde a última atualização",
+    "quote": "I kept pulling the thread and found that the integration job had been failing silently since the last update",
     "confidence": 0.8
   },
   {
@@ -180,7 +180,7 @@
     "storyId": "st-023",
     "subjectId": "vitor-camargo",
     "tagId": "calm_under_pressure",
-    "quote": "ditou a resposta padrão com a mesma voz de quem lê o cardápio",
+    "quote": "dictated the standard response in the same voice you'd use to read a menu",
     "confidence": 0.85
   },
   {
@@ -188,7 +188,7 @@
     "storyId": "st-023",
     "subjectId": "vitor-camargo",
     "tagId": "facilitation",
-    "quote": "abriu uma chamada, dividiu a fila em três blocos",
+    "quote": "opened a call, split the queue into three blocks",
     "confidence": 0.6
   },
   {
@@ -196,7 +196,7 @@
     "storyId": "st-024",
     "subjectId": "vitor-camargo",
     "tagId": "calm_under_pressure",
-    "quote": "foi me guiando passo a passo, sem uma nota de irritação na voz, até o serviço voltar",
+    "quote": "walked me through it step by step, without a hint of irritation in his voice, until the service came back up",
     "confidence": 0.8
   },
   {
@@ -204,7 +204,7 @@
     "storyId": "st-025",
     "subjectId": "vitor-camargo",
     "tagId": "ownership",
-    "quote": "montou por conta própria um comparativo de tempos de carregamento, levou para a engenharia e acompanhou o caso até o deploy da correção",
+    "quote": "built a load-time comparison on his own initiative, took it to engineering, and followed the case through to the deploy of the fix",
     "confidence": 0.85
   },
   {
@@ -212,7 +212,7 @@
     "storyId": "st-026",
     "subjectId": "vitor-camargo",
     "tagId": "calm_under_pressure",
-    "quote": "mandava atualizações a cada vinte minutos num tom que segurou até as contas mais nervosas",
+    "quote": "sent updates every twenty minutes in a tone that kept even the most nervous accounts steady",
     "confidence": 0.75
   },
   {
@@ -220,7 +220,7 @@
     "storyId": "st-027",
     "subjectId": "vitor-camargo",
     "tagId": "ownership",
-    "quote": "pediu para ser o ponto único da conta, mapeou os cinco problemas recorrentes e fechou um a um em três semanas, mesmo os que dependiam de outras áreas",
+    "quote": "asked to be the single point of contact for the account, mapped the five recurring problems, and closed them out one by one in three weeks, even the ones that depended on other teams",
     "confidence": 0.85
   },
   {
@@ -228,7 +228,7 @@
     "storyId": "st-027",
     "subjectId": "vitor-camargo",
     "tagId": "execution_reliability",
-    "quote": "fechou um a um em três semanas",
+    "quote": "closed them out one by one in three weeks",
     "confidence": 0.6
   },
   {
@@ -236,7 +236,7 @@
     "storyId": "st-028",
     "subjectId": "natalia-brito",
     "tagId": "learning_agility",
-    "quote": "Passei duas noites no curso interno de webhooks, montei um ambiente de teste para praticar e na semana seguinte conduzi a call técnica sozinha",
+    "quote": "I spent two evenings on the internal webhooks course, set up a test environment to practice, and the following week I led the technical call on my own",
     "confidence": 0.85
   },
   {
@@ -244,7 +244,7 @@
     "storyId": "st-029",
     "subjectId": "natalia-brito",
     "tagId": "supportiveness",
-    "quote": "percebeu sem eu falar nada e apareceu com os decks de dados de uso das três contas já preenchidos",
+    "quote": "noticed without me saying a word and showed up with the usage-data decks for all three accounts already filled in",
     "confidence": 0.9
   },
   {
@@ -252,7 +252,7 @@
     "storyId": "st-030",
     "subjectId": "natalia-brito",
     "tagId": "learning_agility",
-    "quote": "foi a primeira a dominar o editor novo",
+    "quote": "was the first to master the new editor",
     "confidence": 0.75
   },
   {
@@ -260,7 +260,7 @@
     "storyId": "st-030",
     "subjectId": "natalia-brito",
     "tagId": "supportiveness",
-    "quote": "gravou um vídeo curto ensinando o resto do time, sem que ninguém pedisse",
+    "quote": "recorded a short video teaching the rest of the team, without anyone asking",
     "confidence": 0.7
   },
   {
@@ -268,7 +268,7 @@
     "storyId": "st-032",
     "subjectId": "natalia-brito",
     "tagId": "supportiveness",
-    "quote": "se ofereceu para revisar conta a conta comigo numa hora vaga do plantão dela",
+    "quote": "offered to go through them account by account with me during a free hour of her on-call shift",
     "confidence": 0.75
   },
   {
@@ -276,7 +276,7 @@
     "storyId": "st-033",
     "subjectId": "natalia-brito",
     "tagId": "learning_agility",
-    "quote": "Em um mês ela absorveu o vocabulário do setor de logística",
+    "quote": "Within a month she absorbed the vocabulary of the logistics sector",
     "confidence": 0.8
   },
   {
@@ -284,7 +284,7 @@
     "storyId": "st-034",
     "subjectId": "eduardo-sales",
     "tagId": "customer_focus",
-    "quote": "Liguei para entender a rotina deles, documentei o caso de uso e levei para a reunião com produto os números de quanto tempo o cliente perdia por semana",
+    "quote": "I called to understand their routine, documented the use case, and brought to the product meeting the numbers on how much time the customer was losing per week",
     "confidence": 0.8
   },
   {
@@ -292,7 +292,7 @@
     "storyId": "st-036",
     "subjectId": "eduardo-sales",
     "tagId": "execution_reliability",
-    "quote": "prometeu os quatrocentos dele até sexta e entregou na quinta à noite",
+    "quote": "promised his four hundred by Friday and delivered Thursday night",
     "confidence": 0.9
   },
   {
@@ -300,7 +300,7 @@
     "storyId": "st-037",
     "subjectId": "eduardo-sales",
     "tagId": "execution_reliability",
-    "quote": "deu o retorno na data exata que tinha combinado comigo",
+    "quote": "got back to me on the exact date he had agreed with me",
     "confidence": 0.85
   },
   {
@@ -308,7 +308,7 @@
     "storyId": "st-037",
     "subjectId": "eduardo-sales",
     "tagId": "accountability",
-    "quote": "precisou cobrar duas áreas para não estourar o prazo",
+    "quote": "had to chase two other teams to keep the deadline from slipping",
     "confidence": 0.6
   },
   {
@@ -316,7 +316,7 @@
     "storyId": "st-038",
     "subjectId": "eduardo-sales",
     "tagId": "customer_focus",
-    "quote": "percebeu pelo tom das mensagens que o problema real era o fechamento contábil do cliente",
+    "quote": "picked up from the tone of the messages that the real problem was the client's accounting close",
     "confidence": 0.8
   },
   {
@@ -324,7 +324,7 @@
     "storyId": "st-039",
     "subjectId": "eduardo-sales",
     "tagId": "execution_reliability",
-    "quote": "entregou o pacote completo e na data combinada, mesmo com a fila de suporte cheia naquela semana",
+    "quote": "delivered the complete package on the agreed date, even with the support queue slammed that week",
     "confidence": 0.85
   },
   {
@@ -332,7 +332,7 @@
     "storyId": "st-040",
     "subjectId": "eduardo-sales",
     "tagId": "execution_reliability",
-    "quote": "fechou três semanas seguidas dentro do alvo",
+    "quote": "closed three straight weeks within the goal",
     "confidence": 0.8
   },
   {
@@ -340,7 +340,7 @@
     "storyId": "st-040",
     "subjectId": "eduardo-sales",
     "tagId": "customer_focus",
-    "quote": "ajustando o próprio turno para cobrir o horário em que os clientes do varejo mais abrem chamado",
+    "quote": "adjusting his own shift to cover the hours when retail customers open the most tickets",
     "confidence": 0.65
   },
   {
@@ -348,7 +348,7 @@
     "storyId": "st-041",
     "subjectId": "sofia-brandao",
     "tagId": "trust_building",
-    "quote": "Preferi assumir o erro na frente de todo mundo",
+    "quote": "own the mistake in front of everyone",
     "confidence": 0.9
   },
   {
@@ -356,7 +356,7 @@
     "storyId": "st-043",
     "subjectId": "sofia-brandao",
     "tagId": "facilitation",
-    "quote": "listou as três decisões que precisavam sair dali e deu a palavra a cada um por dois minutos",
+    "quote": "listed the three decisions that had to come out of that meeting and gave each person two minutes to speak",
     "confidence": 0.9
   },
   {
@@ -364,7 +364,7 @@
     "storyId": "st-044",
     "subjectId": "sofia-brandao",
     "tagId": "accountability",
-    "quote": "nada do que a gente acorda em reunião cai no esquecimento",
+    "quote": "nothing we agree on in a meeting ever falls through the cracks",
     "confidence": 0.85
   },
   {
@@ -372,7 +372,7 @@
     "storyId": "st-045",
     "subjectId": "sofia-brandao",
     "tagId": "trust_building",
-    "quote": "ela mesma tinha aprovado o deploy sem janela de contingência",
+    "quote": "she herself had approved the deploy without a contingency window",
     "confidence": 0.8
   },
   {
@@ -380,7 +380,7 @@
     "storyId": "st-045",
     "subjectId": "sofia-brandao",
     "tagId": "psych_safety",
-    "quote": "todo mundo passou a descrever o que fez sem medo",
+    "quote": "everyone started describing what they did without fear",
     "confidence": 0.7
   },
   {
@@ -388,7 +388,7 @@
     "storyId": "st-046",
     "subjectId": "sofia-brandao",
     "tagId": "accountability",
-    "quote": "refez o plano com datas e responsáveis na frente de todos",
+    "quote": "rebuilt the plan with dates and owners in front of everyone",
     "confidence": 0.85
   },
   {
@@ -396,7 +396,7 @@
     "storyId": "st-047",
     "subjectId": "sofia-brandao",
     "tagId": "facilitation",
-    "quote": "montou uma sessão rápida com o Caio e a Marina para alinhar prioridade e dividir quem me apoiava em quê",
+    "quote": "set up a quick session with Caio and Marina to align priorities and split up who would support me on what",
     "confidence": 0.8
   },
   {
@@ -404,7 +404,7 @@
     "storyId": "st-048",
     "subjectId": "marina-duarte",
     "tagId": "diplomacy",
-    "quote": "Chamei os dois numa sala, pedi que cada um escrevesse os trade-offs no quadro",
+    "quote": "I pulled the two of them into a room, asked each one to write the trade-offs on the whiteboard",
     "confidence": 0.85
   },
   {
@@ -412,7 +412,7 @@
     "storyId": "st-049",
     "subjectId": "marina-duarte",
     "tagId": "diplomacy",
-    "quote": "resumiu os dois lados com uma neutralidade impressionante",
+    "quote": "summarized both sides with impressive neutrality",
     "confidence": 0.9
   },
   {
@@ -420,7 +420,7 @@
     "storyId": "st-050",
     "subjectId": "marina-duarte",
     "tagId": "execution_reliability",
-    "quote": "Fechou o épico na data combinada, sem sobressalto nenhum",
+    "quote": "She closed the epic on the agreed date, with no surprises at all.",
     "confidence": 0.9
   },
   {
@@ -428,7 +428,7 @@
     "storyId": "st-051",
     "subjectId": "marina-duarte",
     "tagId": "diplomacy",
-    "quote": "traduziu a briga em duas opções de escopo com datas realistas",
+    "quote": "translated the fight into two scope options with realistic dates",
     "confidence": 0.85
   },
   {
@@ -436,7 +436,7 @@
     "storyId": "st-053",
     "subjectId": "marina-duarte",
     "tagId": "supportiveness",
-    "quote": "assumiu duas correções sem que ninguém pedisse",
+    "quote": "took on two fixes without anyone asking",
     "confidence": 0.9
   },
   {
@@ -444,7 +444,7 @@
     "storyId": "st-053",
     "subjectId": "marina-duarte",
     "tagId": "diplomacy",
-    "quote": "quando uma discussão técnica começa a esquentar, ela entra e traz todo mundo de volta para o problema",
+    "quote": "when a technical discussion starts heating up, she steps in and brings everyone back to the problem",
     "confidence": 0.8
   },
   {
@@ -452,7 +452,7 @@
     "storyId": "st-054",
     "subjectId": "caio-teixeira",
     "tagId": "critical_evaluation",
-    "quote": "montei uma matriz comparando custo, latência e maturidade das três opções",
+    "quote": "built a matrix comparing cost, latency and maturity across the three options",
     "confidence": 0.9
   },
   {
@@ -460,7 +460,7 @@
     "storyId": "st-054",
     "subjectId": "caio-teixeira",
     "tagId": "results_focus",
-    "quote": "Prefiro perder uma aposta pessoal a empurrar uma decisão sem evidência",
+    "quote": "I'd rather lose a personal bet than push a decision without evidence",
     "confidence": 0.65
   },
   {
@@ -468,7 +468,7 @@
     "storyId": "st-056",
     "subjectId": "caio-teixeira",
     "tagId": "mentorship",
-    "quote": "cada um explicava o porquê e linkava um exemplo no nosso código",
+    "quote": "each one explained the why and linked an example in our codebase",
     "confidence": 0.9
   },
   {
@@ -476,7 +476,7 @@
     "storyId": "st-057",
     "subjectId": "caio-teixeira",
     "tagId": "critical_evaluation",
-    "quote": "desmontou a proposta com dois cenários que ninguém tinha considerado",
+    "quote": "dismantled the proposal with two scenarios nobody had considered",
     "confidence": 0.9
   },
   {
@@ -484,7 +484,7 @@
     "storyId": "st-058",
     "subjectId": "caio-teixeira",
     "tagId": "mentorship",
-    "quote": "montou comigo um plano de estudo de três semanas e revisava meus diagramas toda sexta",
+    "quote": "put together a three-week study plan with me and reviewed my diagrams every Friday",
     "confidence": 0.9
   },
   {
@@ -492,7 +492,7 @@
     "storyId": "st-059",
     "subjectId": "caio-teixeira",
     "tagId": "accountability",
-    "quote": "ele registra cada compromisso da revisão de sprint e cobra, inclusive de mim, quando algo desvia",
+    "quote": "he records every commitment from the sprint review and follows up, including with me, when something drifts",
     "confidence": 0.9
   },
   {
@@ -500,7 +500,7 @@
     "storyId": "st-060",
     "subjectId": "caio-teixeira",
     "tagId": "accountability",
-    "quote": "não deixa um item sair da lista sem dono e data",
+    "quote": "won't let an item leave the list without an owner and a date",
     "confidence": 0.85
   },
   {
@@ -508,7 +508,7 @@
     "storyId": "st-060",
     "subjectId": "caio-teixeira",
     "tagId": "critical_evaluation",
-    "quote": "trouxe benchmarks e um comparativo de falhas antes de dar opinião",
+    "quote": "brought benchmarks and a failure comparison before giving an opinion",
     "confidence": 0.8
   },
   {
@@ -516,7 +516,7 @@
     "storyId": "st-061",
     "subjectId": "bruno-carvalho",
     "tagId": "execution_reliability",
-    "quote": "Fatiei a migração em sete entregas, publiquei o progresso toda sexta no canal e viramos com três dias de folga",
+    "quote": "I sliced the migration into seven deliverables, posted progress every Friday in the channel and we cut over with three days to spare",
     "confidence": 0.9
   },
   {
@@ -524,7 +524,7 @@
     "storyId": "st-062",
     "subjectId": "bruno-carvalho",
     "tagId": "attention_to_detail",
-    "quote": "apontando dois casos de borda de timezone que nem meus testes cobriam",
+    "quote": "flagging two timezone edge cases that not even my tests covered",
     "confidence": 0.9
   },
   {
@@ -532,7 +532,7 @@
     "storyId": "st-063",
     "subjectId": "bruno-carvalho",
     "tagId": "execution_reliability",
-    "quote": "No dia 18 estava em produção atrás de feature flag, com runbook escrito",
+    "quote": "On the 18th it was in production behind a feature flag, with a runbook written",
     "confidence": 0.85
   },
   {
@@ -540,7 +540,7 @@
     "storyId": "st-064",
     "subjectId": "bruno-carvalho",
     "tagId": "attention_to_detail",
-    "quote": "me avisou de uma divergência de quatro centavos que o sistema antigo vinha ignorando havia meses",
+    "quote": "alerted me to a four-cent discrepancy the old system had been ignoring for months",
     "confidence": 0.85
   },
   {
@@ -548,7 +548,7 @@
     "storyId": "st-066",
     "subjectId": "bruno-carvalho",
     "tagId": "execution_reliability",
-    "quote": "Nas últimas seis sprints o Bruno entregou tudo que puxou",
+    "quote": "Over the last six sprints Bruno delivered everything he pulled",
     "confidence": 0.85
   },
   {
@@ -556,7 +556,7 @@
     "storyId": "st-067",
     "subjectId": "leticia-ramos",
     "tagId": "attention_to_detail",
-    "quote": "achei um estouro de layout que só aparecia com nomes de empresa muito longos",
+    "quote": "found a layout overflow that only showed up with very long company names",
     "confidence": 0.9
   },
   {
@@ -564,7 +564,7 @@
     "storyId": "st-068",
     "subjectId": "leticia-ramos",
     "tagId": "supportiveness",
-    "quote": "nem tinha pedido ajuda quando a Letícia apareceu com um branch de rascunho",
+    "quote": "hadn't even asked for help when Letícia showed up with a draft branch",
     "confidence": 0.9
   },
   {
@@ -572,7 +572,7 @@
     "storyId": "st-069",
     "subjectId": "leticia-ramos",
     "tagId": "attention_to_detail",
-    "quote": "listou oito inconsistências de máscara de data e moeda entre telas",
+    "quote": "listed eight inconsistencies in date and currency masks across screens",
     "confidence": 0.9
   },
   {
@@ -580,7 +580,7 @@
     "storyId": "st-070",
     "subjectId": "leticia-ramos",
     "tagId": "attention_to_detail",
-    "quote": "incluindo um estado de teclado que eu mesmo tinha esquecido de desenhar",
+    "quote": "including a keyboard state I myself had forgotten to design",
     "confidence": 0.8
   },
   {
@@ -588,7 +588,7 @@
     "storyId": "st-072",
     "subjectId": "leticia-ramos",
     "tagId": "supportiveness",
-    "quote": "remanejou as próprias tarefas para socorrer colegas atolados",
+    "quote": "reshuffled her own tasks to rescue swamped teammates",
     "confidence": 0.85
   },
   {
@@ -596,7 +596,7 @@
     "storyId": "st-072",
     "subjectId": "leticia-ramos",
     "tagId": "attention_to_detail",
-    "quote": "a pessoa que mais barra problema visual antes de o QA sequer olhar",
+    "quote": "the person who catches the most visual problems before QA even takes a look",
     "confidence": 0.7
   },
   {
@@ -604,7 +604,7 @@
     "storyId": "st-073",
     "subjectId": "andre-nogueira",
     "tagId": "calm_under_pressure",
-    "quote": "abri a chamada de incidente, designei quem olhava banco e quem olhava rede e fui narrando cada hipótese testada no canal",
+    "quote": "I opened the incident call, assigned who would look at the database and who would look at the network, and narrated every hypothesis we tested in the channel",
     "confidence": 0.8
   },
   {
@@ -612,7 +612,7 @@
     "storyId": "st-075",
     "subjectId": "andre-nogueira",
     "tagId": "calm_under_pressure",
-    "quote": "respondia com o mesmo tom de sempre, listando o que já sabíamos e o que faltava confirmar",
+    "quote": "kept replying in the same tone as always, listing what we already knew and what still needed confirming",
     "confidence": 0.9
   },
   {
@@ -620,7 +620,7 @@
     "storyId": "st-076",
     "subjectId": "andre-nogueira",
     "tagId": "ownership",
-    "quote": "rastreou a causa até uma condição de corrida no serviço de sessões e abriu o fix junto com um alerta novo",
+    "quote": "traced the cause down to a race condition in the sessions service and opened the fix along with a new alert",
     "confidence": 0.85
   },
   {
@@ -628,7 +628,7 @@
     "storyId": "st-077",
     "subjectId": "andre-nogueira",
     "tagId": "calm_under_pressure",
-    "quote": "sem uma nota de estresse na voz",
+    "quote": "without a note of stress in his voice",
     "confidence": 0.8
   },
   {
@@ -636,7 +636,7 @@
     "storyId": "st-077",
     "subjectId": "andre-nogueira",
     "tagId": "execution_reliability",
-    "quote": "A previsão de normalização que ele deu bateu com dez minutos de diferença",
+    "quote": "The recovery estimate he gave was off by only ten minutes",
     "confidence": 0.6
   },
   {
@@ -644,7 +644,7 @@
     "storyId": "st-078",
     "subjectId": "andre-nogueira",
     "tagId": "execution_reliability",
-    "quote": "entregou exatamente isso, com plano de rollback ensaiado em staging duas vezes",
+    "quote": "delivered exactly that, with a rollback plan rehearsed in staging twice",
     "confidence": 0.85
   },
   {
@@ -652,7 +652,7 @@
     "storyId": "st-079",
     "subjectId": "andre-nogueira",
     "tagId": "ownership",
-    "quote": "Ele trata qualquer problema da plataforma como se fosse dele",
+    "quote": "He treats any platform problem as his own",
     "confidence": 0.85
   },
   {
@@ -660,7 +660,7 @@
     "storyId": "st-079",
     "subjectId": "andre-nogueira",
     "tagId": "calm_under_pressure",
-    "quote": "uma serenidade que acalmou até o pessoal de fora da engenharia",
+    "quote": "a calm that soothed even folks outside engineering",
     "confidence": 0.85
   },
   {
@@ -668,7 +668,7 @@
     "storyId": "st-080",
     "subjectId": "paula-vidal",
     "tagId": "learning_agility",
-    "quote": "Mudei de recomendação no meio do estudo porque os números não sustentavam a primeira",
+    "quote": "I changed my recommendation halfway through the study because the numbers didn't support the first one",
     "confidence": 0.85
   },
   {
@@ -676,7 +676,7 @@
     "storyId": "st-080",
     "subjectId": "paula-vidal",
     "tagId": "critical_evaluation",
-    "quote": "apresentei um comparativo com o que testei de fato",
+    "quote": "I presented a comparison based on what I had actually tested",
     "confidence": 0.7
   },
   {
@@ -684,7 +684,7 @@
     "storyId": "st-081",
     "subjectId": "paula-vidal",
     "tagId": "critical_evaluation",
-    "quote": "mostrou que o gargalo era um join mal particionado, não capacidade",
+    "quote": "showed the bottleneck was a badly partitioned join, not capacity",
     "confidence": 0.9
   },
   {
@@ -692,7 +692,7 @@
     "storyId": "st-083",
     "subjectId": "paula-vidal",
     "tagId": "learning_agility",
-    "quote": "aprendido sozinha, em duas semanas, a biblioteca de análise estatística",
+    "quote": "taught herself, in two weeks, the statistical analysis library",
     "confidence": 0.85
   },
   {
@@ -700,7 +700,7 @@
     "storyId": "st-084",
     "subjectId": "paula-vidal",
     "tagId": "learning_agility",
-    "quote": "em dez dias já estava revisando os meus PRs",
+    "quote": "within ten days she was already reviewing my PRs",
     "confidence": 0.85
   },
   {
@@ -708,7 +708,7 @@
     "storyId": "st-085",
     "subjectId": "paula-vidal",
     "tagId": "critical_evaluation",
-    "quote": "ela desmonta a proposta em premissas, testa as que dá para testar e me devolve o risco em números",
+    "quote": "she breaks the proposal down into assumptions, tests the ones that can be tested and hands me back the risk in numbers",
     "confidence": 0.9
   },
   {
@@ -716,7 +716,7 @@
     "storyId": "st-086",
     "subjectId": "diego-fagundes",
     "tagId": "learning_agility",
-    "quote": "Entrei na Lumina sem nunca ter mexido com Go e três meses depois assumi sozinho o worker de reprocessamento",
+    "quote": "I joined Lumina having never touched Go, and three months later I was running the reprocessing worker on my own",
     "confidence": 0.85
   },
   {
@@ -724,7 +724,7 @@
     "storyId": "st-087",
     "subjectId": "diego-fagundes",
     "tagId": "drive_energy",
-    "quote": "puxar um mutirão de uma tarde, com placar dos minutos economizados no quadro",
+    "quote": "rallied a one-afternoon blitz, with a scoreboard of minutes saved on the whiteboard",
     "confidence": 0.9
   },
   {
@@ -732,7 +732,7 @@
     "storyId": "st-088",
     "subjectId": "diego-fagundes",
     "tagId": "learning_agility",
-    "quote": "No terceiro dia já estava abrindo PRs decentes",
+    "quote": "By the third day he was already opening decent PRs",
     "confidence": 0.85
   },
   {
@@ -740,7 +740,7 @@
     "storyId": "st-089",
     "subjectId": "diego-fagundes",
     "tagId": "drive_energy",
-    "quote": "montou o esqueleto no mesmo dia e ficou me mandando atualizações à noite sem eu pedir",
+    "quote": "put the skeleton together the same day and kept sending me updates in the evening without me asking",
     "confidence": 0.8
   },
   {
@@ -748,7 +748,7 @@
     "storyId": "st-091",
     "subjectId": "diego-fagundes",
     "tagId": "learning_agility",
-    "quote": "em quatro meses passou de tarefas guiadas para puxar sozinho a modernização dos jobs de fila",
+    "quote": "in four months he went from guided tasks to driving the modernization of the queue jobs on his own",
     "confidence": 0.8
   },
   {
@@ -756,7 +756,7 @@
     "storyId": "st-091",
     "subjectId": "diego-fagundes",
     "tagId": "drive_energy",
-    "quote": "mais de uma vez o entusiasmo dele tirou a sprint da inércia",
+    "quote": "more than once his enthusiasm pulled the sprint out of inertia",
     "confidence": 0.8
   },
   {
@@ -764,7 +764,7 @@
     "storyId": "st-092",
     "subjectId": "renata-luz",
     "tagId": "attention_to_detail",
-    "quote": "desconfiei de uma diferença de um pixel na coluna de totais e fui puxar o fio",
+    "quote": "got suspicious about a one-pixel difference in the totals column and pulled the thread",
     "confidence": 0.9
   },
   {
@@ -772,7 +772,7 @@
     "storyId": "st-092",
     "subjectId": "renata-luz",
     "tagId": "accountability",
-    "quote": "segurei a release até o fix entrar",
+    "quote": "held the release until the fix landed",
     "confidence": 0.65
   },
   {
@@ -780,7 +780,7 @@
     "storyId": "st-094",
     "subjectId": "renata-luz",
     "tagId": "attention_to_detail",
-    "quote": "um de virada de mês bissexto que quebrava o cálculo de pro rata",
+    "quote": "a leap-year month rollover that broke the pro rata calculation",
     "confidence": 0.9
   },
   {
@@ -788,7 +788,7 @@
     "storyId": "st-095",
     "subjectId": "renata-luz",
     "tagId": "accountability",
-    "quote": "me lembrou do acordo na frente do time e propôs um caminho que cabia no prazo",
+    "quote": "reminded me of the agreement in front of the team and proposed a path that fit the deadline",
     "confidence": 0.85
   },
   {
@@ -796,7 +796,7 @@
     "storyId": "st-096",
     "subjectId": "renata-luz",
     "tagId": "attention_to_detail",
-    "quote": "reproduziu o cenário com três combinações de configuração que eu nem sabia que existiam",
+    "quote": "reproduced the scenario with three configuration combinations I didn't even know existed",
     "confidence": 0.8
   },
   {
@@ -804,7 +804,7 @@
     "storyId": "st-097",
     "subjectId": "renata-luz",
     "tagId": "accountability",
-    "quote": "trouxe os números na retro e fez a gente renovar o acordo por escrito",
+    "quote": "brought the numbers to the retro and got us to renew the agreement in writing",
     "confidence": 0.9
   },
   {
@@ -812,7 +812,7 @@
     "storyId": "st-098",
     "subjectId": "tomas-ribeiro",
     "tagId": "execution_reliability",
-    "quote": "Entregamos no dia combinado",
+    "quote": "We delivered on the agreed day",
     "confidence": 0.8
   },
   {
@@ -820,7 +820,7 @@
     "storyId": "st-098",
     "subjectId": "tomas-ribeiro",
     "tagId": "results_focus",
-    "quote": "cortei duas melhorias que eu mesmo tinha proposto quando vi que colocavam a data em risco",
+    "quote": "I cut two improvements I had proposed myself when I saw they put the date at risk",
     "confidence": 0.85
   },
   {
@@ -828,7 +828,7 @@
     "storyId": "st-100",
     "subjectId": "tomas-ribeiro",
     "tagId": "execution_reliability",
-    "quote": "nas últimas quatro releases ele cravou o escopo sem estourar um dia",
+    "quote": "over the last four releases he nailed the scope without slipping a single day",
     "confidence": 0.9
   },
   {
@@ -836,7 +836,7 @@
     "storyId": "st-101",
     "subjectId": "tomas-ribeiro",
     "tagId": "results_focus",
-    "quote": "abriu mão de um projeto que claramente lhe daria destaque porque o outro caminho desafogava a release do time inteiro",
+    "quote": "gave up a project that would clearly have earned him the spotlight because the other path unblocked the release for the whole team",
     "confidence": 0.9
   },
   {
@@ -844,7 +844,7 @@
     "storyId": "st-102",
     "subjectId": "tomas-ribeiro",
     "tagId": "execution_reliability",
-    "quote": "o artefato chega testado, com checklist de rollback preenchido e no horário que ele falou",
+    "quote": "the artifact arrives tested, with the rollback checklist filled out and at the time he said",
     "confidence": 0.9
   },
   {
@@ -852,7 +852,7 @@
     "storyId": "st-103",
     "subjectId": "tomas-ribeiro",
     "tagId": "execution_reliability",
-    "quote": "Ele me entregou a primeira versão na sexta prometida",
+    "quote": "He delivered the first version to me on the Friday he promised",
     "confidence": 0.8
   },
   {
@@ -860,7 +860,7 @@
     "storyId": "st-104",
     "subjectId": "tomas-ribeiro",
     "tagId": "results_focus",
-    "quote": "repriorizou o backlog do squad em função da data, tirando inclusive itens dele próprio da frente",
+    "quote": "reprioritized the squad's backlog around the date, pulling even his own items out of the way",
     "confidence": 0.8
   },
   {
@@ -868,7 +868,7 @@
     "storyId": "st-104",
     "subjectId": "tomas-ribeiro",
     "tagId": "execution_reliability",
-    "quote": "referência de previsibilidade quando negocio prazos com as outras áreas",
+    "quote": "benchmark for predictability when I negotiate deadlines with other areas",
     "confidence": 0.7
   },
   {
@@ -876,7 +876,7 @@
     "storyId": "st-105",
     "subjectId": "patricia-lemos",
     "tagId": "accountability",
-    "quote": "fui uma por uma cobrando o que não tinha sido entregue, inclusive as minhas",
+    "quote": "I went through them one by one chasing what hadn't been delivered, including my own",
     "confidence": 0.9
   },
   {
@@ -884,7 +884,7 @@
     "storyId": "st-106",
     "subjectId": "patricia-lemos",
     "tagId": "critical_evaluation",
-    "quote": "montando um comparativo de custo total em três anos antes de decidir",
+    "quote": "building a three-year total cost comparison before deciding",
     "confidence": 0.85
   },
   {
@@ -892,7 +892,7 @@
     "storyId": "st-107",
     "subjectId": "patricia-lemos",
     "tagId": "trust_building",
-    "quote": "assumiu na frente do auditor um erro de classificação que tinha vindo de uma decisão dela",
+    "quote": "owned up in front of the auditor to a classification error that had come from a decision of hers",
     "confidence": 0.8
   },
   {
@@ -900,7 +900,7 @@
     "storyId": "st-107",
     "subjectId": "patricia-lemos",
     "tagId": "accountability",
-    "quote": "cobrou cada um de nós pelos itens do plano, com prazo e dono definidos",
+    "quote": "followed up with each of us on the plan's items, with a deadline and an owner defined",
     "confidence": 0.85
   },
   {
@@ -908,7 +908,7 @@
     "storyId": "st-108",
     "subjectId": "patricia-lemos",
     "tagId": "results_focus",
-    "quote": "o orçamento foi pro que movia o ponteiro, não pro projeto de estimação de ninguém",
+    "quote": "the budget went to what moved the needle, not to anyone's pet project",
     "confidence": 0.8
   },
   {
@@ -916,7 +916,7 @@
     "storyId": "st-109",
     "subjectId": "patricia-lemos",
     "tagId": "critical_evaluation",
-    "quote": "desmontou minha estimativa em dez minutos, com os números do último fechamento na mão",
+    "quote": "took my estimate apart in ten minutes, with the numbers from the last close in hand",
     "confidence": 0.85
   },
   {
@@ -924,7 +924,7 @@
     "storyId": "st-110",
     "subjectId": "patricia-lemos",
     "tagId": "results_focus",
-    "quote": "abriu mão de duas contratações da própria área pra segurar o caixa que garantia o bônus coletivo",
+    "quote": "gave up two hires in her own area to protect the cash that secured the collective bonus",
     "confidence": 0.85
   },
   {
@@ -932,7 +932,7 @@
     "storyId": "st-112",
     "subjectId": "henrique-dias",
     "tagId": "attention_to_detail",
-    "quote": "peguei um adicional noturno duplicado que passaria batido",
+    "quote": "I caught a duplicated night-shift premium that would have slipped through",
     "confidence": 0.9
   },
   {
@@ -940,7 +940,7 @@
     "storyId": "st-113",
     "subjectId": "henrique-dias",
     "tagId": "attention_to_detail",
-    "quote": "achou uma diferença de doze centavos na conciliação e não sossegou até rastrear a origem",
+    "quote": "found a twelve-cent difference in the reconciliation and wouldn't rest until he traced its origin",
     "confidence": 0.9
   },
   {
@@ -948,7 +948,7 @@
     "storyId": "st-113",
     "subjectId": "henrique-dias",
     "tagId": "accountability",
-    "quote": "me lembrou do combinado de documentar o ajuste antes de virar o mês",
+    "quote": "reminded me of our agreement to document the adjustment before rolling over the month",
     "confidence": 0.75
   },
   {
@@ -956,7 +956,7 @@
     "storyId": "st-114",
     "subjectId": "henrique-dias",
     "tagId": "attention_to_detail",
-    "quote": "voltou com três inconsistências entre a minuta e a planilha de preços",
+    "quote": "came back with three inconsistencies between the draft and the pricing spreadsheet",
     "confidence": 0.9
   },
   {
@@ -964,7 +964,7 @@
     "storyId": "st-116",
     "subjectId": "henrique-dias",
     "tagId": "accountability",
-    "quote": "se atraso um dia, ele já aparece na minha mesa cobrando",
+    "quote": "if I'm a day late, he's already at my desk chasing it",
     "confidence": 0.8
   },
   {
@@ -972,7 +972,7 @@
     "storyId": "st-116",
     "subjectId": "henrique-dias",
     "tagId": "execution_reliability",
-    "quote": "nunca mais uma comissão saiu errada ou fora do prazo",
+    "quote": "not a single commission has gone out wrong or late",
     "confidence": 0.7
   },
   {
@@ -980,7 +980,7 @@
     "storyId": "st-117",
     "subjectId": "henrique-dias",
     "tagId": "attention_to_detail",
-    "quote": "revisou pasta por pasta e achou dois comprovantes com data errada",
+    "quote": "reviewed folder by folder and found two receipts with the wrong date",
     "confidence": 0.9
   },
   {
@@ -988,7 +988,7 @@
     "storyId": "st-117",
     "subjectId": "henrique-dias",
     "tagId": "accountability",
-    "quote": "cobrou cada área até o último documento chegar no prazo",
+    "quote": "chased every department until the last document arrived on time",
     "confidence": 0.85
   },
   {
@@ -996,7 +996,7 @@
     "storyId": "st-118",
     "subjectId": "carolina-freire",
     "tagId": "trust_building",
-    "quote": "eu sempre conto o erro que cometi na minha primeira folha de pagamento aqui",
+    "quote": "I always tell the story of the mistake I made on my first payroll run here",
     "confidence": 0.75
   },
   {
@@ -1004,7 +1004,7 @@
     "storyId": "st-118",
     "subjectId": "carolina-freire",
     "tagId": "psych_safety",
-    "quote": "as pessoas passam a me trazer dúvidas que teriam vergonha de levar pro gestor",
+    "quote": "people start bringing me questions they would be embarrassed to take to their manager",
     "confidence": 0.8
   },
   {
@@ -1012,7 +1012,7 @@
     "storyId": "st-120",
     "subjectId": "carolina-freire",
     "tagId": "diplomacy",
-    "quote": "Ela tem um jeito de baixar a temperatura sem passar pano pra ninguém",
+    "quote": "She has a way of lowering the temperature without letting anyone off the hook",
     "confidence": 0.9
   },
   {
@@ -1020,7 +1020,7 @@
     "storyId": "st-121",
     "subjectId": "carolina-freire",
     "tagId": "supportiveness",
-    "quote": "percebeu, assumiu a triagem dos chamados de benefícios",
+    "quote": "noticed, took over the triage of the benefits tickets",
     "confidence": 0.85
   },
   {
@@ -1028,7 +1028,7 @@
     "storyId": "st-122",
     "subjectId": "carolina-freire",
     "tagId": "diplomacy",
-    "quote": "conduziu a conversa difícil que eu vinha adiando e os dois saíram com um combinado por escrito",
+    "quote": "led the difficult conversation I had been putting off and the two of them walked out with a written agreement",
     "confidence": 0.9
   },
   {
@@ -1036,7 +1036,7 @@
     "storyId": "st-123",
     "subjectId": "carolina-freire",
     "tagId": "psych_safety",
-    "quote": "Deu a palavra primeiro pra quem estava mais bravo, sem cortar ninguém",
+    "quote": "gave the floor first to the people who were angriest, without cutting anyone off",
     "confidence": 0.75
   },
   {
@@ -1044,7 +1044,7 @@
     "storyId": "st-123",
     "subjectId": "carolina-freire",
     "tagId": "diplomacy",
-    "quote": "transformou uma pauta explosiva numa conversa civilizada",
+    "quote": "turned an explosive agenda item into a civilized conversation",
     "confidence": 0.85
   },
   {
@@ -1052,7 +1052,7 @@
     "storyId": "st-124",
     "subjectId": "carolina-freire",
     "tagId": "diplomacy",
-    "quote": "mediou a sessão até saírem com um critério comum",
+    "quote": "mediated the session until they left with a shared criterion",
     "confidence": 0.85
   },
   {
@@ -1060,7 +1060,7 @@
     "storyId": "st-124",
     "subjectId": "carolina-freire",
     "tagId": "supportiveness",
-    "quote": "segurou a barra da analista nova na primeira folha, sem que ninguém pedisse",
+    "quote": "had the new analyst's back through her first payroll run, without anyone asking",
     "confidence": 0.8
   },
   {
@@ -1068,7 +1068,7 @@
     "storyId": "st-125",
     "subjectId": "lucas-macedo",
     "tagId": "ownership",
-    "quote": "nem era meu, mas vivia atrasando e travava o fechamento de todo mundo. Assumi o processo",
+    "quote": "wasn't even mine, but it kept running late and blocking everyone's close. I took over the process",
     "confidence": 0.85
   },
   {
@@ -1076,7 +1076,7 @@
     "storyId": "st-125",
     "subjectId": "lucas-macedo",
     "tagId": "execution_reliability",
-    "quote": "hoje ele sai dois dias antes do prazo",
+    "quote": "today it goes out two days ahead of the deadline",
     "confidence": 0.65
   },
   {
@@ -1084,7 +1084,7 @@
     "storyId": "st-126",
     "subjectId": "lucas-macedo",
     "tagId": "execution_reliability",
-    "quote": "em dois anos não lembro de um único atraso",
+    "quote": "in two years I can't remember a single delay",
     "confidence": 0.9
   },
   {
@@ -1092,7 +1092,7 @@
     "storyId": "st-128",
     "subjectId": "lucas-macedo",
     "tagId": "ownership",
-    "quote": "só largou o tema quando o último colega confirmou o acerto na folha seguinte",
+    "quote": "only let go of the issue once the last colleague confirmed the correction on the following payroll",
     "confidence": 0.85
   },
   {
@@ -1100,7 +1100,7 @@
     "storyId": "st-129",
     "subjectId": "lucas-macedo",
     "tagId": "execution_reliability",
-    "quote": "chega sempre antes do combinado, no formato que a gente alinhou uma única vez",
+    "quote": "always arrives ahead of the agreed date, in the format we aligned on a single time",
     "confidence": 0.85
   },
   {
@@ -1108,7 +1108,7 @@
     "storyId": "st-130",
     "subjectId": "lucas-macedo",
     "tagId": "execution_reliability",
-    "quote": "a folha caiu na conta de todo mundo no dia certo",
+    "quote": "payroll landed in everyone's account on the right day",
     "confidence": 0.85
   },
   {
@@ -1116,7 +1116,7 @@
     "storyId": "st-130",
     "subjectId": "lucas-macedo",
     "tagId": "ownership",
-    "quote": "me trouxe o problema já resolvido",
+    "quote": "brought me the problem already solved",
     "confidence": 0.8
   },
   {
@@ -1124,7 +1124,7 @@
     "storyId": "st-131",
     "subjectId": "tania-quintela",
     "tagId": "critical_evaluation",
-    "quote": "listei os cinco riscos que já viraram disputa em contratos antigos e testei a minuta nova contra cada um",
+    "quote": "I listed the five risks that had already turned into disputes in old contracts and tested the new draft against each one",
     "confidence": 0.85
   },
   {
@@ -1132,7 +1132,7 @@
     "storyId": "st-131",
     "subjectId": "tania-quintela",
     "tagId": "attention_to_detail",
-    "quote": "Dois artigos caíram nesse pente-fino",
+    "quote": "Two clauses fell in that fine-tooth-comb review",
     "confidence": 0.6
   },
   {
@@ -1140,7 +1140,7 @@
     "storyId": "st-133",
     "subjectId": "tania-quintela",
     "tagId": "diplomacy",
-    "quote": "redigiu uma alternativa que protegia a Lumina sem humilhar o outro lado",
+    "quote": "drafted an alternative that protected Lumina without humiliating the other side",
     "confidence": 0.85
   },
   {
@@ -1148,7 +1148,7 @@
     "storyId": "st-133",
     "subjectId": "tania-quintela",
     "tagId": "attention_to_detail",
-    "quote": "achou uma divergência de CNPJ nos anexos que ninguém tinha visto",
+    "quote": "found a company-registration number discrepancy in the annexes that nobody had spotted",
     "confidence": 0.85
   },
   {
@@ -1156,7 +1156,7 @@
     "storyId": "st-134",
     "subjectId": "tania-quintela",
     "tagId": "diplomacy",
-    "quote": "em vez de bater na regra, montou com a gente um formato de contrato anual que passava no compliance",
+    "quote": "instead of hammering on the rule, built with us an annual contract format that passed compliance",
     "confidence": 0.9
   },
   {
@@ -1164,7 +1164,7 @@
     "storyId": "st-135",
     "subjectId": "tania-quintela",
     "tagId": "diplomacy",
-    "quote": "O que parecia caminho certo pra briga virou um aditivo assinado sem uma única reunião tensa",
+    "quote": "What looked like a straight path to a fight turned into a signed amendment without a single tense meeting",
     "confidence": 0.85
   },
   {
@@ -1172,7 +1172,7 @@
     "storyId": "st-136",
     "subjectId": "tania-quintela",
     "tagId": "critical_evaluation",
-    "quote": "me devolveu uma análise comparando a cláusula de reajuste com a inflação dos últimos três anos",
+    "quote": "came back with an analysis comparing the price-adjustment clause against the last three years of inflation",
     "confidence": 0.85
   },
   {
@@ -1180,7 +1180,7 @@
     "storyId": "st-137",
     "subjectId": "tania-quintela",
     "tagId": "attention_to_detail",
-    "quote": "notou que duas procurações estavam vencidas antes de o auditor abrir a pasta",
+    "quote": "noticed that two powers of attorney had expired before the auditor even opened the folder",
     "confidence": 0.9
   },
   {
@@ -1188,7 +1188,7 @@
     "storyId": "st-137",
     "subjectId": "tania-quintela",
     "tagId": "critical_evaluation",
-    "quote": "separou o que era risco real do que era ruído",
+    "quote": "separated what was real risk from what was noise",
     "confidence": 0.85
   },
   {
@@ -1196,7 +1196,7 @@
     "storyId": "st-138",
     "subjectId": "rodrigo-antunes",
     "tagId": "execution_reliability",
-    "quote": "no dia não faltou nem o adaptador de projetor que sempre esquecem",
+    "quote": "on the day not even the projector adapter that everyone always forgets was missing",
     "confidence": 0.8
   },
   {
@@ -1204,7 +1204,7 @@
     "storyId": "st-139",
     "subjectId": "rodrigo-antunes",
     "tagId": "supportiveness",
-    "quote": "Ninguém pediu, ele só percebeu e fez",
+    "quote": "Nobody asked, he just noticed and did it",
     "confidence": 0.9
   },
   {
@@ -1212,7 +1212,7 @@
     "storyId": "st-140",
     "subjectId": "rodrigo-antunes",
     "tagId": "calm_under_pressure",
-    "quote": "sem alterar a voz, remanejou todo mundo pro coworking do prédio ao lado",
+    "quote": "without raising his voice, relocated everyone to the coworking space in the building next door",
     "confidence": 0.85
   },
   {
@@ -1220,7 +1220,7 @@
     "storyId": "st-140",
     "subjectId": "rodrigo-antunes",
     "tagId": "execution_reliability",
-    "quote": "a reunião começou no horário",
+    "quote": "the meeting started on time",
     "confidence": 0.65
   },
   {
@@ -1228,7 +1228,7 @@
     "storyId": "st-141",
     "subjectId": "rodrigo-antunes",
     "tagId": "supportiveness",
-    "quote": "apareceu com jantar e deixou a sala de reunião grande reservada pra gente a semana toda",
+    "quote": "showed up with dinner and kept the big meeting room booked for us all week",
     "confidence": 0.85
   },
   {
@@ -1236,7 +1236,7 @@
     "storyId": "st-143",
     "subjectId": "rodrigo-antunes",
     "tagId": "calm_under_pressure",
-    "quote": "sem uma nota de pânico",
+    "quote": "without a hint of panic",
     "confidence": 0.8
   },
   {
@@ -1244,7 +1244,7 @@
     "storyId": "st-143",
     "subjectId": "rodrigo-antunes",
     "tagId": "execution_reliability",
-    "quote": "Tudo que ele assume some da minha lista de preocupações",
+    "quote": "Everything he takes on disappears from my list of worries",
     "confidence": 0.7
   },
   {
@@ -1252,7 +1252,7 @@
     "storyId": "st-144",
     "subjectId": "isabela-franco",
     "tagId": "results_focus",
-    "quote": "Prefiro entregar duas apostas que movem renovação do que cinco que ficam bonitas no slide.",
+    "quote": "I'd rather ship two bets that move renewal than five that look pretty on a slide.",
     "confidence": 0.85
   },
   {
@@ -1260,7 +1260,7 @@
     "storyId": "st-144",
     "subjectId": "isabela-franco",
     "tagId": "critical_evaluation",
-    "quote": "os números do piloto com a Vetra não sustentavam o investimento",
+    "quote": "the numbers from the Vetra pilot didn't justify the investment",
     "confidence": 0.7
   },
   {
@@ -1268,7 +1268,7 @@
     "storyId": "st-145",
     "subjectId": "isabela-franco",
     "tagId": "healthy_conflict",
-    "quote": "Foi uma discussão dura sobre a ideia, não sobre pessoas",
+    "quote": "It was a tough debate about the idea, not about people",
     "confidence": 0.85
   },
   {
@@ -1276,7 +1276,7 @@
     "storyId": "st-146",
     "subjectId": "isabela-franco",
     "tagId": "critical_evaluation",
-    "quote": "pediu a base de clientes que pediam aquilo, comparou com o custo de oportunidade",
+    "quote": "she asked for the base of customers actually requesting it, weighed it against the opportunity cost",
     "confidence": 0.85
   },
   {
@@ -1284,7 +1284,7 @@
     "storyId": "st-147",
     "subjectId": "isabela-franco",
     "tagId": "healthy_conflict",
-    "quote": "direta, olhando no olho, sem rodeio nenhum",
+    "quote": "direct, eye to eye, with no hedging at all",
     "confidence": 0.8
   },
   {
@@ -1292,7 +1292,7 @@
     "storyId": "st-148",
     "subjectId": "isabela-franco",
     "tagId": "results_focus",
-    "quote": "cancelou duas iniciativas do próprio time — incluindo uma que era a menina dos olhos dela — para liberar a gente para o que salvava a conta",
+    "quote": "cancelled two of her own team's initiatives — including one that was her pet project — to free us up for what would save the account",
     "confidence": 0.85
   },
   {
@@ -1300,7 +1300,7 @@
     "storyId": "st-150",
     "subjectId": "isabela-franco",
     "tagId": "critical_evaluation",
-    "quote": "listou as três premissas que precisavam ser verdade para o número fechar",
+    "quote": "listed the three assumptions that had to be true for the number to hold",
     "confidence": 0.85
   },
   {
@@ -1308,7 +1308,7 @@
     "storyId": "st-151",
     "subjectId": "rafael-siqueira",
     "tagId": "healthy_conflict",
-    "quote": "bati de frente com a Engenharia sobre a data do módulo de relatórios",
+    "quote": "went head-to-head with Engineering over the reporting module date",
     "confidence": 0.7
   },
   {
@@ -1316,7 +1316,7 @@
     "storyId": "st-152",
     "subjectId": "rafael-siqueira",
     "tagId": "healthy_conflict",
-    "quote": "prefiro o embate aberto a deixar a decisão apodrecer",
+    "quote": "I'd rather have the open clash than let a decision rot",
     "confidence": 0.7
   },
   {
@@ -1324,7 +1324,7 @@
     "storyId": "st-153",
     "subjectId": "rafael-siqueira",
     "tagId": "diplomacy",
-    "quote": "reformulou o que cada lado estava pedindo e propôs um meio-termo que os dois aceitaram na hora",
+    "quote": "reframed what each side was asking for and proposed a middle ground both accepted on the spot",
     "confidence": 0.85
   },
   {
@@ -1332,7 +1332,7 @@
     "storyId": "st-153",
     "subjectId": "rafael-siqueira",
     "tagId": "facilitation",
-    "quote": "A reunião, que estava subindo de tom, terminou tranquila e com plano.",
+    "quote": "The meeting, which had been heating up, ended calm and with a plan.",
     "confidence": 0.6
   },
   {
@@ -1340,7 +1340,7 @@
     "storyId": "st-154",
     "subjectId": "rafael-siqueira",
     "tagId": "diplomacy",
-    "quote": "chamou cada um para conversar em separado, costurou uma versão comum da história",
+    "quote": "he pulled each person aside to talk separately, stitched together a shared version of the story",
     "confidence": 0.9
   },
   {
@@ -1348,7 +1348,7 @@
     "storyId": "st-155",
     "subjectId": "rafael-siqueira",
     "tagId": "diplomacy",
-    "quote": "suavizou os pontos mais duros, adiou o item mais polêmico para uma conversa menor",
+    "quote": "he softened the hardest points, deferred the most contentious item to a smaller conversation",
     "confidence": 0.85
   },
   {
@@ -1356,7 +1356,7 @@
     "storyId": "st-157",
     "subjectId": "rafael-siqueira",
     "tagId": "diplomacy",
-    "quote": "volta depois com um acordo já costurado nos bastidores",
+    "quote": "comes back later with an agreement already stitched together behind the scenes",
     "confidence": 0.9
   },
   {
@@ -1364,7 +1364,7 @@
     "storyId": "st-158",
     "subjectId": "gustavo-lins",
     "tagId": "customer_focus",
-    "quote": "Passei dois dias na operação da TransLog vendo os despachantes usarem nosso painel",
+    "quote": "I spent two days at TransLog's operation watching the dispatchers use our panel",
     "confidence": 0.85
   },
   {
@@ -1372,7 +1372,7 @@
     "storyId": "st-158",
     "subjectId": "gustavo-lins",
     "tagId": "creative_innovation",
-    "quote": "em vez de formulário, um rascunho que o sistema preenche e a pessoa só corrige",
+    "quote": "instead of a form, a draft the system pre-fills and the person only corrects",
     "confidence": 0.8
   },
   {
@@ -1380,7 +1380,7 @@
     "storyId": "st-159",
     "subjectId": "gustavo-lins",
     "tagId": "creative_innovation",
-    "quote": "uma solução que ninguém tinha considerado: tratar a segunda empresa como um convite, não como um cadastro",
+    "quote": "a solution nobody had considered: treating the second company as an invitation, not a registration",
     "confidence": 0.9
   },
   {
@@ -1388,7 +1388,7 @@
     "storyId": "st-160",
     "subjectId": "gustavo-lins",
     "tagId": "customer_focus",
-    "quote": "ele abriu com o áudio de uma cliente da Clínicas Salus reclamando do relatório",
+    "quote": "he opened with the audio of a Clínicas Salus customer complaining about the report",
     "confidence": 0.85
   },
   {
@@ -1396,7 +1396,7 @@
     "storyId": "st-161",
     "subjectId": "gustavo-lins",
     "tagId": "creative_innovation",
-    "quote": "um modo de comparação lado a lado que ninguém tinha pedido, montado com componentes que já existiam",
+    "quote": "a side-by-side comparison mode nobody had asked for, built from components that already existed",
     "confidence": 0.75
   },
   {
@@ -1404,7 +1404,7 @@
     "storyId": "st-163",
     "subjectId": "gustavo-lins",
     "tagId": "creative_innovation",
-    "quote": "transformar o relatório em um checklist guiado",
+    "quote": "turning the report into a guided checklist",
     "confidence": 0.8
   },
   {
@@ -1412,7 +1412,7 @@
     "storyId": "st-163",
     "subjectId": "gustavo-lins",
     "tagId": "customer_focus",
-    "quote": "ele ligou para três clientes para validar se aquilo resolvia o dia deles",
+    "quote": "he called three customers to validate that it actually solved their day",
     "confidence": 0.85
   },
   {
@@ -1420,7 +1420,7 @@
     "storyId": "st-164",
     "subjectId": "clara-menezes",
     "tagId": "customer_focus",
-    "quote": "abro toda review de produto com dois minutos de voz de cliente",
+    "quote": "I open every product review with two minutes of customer voice",
     "confidence": 0.85
   },
   {
@@ -1428,7 +1428,7 @@
     "storyId": "st-165",
     "subjectId": "clara-menezes",
     "tagId": "psych_safety",
-    "quote": "hipótese furada é tratada como achado, não como vergonha",
+    "quote": "a busted hypothesis is treated as a finding, not an embarrassment",
     "confidence": 0.85
   },
   {
@@ -1436,7 +1436,7 @@
     "storyId": "st-166",
     "subjectId": "clara-menezes",
     "tagId": "critical_evaluation",
-    "quote": "colocou lado a lado o que os clientes tinham dito nas oito entrevistas e o que eu estava assumindo",
+    "quote": "she laid out side by side what customers had said in the eight interviews and what I was assuming",
     "confidence": 0.85
   },
   {
@@ -1444,7 +1444,7 @@
     "storyId": "st-166",
     "subjectId": "clara-menezes",
     "tagId": "customer_focus",
-    "quote": "o que os clientes tinham dito nas oito entrevistas",
+    "quote": "what customers had said in the eight interviews",
     "confidence": 0.6
   },
   {
@@ -1452,7 +1452,7 @@
     "storyId": "st-167",
     "subjectId": "clara-menezes",
     "tagId": "customer_focus",
-    "quote": "topou entrevistar comigo cinco clientes que cancelaram no semestre",
+    "quote": "joined me to interview five customers who cancelled this semester",
     "confidence": 0.75
   },
   {
@@ -1460,7 +1460,7 @@
     "storyId": "st-169",
     "subjectId": "clara-menezes",
     "tagId": "critical_evaluation",
-    "quote": "mostrou, dado a dado, que a demanda vinha de dois clientes barulhentos e não da base",
+    "quote": "showed, data point by data point, that the demand came from two noisy customers and not from the base",
     "confidence": 0.9
   },
   {
@@ -1468,7 +1468,7 @@
     "storyId": "st-170",
     "subjectId": "joao-prado",
     "tagId": "ownership",
-    "quote": "assumi: mapeei o fluxo com Financeiro, abri os chamados com a Engenharia e só soltei o assunto quando o estorno saiu na fatura seguinte",
+    "quote": "I took it on: I mapped the flow with Finance, opened the tickets with Engineering and only let go of the issue when the refund showed up on the next invoice",
     "confidence": 0.9
   },
   {
@@ -1476,7 +1476,7 @@
     "storyId": "st-172",
     "subjectId": "joao-prado",
     "tagId": "learning_agility",
-    "quote": "nunca tinha mexido com SQL e em duas semanas estava puxando as próprias análises de funil",
+    "quote": "had never touched SQL and within two weeks he was pulling his own funnel analyses",
     "confidence": 0.85
   },
   {
@@ -1484,7 +1484,7 @@
     "storyId": "st-173",
     "subjectId": "joao-prado",
     "tagId": "ownership",
-    "quote": "ficou na ponte com a gente até meia-noite, escreveu ele mesmo a comunicação para o cliente",
+    "quote": "stayed on the bridge with us until midnight, wrote the customer communication himself",
     "confidence": 0.9
   },
   {
@@ -1492,7 +1492,7 @@
     "storyId": "st-174",
     "subjectId": "joao-prado",
     "tagId": "learning_agility",
-    "quote": "quando o teste de preço voltou com conversão abaixo do piso, ele mesmo apresentou os números e propôs mudar a abordagem",
+    "quote": "when the pricing test came back with conversion below the floor, he presented the numbers himself and proposed changing the approach",
     "confidence": 0.8
   },
   {
@@ -1500,7 +1500,7 @@
     "storyId": "st-175",
     "subjectId": "joao-prado",
     "tagId": "ownership",
-    "quote": "Ele trata problema órfão como se tivesse o nome dele escrito",
+    "quote": "He treats orphan problems as if they had his name written on them",
     "confidence": 0.85
   },
   {
@@ -1508,7 +1508,7 @@
     "storyId": "st-175",
     "subjectId": "joao-prado",
     "tagId": "learning_agility",
-    "quote": "estudou a norma, sentou com o jurídico e devolveu uma proposta de escopo em uma semana",
+    "quote": "he studied the regulation, sat down with legal and came back with a scope proposal in a week",
     "confidence": 0.6
   },
   {
@@ -1516,7 +1516,7 @@
     "storyId": "st-176",
     "subjectId": "beatriz-tavares",
     "tagId": "learning_agility",
-    "quote": "nunca tinha usado a ferramenta nova de motion; passei o fim de semana nos tutoriais e na terça o protótipo estava rodando",
+    "quote": "had never used the new motion tool; I spent the weekend on tutorials and by Tuesday the prototype was running",
     "confidence": 0.85
   },
   {
@@ -1524,7 +1524,7 @@
     "storyId": "st-177",
     "subjectId": "beatriz-tavares",
     "tagId": "creative_innovation",
-    "quote": "sugeriu usar os próprios dados de exemplo do setor do cliente como primeiro conteúdo, em vez de ilustração genérica",
+    "quote": "suggested using sample data from the customer's own industry as the first content, instead of a generic illustration",
     "confidence": 0.85
   },
   {
@@ -1532,7 +1532,7 @@
     "storyId": "st-178",
     "subjectId": "beatriz-tavares",
     "tagId": "learning_agility",
-    "quote": "pediu os vídeos, remontou o fluxo no dia seguinte e voltou com uma versão que atacava exatamente os tropeços observados",
+    "quote": "asked for the videos, rebuilt the flow the next day and came back with a version that attacked exactly the stumbles we had observed",
     "confidence": 0.85
   },
   {
@@ -1540,7 +1540,7 @@
     "storyId": "st-179",
     "subjectId": "beatriz-tavares",
     "tagId": "creative_innovation",
-    "quote": "propôs uma variação com os elementos que já tínhamos no design system, com um efeito de foco que resolvia o mesmo problema",
+    "quote": "proposed a variation using the elements we already had in the design system, with a focus effect that solved the same problem",
     "confidence": 0.7
   },
   {
@@ -1548,7 +1548,7 @@
     "storyId": "st-181",
     "subjectId": "beatriz-tavares",
     "tagId": "creative_innovation",
-    "quote": "voltou com três direções que eu não tinha visto em lugar nenhum, incluindo um resumo em áudio de um minuto",
+    "quote": "came back with three directions I hadn't seen anywhere, including a one-minute audio recap",
     "confidence": 0.85
   },
   {
@@ -1556,7 +1556,7 @@
     "storyId": "st-182",
     "subjectId": "felipe-armond",
     "tagId": "attention_to_detail",
-    "quote": "percebi que a taxa de retenção estava usando a base antiga de contas e divergia do número do Financeiro em dois pontos",
+    "quote": "I noticed the retention rate was using the old account base and diverged from Finance's number by two points",
     "confidence": 0.9
   },
   {
@@ -1564,7 +1564,7 @@
     "storyId": "st-184",
     "subjectId": "felipe-armond",
     "tagId": "diplomacy",
-    "quote": "chamou os dois leads para um café antes da reunião conjunta e alinhou as versões da história",
+    "quote": "took the two leads out for a coffee before the joint meeting and aligned their versions of the story",
     "confidence": 0.85
   },
   {
@@ -1572,7 +1572,7 @@
     "storyId": "st-185",
     "subjectId": "felipe-armond",
     "tagId": "diplomacy",
-    "quote": "ouviu as reclamações sem rebater e voltou com um combinado de janela de mudanças que os PMs toparam",
+    "quote": "listened to the complaints without pushing back and returned with a change-window agreement the PMs signed off on",
     "confidence": 0.8
   },
   {
@@ -1580,7 +1580,7 @@
     "storyId": "st-186",
     "subjectId": "felipe-armond",
     "tagId": "attention_to_detail",
-    "quote": "achou uma cláusula desatualizada e dois campos que se contradiziam, coisa que já tinha passado por três pessoas",
+    "quote": "found an outdated clause and two fields that contradicted each other, something that had already passed through three people",
     "confidence": 0.9
   },
   {
@@ -1588,7 +1588,7 @@
     "storyId": "st-187",
     "subjectId": "felipe-armond",
     "tagId": "attention_to_detail",
-    "quote": "pegou que o preço do plano anual estava com o valor antigo na tela de checkout",
+    "quote": "caught that the annual plan price still showed the old value on the checkout screen",
     "confidence": 0.85
   },
   {
@@ -1596,7 +1596,7 @@
     "storyId": "st-188",
     "subjectId": "felipe-armond",
     "tagId": "diplomacy",
-    "quote": "ele mapeia onde cada lado pode ceder e chega com meio caminho andado",
+    "quote": "he maps where each side can give ground and arrives with half the path already walked",
     "confidence": 0.85
   },
   {
@@ -1604,7 +1604,7 @@
     "storyId": "st-188",
     "subjectId": "felipe-armond",
     "tagId": "attention_to_detail",
-    "quote": "os rituais que ele organiza saem sem uma ponta solta, da pauta ao follow-up",
+    "quote": "the rituals he runs come out without a single loose end, from the agenda to the follow-up",
     "confidence": 0.7
   },
   {
@@ -1612,7 +1612,7 @@
     "storyId": "st-189",
     "subjectId": "ricardo-bastos",
     "tagId": "results_focus",
-    "quote": "Prefiro mexer no plano dez vezes a aceitar terminar o mês abaixo da meta",
+    "quote": "I'd rather rework the plan ten times than accept ending the month below target",
     "confidence": 0.85
   },
   {
@@ -1620,7 +1620,7 @@
     "storyId": "st-189",
     "subjectId": "ricardo-bastos",
     "tagId": "drive_energy",
-    "quote": "remontei o plano da semana em uma tarde e redistribuí as contas quentes",
+    "quote": "rebuilt the week's plan in one afternoon and redistributed the hot accounts",
     "confidence": 0.7
   },
   {
@@ -1628,7 +1628,7 @@
     "storyId": "st-191",
     "subjectId": "ricardo-bastos",
     "tagId": "results_focus",
-    "quote": "ninguém sairia da sala sem saber exatamente quais três negócios fecham até sexta",
+    "quote": "nobody would leave the room without knowing exactly which three deals close by Friday",
     "confidence": 0.8
   },
   {
@@ -1636,7 +1636,7 @@
     "storyId": "st-191",
     "subjectId": "ricardo-bastos",
     "tagId": "drive_energy",
-    "quote": "É impossível ficar parado perto dele",
+    "quote": "It's impossible to stand still around him",
     "confidence": 0.85
   },
   {
@@ -1644,7 +1644,7 @@
     "storyId": "st-192",
     "subjectId": "ricardo-bastos",
     "tagId": "accountability",
-    "quote": "Ele anota cada combinado do pipeline review e cobra um por um na semana seguinte",
+    "quote": "He writes down every commitment from the pipeline review and follows up on each one the following week",
     "confidence": 0.9
   },
   {
@@ -1652,7 +1652,7 @@
     "storyId": "st-193",
     "subjectId": "ricardo-bastos",
     "tagId": "results_focus",
-    "quote": "Ele repete que troféu de esforço não paga meta",
+    "quote": "He keeps repeating that an effort trophy doesn't pay the quota",
     "confidence": 0.85
   },
   {
@@ -1660,7 +1660,7 @@
     "storyId": "st-193",
     "subjectId": "ricardo-bastos",
     "tagId": "accountability",
-    "quote": "cobra o resultado do time e o dele com a mesma dureza",
+    "quote": "holds the team's results and his own to the same hard standard",
     "confidence": 0.7
   },
   {
@@ -1668,7 +1668,7 @@
     "storyId": "st-194",
     "subjectId": "ricardo-bastos",
     "tagId": "drive_energy",
-    "quote": "O ritmo que ele imprime puxa todo mundo ao redor",
+    "quote": "The pace he sets pulls everyone around him along",
     "confidence": 0.85
   },
   {
@@ -1676,7 +1676,7 @@
     "storyId": "st-195",
     "subjectId": "helena-fontes",
     "tagId": "mentorship",
-    "quote": "a gente grava as ligações, escuta junto e eu mostro onde a pergunta poderia abrir mais o cliente",
+    "quote": "we record the calls, listen together, and I show them where a question could have opened the client up more",
     "confidence": 0.9
   },
   {
@@ -1684,7 +1684,7 @@
     "storyId": "st-197",
     "subjectId": "helena-fontes",
     "tagId": "psych_safety",
-    "quote": "disse que erro contado cedo é erro barato",
+    "quote": "said that a mistake reported early is a cheap mistake",
     "confidence": 0.9
   },
   {
@@ -1692,7 +1692,7 @@
     "storyId": "st-197",
     "subjectId": "helena-fontes",
     "tagId": "mentorship",
-    "quote": "montou comigo um checklist para as próximas ligações",
+    "quote": "built a checklist with me for the next calls",
     "confidence": 0.75
   },
   {
@@ -1700,7 +1700,7 @@
     "storyId": "st-198",
     "subjectId": "helena-fontes",
     "tagId": "mentorship",
-    "quote": "sentou do meu lado nas primeiras cold calls e depois me passava feedback linha por linha",
+    "quote": "sat next to me on my first cold calls and then gave me line-by-line feedback",
     "confidence": 0.95
   },
   {
@@ -1708,7 +1708,7 @@
     "storyId": "st-199",
     "subjectId": "helena-fontes",
     "tagId": "mentorship",
-    "quote": "me ensinou o racional que usa para ancorar o desconto, em vez de simplesmente corrigir",
+    "quote": "taught me the rationale she uses to anchor the discount, instead of simply correcting it",
     "confidence": 0.9
   },
   {
@@ -1716,7 +1716,7 @@
     "storyId": "st-200",
     "subjectId": "helena-fontes",
     "tagId": "facilitation",
-    "quote": "ela preparou a pauta, garantiu que os SDRs falassem antes dos sêniores e fechou com combinados claros",
+    "quote": "she prepared the agenda, made sure the SDRs spoke before the seniors and closed with clear agreements",
     "confidence": 0.9
   },
   {
@@ -1724,7 +1724,7 @@
     "storyId": "st-200",
     "subjectId": "helena-fontes",
     "tagId": "psych_safety",
-    "quote": "ela foi quem criou espaço para todo mundo falar",
+    "quote": "she was the one who created room for everyone to speak",
     "confidence": 0.75
   },
   {
@@ -1732,7 +1732,7 @@
     "storyId": "st-201",
     "subjectId": "helena-fontes",
     "tagId": "mentorship",
-    "quote": "os dois SDRs que rampearam mais rápido este ano passaram pela escolinha dela de discovery",
+    "quote": "the two SDRs who ramped fastest this year went through her discovery school",
     "confidence": 0.85
   },
   {
@@ -1740,7 +1740,7 @@
     "storyId": "st-201",
     "subjectId": "helena-fontes",
     "tagId": "facilitation",
-    "quote": "a reunião passou a durar metade do tempo com o dobro de decisão",
+    "quote": "the meeting now takes half the time with twice the decisions",
     "confidence": 0.8
   },
   {
@@ -1748,7 +1748,7 @@
     "storyId": "st-202",
     "subjectId": "camila-arruda",
     "tagId": "drive_energy",
-    "quote": "Bati minha meta de reuniões agendadas na segunda semana do mês",
+    "quote": "I hit my booked-meetings quota in the second week of the month",
     "confidence": 0.7
   },
   {
@@ -1756,7 +1756,7 @@
     "storyId": "st-202",
     "subjectId": "camila-arruda",
     "tagId": "learning_agility",
-    "quote": "Anotei o que funcionou de cada ligação numa planilha e na sexta já estava com uma taxa de resposta bem melhor",
+    "quote": "I noted what worked from each call in a spreadsheet and by Friday I already had a much better response rate",
     "confidence": 0.8
   },
   {
@@ -1764,7 +1764,7 @@
     "storyId": "st-203",
     "subjectId": "camila-arruda",
     "tagId": "drive_energy",
-    "quote": "teve uma sexta que ela fez sessenta cold calls porque faltavam três reuniões para a meta do time",
+    "quote": "there was one Friday she made sixty cold calls because the team was three meetings short of quota",
     "confidence": 0.9
   },
   {
@@ -1772,7 +1772,7 @@
     "storyId": "st-204",
     "subjectId": "camila-arruda",
     "tagId": "learning_agility",
-    "quote": "Ela devora as gravações dos executivos sêniores e aplica na semana seguinte o que ouviu",
+    "quote": "She devours the senior reps' call recordings and applies what she heard the following week",
     "confidence": 0.85
   },
   {
@@ -1780,7 +1780,7 @@
     "storyId": "st-206",
     "subjectId": "camila-arruda",
     "tagId": "drive_energy",
-    "quote": "ela varou a tarde ligando para a lista inteira antes do prazo",
+    "quote": "she powered through the afternoon calling the entire list before the deadline",
     "confidence": 0.8
   },
   {
@@ -1788,7 +1788,7 @@
     "storyId": "st-207",
     "subjectId": "camila-arruda",
     "tagId": "learning_agility",
-    "quote": "Quando mudamos o ICP no meio do trimestre, ela refez as listas sozinha em dois dias",
+    "quote": "When we changed the ICP mid-quarter, she rebuilt the lists on her own in two days",
     "confidence": 0.8
   },
   {
@@ -1796,7 +1796,7 @@
     "storyId": "st-207",
     "subjectId": "camila-arruda",
     "tagId": "drive_energy",
-    "quote": "não deixou o ritmo de agendamentos cair",
+    "quote": "didn't let the pace of bookings drop",
     "confidence": 0.65
   },
   {
@@ -1804,7 +1804,7 @@
     "storyId": "st-208",
     "subjectId": "pedro-galvao",
     "tagId": "customer_focus",
-    "quote": "abri mão de empurrar o módulo extra porque o problema deles era outro",
+    "quote": "gave up on pushing the extra module because their problem was a different one",
     "confidence": 0.85
   },
   {
@@ -1812,7 +1812,7 @@
     "storyId": "st-209",
     "subjectId": "pedro-galvao",
     "tagId": "results_focus",
-    "quote": "passou dois leads quentes para mim porque eu estava mais perto da meta do time",
+    "quote": "passed two hot leads to me because I was closer to the team's quota",
     "confidence": 0.85
   },
   {
@@ -1820,7 +1820,7 @@
     "storyId": "st-210",
     "subjectId": "pedro-galvao",
     "tagId": "customer_focus",
-    "quote": "Ele liga para usuários finais antes de cada proposta para entender o dia a dia de quem vai usar a ferramenta",
+    "quote": "He calls end users before every proposal to understand the day-to-day of whoever will use the tool",
     "confidence": 0.9
   },
   {
@@ -1828,7 +1828,7 @@
     "storyId": "st-212",
     "subjectId": "pedro-galvao",
     "tagId": "customer_focus",
-    "quote": "É raro ver vendedor freando o próprio deal para o cliente não se frustrar depois",
+    "quote": "It's rare to see a salesperson slowing down his own deal so the client won't be frustrated later",
     "confidence": 0.85
   },
   {
@@ -1836,7 +1836,7 @@
     "storyId": "st-213",
     "subjectId": "pedro-galvao",
     "tagId": "results_focus",
-    "quote": "ele mesmo propôs trocar duas contas de vitrine por três com ciclo mais curto e fechou o gap",
+    "quote": "he himself proposed swapping two showcase accounts for three with a shorter cycle and closed the gap",
     "confidence": 0.85
   },
   {
@@ -1844,7 +1844,7 @@
     "storyId": "st-214",
     "subjectId": "luana-cardoso",
     "tagId": "drive_energy",
-    "quote": "passei os últimos três dias úteis praticamente morando no telefone",
+    "quote": "spent the last three business days practically living on the phone",
     "confidence": 0.8
   },
   {
@@ -1852,7 +1852,7 @@
     "storyId": "st-214",
     "subjectId": "luana-cardoso",
     "tagId": "results_focus",
-    "quote": "Meta para mim não é aproximação, ou bateu ou não bateu",
+    "quote": "For me a quota isn't an approximation, you either hit it or you didn't",
     "confidence": 0.85
   },
   {
@@ -1860,7 +1860,7 @@
     "storyId": "st-215",
     "subjectId": "luana-cardoso",
     "tagId": "drive_energy",
-    "quote": "fez em um dia o follow-up de todas as vinte propostas paradas do time",
+    "quote": "followed up on all twenty of the team's stalled proposals in a single day",
     "confidence": 0.85
   },
   {
@@ -1868,7 +1868,7 @@
     "storyId": "st-216",
     "subjectId": "luana-cardoso",
     "tagId": "results_focus",
-    "quote": "Ela recalcula o funil toda semana e corta sem dó o que não vai virar receita",
+    "quote": "She recalculates the funnel every week and ruthlessly cuts whatever won't turn into revenue",
     "confidence": 0.85
   },
   {
@@ -1876,7 +1876,7 @@
     "storyId": "st-218",
     "subjectId": "luana-cardoso",
     "tagId": "drive_energy",
-    "quote": "devolveu no mesmo dia três clientes dispostos a gravar depoimento, já com horário marcado",
+    "quote": "came back the same day with three clients willing to record a testimonial, time slots already booked",
     "confidence": 0.8
   },
   {
@@ -1884,7 +1884,7 @@
     "storyId": "st-219",
     "subjectId": "luana-cardoso",
     "tagId": "drive_energy",
-    "quote": "assumiu o dobro de demos sem reclamar",
+    "quote": "took on double the demos without complaining",
     "confidence": 0.7
   },
   {
@@ -1892,7 +1892,7 @@
     "storyId": "st-219",
     "subjectId": "luana-cardoso",
     "tagId": "results_focus",
-    "quote": "a constância de estar sempre acima da meta",
+    "quote": "the consistency of always being above quota",
     "confidence": 0.8
   },
   {
@@ -1900,7 +1900,7 @@
     "storyId": "st-220",
     "subjectId": "mateus-vilela",
     "tagId": "ownership",
-    "quote": "assumi a fila, criei uma regra de resposta em até uma hora e segurei o processo até a Fernanda automatizar",
+    "quote": "took over the queue, created a one-hour response rule and held the process together until Fernanda automated it",
     "confidence": 0.9
   },
   {
@@ -1908,7 +1908,7 @@
     "storyId": "st-221",
     "subjectId": "mateus-vilela",
     "tagId": "drive_energy",
-    "quote": "ele coloca o cronômetro na TV e sai discando junto",
+    "quote": "he puts the timer up on the TV and starts dialing right along with us",
     "confidence": 0.85
   },
   {
@@ -1916,7 +1916,7 @@
     "storyId": "st-222",
     "subjectId": "mateus-vilela",
     "tagId": "ownership",
-    "quote": "rastreou o erro até uma automação antiga, avisou as contas afetadas e só soltou o assunto quando o fluxo foi corrigido",
+    "quote": "traced the error back to an old automation, notified the affected accounts and only let go of the issue once the flow was fixed",
     "confidence": 0.9
   },
   {
@@ -1924,7 +1924,7 @@
     "storyId": "st-224",
     "subjectId": "mateus-vilela",
     "tagId": "ownership",
-    "quote": "foi o Mateus quem me procurou, cruzou as planilhas comigo numa tarde e documentou a correção",
+    "quote": "it was Mateus who came to me, cross-checked the spreadsheets with me over an afternoon and documented the fix",
     "confidence": 0.8
   },
   {
@@ -1932,7 +1932,7 @@
     "storyId": "st-225",
     "subjectId": "mateus-vilela",
     "tagId": "drive_energy",
-    "quote": "ele propôs um mutirão de prospecção e puxou o time inteiro para discar junto por dois dias",
+    "quote": "he proposed a prospecting blitz and got the whole team dialing together for two days",
     "confidence": 0.85
   },
   {
@@ -1940,7 +1940,7 @@
     "storyId": "st-226",
     "subjectId": "fernanda-said",
     "tagId": "execution_reliability",
-    "quote": "Fechei a migração das regras de comissão para o sistema novo no prazo que tinha prometido",
+    "quote": "I finished migrating the commission rules to the new system on the date I had promised",
     "confidence": 0.8
   },
   {
@@ -1948,7 +1948,7 @@
     "storyId": "st-226",
     "subjectId": "fernanda-said",
     "tagId": "attention_to_detail",
-    "quote": "rodando em paralelo com o antigo por duas semanas para conferir centavo por centavo",
+    "quote": "running in parallel with the old one for two weeks to check it cent by cent",
     "confidence": 0.85
   },
   {
@@ -1956,7 +1956,7 @@
     "storyId": "st-227",
     "subjectId": "fernanda-said",
     "tagId": "attention_to_detail",
-    "quote": "Ela revisa cada minuta contra a tabela de preços",
+    "quote": "She checks every draft against the price table",
     "confidence": 0.9
   },
   {
@@ -1964,7 +1964,7 @@
     "storyId": "st-228",
     "subjectId": "fernanda-said",
     "tagId": "execution_reliability",
-    "quote": "Todo dia primeiro, às 9h, o relatório de fechamento da Fernanda está na caixa de entrada, sem atraso desde que entrei",
+    "quote": "On the first of every month, at 9 a.m., Fernanda's closing report is in my inbox, never late since I joined",
     "confidence": 0.9
   },
   {
@@ -1972,7 +1972,7 @@
     "storyId": "st-230",
     "subjectId": "fernanda-said",
     "tagId": "attention_to_detail",
-    "quote": "cada exceção documentada com print e justificativa, nenhuma linha fora do padrão",
+    "quote": "every exception documented with a screenshot and a justification, not a single line out of standard",
     "confidence": 0.9
   },
   {
@@ -1980,7 +1980,7 @@
     "storyId": "st-231",
     "subjectId": "fernanda-said",
     "tagId": "execution_reliability",
-    "quote": "Em dois anos, não lembro de um compromisso que ela tenha deixado cair",
+    "quote": "In two years, I can't remember a single commitment she has let slip",
     "confidence": 0.9
   }
 ]

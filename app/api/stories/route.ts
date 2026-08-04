@@ -14,10 +14,10 @@ export async function POST(req: Request) {
   };
 
   if (!getEmployee(subjectId)) {
-    return NextResponse.json({ error: "Colaborador não encontrado" }, { status: 400 });
+    return NextResponse.json({ error: "Employee not found" }, { status: 400 });
   }
   if (!text?.trim() || !["self", "peer", "manager"].includes(source)) {
-    return NextResponse.json({ error: "História ou fonte inválida" }, { status: 400 });
+    return NextResponse.json({ error: "Invalid story or source" }, { status: 400 });
   }
 
   const extracted = await extractTags(text.trim());

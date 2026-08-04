@@ -17,17 +17,17 @@ export default function Dashboard() {
   return (
     <div className="space-y-8">
       <div>
-        <h1 className="text-2xl font-semibold">A cultura da Lumina, como evidência</h1>
+        <h1 className="text-2xl font-semibold">Lumina&apos;s culture, as evidence</h1>
         <p className="mt-1 max-w-2xl text-sm text-muted-foreground">
-          {stories.length} histórias sobre {employees.length} pessoas em {teams.length} times, destiladas em
-          tags positivas de cultura. Cada número é rastreável às histórias que o sustentam.
+          {stories.length} stories about {employees.length} people across {teams.length} teams, distilled into
+          positive culture tags. Every number is traceable to the stories that support it.
         </p>
       </div>
 
       <div className="grid gap-6 lg:grid-cols-3">
         <Card className="lg:col-span-2">
           <CardHeader>
-            <CardTitle className="text-base">O que a empresa mais demonstra</CardTitle>
+            <CardTitle className="text-base">What the company demonstrates most</CardTitle>
           </CardHeader>
           <CardContent className="space-y-3">
             {company.slice(0, 8).map((t) => (
@@ -35,7 +35,7 @@ export default function Dashboard() {
                 <div className="flex items-baseline justify-between text-sm">
                   <span>{TAG_BY_ID[t.tagId].label}</span>
                   <span className="font-mono text-xs text-muted-foreground">
-                    média {t.mean.toFixed(2)} · máx {t.max.toFixed(2)}
+                    mean {t.mean.toFixed(2)} · max {t.max.toFixed(2)}
                   </span>
                 </div>
                 <div className="mt-1 h-2 rounded-full bg-muted">
@@ -48,8 +48,8 @@ export default function Dashboard() {
 
         <Card className="border-violet-200 dark:border-violet-900">
           <CardHeader>
-            <CardTitle className="text-base">Outliers positivos de cultura</CardTitle>
-            <p className="text-xs text-muted-foreground">Quem mais destoa — para o bem — da média da empresa.</p>
+            <CardTitle className="text-base">Positive culture outliers</CardTitle>
+            <p className="text-xs text-muted-foreground">Who stands out most — in a good way — from the company average.</p>
           </CardHeader>
           <CardContent className="space-y-4">
             {outliers.map((o) => (
@@ -70,7 +70,7 @@ export default function Dashboard() {
       </div>
 
       <div>
-        <h2 className="mb-3 text-lg font-medium">Setores</h2>
+        <h2 className="mb-3 text-lg font-medium">Departments</h2>
         <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
           {teams.map((team) => {
             const members = employees.filter((e) => e.teamId === team.id);
@@ -81,7 +81,7 @@ export default function Dashboard() {
                   <CardHeader>
                     <CardTitle className="text-base">{team.name}</CardTitle>
                     <p className="text-xs text-muted-foreground">
-                      {members.length} pessoas · {team.description}
+                      {members.length} people · {team.description}
                     </p>
                   </CardHeader>
                   <CardContent className="flex flex-wrap gap-1.5">
@@ -99,13 +99,13 @@ export default function Dashboard() {
       <Card className="bg-violet-50 dark:bg-violet-950/40">
         <CardContent className="flex flex-col gap-3 py-5 md:flex-row md:items-center md:justify-between">
           <div>
-            <p className="font-medium">Pergunte ao agente o que a gestão não consegue ver</p>
+            <p className="font-medium">Ask the agent what management can&apos;t see</p>
             <p className="text-sm text-muted-foreground">
-              “Monte um time onde todos são ótimos em evitar conflito” · “Que perfil falta na Engenharia para uma startup?”
+              “Build a team where everyone is great at avoiding conflict” · “What profile is Engineering missing for a startup?”
             </p>
           </div>
           <Link href="/chat" className="rounded-md bg-violet-600 px-4 py-2 text-center text-sm text-white hover:bg-violet-700">
-            Abrir o agente
+            Open the agent
           </Link>
         </CardContent>
       </Card>

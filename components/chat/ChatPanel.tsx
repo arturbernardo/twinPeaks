@@ -16,21 +16,21 @@ interface ChatMsg {
 }
 
 const SUGGESTIONS = [
-  "Monte um time de 5 pessoas onde todos sejam ótimos em evitar conflitos",
-  "Existe algum colaborador que é um outlier positivo da cultura?",
-  "Que perfil está faltando na Engenharia, pensando num ambiente de startup?",
-  "Alguém tem uma força que a própria pessoa não enxerga?",
+  "Build a team of 5 people where everyone is great at avoiding conflict",
+  "Is there any employee who is a positive culture outlier?",
+  "What profile is Engineering missing, thinking of a startup environment?",
+  "Does anyone have a strength they can't see in themselves?",
 ];
 
 const TOOL_LABELS: Record<string, string> = {
-  list_directory: "consultando diretório",
-  list_people_by_tag: "ranqueando pessoas por tag",
-  get_person_profile: "abrindo perfil",
-  get_team_profile: "agregando perfil do time",
-  find_outliers: "procurando outliers",
-  gap_analysis: "analisando lacunas vs. arquétipo",
-  compose_team: "montando time",
-  submit_story: "registrando história",
+  list_directory: "querying directory",
+  list_people_by_tag: "ranking people by tag",
+  get_person_profile: "opening profile",
+  get_team_profile: "aggregating team profile",
+  find_outliers: "looking for outliers",
+  gap_analysis: "analyzing gaps vs. archetype",
+  compose_team: "assembling team",
+  submit_story: "recording story",
 };
 
 export default function ChatPanel() {
@@ -58,7 +58,7 @@ export default function ChatPanel() {
           messages: history.map((m) => ({ role: m.role, content: m.content })),
         }),
       });
-      if (!res.ok || !res.body) throw new Error(`Erro ${res.status}`);
+      if (!res.ok || !res.body) throw new Error(`Error ${res.status}`);
 
       const reader = res.body.getReader();
       const decoder = new TextDecoder();
@@ -95,7 +95,7 @@ export default function ChatPanel() {
         const next = [...prev];
         next[next.length - 1] = {
           role: "assistant",
-          content: `⚠️ Não consegui falar com o agente: ${String(e)}. Verifique a chave de API em .env.local.`,
+          content: `⚠️ Couldn't reach the agent: ${String(e)}. Check the API key in .env.local.`,
         };
         return next;
       });
@@ -107,7 +107,7 @@ export default function ChatPanel() {
   return (
     <div className="flex h-[calc(100vh-220px)] min-h-[480px] flex-col rounded-xl border bg-card">
       <div className="flex items-center gap-2 border-b px-4 py-2">
-        <span className="text-sm font-medium">Agente da cultura</span>
+        <span className="text-sm font-medium">Culture agent</span>
         <div className="ml-auto flex rounded-lg border p-0.5 text-xs">
           <button
             onClick={() => setMode("insights")}
@@ -118,9 +118,9 @@ export default function ChatPanel() {
           <button
             onClick={() => setMode("interview")}
             className={`rounded-md px-2.5 py-1 ${mode === "interview" ? "bg-violet-600 text-white" : "text-muted-foreground"}`}
-            title="O agente entrevista você e registra histórias novas — é assim que o sistema nasce numa empresa real"
+            title="The agent interviews you and records new stories — this is how the system bootstraps in a real company"
           >
-            Entrevista
+            Interview
           </button>
         </div>
       </div>
@@ -130,8 +130,8 @@ export default function ChatPanel() {
           <div className="mx-auto max-w-lg space-y-3 pt-8 text-center">
             <p className="text-sm text-muted-foreground">
               {mode === "insights"
-                ? "Pergunte o que a gestão normalmente não consegue ver — cada resposta vem fundamentada nas histórias."
-                : "Deixe o agente te entrevistar: ele colhe uma história sua sobre um colega e alimenta o gêmeo digital."}
+                ? "Ask what management usually can't see — every answer is grounded in the stories."
+                : "Let the agent interview you: it collects a story of yours about a colleague and feeds the digital twin."}
             </p>
             {mode === "insights" && (
               <div className="flex flex-col gap-2">
@@ -147,8 +147,8 @@ export default function ChatPanel() {
               </div>
             )}
             {mode === "interview" && (
-              <Button variant="outline" onClick={() => send("Oi! Quero contar uma história sobre um colega.")}>
-                Começar a entrevista
+              <Button variant="outline" onClick={() => send("Hi! I want to share a story about a colleague.")}>
+                Start the interview
               </Button>
             )}
           </div>
@@ -178,7 +178,7 @@ export default function ChatPanel() {
               )}
               {m.role === "assistant" ? (
                 <div className="whitespace-pre-wrap rounded-2xl rounded-bl-sm border bg-background px-4 py-2 text-sm leading-relaxed">
-                  {m.content || (loading && i === messages.length - 1 ? "pensando…" : "")}
+                  {m.content || (loading && i === messages.length - 1 ? "thinking…" : "")}
                 </div>
               ) : (
                 m.content
@@ -204,11 +204,11 @@ export default function ChatPanel() {
               send(input);
             }
           }}
-          placeholder={mode === "insights" ? "Pergunte sobre times, perfis, lacunas…" : "Responda ao entrevistador…"}
+          placeholder={mode === "insights" ? "Ask about teams, profiles, gaps…" : "Reply to the interviewer…"}
           className="min-h-[44px] max-h-32 resize-none"
         />
         <Button type="submit" disabled={loading || !input.trim()} className="self-end bg-violet-600 hover:bg-violet-700">
-          Enviar
+          Send
         </Button>
       </form>
     </div>

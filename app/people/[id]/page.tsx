@@ -57,18 +57,18 @@ export default async function PersonPage({
               }`}
             >
               {STATUS_LABELS[person.status]}
-              {person.endDate ? ` em ${person.endDate}` : ""}
+              {person.endDate ? ` in ${person.endDate}` : ""}
             </span>
           )}
         </div>
         <p className="text-sm text-muted-foreground">
           {person.role} · {person.seniority} ·{" "}
-          {person.squadId ? `time ${getSquad(person.squadId)?.name}` : "liderança do setor"} · na Lumina desde{" "}
-          {person.startDate} · {stories.length} histórias registradas
+          {person.squadId ? `${getSquad(person.squadId)?.name} squad` : "department leadership"} · at Lumina since{" "}
+          {person.startDate} · {stories.length} stories recorded
         </p>
         {person.previousRoles.length > 0 && (
           <p className="text-xs text-muted-foreground">
-            Trajetória:{" "}
+            Career path:{" "}
             {person.previousRoles
               .map((r) => `${r.role}${r.teamId ? ` (${getTeam(r.teamId)?.name ?? r.teamId})` : ""} · ${r.from}–${r.to}`)
               .join(" → ")}{" "}
@@ -80,25 +80,25 @@ export default async function PersonPage({
       <div className="grid gap-6 lg:grid-cols-2">
         <Card>
           <CardHeader>
-            <CardTitle className="text-base">Perfil de forças</CardTitle>
+            <CardTitle className="text-base">Strengths profile</CardTitle>
             <p className="text-xs text-muted-foreground">
-              Roxo: {person.name.split(" ")[0]} · cinza: média do time {team?.name}
+              Purple: {person.name.split(" ")[0]} · gray: {team?.name} team average
             </p>
           </CardHeader>
           <CardContent>
             {radarData.length >= 3 ? (
-              <TagRadar data={radarData} referenceLabel={`média ${team?.name}`} />
+              <TagRadar data={radarData} referenceLabel={`${team?.name} average`} />
             ) : (
-              <p className="text-sm text-muted-foreground">Ainda há poucas evidências para desenhar o radar.</p>
+              <p className="text-sm text-muted-foreground">Not enough evidence yet to draw the radar.</p>
             )}
           </CardContent>
         </Card>
 
         <Card>
           <CardHeader>
-            <CardTitle className="text-base">Tags com evidência</CardTitle>
+            <CardTitle className="text-base">Tags with evidence</CardTitle>
             <p className="text-xs text-muted-foreground">
-              Força = (evidência ponderada + 1) / (peso total + 3). Sem evidência = baixa confiança, nunca “nota baixa”.
+              Strength = (weighted evidence + 1) / (total weight + 3). No evidence = low confidence, never a “low score”.
             </p>
           </CardHeader>
           <CardContent className="space-y-4">
@@ -106,7 +106,7 @@ export default async function PersonPage({
               <StrengthBar key={s.tagId} score={s} />
             ))}
             {withEvidence.length === 0 && (
-              <p className="text-sm text-muted-foreground">Nenhuma evidência registrada ainda.</p>
+              <p className="text-sm text-muted-foreground">No evidence recorded yet.</p>
             )}
           </CardContent>
         </Card>
@@ -115,7 +115,7 @@ export default async function PersonPage({
       <JohariPanel divergences={divergences} />
 
       <div>
-        <h2 className="mb-3 text-lg font-medium">As histórias por trás dos números</h2>
+        <h2 className="mb-3 text-lg font-medium">The stories behind the numbers</h2>
         <div className="grid gap-3 lg:grid-cols-2">
           {stories.map((story) => {
             const author = story.authorId ? employees.get(story.authorId) : undefined;
@@ -124,7 +124,7 @@ export default async function PersonPage({
                 key={story.id}
                 story={story}
                 evidence={evidence.filter((e) => e.storyId === story.id)}
-                authorName={story.source === "self" ? undefined : author ? "colaborador(a) anônimo(a)" : undefined}
+                authorName={story.source === "self" ? undefined : author ? "anonymous colleague" : undefined}
                 highlighted={story.id === highlight}
               />
             );

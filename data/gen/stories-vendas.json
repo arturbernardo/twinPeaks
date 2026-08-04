@@ -3,55 +3,55 @@
     "subjectId": "ricardo-bastos",
     "authorId": "ricardo-bastos",
     "source": "self",
-    "text": "Fechei o trimestre revisando o forecast conta a conta com cada executivo; quando vi que a TechCorreio ia escorregar para julho, remontei o plano da semana em uma tarde e redistribuí as contas quentes. Prefiro mexer no plano dez vezes a aceitar terminar o mês abaixo da meta.",
+    "text": "I closed out the quarter reviewing the forecast account by account with each rep; when I saw TechCorreio was going to slip to July, I rebuilt the week's plan in one afternoon and redistributed the hot accounts. I'd rather rework the plan ten times than accept ending the month below target.",
     "tags": [
-      { "tagId": "results_focus", "quote": "Prefiro mexer no plano dez vezes a aceitar terminar o mês abaixo da meta", "confidence": 0.85 },
-      { "tagId": "drive_energy", "quote": "remontei o plano da semana em uma tarde e redistribuí as contas quentes", "confidence": 0.7 }
+      { "tagId": "results_focus", "quote": "I'd rather rework the plan ten times than accept ending the month below target", "confidence": 0.85 },
+      { "tagId": "drive_energy", "quote": "rebuilt the week's plan in one afternoon and redistributed the hot accounts", "confidence": 0.7 }
     ]
   },
   {
     "subjectId": "ricardo-bastos",
     "authorId": "ricardo-bastos",
     "source": "self",
-    "text": "Esta semana finalmente migrei meus one-on-ones para o novo calendário e aproveitei para atualizar os modelos de proposta no drive do time. Também troquei a sala das segundas porque a antiga não tinha TV para projetar o pipeline.",
+    "text": "This week I finally migrated my one-on-ones to the new calendar and took the chance to update the proposal templates in the team drive. I also switched the Monday meeting room because the old one had no TV to project the pipeline.",
     "tags": []
   },
   {
     "subjectId": "ricardo-bastos",
     "authorId": "luana-cardoso",
     "source": "peer",
-    "text": "O Ricardo abriu a segunda-feira dizendo que ninguém sairia da sala sem saber exatamente quais três negócios fecham até sexta. Ele mesmo pegou o telefone e destravou o desconto da Vetria com o financeiro em meia hora. É impossível ficar parado perto dele.",
+    "text": "Ricardo opened Monday saying nobody would leave the room without knowing exactly which three deals close by Friday. He picked up the phone himself and unblocked the Vetria discount with finance in half an hour. It's impossible to stand still around him.",
     "tags": [
-      { "tagId": "results_focus", "quote": "ninguém sairia da sala sem saber exatamente quais três negócios fecham até sexta", "confidence": 0.8 },
-      { "tagId": "drive_energy", "quote": "É impossível ficar parado perto dele", "confidence": 0.85 }
+      { "tagId": "results_focus", "quote": "nobody would leave the room without knowing exactly which three deals close by Friday", "confidence": 0.8 },
+      { "tagId": "drive_energy", "quote": "It's impossible to stand still around him", "confidence": 0.85 }
     ]
   },
   {
     "subjectId": "ricardo-bastos",
     "authorId": "pedro-galvao",
     "source": "peer",
-    "text": "Prometi ao Ricardo que mandaria a proposta da Brastel na terça e deixei passar. Na quarta de manhã ele estava na minha mesa perguntando o que tinha acontecido e o que eu precisava para não repetir. Ele anota cada combinado do pipeline review e cobra um por um na semana seguinte.",
+    "text": "I promised Ricardo I'd send the Brastel proposal on Tuesday and let it slip. Wednesday morning he was at my desk asking what had happened and what I needed so it wouldn't happen again. He writes down every commitment from the pipeline review and follows up on each one the following week.",
     "tags": [
-      { "tagId": "accountability", "quote": "Ele anota cada combinado do pipeline review e cobra um por um na semana seguinte", "confidence": 0.9 }
+      { "tagId": "accountability", "quote": "He writes down every commitment from the pipeline review and follows up on each one the following week", "confidence": 0.9 }
     ]
   },
   {
     "subjectId": "ricardo-bastos",
     "authorId": "fernanda-said",
     "source": "peer",
-    "text": "Quando o número de junho apertou, o Ricardo cortou a própria viagem ao evento em São Paulo para ficar em cima das renovações. Ele repete que troféu de esforço não paga meta, e cobra o resultado do time e o dele com a mesma dureza.",
+    "text": "When the June number got tight, Ricardo cancelled his own trip to the event in São Paulo to stay on top of the renewals. He keeps repeating that an effort trophy doesn't pay the quota, and he holds the team's results and his own to the same hard standard.",
     "tags": [
-      { "tagId": "results_focus", "quote": "Ele repete que troféu de esforço não paga meta", "confidence": 0.85 },
-      { "tagId": "accountability", "quote": "cobra o resultado do time e o dele com a mesma dureza", "confidence": 0.7 }
+      { "tagId": "results_focus", "quote": "He keeps repeating that an effort trophy doesn't pay the quota", "confidence": 0.85 },
+      { "tagId": "accountability", "quote": "holds the team's results and his own to the same hard standard", "confidence": 0.7 }
     ]
   },
   {
     "subjectId": "ricardo-bastos",
     "authorId": "juliana-peixoto",
     "source": "peer",
-    "text": "Fizemos juntos a virada da conta Mundivox de vendas para CS e o Ricardo não deixou o assunto esfriar um dia: agenda marcada em 24 horas, próximos passos por escrito, follow-up antes mesmo do prazo. O ritmo que ele imprime puxa todo mundo ao redor.",
+    "text": "We handled the Mundivox account handoff from sales to CS together and Ricardo didn't let the subject cool off for a single day: meeting booked within 24 hours, next steps in writing, follow-up before the deadline even arrived. The pace he sets pulls everyone around him along.",
     "tags": [
-      { "tagId": "drive_energy", "quote": "O ritmo que ele imprime puxa todo mundo ao redor", "confidence": 0.85 }
+      { "tagId": "drive_energy", "quote": "The pace he sets pulls everyone around him along", "confidence": 0.85 }
     ]
   },
 
@@ -59,64 +59,64 @@
     "subjectId": "helena-fontes",
     "authorId": "helena-fontes",
     "source": "self",
-    "text": "Reservei minhas quartas de manhã para treinar a Camila e o Mateus em discovery call: a gente grava as ligações, escuta junto e eu mostro onde a pergunta poderia abrir mais o cliente. Enquanto o quadro de metas pisca na parede, eu sigo achando que SDR bem formado fecha mais que SDR apressado.",
+    "text": "I've set aside my Wednesday mornings to train Camila and Mateus on discovery calls: we record the calls, listen together, and I show them where a question could have opened the client up more. While the targets board blinks on the wall, I still believe a well-trained SDR closes more than a rushed one.",
     "tags": [
-      { "tagId": "mentorship", "quote": "a gente grava as ligações, escuta junto e eu mostro onde a pergunta poderia abrir mais o cliente", "confidence": 0.9 }
+      { "tagId": "mentorship", "quote": "we record the calls, listen together, and I show them where a question could have opened the client up more", "confidence": 0.9 }
     ]
   },
   {
     "subjectId": "helena-fontes",
     "authorId": "helena-fontes",
     "source": "self",
-    "text": "Semana passada organizei meu CRM e arquivei umas quarenta oportunidades antigas que ainda apareciam no meu painel. Aproveitei para atualizar os contatos da conta Ardosia, que tinham mudado de e-mail depois da fusão.",
+    "text": "Last week I cleaned up my CRM and archived about forty old opportunities that still showed up on my dashboard. I also took the chance to update the contacts on the Ardosia account, who had changed emails after the merger.",
     "tags": []
   },
   {
     "subjectId": "helena-fontes",
     "authorId": "camila-arruda",
     "source": "peer",
-    "text": "Perdi um lead grande por ter pulado a etapa de qualificação e fui contar para a Helena esperando bronca. Ela agradeceu por eu ter avisado rápido, disse que erro contado cedo é erro barato e montou comigo um checklist para as próximas ligações. Foi a primeira vez desde que entrei que errar não pareceu o fim do mundo.",
+    "text": "I lost a big lead because I skipped the qualification step and went to tell Helena expecting a scolding. She thanked me for flagging it quickly, said that a mistake reported early is a cheap mistake, and built a checklist with me for the next calls. It was the first time since I joined that making a mistake didn't feel like the end of the world.",
     "tags": [
-      { "tagId": "psych_safety", "quote": "disse que erro contado cedo é erro barato", "confidence": 0.9 },
-      { "tagId": "mentorship", "quote": "montou comigo um checklist para as próximas ligações", "confidence": 0.75 }
+      { "tagId": "psych_safety", "quote": "said that a mistake reported early is a cheap mistake", "confidence": 0.9 },
+      { "tagId": "mentorship", "quote": "built a checklist with me for the next calls", "confidence": 0.75 }
     ]
   },
   {
     "subjectId": "helena-fontes",
     "authorId": "mateus-vilela",
     "source": "peer",
-    "text": "Meu onboarding aqui foi basicamente a Helena: ela montou um plano de trinta dias, sentou do meu lado nas primeiras cold calls e depois me passava feedback linha por linha do que eu tinha falado. Enquanto o resto do time corria atrás da própria meta, ela reservava uma hora por dia para mim.",
+    "text": "My onboarding here was basically Helena: she put together a thirty-day plan, sat next to me on my first cold calls and then gave me line-by-line feedback on what I'd said. While the rest of the team chased their own quotas, she set aside an hour a day for me.",
     "tags": [
-      { "tagId": "mentorship", "quote": "sentou do meu lado nas primeiras cold calls e depois me passava feedback linha por linha", "confidence": 0.95 }
+      { "tagId": "mentorship", "quote": "sat next to me on my first cold calls and then gave me line-by-line feedback", "confidence": 0.95 }
     ]
   },
   {
     "subjectId": "helena-fontes",
     "authorId": "pedro-galvao",
     "source": "peer",
-    "text": "Antes de mandar a proposta da Coplan, pedi para a Helena revisar; ela reestruturou comigo a página de pricing e me ensinou o racional que usa para ancorar o desconto, em vez de simplesmente corrigir. É a única pessoa do time que para a própria prospecção para desenvolver os outros.",
+    "text": "Before sending the Coplan proposal I asked Helena to review it; she restructured the pricing page with me and taught me the rationale she uses to anchor the discount, instead of simply correcting it. She's the only person on the team who pauses her own prospecting to develop others.",
     "tags": [
-      { "tagId": "mentorship", "quote": "me ensinou o racional que usa para ancorar o desconto, em vez de simplesmente corrigir", "confidence": 0.9 }
+      { "tagId": "mentorship", "quote": "taught me the rationale she uses to anchor the discount, instead of simply correcting it", "confidence": 0.9 }
     ]
   },
   {
     "subjectId": "helena-fontes",
     "authorId": "carolina-freire",
     "source": "peer",
-    "text": "Depois de um trimestre tenso em vendas, a Helena me procurou e desenhamos juntas uma retro do time; ela preparou a pauta, garantiu que os SDRs falassem antes dos sêniores e fechou com combinados claros de quem faz o quê. Num grupo acostumado a gritar número, ela foi quem criou espaço para todo mundo falar.",
+    "text": "After a tense quarter in sales, Helena reached out to me and we designed a team retro together; she prepared the agenda, made sure the SDRs spoke before the seniors and closed with clear agreements on who does what. In a group used to shouting numbers, she was the one who created room for everyone to speak.",
     "tags": [
-      { "tagId": "facilitation", "quote": "ela preparou a pauta, garantiu que os SDRs falassem antes dos sêniores e fechou com combinados claros", "confidence": 0.9 },
-      { "tagId": "psych_safety", "quote": "ela foi quem criou espaço para todo mundo falar", "confidence": 0.75 }
+      { "tagId": "facilitation", "quote": "she prepared the agenda, made sure the SDRs spoke before the seniors and closed with clear agreements", "confidence": 0.9 },
+      { "tagId": "psych_safety", "quote": "she was the one who created room for everyone to speak", "confidence": 0.75 }
     ]
   },
   {
     "subjectId": "helena-fontes",
     "authorId": "ricardo-bastos",
     "source": "manager",
-    "text": "A Helena bate meta sem alarde, mas o que ela faz de diferente é formar gente: os dois SDRs que rampearam mais rápido este ano passaram pela escolinha dela de discovery. Ela também assumiu a organização do pipeline review das segundas, e a reunião passou a durar metade do tempo com o dobro de decisão.",
+    "text": "Helena hits her quota without fanfare, but what she does differently is develop people: the two SDRs who ramped fastest this year went through her discovery school. She also took over running the Monday pipeline review, and the meeting now takes half the time with twice the decisions.",
     "tags": [
-      { "tagId": "mentorship", "quote": "os dois SDRs que rampearam mais rápido este ano passaram pela escolinha dela de discovery", "confidence": 0.85 },
-      { "tagId": "facilitation", "quote": "a reunião passou a durar metade do tempo com o dobro de decisão", "confidence": 0.8 }
+      { "tagId": "mentorship", "quote": "the two SDRs who ramped fastest this year went through her discovery school", "confidence": 0.85 },
+      { "tagId": "facilitation", "quote": "the meeting now takes half the time with twice the decisions", "confidence": 0.8 }
     ]
   },
 
@@ -124,54 +124,54 @@
     "subjectId": "camila-arruda",
     "authorId": "camila-arruda",
     "source": "self",
-    "text": "Bati minha meta de reuniões agendadas na segunda semana do mês e resolvi testar um roteiro novo de cold call no restante dos dias. Anotei o que funcionou de cada ligação numa planilha e na sexta já estava com uma taxa de resposta bem melhor.",
+    "text": "I hit my booked-meetings quota in the second week of the month and decided to test a new cold call script for the remaining days. I noted what worked from each call in a spreadsheet and by Friday I already had a much better response rate.",
     "tags": [
-      { "tagId": "drive_energy", "quote": "Bati minha meta de reuniões agendadas na segunda semana do mês", "confidence": 0.7 },
-      { "tagId": "learning_agility", "quote": "Anotei o que funcionou de cada ligação numa planilha e na sexta já estava com uma taxa de resposta bem melhor", "confidence": 0.8 }
+      { "tagId": "drive_energy", "quote": "I hit my booked-meetings quota in the second week of the month", "confidence": 0.7 },
+      { "tagId": "learning_agility", "quote": "I noted what worked from each call in a spreadsheet and by Friday I already had a much better response rate", "confidence": 0.8 }
     ]
   },
   {
     "subjectId": "camila-arruda",
     "authorId": "mateus-vilela",
     "source": "peer",
-    "text": "A Camila chega antes de todo mundo e abre o dia já com a lista de ligações pronta; teve uma sexta que ela fez sessenta cold calls porque faltavam três reuniões para a meta do time. O placar dela no quadro raramente fica atrás.",
+    "text": "Camila arrives before everyone else and starts the day with her call list already prepped; there was one Friday she made sixty cold calls because the team was three meetings short of quota. Her score on the board is rarely behind.",
     "tags": [
-      { "tagId": "drive_energy", "quote": "teve uma sexta que ela fez sessenta cold calls porque faltavam três reuniões para a meta do time", "confidence": 0.9 }
+      { "tagId": "drive_energy", "quote": "there was one Friday she made sixty cold calls because the team was three meetings short of quota", "confidence": 0.9 }
     ]
   },
   {
     "subjectId": "camila-arruda",
     "authorId": "luana-cardoso",
     "source": "peer",
-    "text": "Passei um feedback para a Camila sobre como ela abria as ligações e no dia seguinte ela já estava usando uma abertura nova, melhor que a minha sugestão. Ela devora as gravações dos executivos sêniores e aplica na semana seguinte o que ouviu.",
+    "text": "I gave Camila feedback on how she opened her calls and the very next day she was already using a new opener, better than my suggestion. She devours the senior reps' call recordings and applies what she heard the following week.",
     "tags": [
-      { "tagId": "learning_agility", "quote": "Ela devora as gravações dos executivos sêniores e aplica na semana seguinte o que ouviu", "confidence": 0.85 }
+      { "tagId": "learning_agility", "quote": "She devours the senior reps' call recordings and applies what she heard the following week", "confidence": 0.85 }
     ]
   },
   {
     "subjectId": "camila-arruda",
     "authorId": "fernanda-said",
     "source": "peer",
-    "text": "A Camila me ajudou a testar o novo campo de origem de lead no CRM antes de liberarmos para o resto do time. Também ficou responsável por recolher os crachás do estande depois da feira de tecnologia.",
+    "text": "Camila helped me test the new lead-source field in the CRM before we rolled it out to the rest of the team. She also took charge of collecting the booth badges after the tech fair.",
     "tags": []
   },
   {
     "subjectId": "camila-arruda",
     "authorId": "natalia-brito",
     "source": "peer",
-    "text": "Dividi com a Camila a maratona de follow-ups pós-webinar e ela varou a tarde ligando para a lista inteira antes do prazo, e ainda me mandou os aprendizados organizados por segmento. O gás dela contagiou até o nosso time.",
+    "text": "I split the post-webinar follow-up marathon with Camila and she powered through the afternoon calling the entire list before the deadline, and even sent me the learnings organized by segment. Her energy rubbed off even on our team.",
     "tags": [
-      { "tagId": "drive_energy", "quote": "ela varou a tarde ligando para a lista inteira antes do prazo", "confidence": 0.8 }
+      { "tagId": "drive_energy", "quote": "she powered through the afternoon calling the entire list before the deadline", "confidence": 0.8 }
     ]
   },
   {
     "subjectId": "camila-arruda",
     "authorId": "ricardo-bastos",
     "source": "manager",
-    "text": "A Camila é a primeira SDR que rampou em menos de dois meses aqui. Quando mudamos o ICP no meio do trimestre, ela refez as listas sozinha em dois dias e não deixou o ritmo de agendamentos cair.",
+    "text": "Camila is the first SDR here to ramp in under two months. When we changed the ICP mid-quarter, she rebuilt the lists on her own in two days and didn't let the pace of bookings drop.",
     "tags": [
-      { "tagId": "learning_agility", "quote": "Quando mudamos o ICP no meio do trimestre, ela refez as listas sozinha em dois dias", "confidence": 0.8 },
-      { "tagId": "drive_energy", "quote": "não deixou o ritmo de agendamentos cair", "confidence": 0.65 }
+      { "tagId": "learning_agility", "quote": "When we changed the ICP mid-quarter, she rebuilt the lists on her own in two days", "confidence": 0.8 },
+      { "tagId": "drive_energy", "quote": "didn't let the pace of bookings drop", "confidence": 0.65 }
     ]
   },
 
@@ -179,52 +179,52 @@
     "subjectId": "pedro-galvao",
     "authorId": "pedro-galvao",
     "source": "self",
-    "text": "Na negociação com a Redemar, abri mão de empurrar o módulo extra porque o problema deles era outro; fechei um contrato menor agora e deixei mapeada a expansão para o segundo semestre. Prefiro um cliente com o problema certo resolvido do que um ticket inflado que cancela em seis meses.",
+    "text": "In the Redemar negotiation I gave up on pushing the extra module because their problem was a different one; I closed a smaller contract now and mapped out the expansion for the second half of the year. I'd rather have a client with the right problem solved than an inflated ticket that churns in six months.",
     "tags": [
-      { "tagId": "customer_focus", "quote": "abri mão de empurrar o módulo extra porque o problema deles era outro", "confidence": 0.85 }
+      { "tagId": "customer_focus", "quote": "gave up on pushing the extra module because their problem was a different one", "confidence": 0.85 }
     ]
   },
   {
     "subjectId": "pedro-galvao",
     "authorId": "luana-cardoso",
     "source": "peer",
-    "text": "No fim do trimestre o Pedro percebeu que o negócio dele com a Altavia não fecharia a tempo e, em vez de segurar a conta, passou dois leads quentes para mim porque eu estava mais perto da meta do time. Para ele, o número que importa é o do quadro coletivo.",
+    "text": "At the end of the quarter Pedro realized his Altavia deal wouldn't close in time and, instead of holding on to the account, he passed two hot leads to me because I was closer to the team's quota. For him, the number that matters is the collective scoreboard.",
     "tags": [
-      { "tagId": "results_focus", "quote": "passou dois leads quentes para mim porque eu estava mais perto da meta do time", "confidence": 0.85 }
+      { "tagId": "results_focus", "quote": "passed two hot leads to me because I was closer to the team's quota", "confidence": 0.85 }
     ]
   },
   {
     "subjectId": "pedro-galvao",
     "authorId": "helena-fontes",
     "source": "peer",
-    "text": "Na demo para a Sollux, o Pedro largou o roteiro padrão no terceiro slide e passou o resto da call montando o fluxo com os dados reais que o cliente tinha mandado. Ele liga para usuários finais antes de cada proposta para entender o dia a dia de quem vai usar a ferramenta.",
+    "text": "In the demo for Sollux, Pedro dropped the standard script on the third slide and spent the rest of the call building the flow with the real data the client had sent. He calls end users before every proposal to understand the day-to-day of whoever will use the tool.",
     "tags": [
-      { "tagId": "customer_focus", "quote": "Ele liga para usuários finais antes de cada proposta para entender o dia a dia de quem vai usar a ferramenta", "confidence": 0.9 }
+      { "tagId": "customer_focus", "quote": "He calls end users before every proposal to understand the day-to-day of whoever will use the tool", "confidence": 0.9 }
     ]
   },
   {
     "subjectId": "pedro-galvao",
     "authorId": "mateus-vilela",
     "source": "peer",
-    "text": "O Pedro me deu carona para o evento da associação comercial e aproveitamos para revisar a escala de plantão do estande. Ele também descobriu uma churrascaria boa perto do escritório novo para os almoços de fechamento de mês.",
+    "text": "Pedro gave me a ride to the trade association event and we used the drive to review the booth duty roster. He also found a great steakhouse near the new office for the end-of-month closing lunches.",
     "tags": []
   },
   {
     "subjectId": "pedro-galvao",
     "authorId": "eduardo-sales",
     "source": "peer",
-    "text": "O Pedro me chamou antes de fechar a venda para a Vetria para conferir se o suporte dava conta do fluxo que ele estava prometendo; ajustou o escopo da proposta depois da nossa conversa. É raro ver vendedor freando o próprio deal para o cliente não se frustrar depois.",
+    "text": "Pedro called me before closing the Vetria sale to check whether support could handle the volume he was promising; he adjusted the proposal scope after our conversation. It's rare to see a salesperson slowing down his own deal so the client won't be frustrated later.",
     "tags": [
-      { "tagId": "customer_focus", "quote": "É raro ver vendedor freando o próprio deal para o cliente não se frustrar depois", "confidence": 0.85 }
+      { "tagId": "customer_focus", "quote": "It's rare to see a salesperson slowing down his own deal so the client won't be frustrated later", "confidence": 0.85 }
     ]
   },
   {
     "subjectId": "pedro-galvao",
     "authorId": "ricardo-bastos",
     "source": "manager",
-    "text": "O Pedro terminou os últimos quatro trimestres acima de cem por cento e nunca precisei lembrar ele do número. Quando a meta apertou em maio, ele mesmo propôs trocar duas contas de vitrine por três com ciclo mais curto e fechou o gap.",
+    "text": "Pedro finished the last four quarters above one hundred percent and I never had to remind him of the number. When the quota got tight in May, he himself proposed swapping two showcase accounts for three with a shorter cycle and closed the gap.",
     "tags": [
-      { "tagId": "results_focus", "quote": "ele mesmo propôs trocar duas contas de vitrine por três com ciclo mais curto e fechou o gap", "confidence": 0.85 }
+      { "tagId": "results_focus", "quote": "he himself proposed swapping two showcase accounts for three with a shorter cycle and closed the gap", "confidence": 0.85 }
     ]
   },
 
@@ -232,54 +232,54 @@
     "subjectId": "luana-cardoso",
     "authorId": "luana-cardoso",
     "source": "self",
-    "text": "Terminei maio a oito mil reais da meta e passei os últimos três dias úteis praticamente morando no telefone: reabri duas oportunidades perdidas e fechei a segunda no último dia, às 19h. Meta para mim não é aproximação, ou bateu ou não bateu.",
+    "text": "I ended May eight thousand reais short of quota and spent the last three business days practically living on the phone: I reopened two lost opportunities and closed the second one on the last day, at 7 p.m. For me a quota isn't an approximation, you either hit it or you didn't.",
     "tags": [
-      { "tagId": "drive_energy", "quote": "passei os últimos três dias úteis praticamente morando no telefone", "confidence": 0.8 },
-      { "tagId": "results_focus", "quote": "Meta para mim não é aproximação, ou bateu ou não bateu", "confidence": 0.85 }
+      { "tagId": "drive_energy", "quote": "spent the last three business days practically living on the phone", "confidence": 0.8 },
+      { "tagId": "results_focus", "quote": "For me a quota isn't an approximation, you either hit it or you didn't", "confidence": 0.85 }
     ]
   },
   {
     "subjectId": "luana-cardoso",
     "authorId": "pedro-galvao",
     "source": "peer",
-    "text": "A Luana fez em um dia o follow-up de todas as vinte propostas paradas do time quando o forecast do mês travou; à tarde já tinha três reaberturas. Quando o pipeline esfria, é ela quem esquenta a sala.",
+    "text": "When the month's forecast stalled, Luana followed up on all twenty of the team's stalled proposals in a single day; by the afternoon she already had three reopened. When the pipeline goes cold, she's the one who heats up the room.",
     "tags": [
-      { "tagId": "drive_energy", "quote": "fez em um dia o follow-up de todas as vinte propostas paradas do time", "confidence": 0.85 }
+      { "tagId": "drive_energy", "quote": "followed up on all twenty of the team's stalled proposals in a single day", "confidence": 0.85 }
     ]
   },
   {
     "subjectId": "luana-cardoso",
     "authorId": "camila-arruda",
     "source": "peer",
-    "text": "A Luana me pediu para priorizar agendamentos no segmento de logística porque era onde o time tinha mais chance de fechar dentro do trimestre, mesmo sendo contas menores que as dela. Ela recalcula o funil toda semana e corta sem dó o que não vai virar receita.",
+    "text": "Luana asked me to prioritize bookings in the logistics segment because that's where the team had the best chance of closing within the quarter, even though those accounts were smaller than hers. She recalculates the funnel every week and ruthlessly cuts whatever won't turn into revenue.",
     "tags": [
-      { "tagId": "results_focus", "quote": "Ela recalcula o funil toda semana e corta sem dó o que não vai virar receita", "confidence": 0.85 }
+      { "tagId": "results_focus", "quote": "She recalculates the funnel every week and ruthlessly cuts whatever won't turn into revenue", "confidence": 0.85 }
     ]
   },
   {
     "subjectId": "luana-cardoso",
     "authorId": "fernanda-said",
     "source": "peer",
-    "text": "A Luana topou revezar comigo a atualização do painel de comissões enquanto o sistema novo não chega. Ela também trouxe as canecas personalizadas do kickoff de vendas, que ficaram ótimas.",
+    "text": "Luana agreed to take turns with me updating the commissions dashboard until the new system arrives. She also brought the custom mugs from the sales kickoff, which turned out great.",
     "tags": []
   },
   {
     "subjectId": "luana-cardoso",
     "authorId": "joao-prado",
     "source": "peer",
-    "text": "Precisei de cases para o lançamento da nova funcionalidade e a Luana devolveu no mesmo dia três clientes dispostos a gravar depoimento, já com horário marcado. Ela responde antes de todo mundo e não deixa nada em aberto até sexta.",
+    "text": "I needed case studies for the new feature launch and Luana came back the same day with three clients willing to record a testimonial, time slots already booked. She replies before everyone else and leaves nothing open past Friday.",
     "tags": [
-      { "tagId": "drive_energy", "quote": "devolveu no mesmo dia três clientes dispostos a gravar depoimento, já com horário marcado", "confidence": 0.8 }
+      { "tagId": "drive_energy", "quote": "came back the same day with three clients willing to record a testimonial, time slots already booked", "confidence": 0.8 }
     ]
   },
   {
     "subjectId": "luana-cardoso",
     "authorId": "ricardo-bastos",
     "source": "manager",
-    "text": "A Luana carregou o número do time em fevereiro quando dois executivos estavam de férias: assumiu o dobro de demos sem reclamar e fechou o mês como primeira do ranking. Ela negocia duro, mas o que me impressiona é a constância de estar sempre acima da meta.",
+    "text": "Luana carried the team's number in February when two reps were on vacation: she took on double the demos without complaining and closed the month at the top of the ranking. She negotiates hard, but what impresses me is the consistency of always being above quota.",
     "tags": [
-      { "tagId": "drive_energy", "quote": "assumiu o dobro de demos sem reclamar", "confidence": 0.7 },
-      { "tagId": "results_focus", "quote": "a constância de estar sempre acima da meta", "confidence": 0.8 }
+      { "tagId": "drive_energy", "quote": "took on double the demos without complaining", "confidence": 0.7 },
+      { "tagId": "results_focus", "quote": "the consistency of always being above quota", "confidence": 0.8 }
     ]
   },
 
@@ -287,52 +287,52 @@
     "subjectId": "mateus-vilela",
     "authorId": "mateus-vilela",
     "source": "self",
-    "text": "Percebi que os leads do formulário do site ficavam dois dias sem resposta e ninguém era dono disso; assumi a fila, criei uma regra de resposta em até uma hora e segurei o processo até a Fernanda automatizar. Não era minha função, mas lead esfriando é dinheiro do time indo embora.",
+    "text": "I noticed that leads from the website form sat two days without a reply and nobody owned it; I took over the queue, created a one-hour response rule and held the process together until Fernanda automated it. It wasn't my job, but a lead going cold is the team's money walking away.",
     "tags": [
-      { "tagId": "ownership", "quote": "assumi a fila, criei uma regra de resposta em até uma hora e segurei o processo até a Fernanda automatizar", "confidence": 0.9 }
+      { "tagId": "ownership", "quote": "took over the queue, created a one-hour response rule and held the process together until Fernanda automated it", "confidence": 0.9 }
     ]
   },
   {
     "subjectId": "mateus-vilela",
     "authorId": "camila-arruda",
     "source": "peer",
-    "text": "O Mateus transformou a última hora da sexta na nossa power hour de ligações: ele coloca o cronômetro na TV e sai discando junto. Na semana do fechamento ele fez quarenta ligações a mais que a própria meta para garantir os agendamentos do time.",
+    "text": "Mateus turned the last hour of Friday into our call power hour: he puts the timer up on the TV and starts dialing right along with us. In closing week he made forty calls beyond his own quota to secure the team's bookings.",
     "tags": [
-      { "tagId": "drive_energy", "quote": "ele coloca o cronômetro na TV e sai discando junto", "confidence": 0.85 }
+      { "tagId": "drive_energy", "quote": "he puts the timer up on the TV and starts dialing right along with us", "confidence": 0.85 }
     ]
   },
   {
     "subjectId": "mateus-vilela",
     "authorId": "helena-fontes",
     "source": "peer",
-    "text": "Um lead reclamou que recebeu proposta duplicada com valores diferentes e o Mateus, mesmo sem ser dele, rastreou o erro até uma automação antiga, avisou as contas afetadas e só soltou o assunto quando o fluxo foi corrigido. Novato com esse senso de dono é raro.",
+    "text": "A lead complained about receiving a duplicate proposal with different prices and Mateus, even though it wasn't his, traced the error back to an old automation, notified the affected accounts and only let go of the issue once the flow was fixed. A new hire with that sense of ownership is rare.",
     "tags": [
-      { "tagId": "ownership", "quote": "rastreou o erro até uma automação antiga, avisou as contas afetadas e só soltou o assunto quando o fluxo foi corrigido", "confidence": 0.9 }
+      { "tagId": "ownership", "quote": "traced the error back to an old automation, notified the affected accounts and only let go of the issue once the flow was fixed", "confidence": 0.9 }
     ]
   },
   {
     "subjectId": "mateus-vilela",
     "authorId": "luana-cardoso",
     "source": "peer",
-    "text": "O Mateus ficou responsável pela playlist do fechamento de mês e pelo bolo do aniversário do Ricardo, tudo na mesma semana. Também organizou o armário de brindes, que estava um caos desde o evento de março.",
+    "text": "Mateus was in charge of the end-of-month playlist and the cake for Ricardo's birthday, all in the same week. He also organized the swag cabinet, which had been a mess since the March event.",
     "tags": []
   },
   {
     "subjectId": "mateus-vilela",
     "authorId": "lucas-macedo",
     "source": "peer",
-    "text": "O relatório de leads do faturamento vinha com divergência havia semanas e foi o Mateus quem me procurou, cruzou as planilhas comigo numa tarde e documentou a correção. SDR se importando com conciliação de dados de outra área não é algo que eu esperava ver.",
+    "text": "The billing leads report had been showing discrepancies for weeks and it was Mateus who came to me, cross-checked the spreadsheets with me over an afternoon and documented the fix. An SDR caring about another area's data reconciliation isn't something I expected to see.",
     "tags": [
-      { "tagId": "ownership", "quote": "foi o Mateus quem me procurou, cruzou as planilhas comigo numa tarde e documentou a correção", "confidence": 0.8 }
+      { "tagId": "ownership", "quote": "it was Mateus who came to me, cross-checked the spreadsheets with me over an afternoon and documented the fix", "confidence": 0.8 }
     ]
   },
   {
     "subjectId": "mateus-vilela",
     "authorId": "ricardo-bastos",
     "source": "manager",
-    "text": "O Mateus abre o dia com a cadência já rodando e costuma ser o primeiro do ranking de atividades sem que eu peça nada. Quando o funil de topo secou em abril, ele propôs um mutirão de prospecção e puxou o time inteiro para discar junto por dois dias.",
+    "text": "Mateus starts the day with his cadence already running and is usually first in the activity ranking without me asking for anything. When top-of-funnel dried up in April, he proposed a prospecting blitz and got the whole team dialing together for two days.",
     "tags": [
-      { "tagId": "drive_energy", "quote": "ele propôs um mutirão de prospecção e puxou o time inteiro para discar junto por dois dias", "confidence": 0.85 }
+      { "tagId": "drive_energy", "quote": "he proposed a prospecting blitz and got the whole team dialing together for two days", "confidence": 0.85 }
     ]
   },
 
@@ -340,53 +340,53 @@
     "subjectId": "fernanda-said",
     "authorId": "fernanda-said",
     "source": "self",
-    "text": "Fechei a migração das regras de comissão para o sistema novo no prazo que tinha prometido, rodando em paralelo com o antigo por duas semanas para conferir centavo por centavo. Achei três divergências antes da virada e ninguém recebeu errado.",
+    "text": "I finished migrating the commission rules to the new system on the date I had promised, running in parallel with the old one for two weeks to check it cent by cent. I caught three discrepancies before the cutover and nobody got paid wrong.",
     "tags": [
-      { "tagId": "execution_reliability", "quote": "Fechei a migração das regras de comissão para o sistema novo no prazo que tinha prometido", "confidence": 0.8 },
-      { "tagId": "attention_to_detail", "quote": "rodando em paralelo com o antigo por duas semanas para conferir centavo por centavo", "confidence": 0.85 }
+      { "tagId": "execution_reliability", "quote": "I finished migrating the commission rules to the new system on the date I had promised", "confidence": 0.8 },
+      { "tagId": "attention_to_detail", "quote": "running in parallel with the old one for two weeks to check it cent by cent", "confidence": 0.85 }
     ]
   },
   {
     "subjectId": "fernanda-said",
     "authorId": "pedro-galvao",
     "source": "peer",
-    "text": "A Fernanda pegou um desconto de 15% que eu tinha lançado como 51% na proposta da Brastel minutos antes de o contrato sair. Ela revisa cada minuta contra a tabela de preços e já salvou o time de pelo menos três contratos com erro.",
+    "text": "Fernanda caught a 15% discount I had entered as 51% on the Brastel proposal minutes before the contract went out. She checks every draft against the price table and has already saved the team from at least three contracts with errors.",
     "tags": [
-      { "tagId": "attention_to_detail", "quote": "Ela revisa cada minuta contra a tabela de preços", "confidence": 0.9 }
+      { "tagId": "attention_to_detail", "quote": "She checks every draft against the price table", "confidence": 0.9 }
     ]
   },
   {
     "subjectId": "fernanda-said",
     "authorId": "luana-cardoso",
     "source": "peer",
-    "text": "Todo dia primeiro, às 9h, o relatório de fechamento da Fernanda está na caixa de entrada, sem atraso desde que entrei. Quando ela diz que o dashboard novo fica pronto na sexta, eu marco reunião com cliente na segunda sem medo.",
+    "text": "On the first of every month, at 9 a.m., Fernanda's closing report is in my inbox, never late since I joined. When she says the new dashboard will be ready on Friday, I book a client meeting for Monday without a second thought.",
     "tags": [
-      { "tagId": "execution_reliability", "quote": "Todo dia primeiro, às 9h, o relatório de fechamento da Fernanda está na caixa de entrada, sem atraso desde que entrei", "confidence": 0.9 }
+      { "tagId": "execution_reliability", "quote": "On the first of every month, at 9 a.m., Fernanda's closing report is in my inbox, never late since I joined", "confidence": 0.9 }
     ]
   },
   {
     "subjectId": "fernanda-said",
     "authorId": "camila-arruda",
     "source": "peer",
-    "text": "A Fernanda ficou de referência para as dúvidas do CRM novo e combinou com facilities uma segunda tela para a fileira dos SDRs. Na sexta ela trouxe as amostras dos novos cartões de visita para o time escolher.",
+    "text": "Fernanda became the go-to person for questions about the new CRM and arranged a second monitor for the SDR row with facilities. On Friday she brought in the samples of the new business cards for the team to choose.",
     "tags": []
   },
   {
     "subjectId": "fernanda-said",
     "authorId": "henrique-dias",
     "source": "peer",
-    "text": "Fechamos juntos a conciliação de comissões do semestre e a Fernanda chegou com tudo conferido: cada exceção documentada com print e justificativa, nenhuma linha fora do padrão. É a única planilha de área que eu não preciso auditar duas vezes.",
+    "text": "We closed the semester's commission reconciliation together and Fernanda arrived with everything checked: every exception documented with a screenshot and a justification, not a single line out of standard. It's the only departmental spreadsheet I don't need to audit twice.",
     "tags": [
-      { "tagId": "attention_to_detail", "quote": "cada exceção documentada com print e justificativa, nenhuma linha fora do padrão", "confidence": 0.9 }
+      { "tagId": "attention_to_detail", "quote": "every exception documented with a screenshot and a justification, not a single line out of standard", "confidence": 0.9 }
     ]
   },
   {
     "subjectId": "fernanda-said",
     "authorId": "ricardo-bastos",
     "source": "manager",
-    "text": "Delego para a Fernanda qualquer mudança de processo sabendo que vai acontecer na data combinada: foi assim com o novo fluxo de aprovação de descontos, entregue redondo enquanto o time nem percebeu a troca. Em dois anos, não lembro de um compromisso que ela tenha deixado cair.",
+    "text": "I delegate any process change to Fernanda knowing it will happen on the agreed date: that's how the new discount approval flow went, delivered smoothly while the team barely noticed the switch. In two years, I can't remember a single commitment she has let slip.",
     "tags": [
-      { "tagId": "execution_reliability", "quote": "Em dois anos, não lembro de um compromisso que ela tenha deixado cair", "confidence": 0.9 }
+      { "tagId": "execution_reliability", "quote": "In two years, I can't remember a single commitment she has let slip", "confidence": 0.9 }
     ]
   }
 ]

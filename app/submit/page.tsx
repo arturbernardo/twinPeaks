@@ -8,10 +8,10 @@ export default function SubmitPage() {
   return (
     <div className="mx-auto max-w-2xl space-y-6">
       <div>
-        <h1 className="text-2xl font-semibold">Contar uma história</h1>
+        <h1 className="text-2xl font-semibold">Share a story</h1>
         <p className="mt-1 text-sm text-muted-foreground">
-          Histórias concretas viram evidência: o sistema extrai as tags de cultura, mostra a citação exata que
-          sustenta cada uma e atualiza o perfil na hora. Só forças — nunca notas. A autoria fica anônima no perfil.
+          Concrete stories become evidence: the system extracts the culture tags, shows the exact quote that
+          supports each one and updates the profile instantly. Strengths only — never scores. Authorship stays anonymous on the profile.
         </p>
       </div>
       <SubmitForm people={people} />

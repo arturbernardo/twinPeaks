@@ -2,79 +2,79 @@
   "teams": [
     {
       "id": "eng",
-      "name": "Engenharia",
-      "description": "Constrói e opera a plataforma Lumina."
+      "name": "Engineering",
+      "description": "Builds and operates the Lumina platform."
     },
     {
       "id": "produto",
-      "name": "Produto & Design",
-      "description": "Descobre e desenha o que vale a pena construir."
+      "name": "Product & Design",
+      "description": "Discovers and designs what is worth building."
     },
     {
       "id": "vendas",
-      "name": "Vendas",
-      "description": "Leva a Lumina a novos clientes."
+      "name": "Sales",
+      "description": "Brings Lumina to new customers."
     },
     {
       "id": "cs",
       "name": "Customer Success",
-      "description": "Garante que clientes tenham sucesso e renovem."
+      "description": "Ensures customers succeed and renew."
     },
     {
       "id": "ops",
-      "name": "Operações",
-      "description": "Financeiro, pessoas, jurídico e o que faz a empresa rodar."
+      "name": "Operations",
+      "description": "Finance, people, legal and everything that keeps the company running."
     }
   ],
   "squads": [
     {
       "id": "eng-plataforma",
-      "name": "Plataforma & Confiabilidade",
+      "name": "Platform & Reliability",
       "teamId": "eng"
     },
     {
       "id": "eng-produto-core",
-      "name": "Produto Core",
+      "name": "Core Product",
       "teamId": "eng"
     },
     {
       "id": "produto-pm",
-      "name": "Gestão de Produto",
+      "name": "Product Management",
       "teamId": "produto"
     },
     {
       "id": "produto-design",
-      "name": "Design & Pesquisa",
+      "name": "Design & Research",
       "teamId": "produto"
     },
     {
       "id": "vendas-enterprise",
-      "name": "Contas Enterprise",
+      "name": "Enterprise Accounts",
       "teamId": "vendas"
     },
     {
       "id": "vendas-geracao",
-      "name": "Geração & Revenue Ops",
+      "name": "Pipeline & Revenue Ops",
       "teamId": "vendas"
     },
     {
       "id": "cs-sucesso",
-      "name": "Sucesso do Cliente",
+      "name": "Customer Success",
       "teamId": "cs"
     },
     {
       "id": "cs-suporte",
-      "name": "Suporte",
+      "name": "Support",
       "teamId": "cs"
     },
     {
       "id": "ops-financeiro",
-      "name": "Financeiro & Operações",
+      "name": "Finance & Operations",
       "teamId": "ops"
     },
     {
       "id": "ops-pessoas-juridico",
-      "name": "Pessoas, Jurídico & Facilities",
+      "name": "People, Legal & Facilities",
       "teamId": "ops"
     }
   ],
@@ -82,10 +82,10 @@
     {
       "id": "sofia-brandao",
       "name": "Sofia Brandão",
-      "role": "Gerente de Engenharia",
+      "role": "Engineering Manager",
       "teamId": "eng",
       "squadId": null,
-      "seniority": "liderança",
+      "seniority": "leadership",
       "status": "active",
       "startDate": "2021-05",
       "previousRoles": []
@@ -93,15 +93,15 @@
     {
       "id": "marina-duarte",
       "name": "Marina Duarte",
-      "role": "Engenheira de Software Sênior",
+      "role": "Senior Software Engineer",
       "teamId": "eng",
       "squadId": "eng-produto-core",
-      "seniority": "sênior",
+      "seniority": "senior",
       "status": "active",
       "startDate": "2021-11",
       "previousRoles": [
         {
-          "role": "Engenheira de Software Pleno",
+          "role": "Mid-level Software Engineer",
           "from": "2021-11",
           "to": "2023-06"
         }
@@ -113,12 +113,12 @@
       "role": "Tech Lead",
       "teamId": "eng",
       "squadId": "eng-produto-core",
-      "seniority": "sênior",
+      "seniority": "senior",
       "status": "active",
       "startDate": "2021-08",
       "previousRoles": [
         {
-          "role": "Engenheiro de Software Sênior",
+          "role": "Senior Software Engineer",
           "from": "2021-08",
           "to": "2024-01"
         }
@@ -127,10 +127,10 @@
     {
       "id": "bruno-carvalho",
       "name": "Bruno Carvalho",
-      "role": "Engenheiro Backend Pleno",
+      "role": "Mid-level Backend Engineer",
       "teamId": "eng",
       "squadId": "eng-plataforma",
-      "seniority": "pleno",
+      "seniority": "mid-level",
       "status": "active",
       "startDate": "2023-02",
       "previousRoles": []
@@ -138,10 +138,10 @@
     {
       "id": "leticia-ramos",
       "name": "Letícia Ramos",
-      "role": "Engenheira Frontend Pleno",
+      "role": "Mid-level Frontend Engineer",
       "teamId": "eng",
       "squadId": "eng-produto-core",
-      "seniority": "pleno",
+      "seniority": "mid-level",
       "status": "active",
       "startDate": "2023-07",
       "previousRoles": []
@@ -149,10 +149,10 @@
     {
       "id": "andre-nogueira",
       "name": "André Nogueira",
-      "role": "SRE Sênior",
+      "role": "Senior SRE",
       "teamId": "eng",
       "squadId": "eng-plataforma",
-      "seniority": "sênior",
+      "seniority": "senior",
       "status": "active",
       "startDate": "2022-03",
       "previousRoles": []
@@ -160,10 +160,10 @@
     {
       "id": "paula-vidal",
       "name": "Paula Vidal",
-      "role": "Engenheira de Dados Pleno",
+      "role": "Mid-level Data Engineer",
       "teamId": "eng",
       "squadId": "eng-plataforma",
-      "seniority": "pleno",
+      "seniority": "mid-level",
       "status": "active",
       "startDate": "2023-09",
       "previousRoles": []
@@ -171,15 +171,15 @@
     {
       "id": "diego-fagundes",
       "name": "Diego Fagundes",
-      "role": "Engenheiro Backend Júnior",
+      "role": "Junior Backend Engineer",
       "teamId": "eng",
       "squadId": "eng-produto-core",
-      "seniority": "júnior",
+      "seniority": "junior",
       "status": "active",
       "startDate": "2024-06",
       "previousRoles": [
         {
-          "role": "Estagiário de Engenharia",
+          "role": "Engineering Intern",
           "from": "2024-06",
           "to": "2025-01"
         }
@@ -188,15 +188,15 @@
     {
       "id": "renata-luz",
       "name": "Renata Luz",
-      "role": "QA Sênior",
+      "role": "Senior QA",
       "teamId": "eng",
       "squadId": "eng-plataforma",
-      "seniority": "sênior",
+      "seniority": "senior",
       "status": "active",
       "startDate": "2022-06",
       "previousRoles": [
         {
-          "role": "Analista de QA Pleno",
+          "role": "Mid-level QA Analyst",
           "from": "2022-06",
           "to": "2024-03"
         }
@@ -205,10 +205,10 @@
     {
       "id": "tomas-ribeiro",
       "name": "Tomás Ribeiro",
-      "role": "Engenheiro de Software Sênior",
+      "role": "Senior Software Engineer",
       "teamId": "eng",
       "squadId": "eng-produto-core",
-      "seniority": "sênior",
+      "seniority": "senior",
       "status": "resigned",
       "startDate": "2021-09",
       "endDate": "2026-06",
@@ -217,10 +217,10 @@
     {
       "id": "isabela-franco",
       "name": "Isabela Franco",
-      "role": "Head de Produto",
+      "role": "Head of Product",
       "teamId": "produto",
       "squadId": null,
-      "seniority": "liderança",
+      "seniority": "leadership",
       "status": "active",
       "startDate": "2021-04",
       "previousRoles": []
@@ -228,10 +228,10 @@
     {
       "id": "rafael-siqueira",
       "name": "Rafael Siqueira",
-      "role": "Product Manager Sênior",
+      "role": "Senior Product Manager",
       "teamId": "produto",
       "squadId": "produto-pm",
-      "seniority": "sênior",
+      "seniority": "senior",
       "status": "active",
       "startDate": "2022-01",
       "previousRoles": []
@@ -239,10 +239,10 @@
     {
       "id": "gustavo-lins",
       "name": "Gustavo Lins",
-      "role": "Product Designer Sênior",
+      "role": "Senior Product Designer",
       "teamId": "produto",
       "squadId": "produto-design",
-      "seniority": "sênior",
+      "seniority": "senior",
       "status": "active",
       "startDate": "2022-08",
       "previousRoles": []
@@ -250,10 +250,10 @@
     {
       "id": "clara-menezes",
       "name": "Clara Menezes",
-      "role": "UX Researcher Pleno",
+      "role": "Mid-level UX Researcher",
       "teamId": "produto",
       "squadId": "produto-design",
-      "seniority": "pleno",
+      "seniority": "mid-level",
       "status": "active",
       "startDate": "2023-05",
       "previousRoles": []
@@ -261,15 +261,15 @@
     {
       "id": "joao-prado",
       "name": "João Prado",
-      "role": "Product Manager Pleno",
+      "role": "Mid-level Product Manager",
       "teamId": "produto",
       "squadId": "produto-pm",
-      "seniority": "pleno",
+      "seniority": "mid-level",
       "status": "active",
       "startDate": "2023-11",
       "previousRoles": [
         {
-          "role": "Analista de Produto",
+          "role": "Product Analyst",
           "from": "2023-11",
           "to": "2025-02"
         }
@@ -278,10 +278,10 @@
     {
       "id": "beatriz-tavares",
       "name": "Beatriz Tavares",
-      "role": "Product Designer Júnior",
+      "role": "Junior Product Designer",
       "teamId": "produto",
       "squadId": "produto-design",
-      "seniority": "júnior",
+      "seniority": "junior",
       "status": "active",
       "startDate": "2025-03",
       "previousRoles": []
@@ -292,12 +292,12 @@
       "role": "Product Ops",
       "teamId": "produto",
       "squadId": "produto-pm",
-      "seniority": "pleno",
+      "seniority": "mid-level",
       "status": "moved_team",
       "startDate": "2022-05",
       "previousRoles": [
         {
-          "role": "Engenheiro Backend Pleno",
+          "role": "Mid-level Backend Engineer",
           "teamId": "eng",
           "from": "2022-05",
           "to": "2024-08"
@@ -307,10 +307,10 @@
     {
       "id": "ricardo-bastos",
       "name": "Ricardo Bastos",
-      "role": "Head de Vendas",
+      "role": "Head of Sales",
       "teamId": "vendas",
       "squadId": null,
-      "seniority": "liderança",
+      "seniority": "leadership",
       "status": "active",
       "startDate": "2021-06",
       "previousRoles": []
@@ -318,15 +318,15 @@
     {
       "id": "helena-fontes",
       "name": "Helena Fontes",
-      "role": "Executiva de Contas Sênior",
+      "role": "Senior Account Executive",
       "teamId": "vendas",
       "squadId": "vendas-enterprise",
-      "seniority": "sênior",
+      "seniority": "senior",
       "status": "active",
       "startDate": "2021-10",
       "previousRoles": [
         {
-          "role": "Executiva de Contas Pleno",
+          "role": "Mid-level Account Executive",
           "from": "2021-10",
           "to": "2023-08"
         }
@@ -338,7 +338,7 @@
       "role": "SDR",
       "teamId": "vendas",
       "squadId": "vendas-geracao",
-      "seniority": "júnior",
+      "seniority": "junior",
       "status": "active",
       "startDate": "2025-02",
       "previousRoles": []
@@ -346,10 +346,10 @@
     {
       "id": "pedro-galvao",
       "name": "Pedro Galvão",
-      "role": "Executivo de Contas Pleno",
+      "role": "Mid-level Account Executive",
       "teamId": "vendas",
       "squadId": "vendas-enterprise",
-      "seniority": "pleno",
+      "seniority": "mid-level",
       "status": "active",
       "startDate": "2023-04",
       "previousRoles": []
@@ -357,10 +357,10 @@
     {
       "id": "luana-cardoso",
       "name": "Luana Cardoso",
-      "role": "Executiva de Contas Pleno",
+      "role": "Mid-level Account Executive",
       "teamId": "vendas",
       "squadId": "vendas-enterprise",
-      "seniority": "pleno",
+      "seniority": "mid-level",
       "status": "terminated",
       "startDate": "2022-11",
       "endDate": "2026-04",
@@ -372,7 +372,7 @@
       "role": "SDR",
       "teamId": "vendas",
       "squadId": "vendas-geracao",
-      "seniority": "júnior",
+      "seniority": "junior",
       "status": "active",
       "startDate": "2024-09",
       "previousRoles": []
@@ -383,7 +383,7 @@
       "role": "Sales Ops",
       "teamId": "vendas",
       "squadId": "vendas-geracao",
-      "seniority": "pleno",
+      "seniority": "mid-level",
       "status": "active",
       "startDate": "2022-09",
       "previousRoles": []
@@ -391,10 +391,10 @@
     {
       "id": "juliana-peixoto",
       "name": "Juliana Peixoto",
-      "role": "Head de Customer Success",
+      "role": "Head of Customer Success",
       "teamId": "cs",
       "squadId": null,
-      "seniority": "liderança",
+      "seniority": "leadership",
       "status": "active",
       "startDate": "2021-07",
       "previousRoles": []
@@ -402,15 +402,15 @@
     {
       "id": "otavio-neves",
       "name": "Otávio Neves",
-      "role": "CSM Sênior",
+      "role": "Senior CSM",
       "teamId": "cs",
       "squadId": "cs-sucesso",
-      "seniority": "sênior",
+      "seniority": "senior",
       "status": "active",
       "startDate": "2022-02",
       "previousRoles": [
         {
-          "role": "CSM Pleno",
+          "role": "Mid-level CSM",
           "from": "2022-02",
           "to": "2024-05"
         }
@@ -419,10 +419,10 @@
     {
       "id": "aline-serra",
       "name": "Aline Serra",
-      "role": "CSM Pleno",
+      "role": "Mid-level CSM",
       "teamId": "cs",
       "squadId": "cs-sucesso",
-      "seniority": "pleno",
+      "seniority": "mid-level",
       "status": "active",
       "startDate": "2023-08",
       "previousRoles": []
@@ -430,10 +430,10 @@
     {
       "id": "vitor-camargo",
       "name": "Vítor Camargo",
-      "role": "Analista de Suporte Sênior",
+      "role": "Senior Support Analyst",
       "teamId": "cs",
       "squadId": "cs-suporte",
-      "seniority": "sênior",
+      "seniority": "senior",
       "status": "active",
       "startDate": "2022-04",
       "previousRoles": []
@@ -441,10 +441,10 @@
     {
       "id": "natalia-brito",
       "name": "Natália Brito",
-      "role": "CSM Júnior",
+      "role": "Junior CSM",
       "teamId": "cs",
       "squadId": "cs-sucesso",
-      "seniority": "júnior",
+      "seniority": "junior",
       "status": "active",
       "startDate": "2024-11",
       "previousRoles": []
@@ -452,10 +452,10 @@
     {
       "id": "eduardo-sales",
       "name": "Eduardo Sales",
-      "role": "Analista de Suporte Pleno",
+      "role": "Mid-level Support Analyst",
       "teamId": "cs",
       "squadId": "cs-suporte",
-      "seniority": "pleno",
+      "seniority": "mid-level",
       "status": "active",
       "startDate": "2023-01",
       "previousRoles": []
@@ -463,10 +463,10 @@
     {
       "id": "patricia-lemos",
       "name": "Patrícia Lemos",
-      "role": "Head de Operações",
+      "role": "Head of Operations",
       "teamId": "ops",
       "squadId": null,
-      "seniority": "liderança",
+      "seniority": "leadership",
       "status": "active",
       "startDate": "2021-03",
       "previousRoles": []
@@ -474,10 +474,10 @@
     {
       "id": "henrique-dias",
       "name": "Henrique Dias",
-      "role": "Analista Financeiro Sênior",
+      "role": "Senior Financial Analyst",
       "teamId": "ops",
       "squadId": "ops-financeiro",
-      "seniority": "sênior",
+      "seniority": "senior",
       "status": "active",
       "startDate": "2021-12",
       "previousRoles": []
@@ -488,7 +488,7 @@
       "role": "People Ops",
       "teamId": "ops",
       "squadId": "ops-pessoas-juridico",
-      "seniority": "pleno",
+      "seniority": "mid-level",
       "status": "active",
       "startDate": "2022-07",
       "previousRoles": []
@@ -496,10 +496,10 @@
     {
       "id": "lucas-macedo",
       "name": "Lucas Macedo",
-      "role": "Analista de Operações Pleno",
+      "role": "Mid-level Operations Analyst",
       "teamId": "ops",
       "squadId": "ops-financeiro",
-      "seniority": "pleno",
+      "seniority": "mid-level",
       "status": "active",
       "startDate": "2023-06",
       "previousRoles": []
@@ -507,10 +507,10 @@
     {
       "id": "tania-quintela",
       "name": "Tânia Quintela",
-      "role": "Jurídico & Compliance",
+      "role": "Legal & Compliance",
       "teamId": "ops",
       "squadId": "ops-pessoas-juridico",
-      "seniority": "sênior",
+      "seniority": "senior",
       "status": "active",
       "startDate": "2022-10",
       "previousRoles": []
@@ -521,7 +521,7 @@
       "role": "Facilities & Admin",
       "teamId": "ops",
       "squadId": "ops-pessoas-juridico",
-      "seniority": "pleno",
+      "seniority": "mid-level",
       "status": "active",
       "startDate": "2023-03",
       "previousRoles": []

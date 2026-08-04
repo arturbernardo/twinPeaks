@@ -31,7 +31,7 @@ export default function SubmitForm({ people }: { people: Person[] }) {
         body: JSON.stringify({ subjectId, source, text }),
       });
       const data = await res.json();
-      if (!res.ok) throw new Error(data.error ?? `Erro ${res.status}`);
+      if (!res.ok) throw new Error(data.error ?? `Error ${res.status}`);
       router.push(`/people/${subjectId}?highlight=${data.storyId}`);
     } catch (err) {
       setState("error");
@@ -43,7 +43,7 @@ export default function SubmitForm({ people }: { people: Person[] }) {
     <form onSubmit={submit} className="space-y-4">
       <div className="grid gap-4 sm:grid-cols-2">
         <label className="block text-sm">
-          <span className="mb-1 block font-medium">Sobre quem é a história?</span>
+          <span className="mb-1 block font-medium">Who is the story about?</span>
           <select
             value={subjectId}
             onChange={(e) => setSubjectId(e.target.value)}
@@ -57,37 +57,37 @@ export default function SubmitForm({ people }: { people: Person[] }) {
           </select>
         </label>
         <label className="block text-sm">
-          <span className="mb-1 block font-medium">Qual a sua relação com a pessoa?</span>
+          <span className="mb-1 block font-medium">What is your relationship with this person?</span>
           <select
             value={source}
             onChange={(e) => setSource(e.target.value as typeof source)}
             className="w-full rounded-md border bg-background px-3 py-2"
           >
-            <option value="peer">Sou colega</option>
-            <option value="manager">Sou gestor(a)</option>
-            <option value="self">É sobre mim</option>
+            <option value="peer">I&apos;m a peer</option>
+            <option value="manager">I&apos;m their manager</option>
+            <option value="self">It&apos;s about me</option>
           </select>
         </label>
       </div>
 
       <label className="block text-sm">
-        <span className="mb-1 block font-medium">Conte uma situação concreta</span>
+        <span className="mb-1 block font-medium">Describe a concrete situation</span>
         <Textarea
           value={text}
           onChange={(e) => setText(e.target.value)}
           rows={5}
-          placeholder="Ex.: Na virada da migração do banco Meridiano, ela assumiu a comunicação com o cliente e manteve todo mundo calmo até o rollback terminar…"
+          placeholder="E.g.: During the Meridiano database migration cutover, she took over client communication and kept everyone calm until the rollback finished…"
         />
       </label>
 
       {state === "error" && <p className="text-sm text-rose-600">⚠️ {error}</p>}
 
       <Button type="submit" disabled={state === "sending" || !text.trim()} className="bg-violet-600 hover:bg-violet-700">
-        {state === "sending" ? "Analisando história…" : "Enviar história"}
+        {state === "sending" ? "Analyzing story…" : "Submit story"}
       </Button>
       {state === "sending" && (
         <p className="text-xs text-muted-foreground">
-          O agente está lendo a história, extraindo evidências de cultura e atualizando o perfil…
+          The agent is reading the story, extracting culture evidence and updating the profile…
         </p>
       )}
     </form>

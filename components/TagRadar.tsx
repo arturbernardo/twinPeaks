@@ -24,14 +24,14 @@ export default function TagRadar({ data, referenceLabel }: { data: RadarPoint[];
         <PolarRadiusAxis domain={[0, 0.7]} tick={false} axisLine={false} />
         {data.some((d) => d.reference !== undefined) && (
           <Radar
-            name={referenceLabel ?? "referência"}
+            name={referenceLabel ?? "reference"}
             dataKey="reference"
             stroke="#94a3b8"
             fill="#94a3b8"
             fillOpacity={0.15}
           />
         )}
-        <Radar name="força" dataKey="strength" stroke="#7c3aed" fill="#8b5cf6" fillOpacity={0.35} />
+        <Radar name="strength" dataKey="strength" stroke="#7c3aed" fill="#8b5cf6" fillOpacity={0.35} />
       </RadarChart>
     </ResponsiveContainer>
   );
