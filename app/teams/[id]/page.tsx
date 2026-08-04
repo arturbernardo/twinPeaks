@@ -37,7 +37,7 @@ export default async function TeamPage({ params }: { params: Promise<{ id: strin
             {profile.slice(0, 8).map((t) => (
               <div key={t.tagId}>
                 <div className="flex items-baseline justify-between text-sm">
-                  <span>{TAG_BY_ID[t.tagId].labelPt}</span>
+                  <span>{TAG_BY_ID[t.tagId].label}</span>
                   <span className="font-mono text-xs text-muted-foreground">
                     média {t.mean.toFixed(2)}
                     {t.top && <> · puxada por {t.top.employee.name.split(" ")[0]}</>}
@@ -81,7 +81,7 @@ export default async function TeamPage({ params }: { params: Promise<{ id: strin
               <CardContent className="space-y-2">
                 {gaps.map((g) => (
                   <div key={g.tagId} className="flex items-center justify-between text-sm">
-                    <span>{TAG_BY_ID[g.tagId].labelPt}</span>
+                    <span>{TAG_BY_ID[g.tagId].label}</span>
                     <span className="font-mono text-xs text-muted-foreground">
                       máx {g.teamMax.toFixed(2)} / alvo {g.target.toFixed(2)}
                       <span className={`ml-2 rounded-full px-2 py-0.5 ${g.status === "missing" ? "bg-rose-50 text-rose-700 dark:bg-rose-950 dark:text-rose-300" : "bg-amber-50 text-amber-700 dark:bg-amber-950 dark:text-amber-300"}`}>

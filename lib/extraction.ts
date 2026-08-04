@@ -22,24 +22,24 @@ export interface ExtractedTag {
 }
 
 const TAXONOMY_BLOCK = TAGS.map(
-  (t) => `- ${t.id} (${t.labelPt}, ${t.theory}): ${t.definition}`
+  (t) => `- ${t.id} (${t.label}, ${t.theory}): ${t.definition}`
 ).join("\n");
 
-const EXTRACTION_SYSTEM = `Você extrai evidências POSITIVAS de cultura de histórias curtas sobre colaboradores.
+const EXTRACTION_SYSTEM = `You extract POSITIVE culture evidence from short stories about employees. Stories may be written in English or Portuguese.
 
-Taxonomia (as únicas tags válidas):
+Taxonomy (the only valid tags):
 ${TAXONOMY_BLOCK}
 
-Regras:
-1. Extraia APENAS evidências positivas — nunca marque a ausência de algo nem comportamentos negativos.
-2. 0 a 3 tags por história. Um array vazio é uma resposta válida e frequente: NÃO force tags.
-3. "quote" deve ser um trecho VERBATIM da história (substring exata) que sustenta a tag.
-4. "confidence" (0 a 1) reflete o quão diretamente o trecho evidencia a tag — 0.9+ só quando o comportamento é inequívoco.
-5. Não infira além do texto: a história precisa MOSTRAR o comportamento, não apenas sugerir vagamente.
+Rules:
+1. Extract ONLY positive evidence — never mark the absence of something or negative behavior.
+2. 0 to 3 tags per story. An empty array is a valid and frequent answer: do NOT force tags.
+3. "quote" must be a VERBATIM excerpt of the story (exact substring, in the story's original language) that supports the tag.
+4. "confidence" (0 to 1) reflects how directly the excerpt evidences the tag — 0.9+ only when the behavior is unambiguous.
+5. Do not infer beyond the text: the story must SHOW the behavior, not merely hint at it.
 
-Exemplo:
-História: "Quando o deploy quebrou na sexta à noite, a Ana assumiu a chamada, manteve todo mundo calmo e coordenou o rollback sem apontar culpados."
-Resposta: {"tags":[{"tag_id":"calm_under_pressure","quote":"manteve todo mundo calmo e coordenou o rollback","confidence":0.85},{"tag_id":"ownership","quote":"a Ana assumiu a chamada","confidence":0.75}]}`;
+Example:
+Story: "When the deploy broke on Friday night, Ana took over the incident call, kept everyone calm and coordinated the rollback without pointing fingers."
+Answer: {"tags":[{"tag_id":"calm_under_pressure","quote":"kept everyone calm and coordinated the rollback","confidence":0.85},{"tag_id":"ownership","quote":"Ana took over the incident call","confidence":0.75}]}`;
 
 const normalize = (s: string) => s.toLowerCase().replace(/\s+/g, " ").trim();
 
@@ -58,7 +58,7 @@ async function extractWithAnthropic(storyText: string) {
     system: [
       { type: "text", text: EXTRACTION_SYSTEM, cache_control: { type: "ephemeral" } },
     ],
-    messages: [{ role: "user", content: `História:\n"""\n${storyText}\n"""` }],
+    messages: [{ role: "user", content: `Story:\n"""\n${storyText}\n"""` }],
   });
   return res.parsed_output ?? null;
 }
@@ -69,7 +69,7 @@ async function extractWithOpenAI(storyText: string) {
     model: OPENAI_MODEL,
     messages: [
       { role: "system", content: EXTRACTION_SYSTEM },
-      { role: "user", content: `História:\n"""\n${storyText}\n"""` },
+      { role: "user", content: `Story:\n"""\n${storyText}\n"""` },
     ],
     response_format: zodResponseFormat(ExtractionSchema, "extraction"),
   });

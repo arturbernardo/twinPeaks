@@ -35,7 +35,7 @@ export default async function PersonPage({
   const teamMeans = new Map(teamProfile(person.teamId).map((t) => [t.tagId, t.mean]));
 
   const radarData = withEvidence.slice(0, 8).map((s) => ({
-    label: TAG_BY_ID[s.tagId].labelPt,
+    label: TAG_BY_ID[s.tagId].label,
     strength: Number(s.strength.toFixed(2)),
     reference: Number((teamMeans.get(s.tagId) ?? 0).toFixed(2)),
   }));

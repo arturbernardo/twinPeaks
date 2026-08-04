@@ -28,15 +28,15 @@ export interface TagScore {
   supportingStories: number;
   totalStories: number;
   bySource: Record<Source, number>; // nº de histórias de cada fonte que sustentam a tag
-  confidenceLabel: "sem evidência" | "emergente" | "sustentada" | "forte";
+  confidenceLabel: "no evidence" | "emerging" | "supported" | "strong";
   evidence: TagEvidence[];
 }
 
 export function confidenceLabel(count: number): TagScore["confidenceLabel"] {
-  if (count === 0) return "sem evidência";
-  if (count === 1) return "emergente";
-  if (count <= 3) return "sustentada";
-  return "forte";
+  if (count === 0) return "no evidence";
+  if (count === 1) return "emerging";
+  if (count <= 3) return "supported";
+  return "strong";
 }
 
 function computeScores(stories: Story[], evidence: TagEvidence[]): TagScore[] {

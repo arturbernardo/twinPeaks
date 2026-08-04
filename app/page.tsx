@@ -33,7 +33,7 @@ export default function Dashboard() {
             {company.slice(0, 8).map((t) => (
               <div key={t.tagId}>
                 <div className="flex items-baseline justify-between text-sm">
-                  <span>{TAG_BY_ID[t.tagId].labelPt}</span>
+                  <span>{TAG_BY_ID[t.tagId].label}</span>
                   <span className="font-mono text-xs text-muted-foreground">
                     média {t.mean.toFixed(2)} · máx {t.max.toFixed(2)}
                   </span>

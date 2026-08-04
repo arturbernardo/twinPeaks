@@ -1,37 +1,37 @@
-// Taxonomia fixa de tags positivas de cultura, ancorada em teorias de gestão.
-// Tudo (extração, scoring, agente, UI) importa daqui — fonte única de verdade.
+// Fixed taxonomy of positive culture tags, grounded in management theory.
+// Everything (extraction, scoring, agent, UI) imports from here — single source of truth.
 
-export type Theory = "Lencioni" | "Edmondson" | "Belbin" | "Prática";
+export type Theory = "Lencioni" | "Edmondson" | "Belbin" | "Practice";
 
 export interface TagDef {
   id: string;
-  labelPt: string;
+  label: string;
   definition: string;
   theory: Theory;
 }
 
 export const TAGS = [
-  // Lencioni (5 disfunções, invertidas) + Edmondson
-  { id: "trust_building", labelPt: "Construção de confiança", definition: "Constrói confiança baseada em vulnerabilidade: admite erros, pede ajuda, é transparente.", theory: "Lencioni" },
-  { id: "healthy_conflict", labelPt: "Conflito saudável", definition: "Discorda de forma direta e produtiva; debate ideias sem atacar pessoas.", theory: "Lencioni" },
-  { id: "diplomacy", labelPt: "Diplomacia", definition: "Desescala tensões, media desentendimentos e evita conflitos desnecessários.", theory: "Lencioni" },
-  { id: "accountability", labelPt: "Responsabilização", definition: "Cobra compromissos de si e dos pares; não deixa combinados caírem no vazio.", theory: "Lencioni" },
-  { id: "results_focus", labelPt: "Foco em resultados", definition: "Prioriza o resultado coletivo acima de ego, território ou conforto pessoal.", theory: "Lencioni" },
-  { id: "psych_safety", labelPt: "Segurança psicológica", definition: "Faz os outros se sentirem seguros para falar, errar e propor ideias.", theory: "Edmondson" },
-  // Belbin (papéis de time, como evidência comportamental positiva)
-  { id: "execution_reliability", labelPt: "Execução confiável", definition: "Transforma planos em entregas; cumpre o que promete com consistência.", theory: "Belbin" },
-  { id: "attention_to_detail", labelPt: "Atenção a detalhes", definition: "Caça erros e pontas soltas; garante qualidade e acabamento no trabalho.", theory: "Belbin" },
-  { id: "creative_innovation", labelPt: "Inovação criativa", definition: "Gera ideias originais e soluções não óbvias para problemas difíceis.", theory: "Belbin" },
-  { id: "critical_evaluation", labelPt: "Avaliação crítica", definition: "Analisa opções com lógica e imparcialidade antes de decidir.", theory: "Belbin" },
-  { id: "facilitation", labelPt: "Facilitação", definition: "Coordena pessoas, alinha objetivos e faz reuniões e decisões fluírem.", theory: "Belbin" },
-  { id: "drive_energy", labelPt: "Energia e impulso", definition: "Imprime ritmo e senso de urgência; destrava times parados.", theory: "Belbin" },
-  { id: "supportiveness", labelPt: "Suporte ao time", definition: "Percebe colegas sobrecarregados e ajuda sem que peçam.", theory: "Belbin" },
-  // Prática moderna
-  { id: "mentorship", labelPt: "Mentoria", definition: "Desenvolve colegas ativamente: ensina, dá feedback e abre caminhos.", theory: "Prática" },
-  { id: "ownership", labelPt: "Dono do problema", definition: "Assume problemas de ponta a ponta, mesmo fora do próprio escopo.", theory: "Prática" },
-  { id: "customer_focus", labelPt: "Foco no cliente", definition: "Traz a perspectiva do cliente para dentro das decisões do time.", theory: "Prática" },
-  { id: "learning_agility", labelPt: "Agilidade de aprendizado", definition: "Aprende rápido coisas novas e muda de rota diante de evidências.", theory: "Prática" },
-  { id: "calm_under_pressure", labelPt: "Calma sob pressão", definition: "Mantém clareza e serenidade em crises e prazos apertados.", theory: "Prática" },
+  // Lencioni (5 dysfunctions, inverted) + Edmondson
+  { id: "trust_building", label: "Trust building", definition: "Builds vulnerability-based trust: admits mistakes, asks for help, is transparent.", theory: "Lencioni" },
+  { id: "healthy_conflict", label: "Healthy conflict", definition: "Disagrees directly and productively; debates ideas without attacking people.", theory: "Lencioni" },
+  { id: "diplomacy", label: "Diplomacy", definition: "De-escalates tension, mediates disagreements and avoids unnecessary conflict.", theory: "Lencioni" },
+  { id: "accountability", label: "Accountability", definition: "Holds self and peers to commitments; doesn't let agreements slip.", theory: "Lencioni" },
+  { id: "results_focus", label: "Results focus", definition: "Puts collective outcomes above ego, turf or personal comfort.", theory: "Lencioni" },
+  { id: "psych_safety", label: "Psychological safety", definition: "Makes others feel safe to speak up, make mistakes and propose ideas.", theory: "Edmondson" },
+  // Belbin (team roles, as positive behavioral evidence)
+  { id: "execution_reliability", label: "Reliable execution", definition: "Turns plans into deliveries; consistently does what they promise.", theory: "Belbin" },
+  { id: "attention_to_detail", label: "Attention to detail", definition: "Hunts down errors and loose ends; ensures quality and polish.", theory: "Belbin" },
+  { id: "creative_innovation", label: "Creative innovation", definition: "Generates original ideas and non-obvious solutions to hard problems.", theory: "Belbin" },
+  { id: "critical_evaluation", label: "Critical evaluation", definition: "Analyzes options with logic and impartiality before deciding.", theory: "Belbin" },
+  { id: "facilitation", label: "Facilitation", definition: "Coordinates people, aligns goals and makes meetings and decisions flow.", theory: "Belbin" },
+  { id: "drive_energy", label: "Drive & energy", definition: "Sets pace and urgency; unblocks stalled teams.", theory: "Belbin" },
+  { id: "supportiveness", label: "Supportiveness", definition: "Notices overloaded colleagues and helps without being asked.", theory: "Belbin" },
+  // Modern practice
+  { id: "mentorship", label: "Mentorship", definition: "Actively develops colleagues: teaches, gives feedback and opens doors.", theory: "Practice" },
+  { id: "ownership", label: "Ownership", definition: "Owns problems end to end, even outside their own scope.", theory: "Practice" },
+  { id: "customer_focus", label: "Customer focus", definition: "Brings the customer's perspective into the team's decisions.", theory: "Practice" },
+  { id: "learning_agility", label: "Learning agility", definition: "Learns new things fast and changes course when evidence demands it.", theory: "Practice" },
+  { id: "calm_under_pressure", label: "Calm under pressure", definition: "Keeps clarity and composure through crises and tight deadlines.", theory: "Practice" },
 ] as const satisfies readonly TagDef[];
 
 export type TagId = (typeof TAGS)[number]["id"];
@@ -42,11 +42,11 @@ export const TAG_BY_ID: Record<TagId, TagDef> = Object.fromEntries(
   TAGS.map((t) => [t.id, t])
 ) as Record<TagId, TagDef>;
 
-// Arquétipos de cultura: alvo mínimo de força por tag para a análise de lacunas.
-// Escala compatível com o score suavizado (força ~0.33 é o prior neutro).
+// Culture archetypes: minimum target strength per tag for gap analysis.
+// Scale is compatible with the smoothed score (strength ~0.33 is the neutral prior).
 export interface Archetype {
   id: string;
-  labelPt: string;
+  label: string;
   description: string;
   targets: Partial<Record<TagId, number>>;
 }
@@ -54,8 +54,8 @@ export interface Archetype {
 export const ARCHETYPES: Archetype[] = [
   {
     id: "startup",
-    labelPt: "Startup",
-    description: "Ambiente de alta incerteza e velocidade: ownership, aprendizado rápido e obsessão por cliente.",
+    label: "Startup",
+    description: "High-uncertainty, high-speed environment: ownership, fast learning and customer obsession.",
     targets: {
       ownership: 0.5,
       drive_energy: 0.45,
@@ -69,8 +69,8 @@ export const ARCHETYPES: Archetype[] = [
   },
   {
     id: "enterprise_delivery",
-    labelPt: "Entrega enterprise",
-    description: "Operação madura com foco em previsibilidade, qualidade e compromissos cumpridos.",
+    label: "Enterprise delivery",
+    description: "Mature operation focused on predictability, quality and kept commitments.",
     targets: {
       execution_reliability: 0.5,
       attention_to_detail: 0.45,
@@ -82,8 +82,8 @@ export const ARCHETYPES: Archetype[] = [
   },
   {
     id: "innovation_lab",
-    labelPt: "Laboratório de inovação",
-    description: "Exploração e experimentação: criatividade, segurança psicológica e debate aberto.",
+    label: "Innovation lab",
+    description: "Exploration and experimentation: creativity, psychological safety and open debate.",
     targets: {
       creative_innovation: 0.5,
       learning_agility: 0.45,

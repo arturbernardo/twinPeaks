@@ -27,10 +27,10 @@ export interface Squad {
 export type EmployeeStatus = "active" | "moved_team" | "resigned" | "terminated";
 
 export const STATUS_LABELS: Record<EmployeeStatus, string> = {
-  active: "no time",
-  moved_team: "mudou de setor",
-  resigned: "saiu da empresa",
-  terminated: "desligado(a)",
+  active: "on the team",
+  moved_team: "changed department",
+  resigned: "left the company",
+  terminated: "terminated",
 };
 
 export interface RoleHistory {

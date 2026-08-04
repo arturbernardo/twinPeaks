@@ -195,8 +195,8 @@ export async function runTool(name: string, input: Record<string, unknown>): Pro
           situacao: STATUS_LABELS[e.status],
           desde: e.startDate,
         })),
-        tags: TAGS.map((t) => ({ id: t.id, labelPt: t.labelPt, theory: t.theory })),
-        archetypes: ARCHETYPES.map((a) => ({ id: a.id, labelPt: a.labelPt, description: a.description })),
+        tags: TAGS.map((t) => ({ id: t.id, label: t.label, theory: t.theory })),
+        archetypes: ARCHETYPES.map((a) => ({ id: a.id, label: a.label, description: a.description })),
       };
 
     case "list_people_by_tag": {
@@ -226,7 +226,7 @@ export async function runTool(name: string, input: Record<string, unknown>): Pro
         .filter((p) => p.strength >= minStrength && p.supportingStories > 0)
         .sort((a, b) => b.strength - a.strength)
         .slice(0, limit);
-      return { tag: TAG_BY_ID[tagId].labelPt, ranked };
+      return { tag: TAG_BY_ID[tagId].label, ranked };
     }
 
     case "get_person_profile": {
@@ -238,7 +238,7 @@ export async function runTool(name: string, input: Record<string, unknown>): Pro
         .sort((a, b) => b.strength - a.strength)
         .map((s) => ({
           tag: s.tagId,
-          labelPt: TAG_BY_ID[s.tagId].labelPt,
+          label: TAG_BY_ID[s.tagId].label,
           strength: r2(s.strength),
           supportingStories: s.supportingStories,
           totalStories: s.totalStories,
@@ -248,7 +248,7 @@ export async function runTool(name: string, input: Record<string, unknown>): Pro
         }));
       const divergences = divergencesFor(id).map((d) => ({
         tag: d.tagId,
-        labelPt: TAG_BY_ID[d.tagId].labelPt,
+        label: TAG_BY_ID[d.tagId].label,
         kind: d.kind === "blind_spot" ? "ponto cego (outros veem, a pessoa não)" : "gap de autopercepção (a pessoa alega, outros não confirmam)",
         strengthSelf: r2(d.strengthSelf),
         strengthOthers: r2(d.strengthOthers),
@@ -284,7 +284,7 @@ export async function runTool(name: string, input: Record<string, unknown>): Pro
             : getEmployees().filter((e) => e.teamId === scope || e.squadId === scope).map((e) => personLabel(e.id)),
         tags: profile.map((t) => ({
           tag: t.tagId,
-          labelPt: TAG_BY_ID[t.tagId].labelPt,
+          label: TAG_BY_ID[t.tagId].label,
           mean: r2(t.mean),
           max: r2(t.max),
           topPerson: t.top ? { ...personLabel(t.top.employee.id), strength: r2(t.top.strength) } : null,
@@ -303,7 +303,7 @@ export async function runTool(name: string, input: Record<string, unknown>): Pro
           distance: r2(o.distance),
           drivingTags: o.drivingTags.map((d) => ({
             tag: d.tagId,
-            labelPt: TAG_BY_ID[d.tagId].labelPt,
+            label: TAG_BY_ID[d.tagId].label,
             deviation: r2(d.deviation),
           })),
         })),
@@ -321,7 +321,7 @@ export async function runTool(name: string, input: Record<string, unknown>): Pro
         archetype: input.archetype_id,
         gaps: items.map((g) => ({
           tag: g.tagId,
-          labelPt: TAG_BY_ID[g.tagId].labelPt,
+          label: TAG_BY_ID[g.tagId].label,
           status: g.status,
           target: r2(g.target),
           teamMax: r2(g.teamMax),
@@ -342,7 +342,7 @@ export async function runTool(name: string, input: Record<string, unknown>): Pro
           ...personLabel(p.employee.id),
           rationale: p.rationale.map((ra) => ({
             tag: ra.tagId,
-            labelPt: TAG_BY_ID[ra.tagId].labelPt,
+            label: TAG_BY_ID[ra.tagId].label,
             strength: r2(ra.strength),
             raisedCoverage: ra.raisedCoverage,
           })),
@@ -373,7 +373,7 @@ export async function runTool(name: string, input: Record<string, unknown>): Pro
         saved: true,
         storyId,
         subject: personLabel(subjectId),
-        extractedTags: extracted.map((t) => ({ tag: t.tagId, labelPt: TAG_BY_ID[t.tagId].labelPt, quote: t.quote, confidence: t.confidence })),
+        extractedTags: extracted.map((t) => ({ tag: t.tagId, label: TAG_BY_ID[t.tagId].label, quote: t.quote, confidence: t.confidence })),
       };
     }
 

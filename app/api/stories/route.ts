@@ -45,7 +45,7 @@ export async function POST(req: Request) {
     storyId,
     tags: extracted.map((t) => ({
       tagId: t.tagId,
-      labelPt: TAG_BY_ID[t.tagId].labelPt,
+      label: TAG_BY_ID[t.tagId].label,
       quote: t.quote,
       confidence: t.confidence,
     })),

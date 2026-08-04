@@ -49,8 +49,8 @@ export function EvidenceCard({
             <TagBadge key={e.id} tagId={e.tagId} />
           ))}
           <span className="ml-auto text-xs text-muted-foreground">
-            {authorName ?? (story.source === "self" ? "a própria pessoa" : "autoria anônima")} ·{" "}
-            {new Date(story.createdAt).toLocaleDateString("pt-BR", { month: "short", year: "numeric" })}
+            {authorName ?? (story.source === "self" ? "the person themselves" : "anonymous author")} ·{" "}
+            {new Date(story.createdAt).toLocaleDateString("en-US", { month: "short", year: "numeric" })}
           </span>
         </div>
       </CardContent>

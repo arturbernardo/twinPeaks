@@ -3,568 +3,568 @@
     "subjectId": "sofia-brandao",
     "authorId": "sofia-brandao",
     "source": "self",
-    "text": "Na retro do trimestre eu contei que a decisão de adiar a migração do Postgres tinha sido minha e que ela nos custou duas semanas de retrabalho. Preferi assumir o erro na frente de todo mundo a deixar o time achando que o problema era o planejamento deles. Depois disso as conversas sobre estimativa ficaram bem mais francas.",
+    "text": "At the quarterly retro I told everyone that the decision to postpone the Postgres migration had been mine and that it cost us two weeks of rework. I'd rather own the mistake in front of everyone than let the team think the problem was their planning. After that, our conversations about estimates became much more candid.",
     "tags": [
-      { "tagId": "trust_building", "quote": "Preferi assumir o erro na frente de todo mundo", "confidence": 0.9 }
+      { "tagId": "trust_building", "quote": "own the mistake in front of everyone", "confidence": 0.9 }
     ]
   },
   {
     "subjectId": "sofia-brandao",
     "authorId": "sofia-brandao",
     "source": "self",
-    "text": "Passei boa parte da terça revisando o orçamento de cloud do próximo semestre com o financeiro. Aproveitei para atualizar a planilha de custos por serviço e agendar a renovação das licenças da ferramenta de observabilidade.",
+    "text": "I spent a good part of Tuesday reviewing next semester's cloud budget with the finance team. I also took the chance to update the cost-per-service spreadsheet and schedule the renewal of our observability tool licenses.",
     "tags": []
   },
   {
     "subjectId": "sofia-brandao",
     "authorId": "marina-duarte",
     "source": "peer",
-    "text": "A planning da release 4.2 estava virando um bate-boca de estimativas quando a Sofia parou tudo, listou as três decisões que precisavam sair dali e deu a palavra a cada um por dois minutos. Saímos em quarenta minutos com escopo fechado e donos definidos para cada épico. É impressionante como reunião com ela no comando termina com decisão tomada.",
+    "text": "The release 4.2 planning was turning into a shouting match over estimates when Sofia stopped everything, listed the three decisions that had to come out of that meeting and gave each person two minutes to speak. We left in forty minutes with scope closed and owners assigned for every epic. It's impressive how meetings with her in charge end with decisions made.",
     "tags": [
-      { "tagId": "facilitation", "quote": "listou as três decisões que precisavam sair dali e deu a palavra a cada um por dois minutos", "confidence": 0.9 }
+      { "tagId": "facilitation", "quote": "listed the three decisions that had to come out of that meeting and gave each person two minutes to speak", "confidence": 0.9 }
     ]
   },
   {
     "subjectId": "sofia-brandao",
     "authorId": "caio-teixeira",
     "source": "peer",
-    "text": "Combinei com a Sofia que a dívida técnica do serviço de billing entraria na sprint seguinte e, confesso, deixei escorregar. Na segunda ela apareceu na minha mesa com o combinado anotado e me perguntou o que eu precisava para cumprir o prazo. Com ela nada do que a gente acorda em reunião cai no esquecimento.",
+    "text": "I agreed with Sofia that the billing service tech debt would go into the next sprint and, I admit, I let it slip. On Monday she showed up at my desk with the agreement written down and asked me what I needed to hit the deadline. With her, nothing we agree on in a meeting ever falls through the cracks.",
     "tags": [
-      { "tagId": "accountability", "quote": "nada do que a gente acorda em reunião cai no esquecimento", "confidence": 0.85 }
+      { "tagId": "accountability", "quote": "nothing we agree on in a meeting ever falls through the cracks", "confidence": 0.85 }
     ]
   },
   {
     "subjectId": "sofia-brandao",
     "authorId": "andre-nogueira",
     "source": "peer",
-    "text": "No post-mortem da queda do gateway, a Sofia começou dizendo que ela mesma tinha aprovado o deploy sem janela de contingência, antes de qualquer um apontar dedo. Isso mudou o tom da sala na hora: todo mundo passou a descrever o que fez sem medo. O documento final saiu com cinco ações e nenhum culpado.",
+    "text": "In the post-mortem for the gateway outage, Sofia opened by saying she herself had approved the deploy without a contingency window, before anyone could point fingers. That changed the tone of the room instantly: everyone started describing what they did without fear. The final document came out with five action items and no scapegoats.",
     "tags": [
-      { "tagId": "trust_building", "quote": "ela mesma tinha aprovado o deploy sem janela de contingência", "confidence": 0.8 },
-      { "tagId": "psych_safety", "quote": "todo mundo passou a descrever o que fez sem medo", "confidence": 0.7 }
+      { "tagId": "trust_building", "quote": "she herself had approved the deploy without a contingency window", "confidence": 0.8 },
+      { "tagId": "psych_safety", "quote": "everyone started describing what they did without fear", "confidence": 0.7 }
     ]
   },
   {
     "subjectId": "sofia-brandao",
     "authorId": "renata-luz",
     "source": "peer",
-    "text": "Quando o combinado de cobrir os testes de regressão antes do freeze começou a atrasar, a Sofia chamou a mim e ao Tomás e refez o plano com datas e responsáveis na frente de todos. Na semana seguinte ela mesma voltou no tópico da daily para conferir o andamento, item por item.",
+    "text": "When the commitment to cover the regression tests before the freeze started slipping, Sofia pulled me and Tomás in and rebuilt the plan with dates and owners in front of everyone. The following week she came back to the topic in the daily herself to check on progress, item by item.",
     "tags": [
-      { "tagId": "accountability", "quote": "refez o plano com datas e responsáveis na frente de todos", "confidence": 0.85 }
+      { "tagId": "accountability", "quote": "rebuilt the plan with dates and owners in front of everyone", "confidence": 0.85 }
     ]
   },
   {
     "subjectId": "sofia-brandao",
     "authorId": "diego-fagundes",
     "source": "peer",
-    "text": "Na minha primeira sprint eu estava perdido entre três demandas e a Sofia montou uma sessão rápida com o Caio e a Marina para alinhar prioridade e dividir quem me apoiava em quê. Em meia hora cada um saiu sabendo exatamente sua parte. Ela tem um jeito de organizar as pessoas que faz o trabalho simplesmente andar.",
+    "text": "In my first sprint I was lost between three demands, and Sofia set up a quick session with Caio and Marina to align priorities and split up who would support me on what. In half an hour everyone left knowing exactly their part. She has a way of organizing people that just makes the work move.",
     "tags": [
-      { "tagId": "facilitation", "quote": "montou uma sessão rápida com o Caio e a Marina para alinhar prioridade e dividir quem me apoiava em quê", "confidence": 0.8 }
+      { "tagId": "facilitation", "quote": "set up a quick session with Caio and Marina to align priorities and split up who would support me on what", "confidence": 0.8 }
     ]
   },
   {
     "subjectId": "marina-duarte",
     "authorId": "marina-duarte",
     "source": "self",
-    "text": "O Bruno e o Tomás estavam há dois dias travados discutindo se o serviço de notificações ia de fila ou de webhook, e o clima já tinha azedado no canal. Chamei os dois numa sala, pedi que cada um escrevesse os trade-offs no quadro e propus um teste de carga de um dia para decidir com número. Saíram almoçando juntos e a decisão veio no dia seguinte.",
+    "text": "Bruno and Tomás had been stuck for two days arguing whether the notifications service should use a queue or webhooks, and the mood in the channel had already soured. I pulled the two of them into a room, asked each one to write the trade-offs on the whiteboard and proposed a one-day load test to decide with numbers. They left to have lunch together and the decision came the next day.",
     "tags": [
-      { "tagId": "diplomacy", "quote": "Chamei os dois numa sala, pedi que cada um escrevesse os trade-offs no quadro", "confidence": 0.85 }
+      { "tagId": "diplomacy", "quote": "I pulled the two of them into a room, asked each one to write the trade-offs on the whiteboard", "confidence": 0.85 }
     ]
   },
   {
     "subjectId": "marina-duarte",
     "authorId": "bruno-carvalho",
     "source": "peer",
-    "text": "Na discussão sobre o corte do monólito, eu e o André já estávamos trocando farpas em thread quando a Marina entrou, resumiu os dois lados com uma neutralidade impressionante e sugeriu levar o assunto para o RFC em vez do chat. A tensão morreu ali e o RFC saiu aprovado sem ninguém magoado.",
+    "text": "In the discussion about carving up the monolith, André and I were already trading jabs in a thread when Marina stepped in, summarized both sides with impressive neutrality and suggested taking the matter to the RFC instead of the chat. The tension died right there and the RFC got approved with no hard feelings.",
     "tags": [
-      { "tagId": "diplomacy", "quote": "resumiu os dois lados com uma neutralidade impressionante", "confidence": 0.9 }
+      { "tagId": "diplomacy", "quote": "summarized both sides with impressive neutrality", "confidence": 0.9 }
     ]
   },
   {
     "subjectId": "marina-duarte",
     "authorId": "caio-teixeira",
     "source": "peer",
-    "text": "Entreguei para a Marina o épico de auditoria de logs com prazo apertado por causa da certificação. Ela quebrou em entregas semanais, avisou na quarta que um item ia atrasar dois dias e compensou no seguinte. Fechou o épico na data combinada, sem sobressalto nenhum.",
+    "text": "I handed Marina the log audit epic with a tight deadline because of the certification. She broke it into weekly deliverables, flagged on Wednesday that one item would slip two days and made it up on the next one. She closed the epic on the agreed date, with no surprises at all.",
     "tags": [
-      { "tagId": "execution_reliability", "quote": "Fechou o épico na data combinada, sem sobressalto nenhum", "confidence": 0.9 }
+      { "tagId": "execution_reliability", "quote": "She closed the epic on the agreed date, with no surprises at all.", "confidence": 0.9 }
     ]
   },
   {
     "subjectId": "marina-duarte",
     "authorId": "felipe-armond",
     "source": "peer",
-    "text": "Teve uma semana em que produto e engenharia empacaram por causa do prazo do relatório de exportação, com gente reclamando dos dois lados. A Marina se ofereceu para sentar comigo e com o João e traduziu a briga em duas opções de escopo com datas realistas. A reunião que prometia ser tensa acabou em acordo em vinte minutos.",
+    "text": "There was a week when product and engineering got stuck over the export report deadline, with people complaining on both sides. Marina offered to sit down with me and João and translated the fight into two scope options with realistic dates. A meeting that promised to be tense ended in agreement in twenty minutes.",
     "tags": [
-      { "tagId": "diplomacy", "quote": "traduziu a briga em duas opções de escopo com datas realistas", "confidence": 0.85 }
+      { "tagId": "diplomacy", "quote": "translated the fight into two scope options with realistic dates", "confidence": 0.85 }
     ]
   },
   {
     "subjectId": "marina-duarte",
     "authorId": "leticia-ramos",
     "source": "peer",
-    "text": "Dividi com a Marina a bancada nova do escritório durante a reforma do terceiro andar. A gente acabou sincronizando os horários de foco e o rodízio da sala de reunião pequena. No mais, foi uma semana comum de sprint.",
+    "text": "I shared the new office workbench with Marina during the third-floor renovation. We ended up syncing our focus hours and the rotation for the small meeting room. Other than that, it was an ordinary sprint week.",
     "tags": []
   },
   {
     "subjectId": "marina-duarte",
     "authorId": "sofia-brandao",
     "source": "manager",
-    "text": "Quando a Letícia ficou soterrada com os bugs do design system às vésperas do freeze, a Marina percebeu antes de mim e assumiu duas correções sem que ninguém pedisse. Ela também tem sido meu termômetro do time: quando uma discussão técnica começa a esquentar, ela entra e traz todo mundo de volta para o problema. É a pessoa que mantém a temperatura da sala em ordem.",
+    "text": "When Letícia got buried in design system bugs right before the freeze, Marina noticed before I did and took on two fixes without anyone asking. She has also been my thermometer for the team: when a technical discussion starts heating up, she steps in and brings everyone back to the problem. She is the person who keeps the temperature of the room in check.",
     "tags": [
-      { "tagId": "supportiveness", "quote": "assumiu duas correções sem que ninguém pedisse", "confidence": 0.9 },
-      { "tagId": "diplomacy", "quote": "quando uma discussão técnica começa a esquentar, ela entra e traz todo mundo de volta para o problema", "confidence": 0.8 }
+      { "tagId": "supportiveness", "quote": "took on two fixes without anyone asking", "confidence": 0.9 },
+      { "tagId": "diplomacy", "quote": "when a technical discussion starts heating up, she steps in and brings everyone back to the problem", "confidence": 0.8 }
     ]
   },
   {
     "subjectId": "caio-teixeira",
     "authorId": "caio-teixeira",
     "source": "self",
-    "text": "Antes de aprovarmos a troca do barramento de eventos, montei uma matriz comparando custo, latência e maturidade das três opções e rodei um protótipo de fim de semana com dados reais. O resultado derrubou a opção que era minha favorita, e foi ela que descartei primeiro. Prefiro perder uma aposta pessoal a empurrar uma decisão sem evidência.",
+    "text": "Before we approved switching the event bus, I built a matrix comparing cost, latency and maturity across the three options and ran a weekend prototype with real data. The result knocked out the option that was my favorite, and it was the first one I discarded. I'd rather lose a personal bet than push a decision without evidence.",
     "tags": [
-      { "tagId": "critical_evaluation", "quote": "montei uma matriz comparando custo, latência e maturidade das três opções", "confidence": 0.9 },
-      { "tagId": "results_focus", "quote": "Prefiro perder uma aposta pessoal a empurrar uma decisão sem evidência", "confidence": 0.65 }
+      { "tagId": "critical_evaluation", "quote": "built a matrix comparing cost, latency and maturity across the three options", "confidence": 0.9 },
+      { "tagId": "results_focus", "quote": "I'd rather lose a personal bet than push a decision without evidence", "confidence": 0.65 }
     ]
   },
   {
     "subjectId": "caio-teixeira",
     "authorId": "caio-teixeira",
     "source": "self",
-    "text": "Nesta sprint fiquei de plantão nas entrevistas técnicas e revisei o roteiro de perguntas de system design com o pessoal de recrutamento. Também migrei minhas anotações de arquitetura para o novo wiki. Semana corrida, mas dentro do normal.",
+    "text": "This sprint I was on interview duty for the technical loops and reviewed the system design question script with the recruiting folks. I also migrated my architecture notes to the new wiki. Busy week, but nothing out of the ordinary.",
     "tags": []
   },
   {
     "subjectId": "caio-teixeira",
     "authorId": "diego-fagundes",
     "source": "peer",
-    "text": "Meu primeiro code review na Lumina voltou com dezessete comentários do Caio e nenhum deles era só 'muda isso': cada um explicava o porquê e linkava um exemplo no nosso código. Depois ele reservou meia hora para pairear comigo na parte de concorrência que eu não tinha entendido. Em dois meses eu evoluí mais do que no ano anterior inteiro.",
+    "text": "My first code review at Lumina came back with seventeen comments from Caio and none of them was just 'change this': each one explained the why and linked an example in our codebase. Afterwards he set aside half an hour to pair with me on the concurrency part I hadn't understood. In two months I grew more than in the entire previous year.",
     "tags": [
-      { "tagId": "mentorship", "quote": "cada um explicava o porquê e linkava um exemplo no nosso código", "confidence": 0.9 }
+      { "tagId": "mentorship", "quote": "each one explained the why and linked an example in our codebase", "confidence": 0.9 }
     ]
   },
   {
     "subjectId": "caio-teixeira",
     "authorId": "marina-duarte",
     "source": "peer",
-    "text": "No desenho da nova API de permissões, o Caio foi o único que perguntou o que acontecia quando o cache expirasse no meio de uma sessão, e desmontou a proposta com dois cenários que ninguém tinha considerado. A gente refez o design e evitou o que seria um incidente certo em produção.",
+    "text": "In the design of the new permissions API, Caio was the only one who asked what would happen when the cache expired mid-session, and he dismantled the proposal with two scenarios nobody had considered. We redid the design and avoided what would have been a guaranteed incident in production.",
     "tags": [
-      { "tagId": "critical_evaluation", "quote": "desmontou a proposta com dois cenários que ninguém tinha considerado", "confidence": 0.9 }
+      { "tagId": "critical_evaluation", "quote": "dismantled the proposal with two scenarios nobody had considered", "confidence": 0.9 }
     ]
   },
   {
     "subjectId": "caio-teixeira",
     "authorId": "paula-vidal",
     "source": "peer",
-    "text": "Quando assumi o pipeline de eventos, o Caio montou comigo um plano de estudo de três semanas e revisava meus diagramas toda sexta, sempre apontando onde meu raciocínio pulava etapa. Ele não dá a resposta: faz a pergunta que obriga a gente a achar sozinha.",
+    "text": "When I took over the event pipeline, Caio put together a three-week study plan with me and reviewed my diagrams every Friday, always pointing out where my reasoning skipped a step. He doesn't give you the answer: he asks the question that forces you to find it yourself.",
     "tags": [
-      { "tagId": "mentorship", "quote": "montou comigo um plano de estudo de três semanas e revisava meus diagramas toda sexta", "confidence": 0.9 }
+      { "tagId": "mentorship", "quote": "put together a three-week study plan with me and reviewed my diagrams every Friday", "confidence": 0.9 }
     ]
   },
   {
     "subjectId": "caio-teixeira",
     "authorId": "joao-prado",
     "source": "peer",
-    "text": "Como PM, eu já vi tech lead deixar acordo de roadmap evaporar, mas com o Caio é o oposto: ele registra cada compromisso da revisão de sprint e cobra, inclusive de mim, quando algo desvia. No trimestre passado ele me chamou para renegociar publicamente um item que a engenharia não ia conseguir entregar, em vez de deixar morrer em silêncio.",
+    "text": "As a PM, I've seen tech leads let roadmap agreements evaporate, but with Caio it's the opposite: he records every commitment from the sprint review and follows up, including with me, when something drifts. Last quarter he called me in to publicly renegotiate an item engineering wasn't going to deliver, instead of letting it die quietly.",
     "tags": [
-      { "tagId": "accountability", "quote": "ele registra cada compromisso da revisão de sprint e cobra, inclusive de mim, quando algo desvia", "confidence": 0.9 }
+      { "tagId": "accountability", "quote": "he records every commitment from the sprint review and follows up, including with me, when something drifts", "confidence": 0.9 }
     ]
   },
   {
     "subjectId": "caio-teixeira",
     "authorId": "sofia-brandao",
     "source": "manager",
-    "text": "O Caio instituiu no time a revisão quinzenal de pendências técnicas e não deixa um item sair da lista sem dono e data. Quando a discussão da fila de mensageria esquentou, ele trouxe benchmarks e um comparativo de falhas antes de dar opinião. É o meu contraponto mais confiável nas decisões difíceis.",
+    "text": "Caio instituted a biweekly review of technical debt items on the team and won't let an item leave the list without an owner and a date. When the messaging queue discussion heated up, he brought benchmarks and a failure comparison before giving an opinion. He is my most reliable counterpoint on hard decisions.",
     "tags": [
-      { "tagId": "accountability", "quote": "não deixa um item sair da lista sem dono e data", "confidence": 0.85 },
-      { "tagId": "critical_evaluation", "quote": "trouxe benchmarks e um comparativo de falhas antes de dar opinião", "confidence": 0.8 }
+      { "tagId": "accountability", "quote": "won't let an item leave the list without an owner and a date", "confidence": 0.85 },
+      { "tagId": "critical_evaluation", "quote": "brought benchmarks and a failure comparison before giving an opinion", "confidence": 0.8 }
     ]
   },
   {
     "subjectId": "bruno-carvalho",
     "authorId": "bruno-carvalho",
     "source": "self",
-    "text": "Peguei a reescrita do serviço de cobrança em janeiro com o compromisso de virar a chave antes do fechamento fiscal. Fatiei a migração em sete entregas, publiquei o progresso toda sexta no canal e viramos com três dias de folga. Não teve heroísmo, só o plano sendo cumprido semana a semana.",
+    "text": "I picked up the billing service rewrite in January with a commitment to flip the switch before the fiscal close. I sliced the migration into seven deliverables, posted progress every Friday in the channel and we cut over with three days to spare. There was no heroism, just the plan being executed week after week.",
     "tags": [
-      { "tagId": "execution_reliability", "quote": "Fatiei a migração em sete entregas, publiquei o progresso toda sexta no canal e viramos com três dias de folga", "confidence": 0.9 }
+      { "tagId": "execution_reliability", "quote": "I sliced the migration into seven deliverables, posted progress every Friday in the channel and we cut over with three days to spare", "confidence": 0.9 }
     ]
   },
   {
     "subjectId": "bruno-carvalho",
     "authorId": "renata-luz",
     "source": "peer",
-    "text": "Revisando um PR do Bruno, percebi que ele tinha deixado comentários no próprio código apontando dois casos de borda de timezone que nem meus testes cobriam. Ele ainda anexou na descrição uma tabela com os cenários de arredondamento de centavos que validou manualmente. É raro QA achar algo depois que ele revisa o próprio trabalho.",
+    "text": "Reviewing one of Bruno's PRs, I noticed he had left comments in his own code flagging two timezone edge cases that not even my tests covered. He also attached to the description a table with the cent-rounding scenarios he had validated manually. It's rare for QA to find anything after he reviews his own work.",
     "tags": [
-      { "tagId": "attention_to_detail", "quote": "apontando dois casos de borda de timezone que nem meus testes cobriam", "confidence": 0.9 }
+      { "tagId": "attention_to_detail", "quote": "flagging two timezone edge cases that not even my tests covered", "confidence": 0.9 }
     ]
   },
   {
     "subjectId": "bruno-carvalho",
     "authorId": "tomas-ribeiro",
     "source": "peer",
-    "text": "Dividi com o Bruno a integração do novo provedor de pagamento e combinamos que ele entregaria a camada de conciliação até o dia 20. No dia 18 estava em produção atrás de feature flag, com runbook escrito. Trabalhar com ele é poder planejar em cima da palavra dele.",
+    "text": "I split the new payment provider integration with Bruno and we agreed he would deliver the reconciliation layer by the 20th. On the 18th it was in production behind a feature flag, with a runbook written. Working with him means being able to plan on his word.",
     "tags": [
-      { "tagId": "execution_reliability", "quote": "No dia 18 estava em produção atrás de feature flag, com runbook escrito", "confidence": 0.85 }
+      { "tagId": "execution_reliability", "quote": "On the 18th it was in production behind a feature flag, with a runbook written", "confidence": 0.85 }
     ]
   },
   {
     "subjectId": "bruno-carvalho",
     "authorId": "lucas-macedo",
     "source": "peer",
-    "text": "Todo fim de mês eu dependo do job de conciliação que o Bruno mantém para fechar os números de operações. Num desses fechamentos ele me avisou de uma divergência de quatro centavos que o sistema antigo vinha ignorando havia meses, com a query que provava a origem. Fechamos o mês sem ajuste manual pela primeira vez no ano.",
+    "text": "Every month-end I depend on the reconciliation job Bruno maintains to close the operations numbers. On one of those closes he alerted me to a four-cent discrepancy the old system had been ignoring for months, along with the query proving its origin. We closed the month without a manual adjustment for the first time this year.",
     "tags": [
-      { "tagId": "attention_to_detail", "quote": "me avisou de uma divergência de quatro centavos que o sistema antigo vinha ignorando havia meses", "confidence": 0.85 }
+      { "tagId": "attention_to_detail", "quote": "alerted me to a four-cent discrepancy the old system had been ignoring for months", "confidence": 0.85 }
     ]
   },
   {
     "subjectId": "bruno-carvalho",
     "authorId": "marina-duarte",
     "source": "peer",
-    "text": "Na mudança de sala, o Bruno ficou responsável por etiquetar os equipamentos da bancada e organizar os cabos que sobraram no armário. Aproveitamos para atualizar o inventário de monitores com o pessoal de facilities.",
+    "text": "For the office move, Bruno took charge of labeling the workbench equipment and organizing the spare cables in the cabinet. We also took the opportunity to update the monitor inventory with the facilities folks.",
     "tags": []
   },
   {
     "subjectId": "bruno-carvalho",
     "authorId": "sofia-brandao",
     "source": "manager",
-    "text": "Nas últimas seis sprints o Bruno entregou tudo que puxou, e quando percebeu que a história de idempotência era maior do que parecia, avisou na segunda daily e replanejou junto comigo, não na véspera. É o tipo de previsibilidade que me deixa dormir tranquila em semana de release.",
+    "text": "Over the last six sprints Bruno delivered everything he pulled, and when he realized the idempotency story was bigger than it looked, he flagged it in Monday's daily and replanned with me, not at the last minute. It's the kind of predictability that lets me sleep soundly during release week.",
     "tags": [
-      { "tagId": "execution_reliability", "quote": "Nas últimas seis sprints o Bruno entregou tudo que puxou", "confidence": 0.85 }
+      { "tagId": "execution_reliability", "quote": "Over the last six sprints Bruno delivered everything he pulled", "confidence": 0.85 }
     ]
   },
   {
     "subjectId": "leticia-ramos",
     "authorId": "leticia-ramos",
     "source": "self",
-    "text": "Antes de liberar a nova tela de faturas, montei uma checklist com os estados vazios, de erro e de carregamento em três tamanhos de tela, e achei um estouro de layout que só aparecia com nomes de empresa muito longos. Corrigi e adicionei o caso na suíte visual para não voltar.",
+    "text": "Before releasing the new invoices screen, I put together a checklist of the empty, error and loading states across three screen sizes, and found a layout overflow that only showed up with very long company names. I fixed it and added the case to the visual test suite so it wouldn't come back.",
     "tags": [
-      { "tagId": "attention_to_detail", "quote": "achei um estouro de layout que só aparecia com nomes de empresa muito longos", "confidence": 0.9 }
+      { "tagId": "attention_to_detail", "quote": "found a layout overflow that only showed up with very long company names", "confidence": 0.9 }
     ]
   },
   {
     "subjectId": "leticia-ramos",
     "authorId": "diego-fagundes",
     "source": "peer",
-    "text": "Eu estava afundado tentando fechar o formulário de onboarding e nem tinha pedido ajuda quando a Letícia apareceu com um branch de rascunho resolvendo a parte da validação que me travava. Ela percebeu pelo canal que eu estava rodando em círculos. Ainda ficou comigo até o fim do dia revisando o restante.",
+    "text": "I was drowning trying to finish the onboarding form and hadn't even asked for help when Letícia showed up with a draft branch solving the validation part that was blocking me. She had noticed from the channel that I was going in circles. She then stayed with me until the end of the day reviewing the rest.",
     "tags": [
-      { "tagId": "supportiveness", "quote": "nem tinha pedido ajuda quando a Letícia apareceu com um branch de rascunho", "confidence": 0.9 }
+      { "tagId": "supportiveness", "quote": "hadn't even asked for help when Letícia showed up with a draft branch", "confidence": 0.9 }
     ]
   },
   {
     "subjectId": "leticia-ramos",
     "authorId": "renata-luz",
     "source": "peer",
-    "text": "Na revisão do fluxo de exportação, a Letícia listou oito inconsistências de máscara de data e moeda entre telas que estavam passando batido fazia meses. Veio tudo documentado com print e passo a passo de reprodução. Meu trabalho de QA rende o dobro quando o PR é dela.",
+    "text": "In the export flow review, Letícia listed eight inconsistencies in date and currency masks across screens that had been slipping through for months. Everything came documented with screenshots and step-by-step reproduction. My QA work yields twice as much when the PR is hers.",
     "tags": [
-      { "tagId": "attention_to_detail", "quote": "listou oito inconsistências de máscara de data e moeda entre telas", "confidence": 0.9 }
+      { "tagId": "attention_to_detail", "quote": "listed eight inconsistencies in date and currency masks across screens", "confidence": 0.9 }
     ]
   },
   {
     "subjectId": "leticia-ramos",
     "authorId": "gustavo-lins",
     "source": "peer",
-    "text": "Entreguei o redesign dos componentes de tabela e a Letícia devolveu a implementação com os espaçamentos e estados de foco fiéis ao spec até o pixel, incluindo um estado de teclado que eu mesmo tinha esquecido de desenhar. Ela ainda apontou duas inconsistências no meu arquivo do Figma.",
+    "text": "I delivered the redesign of the table components and Letícia returned an implementation with spacing and focus states faithful to the spec down to the pixel, including a keyboard state I myself had forgotten to design. She even pointed out two inconsistencies in my Figma file.",
     "tags": [
-      { "tagId": "attention_to_detail", "quote": "incluindo um estado de teclado que eu mesmo tinha esquecido de desenhar", "confidence": 0.8 }
+      { "tagId": "attention_to_detail", "quote": "including a keyboard state I myself had forgotten to design", "confidence": 0.8 }
     ]
   },
   {
     "subjectId": "leticia-ramos",
     "authorId": "bruno-carvalho",
     "source": "peer",
-    "text": "Fiquei sabendo que a Letícia assumiu a organização do bolão da Copa do time e a agenda do rodízio de demos das sextas. Nas dailies dessa semana a gente só sincronizou o merge da branch de release, semana tranquila.",
+    "text": "I heard Letícia took over organizing the team's World Cup pool and the schedule for the Friday demo rotation. In this week's dailies we only synced on merging the release branch, a quiet week.",
     "tags": []
   },
   {
     "subjectId": "leticia-ramos",
     "authorId": "sofia-brandao",
     "source": "manager",
-    "text": "Duas vezes neste trimestre a Letícia remanejou as próprias tarefas para socorrer colegas atolados, uma nos ajustes de acessibilidade do checkout e outra na fila de bugs do freeze, sem que eu precisasse pedir. E segue sendo a pessoa que mais barra problema visual antes de o QA sequer olhar.",
+    "text": "Twice this quarter Letícia reshuffled her own tasks to rescue swamped teammates, once on the checkout accessibility fixes and once on the freeze bug queue, without me having to ask. And she remains the person who catches the most visual problems before QA even takes a look.",
     "tags": [
-      { "tagId": "supportiveness", "quote": "remanejou as próprias tarefas para socorrer colegas atolados", "confidence": 0.85 },
-      { "tagId": "attention_to_detail", "quote": "a pessoa que mais barra problema visual antes de o QA sequer olhar", "confidence": 0.7 }
+      { "tagId": "supportiveness", "quote": "reshuffled her own tasks to rescue swamped teammates", "confidence": 0.85 },
+      { "tagId": "attention_to_detail", "quote": "the person who catches the most visual problems before QA even takes a look", "confidence": 0.7 }
     ]
   },
   {
     "subjectId": "andre-nogueira",
     "authorId": "andre-nogueira",
     "source": "self",
-    "text": "Quando o cluster de produção começou a derrubar pods às 3h da manhã, abri a chamada de incidente, designei quem olhava banco e quem olhava rede e fui narrando cada hipótese testada no canal. Em quarenta minutos isolamos o vazamento de memória e só então fui entender por que o alerta demorou. Pânico não diagnostica nada.",
+    "text": "When the production cluster started killing pods at 3 a.m., I opened the incident call, assigned who would look at the database and who would look at the network, and narrated every hypothesis we tested in the channel. In forty minutes we isolated the memory leak, and only then did I go figure out why the alert was late. Panic doesn't diagnose anything.",
     "tags": [
-      { "tagId": "calm_under_pressure", "quote": "abri a chamada de incidente, designei quem olhava banco e quem olhava rede e fui narrando cada hipótese testada no canal", "confidence": 0.8 }
+      { "tagId": "calm_under_pressure", "quote": "I opened the incident call, assigned who would look at the database and who would look at the network, and narrated every hypothesis we tested in the channel", "confidence": 0.8 }
     ]
   },
   {
     "subjectId": "andre-nogueira",
     "authorId": "andre-nogueira",
     "source": "self",
-    "text": "Terminei de documentar o processo de rotação das chaves de acesso e atualizei o diagrama da topologia de rede no wiki. Também deixei agendada a manutenção trimestral dos runners de CI para o feriado.",
+    "text": "I finished documenting the access key rotation process and updated the network topology diagram on the wiki. I also left the quarterly maintenance of the CI runners scheduled for the holiday.",
     "tags": []
   },
   {
     "subjectId": "andre-nogueira",
     "authorId": "tomas-ribeiro",
     "source": "peer",
-    "text": "Na sexta do apagão do provedor de DNS, com metade da plataforma fora e o comercial em pânico no canal geral, o André respondia com o mesmo tom de sempre, listando o que já sabíamos e o que faltava confirmar. Ele pediu dez minutos de silêncio operacional, aplicou o failover e voltamos antes do SLA estourar.",
+    "text": "On the Friday of the DNS provider blackout, with half the platform down and sales panicking in the general channel, André kept replying in the same tone as always, listing what we already knew and what still needed confirming. He asked for ten minutes of operational silence, applied the failover and we were back before the SLA blew.",
     "tags": [
-      { "tagId": "calm_under_pressure", "quote": "respondia com o mesmo tom de sempre, listando o que já sabíamos e o que faltava confirmar", "confidence": 0.9 }
+      { "tagId": "calm_under_pressure", "quote": "kept replying in the same tone as always, listing what we already knew and what still needed confirming", "confidence": 0.9 }
     ]
   },
   {
     "subjectId": "andre-nogueira",
     "authorId": "bruno-carvalho",
     "source": "peer",
-    "text": "O flaky test que derrubava nosso deploy nem era do domínio do André, mas ele ficou incomodado, rastreou a causa até uma condição de corrida no serviço de sessões e abriu o fix junto com um alerta novo. Levou o problema até o fim quando poderia só ter reencaminhado o ticket.",
+    "text": "The flaky test that kept breaking our deploy wasn't even André's domain, but it bothered him, so he traced the cause down to a race condition in the sessions service and opened the fix along with a new alert. He carried the problem all the way to the end when he could have just forwarded the ticket.",
     "tags": [
-      { "tagId": "ownership", "quote": "rastreou a causa até uma condição de corrida no serviço de sessões e abriu o fix junto com um alerta novo", "confidence": 0.85 }
+      { "tagId": "ownership", "quote": "traced the cause down to a race condition in the sessions service and opened the fix along with a new alert", "confidence": 0.85 }
     ]
   },
   {
     "subjectId": "andre-nogueira",
     "authorId": "vitor-camargo",
     "source": "peer",
-    "text": "Trabalho na ponta do suporte e já entrei em várias war rooms com o André. Na do estouro de fila de dezembro, ele me passava atualizações a cada quinze minutos com o que eu podia repassar internamente, sem uma nota de estresse na voz. A previsão de normalização que ele deu bateu com dez minutos de diferença.",
+    "text": "I work on the support front line and have been in several war rooms with André. In the December queue overflow, he gave me updates every fifteen minutes with what I could relay internally, without a note of stress in his voice. The recovery estimate he gave was off by only ten minutes.",
     "tags": [
-      { "tagId": "calm_under_pressure", "quote": "sem uma nota de estresse na voz", "confidence": 0.8 },
-      { "tagId": "execution_reliability", "quote": "A previsão de normalização que ele deu bateu com dez minutos de diferença", "confidence": 0.6 }
+      { "tagId": "calm_under_pressure", "quote": "without a note of stress in his voice", "confidence": 0.8 },
+      { "tagId": "execution_reliability", "quote": "The recovery estimate he gave was off by only ten minutes", "confidence": 0.6 }
     ]
   },
   {
     "subjectId": "andre-nogueira",
     "authorId": "marina-duarte",
     "source": "peer",
-    "text": "O André prometeu que a migração de observabilidade não geraria nem um minuto de indisponibilidade e entregou exatamente isso, com plano de rollback ensaiado em staging duas vezes. Os painéis novos viraram referência para o time inteiro.",
+    "text": "André promised the observability migration wouldn't cause a single minute of downtime and delivered exactly that, with a rollback plan rehearsed in staging twice. The new dashboards became a reference for the whole team.",
     "tags": [
-      { "tagId": "execution_reliability", "quote": "entregou exatamente isso, com plano de rollback ensaiado em staging duas vezes", "confidence": 0.85 }
+      { "tagId": "execution_reliability", "quote": "delivered exactly that, with a rollback plan rehearsed in staging twice", "confidence": 0.85 }
     ]
   },
   {
     "subjectId": "andre-nogueira",
     "authorId": "sofia-brandao",
     "source": "manager",
-    "text": "No incidente do banco de réplicas, o André assumiu o comando sem que eu precisasse designar, coordenou três pessoas com uma serenidade que acalmou até o pessoal de fora da engenharia e depois escreveu o post-mortem mais completo que já recebi. Ele trata qualquer problema da plataforma como se fosse dele até alguém assumir formalmente.",
+    "text": "In the replica database incident, André took command without me having to assign anyone, coordinated three people with a calm that soothed even folks outside engineering, and then wrote the most thorough post-mortem I have ever received. He treats any platform problem as his own until someone formally takes it over.",
     "tags": [
-      { "tagId": "ownership", "quote": "Ele trata qualquer problema da plataforma como se fosse dele", "confidence": 0.85 },
-      { "tagId": "calm_under_pressure", "quote": "uma serenidade que acalmou até o pessoal de fora da engenharia", "confidence": 0.85 }
+      { "tagId": "ownership", "quote": "He treats any platform problem as his own", "confidence": 0.85 },
+      { "tagId": "calm_under_pressure", "quote": "a calm that soothed even folks outside engineering", "confidence": 0.85 }
     ]
   },
   {
     "subjectId": "paula-vidal",
     "authorId": "paula-vidal",
     "source": "self",
-    "text": "Precisávamos trocar o orquestrador de pipelines e eu nunca tinha tocado no Airflow. Passei um fim de semana com a documentação e um cluster de brinquedo, e na quarta apresentei um comparativo com o que testei de fato, incluindo os pontos em que minha hipótese inicial estava errada. Mudei de recomendação no meio do estudo porque os números não sustentavam a primeira.",
+    "text": "We needed to swap the pipeline orchestrator and I had never touched Airflow. I spent a weekend with the documentation and a toy cluster, and on Wednesday I presented a comparison based on what I had actually tested, including the points where my initial hypothesis was wrong. I changed my recommendation halfway through the study because the numbers didn't support the first one.",
     "tags": [
-      { "tagId": "learning_agility", "quote": "Mudei de recomendação no meio do estudo porque os números não sustentavam a primeira", "confidence": 0.85 },
-      { "tagId": "critical_evaluation", "quote": "apresentei um comparativo com o que testei de fato", "confidence": 0.7 }
+      { "tagId": "learning_agility", "quote": "I changed my recommendation halfway through the study because the numbers didn't support the first one", "confidence": 0.85 },
+      { "tagId": "critical_evaluation", "quote": "I presented a comparison based on what I had actually tested", "confidence": 0.7 }
     ]
   },
   {
     "subjectId": "paula-vidal",
     "authorId": "caio-teixeira",
     "source": "peer",
-    "text": "Na proposta de duplicar o cluster de dados, a Paula pediu uma semana, voltou com a análise de custo por consulta e mostrou que o gargalo era um join mal particionado, não capacidade. Economizamos a expansão inteira porque ela não aceitou o diagnóstico óbvio.",
+    "text": "On the proposal to double the data cluster, Paula asked for a week, came back with a cost-per-query analysis and showed the bottleneck was a badly partitioned join, not capacity. We saved the entire expansion because she wouldn't accept the obvious diagnosis.",
     "tags": [
-      { "tagId": "critical_evaluation", "quote": "mostrou que o gargalo era um join mal particionado, não capacidade", "confidence": 0.9 }
+      { "tagId": "critical_evaluation", "quote": "showed the bottleneck was a badly partitioned join, not capacity", "confidence": 0.9 }
     ]
   },
   {
     "subjectId": "paula-vidal",
     "authorId": "tomas-ribeiro",
     "source": "peer",
-    "text": "A Paula e eu dividimos o slot de apresentação na all-hands do mês passado para mostrar o roadmap interno da plataforma de dados. Ensaiamos na véspera na sala grande e deu tudo certo com o projetor novo.",
+    "text": "Paula and I shared the presentation slot at last month's all-hands to show the internal roadmap for the data platform. We rehearsed the day before in the big room and everything went fine with the new projector.",
     "tags": []
   },
   {
     "subjectId": "paula-vidal",
     "authorId": "clara-menezes",
     "source": "peer",
-    "text": "Pedi ajuda à Paula num cruzamento de dados do meu último estudo e descobri que ela tinha aprendido sozinha, em duas semanas, a biblioteca de análise estatística que meu time levou meses para adotar. Ela ainda me devolveu um notebook reproduzível comentando cada decisão do modelo.",
+    "text": "I asked Paula for help with a data cross-reference for my latest study and discovered she had taught herself, in two weeks, the statistical analysis library my team took months to adopt. She even sent me back a reproducible notebook commenting on every decision in the model.",
     "tags": [
-      { "tagId": "learning_agility", "quote": "aprendido sozinha, em duas semanas, a biblioteca de análise estatística", "confidence": 0.85 }
+      { "tagId": "learning_agility", "quote": "taught herself, in two weeks, the statistical analysis library", "confidence": 0.85 }
     ]
   },
   {
     "subjectId": "paula-vidal",
     "authorId": "bruno-carvalho",
     "source": "peer",
-    "text": "Quando migramos os eventos para o novo esquema, a Paula era a única que nunca tinha trabalhado com Protobuf e em dez dias já estava revisando os meus PRs, apontando pegadinhas de compatibilidade que eu não conhecia. Ela transforma documentação em prática numa velocidade que impressiona.",
+    "text": "When we migrated the events to the new schema, Paula was the only one who had never worked with Protobuf, and within ten days she was already reviewing my PRs, pointing out compatibility gotchas I didn't know about. She turns documentation into practice at an impressive speed.",
     "tags": [
-      { "tagId": "learning_agility", "quote": "em dez dias já estava revisando os meus PRs", "confidence": 0.85 }
+      { "tagId": "learning_agility", "quote": "within ten days she was already reviewing my PRs", "confidence": 0.85 }
     ]
   },
   {
     "subjectId": "paula-vidal",
     "authorId": "sofia-brandao",
     "source": "manager",
-    "text": "Antes de qualquer decisão cara na plataforma de dados eu passo pela Paula: ela desmonta a proposta em premissas, testa as que dá para testar e me devolve o risco em números. Foi assim que evitamos assinar um contrato de warehouse superdimensionado no último trimestre.",
+    "text": "Before any expensive decision on the data platform I run it by Paula: she breaks the proposal down into assumptions, tests the ones that can be tested and hands me back the risk in numbers. That's how we avoided signing an oversized warehouse contract last quarter.",
     "tags": [
-      { "tagId": "critical_evaluation", "quote": "ela desmonta a proposta em premissas, testa as que dá para testar e me devolve o risco em números", "confidence": 0.9 }
+      { "tagId": "critical_evaluation", "quote": "she breaks the proposal down into assumptions, tests the ones that can be tested and hands me back the risk in numbers", "confidence": 0.9 }
     ]
   },
   {
     "subjectId": "diego-fagundes",
     "authorId": "diego-fagundes",
     "source": "self",
-    "text": "Entrei na Lumina sem nunca ter mexido com Go e três meses depois assumi sozinho o worker de reprocessamento. Fiz um diário de erros das minhas primeiras semanas e voltei nele toda sexta para não repetir os mesmos tropeços. O que mais me ajudou foi pedir revisão cedo, antes de o código estar bonito.",
+    "text": "I joined Lumina having never touched Go, and three months later I was running the reprocessing worker on my own. I kept an error journal of my first weeks and went back to it every Friday so I wouldn't repeat the same stumbles. What helped me most was asking for review early, before the code was pretty.",
     "tags": [
-      { "tagId": "learning_agility", "quote": "Entrei na Lumina sem nunca ter mexido com Go e três meses depois assumi sozinho o worker de reprocessamento", "confidence": 0.85 }
+      { "tagId": "learning_agility", "quote": "I joined Lumina having never touched Go, and three months later I was running the reprocessing worker on my own", "confidence": 0.85 }
     ]
   },
   {
     "subjectId": "diego-fagundes",
     "authorId": "caio-teixeira",
     "source": "peer",
-    "text": "A força-tarefa de reduzir o tempo de build estava se arrastando havia duas sprints até o Diego puxar um mutirão de uma tarde, com placar dos minutos economizados no quadro. A energia dele contagiou até quem tinha dito que não tinha tempo, e o build caiu de 22 para 9 minutos naquela semana.",
+    "text": "The task force to cut build time had been dragging on for two sprints until Diego rallied a one-afternoon blitz, with a scoreboard of minutes saved on the whiteboard. His energy won over even the people who had said they had no time, and the build dropped from 22 to 9 minutes that week.",
     "tags": [
-      { "tagId": "drive_energy", "quote": "puxar um mutirão de uma tarde, com placar dos minutos economizados no quadro", "confidence": 0.9 }
+      { "tagId": "drive_energy", "quote": "rallied a one-afternoon blitz, with a scoreboard of minutes saved on the whiteboard", "confidence": 0.9 }
     ]
   },
   {
     "subjectId": "diego-fagundes",
     "authorId": "leticia-ramos",
     "source": "peer",
-    "text": "Emprestei o Diego para me ajudar no front por uma sprint e ele nunca tinha tocado em React. No terceiro dia já estava abrindo PRs decentes e no fim da sprint corrigiu sozinho um bug de estado que me tomaria uma tarde. Ele anota tudo e não faz a mesma pergunta duas vezes.",
+    "text": "I borrowed Diego to help me on the front end for a sprint and he had never touched React. By the third day he was already opening decent PRs, and by the end of the sprint he fixed a state bug on his own that would have taken me an afternoon. He writes everything down and never asks the same question twice.",
     "tags": [
-      { "tagId": "learning_agility", "quote": "No terceiro dia já estava abrindo PRs decentes", "confidence": 0.85 }
+      { "tagId": "learning_agility", "quote": "By the third day he was already opening decent PRs", "confidence": 0.85 }
     ]
   },
   {
     "subjectId": "diego-fagundes",
     "authorId": "rafael-siqueira",
     "source": "peer",
-    "text": "Precisei de um protótipo de API para validar o fluxo de relatórios antes da revisão de roadmap e o Diego se ofereceu na hora, montou o esqueleto no mesmo dia e ficou me mandando atualizações à noite sem eu pedir. O ritmo dele destravou uma discussão que estava parada fazia duas semanas.",
+    "text": "I needed an API prototype to validate the reports flow before the roadmap review and Diego volunteered on the spot, put the skeleton together the same day and kept sending me updates in the evening without me asking. His pace unblocked a discussion that had been stalled for two weeks.",
     "tags": [
-      { "tagId": "drive_energy", "quote": "montou o esqueleto no mesmo dia e ficou me mandando atualizações à noite sem eu pedir", "confidence": 0.8 }
+      { "tagId": "drive_energy", "quote": "put the skeleton together the same day and kept sending me updates in the evening without me asking", "confidence": 0.8 }
     ]
   },
   {
     "subjectId": "diego-fagundes",
     "authorId": "andre-nogueira",
     "source": "peer",
-    "text": "O Diego ficou responsável por atualizar a escala de on-call no calendário compartilhado depois da troca de fuso do time. Fizemos juntos a conferência dos feriados do semestre e ajustamos as trocas combinadas.",
+    "text": "Diego took charge of updating the on-call rotation in the shared calendar after the team's timezone change. Together we double-checked the semester's holidays and adjusted the agreed swaps.",
     "tags": []
   },
   {
     "subjectId": "diego-fagundes",
     "authorId": "sofia-brandao",
     "source": "manager",
-    "text": "O Diego é o júnior que mais rápido saiu do colo do time: em quatro meses passou de tarefas guiadas para puxar sozinho a modernização dos jobs de fila. Nas plannings ele é sempre o primeiro a se voluntariar, e mais de uma vez o entusiasmo dele tirou a sprint da inércia depois de uma semana ruim.",
+    "text": "Diego is the junior who got off training wheels fastest on the team: in four months he went from guided tasks to driving the modernization of the queue jobs on his own. In plannings he is always the first to volunteer, and more than once his enthusiasm pulled the sprint out of inertia after a rough week.",
     "tags": [
-      { "tagId": "learning_agility", "quote": "em quatro meses passou de tarefas guiadas para puxar sozinho a modernização dos jobs de fila", "confidence": 0.8 },
-      { "tagId": "drive_energy", "quote": "mais de uma vez o entusiasmo dele tirou a sprint da inércia", "confidence": 0.8 }
+      { "tagId": "learning_agility", "quote": "in four months he went from guided tasks to driving the modernization of the queue jobs on his own", "confidence": 0.8 },
+      { "tagId": "drive_energy", "quote": "more than once his enthusiasm pulled the sprint out of inertia", "confidence": 0.8 }
     ]
   },
   {
     "subjectId": "renata-luz",
     "authorId": "renata-luz",
     "source": "self",
-    "text": "Na regressão da release 4.1, desconfiei de uma diferença de um pixel na coluna de totais e fui puxar o fio: era um arredondamento que somava errado só em faturas com desconto parcelado. Escrevi o caso de teste, mapeei as três telas afetadas e segurei a release até o fix entrar.",
+    "text": "During the 4.1 release regression, I got suspicious about a one-pixel difference in the totals column and pulled the thread: it was a rounding issue that added up wrong only on invoices with installment discounts. I wrote the test case, mapped the three affected screens and held the release until the fix landed.",
     "tags": [
-      { "tagId": "attention_to_detail", "quote": "desconfiei de uma diferença de um pixel na coluna de totais e fui puxar o fio", "confidence": 0.9 },
-      { "tagId": "accountability", "quote": "segurei a release até o fix entrar", "confidence": 0.65 }
+      { "tagId": "attention_to_detail", "quote": "got suspicious about a one-pixel difference in the totals column and pulled the thread", "confidence": 0.9 },
+      { "tagId": "accountability", "quote": "held the release until the fix landed", "confidence": 0.65 }
     ]
   },
   {
     "subjectId": "renata-luz",
     "authorId": "renata-luz",
     "source": "self",
-    "text": "Passei a manhã reorganizando o repositório de evidências de teste por release e arquivando os planos antigos. À tarde participei do treinamento de segurança da informação obrigatório do semestre.",
+    "text": "I spent the morning reorganizing the test evidence repository by release and archiving the old plans. In the afternoon I attended the semester's mandatory information security training.",
     "tags": []
   },
   {
     "subjectId": "renata-luz",
     "authorId": "bruno-carvalho",
     "source": "peer",
-    "text": "Achei que meu PR do módulo de cobrança estava blindado até a Renata devolver um roteiro com quatorze cenários, incluindo um de virada de mês bissexto que quebrava o cálculo de pro rata. Ela tinha até massa de dados pronta para reproduzir. Não passa nada por ela.",
+    "text": "I thought my billing module PR was bulletproof until Renata sent back a script with fourteen scenarios, including a leap-year month rollover that broke the pro rata calculation. She even had test data ready to reproduce it. Nothing gets past her.",
     "tags": [
-      { "tagId": "attention_to_detail", "quote": "um de virada de mês bissexto que quebrava o cálculo de pro rata", "confidence": 0.9 }
+      { "tagId": "attention_to_detail", "quote": "a leap-year month rollover that broke the pro rata calculation", "confidence": 0.9 }
     ]
   },
   {
     "subjectId": "renata-luz",
     "authorId": "tomas-ribeiro",
     "source": "peer",
-    "text": "Combinamos no início do freeze que nenhum bug crítico entraria em produção sem regressão completa, e quando tentei abrir uma exceção 'só dessa vez', a Renata me lembrou do acordo na frente do time e propôs um caminho que cabia no prazo. Ela cobra o combinado de todo mundo, inclusive dos sêniores.",
+    "text": "At the start of the freeze we agreed no critical bug would go to production without a full regression, and when I tried to open an exception 'just this once', Renata reminded me of the agreement in front of the team and proposed a path that fit the deadline. She holds everyone to what was agreed, senior folks included.",
     "tags": [
-      { "tagId": "accountability", "quote": "me lembrou do acordo na frente do time e propôs um caminho que cabia no prazo", "confidence": 0.85 }
+      { "tagId": "accountability", "quote": "reminded me of the agreement in front of the team and proposed a path that fit the deadline", "confidence": 0.85 }
     ]
   },
   {
     "subjectId": "renata-luz",
     "authorId": "eduardo-sales",
     "source": "peer",
-    "text": "Encaminhei para a engenharia um comportamento estranho no relatório de consumo e foi a Renata quem pegou o caso. Ela reproduziu o cenário com três combinações de configuração que eu nem sabia que existiam e me devolveu um passo a passo do que estava errado em cada uma. O ticket voltou mais completo do que eu enviei.",
+    "text": "I forwarded engineering some odd behavior in the consumption report and Renata was the one who took the case. She reproduced the scenario with three configuration combinations I didn't even know existed and sent me back a step-by-step of what was wrong in each one. The ticket came back more complete than I sent it.",
     "tags": [
-      { "tagId": "attention_to_detail", "quote": "reproduziu o cenário com três combinações de configuração que eu nem sabia que existiam", "confidence": 0.8 }
+      { "tagId": "attention_to_detail", "quote": "reproduced the scenario with three configuration combinations I didn't even know existed", "confidence": 0.8 }
     ]
   },
   {
     "subjectId": "renata-luz",
     "authorId": "sofia-brandao",
     "source": "manager",
-    "text": "A Renata é dona do nosso critério de pronto: quando o time começou a afrouxar a cobertura mínima nas entregas de fim de trimestre, ela trouxe os números na retro e fez a gente renovar o acordo por escrito. Desde então é ela quem audita, release a release, se estamos cumprindo o que assinamos.",
+    "text": "Renata owns our definition of done: when the team started loosening the minimum coverage on end-of-quarter deliveries, she brought the numbers to the retro and got us to renew the agreement in writing. Since then she is the one who audits, release by release, whether we are keeping what we signed.",
     "tags": [
-      { "tagId": "accountability", "quote": "trouxe os números na retro e fez a gente renovar o acordo por escrito", "confidence": 0.9 }
+      { "tagId": "accountability", "quote": "brought the numbers to the retro and got us to renew the agreement in writing", "confidence": 0.9 }
     ]
   },
   {
     "subjectId": "tomas-ribeiro",
     "authorId": "tomas-ribeiro",
     "source": "self",
-    "text": "Assumi a entrega do módulo de exportação com data prometida para o fechamento do trimestre e cortei duas melhorias que eu mesmo tinha proposto quando vi que colocavam a data em risco. Entregamos no dia combinado e as melhorias entraram na sprint seguinte. Prefiro entregar o essencial na data do que tudo atrasado.",
+    "text": "I took on delivering the export module with a date promised for the quarter close, and I cut two improvements I had proposed myself when I saw they put the date at risk. We delivered on the agreed day and the improvements went into the following sprint. I'd rather ship the essentials on time than everything late.",
     "tags": [
-      { "tagId": "execution_reliability", "quote": "Entregamos no dia combinado", "confidence": 0.8 },
-      { "tagId": "results_focus", "quote": "cortei duas melhorias que eu mesmo tinha proposto quando vi que colocavam a data em risco", "confidence": 0.85 }
+      { "tagId": "execution_reliability", "quote": "We delivered on the agreed day", "confidence": 0.8 },
+      { "tagId": "results_focus", "quote": "I cut two improvements I had proposed myself when I saw they put the date at risk", "confidence": 0.85 }
     ]
   },
   {
     "subjectId": "tomas-ribeiro",
     "authorId": "tomas-ribeiro",
     "source": "self",
-    "text": "Atualizei minha máquina para o novo setup de desenvolvimento em contêiner e aproveitei para regravar o vídeo de onboarding técnico que estava desatualizado desde o ano passado. Também troquei o teclado que estava falhando.",
+    "text": "I upgraded my machine to the new container-based development setup and took the chance to re-record the technical onboarding video that had been outdated since last year. I also replaced the keyboard that was failing.",
     "tags": []
   },
   {
     "subjectId": "tomas-ribeiro",
     "authorId": "bruno-carvalho",
     "source": "peer",
-    "text": "Todo trimestre a gente aposta em quem entrega o planejado, e com o Tomás nem tem graça: nas últimas quatro releases ele cravou o escopo sem estourar um dia. Quando o serviço de PDF ameaçou atrasar, ele renegociou o corte na segunda-feira, não na véspera da demo.",
+    "text": "Every quarter we bet on who delivers what they planned, and with Tomás it's not even fun: over the last four releases he nailed the scope without slipping a single day. When the PDF service threatened to run late, he renegotiated the cut on Monday, not the day before the demo.",
     "tags": [
-      { "tagId": "execution_reliability", "quote": "nas últimas quatro releases ele cravou o escopo sem estourar um dia", "confidence": 0.9 }
+      { "tagId": "execution_reliability", "quote": "over the last four releases he nailed the scope without slipping a single day", "confidence": 0.9 }
     ]
   },
   {
     "subjectId": "tomas-ribeiro",
     "authorId": "marina-duarte",
     "source": "peer",
-    "text": "Na disputa sobre qual squad ficaria com o serviço de relatórios, o Tomás abriu mão de um projeto que claramente lhe daria destaque porque o outro caminho desafogava a release do time inteiro. Ele mesmo apresentou o plano de transição. Ego não entra na conta dele quando o objetivo do time está em jogo.",
+    "text": "In the dispute over which squad would own the reports service, Tomás gave up a project that would clearly have earned him the spotlight because the other path unblocked the release for the whole team. He presented the transition plan himself. Ego doesn't enter the equation for him when the team's goal is at stake.",
     "tags": [
-      { "tagId": "results_focus", "quote": "abriu mão de um projeto que claramente lhe daria destaque porque o outro caminho desafogava a release do time inteiro", "confidence": 0.9 }
+      { "tagId": "results_focus", "quote": "gave up a project that would clearly have earned him the spotlight because the other path unblocked the release for the whole team", "confidence": 0.9 }
     ]
   },
   {
     "subjectId": "tomas-ribeiro",
     "authorId": "andre-nogueira",
     "source": "peer",
-    "text": "Sempre que o Tomás me passa uma janela de deploy, eu bloqueio a agenda sem medo: o artefato chega testado, com checklist de rollback preenchido e no horário que ele falou. Em dois anos de plantão junto, nunca precisei correr atrás dele.",
+    "text": "Whenever Tomás hands me a deploy window, I block my calendar without a second thought: the artifact arrives tested, with the rollback checklist filled out and at the time he said. In two years of on-call together, I have never had to chase him.",
     "tags": [
-      { "tagId": "execution_reliability", "quote": "o artefato chega testado, com checklist de rollback preenchido e no horário que ele falou", "confidence": 0.9 }
+      { "tagId": "execution_reliability", "quote": "the artifact arrives tested, with the rollback checklist filled out and at the time he said", "confidence": 0.9 }
     ]
   },
   {
     "subjectId": "tomas-ribeiro",
     "authorId": "henrique-dias",
     "source": "peer",
-    "text": "O relatório de reconhecimento de receita dependia de uma extração que a engenharia nunca priorizava, até o Tomás assumir. Ele me entregou a primeira versão na sexta prometida e automatizou o envio mensal sem que eu pedisse. Fecho o financeiro dois dias mais cedo por causa disso.",
+    "text": "The revenue recognition report depended on an extraction engineering never prioritized, until Tomás took it on. He delivered the first version to me on the Friday he promised and automated the monthly send without me asking. I close the financials two days earlier because of it.",
     "tags": [
-      { "tagId": "execution_reliability", "quote": "Ele me entregou a primeira versão na sexta prometida", "confidence": 0.8 }
+      { "tagId": "execution_reliability", "quote": "He delivered the first version to me on the Friday he promised", "confidence": 0.8 }
     ]
   },
   {
     "subjectId": "tomas-ribeiro",
     "authorId": "sofia-brandao",
     "source": "manager",
-    "text": "Quando precisei escolher quem seguraria a entrega da release da certificação, escolhi o Tomás e ele repriorizou o backlog do squad em função da data, tirando inclusive itens dele próprio da frente. É a pessoa que eu uso como referência de previsibilidade quando negocio prazos com as outras áreas.",
+    "text": "When I had to choose who would carry the certification release delivery, I chose Tomás and he reprioritized the squad's backlog around the date, pulling even his own items out of the way. He is the person I use as my benchmark for predictability when I negotiate deadlines with other areas.",
     "tags": [
-      { "tagId": "results_focus", "quote": "repriorizou o backlog do squad em função da data, tirando inclusive itens dele próprio da frente", "confidence": 0.8 },
-      { "tagId": "execution_reliability", "quote": "referência de previsibilidade quando negocio prazos com as outras áreas", "confidence": 0.7 }
+      { "tagId": "results_focus", "quote": "reprioritized the squad's backlog around the date, pulling even his own items out of the way", "confidence": 0.8 },
+      { "tagId": "execution_reliability", "quote": "benchmark for predictability when I negotiate deadlines with other areas", "confidence": 0.7 }
     ]
   }
 ]
