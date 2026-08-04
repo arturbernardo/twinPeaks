@@ -24,6 +24,7 @@ import {
   teamProfile,
 } from "./scoring";
 import { ARCHETYPES, TAG_BY_ID, TAGS, TAG_IDS, type TagId } from "./taxonomy";
+import { buildCultureGraph } from "./graph";
 import { extractTags } from "./extraction";
 
 const r2 = (x: number) => Math.round(x * 100) / 100;
@@ -136,6 +137,12 @@ export const AGENT_TOOLS: Anthropic.Tool[] = [
       },
       required: ["scope", "archetype_id"],
     },
+  },
+  {
+    name: "culture_network",
+    description:
+      "Mapa da rede de observação cultural (quem escreve histórias sobre quem, agregado por setor — nunca expõe autores individuais). Retorna: fluxo setor × setor, câmaras de eco (setores que só se auto-observam), pontes culturais (pessoas observadas por vários setores), pessoas sem observação externa ou com pouca evidência, e reciprocidade entre setores. Use para perguntas sobre bolhas, silos, visibilidade entre áreas e onde coletar mais histórias.",
+    input_schema: { type: "object", properties: {}, required: [] },
   },
   {
     name: "compose_team",
@@ -327,6 +334,39 @@ export async function runTool(name: string, input: Record<string, unknown>): Pro
           teamMax: r2(g.teamMax),
           teamMean: r2(g.teamMean),
           closestPerson: g.closest ? { ...personLabel(g.closest.employee.id), strength: r2(g.closest.strength) } : null,
+        })),
+      };
+    }
+
+    case "culture_network": {
+      const g = buildCultureGraph();
+      const teamName = (id: string) => getTeams().find((t) => t.id === id)?.name ?? id;
+      return {
+        note: "Arestas agregadas por setor; autoria individual permanece anônima.",
+        flow: g.edges.map((e) => ({ from: teamName(e.fromTeamId), to: teamName(e.toTeamId), stories: e.stories })),
+        echoChambers: g.echoChambers.map((e) => ({
+          team: teamName(e.teamId),
+          internalRatio: r2(e.internalRatio),
+          internal: e.internal,
+          total: e.total,
+        })),
+        bridges: g.bridges.map((b) => ({
+          ...personLabel(b.employee.id),
+          observedByTeams: b.observedByTeams.map(teamName),
+          distinctAuthors: b.distinctAuthors,
+        })),
+        onlyObservedInternally: g.onlyInternal.map((v) => ({
+          ...personLabel(v.employee.id),
+          distinctAuthors: v.distinctAuthors,
+        })),
+        lowEvidence: g.lowVisibility.map((v) => ({
+          ...personLabel(v.employee.id),
+          distinctAuthors: v.distinctAuthors,
+        })),
+        reciprocity: g.reciprocity.map((r) => ({
+          pair: `${teamName(r.teamA)} ↔ ${teamName(r.teamB)}`,
+          [`${r.teamA}→${r.teamB}`]: r.aAboutB,
+          [`${r.teamB}→${r.teamA}`]: r.bAboutA,
         })),
       };
     }

@@ -29,6 +29,7 @@ const TOOL_LABELS: Record<string, string> = {
   get_team_profile: "aggregating team profile",
   find_outliers: "looking for outliers",
   gap_analysis: "analyzing gaps vs. archetype",
+  culture_network: "mapping culture network",
   compose_team: "assembling team",
   submit_story: "recording story",
 };

@@ -33,6 +33,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             </Link>
             <div className="ml-auto flex items-center gap-5 text-sm text-muted-foreground">
               <Link href="/" className="hover:text-foreground">Dashboard</Link>
+              <Link href="/network" className="hover:text-foreground">Network</Link>
               <Link href="/chat" className="hover:text-foreground">Agent</Link>
               <Link
                 href="/submit"

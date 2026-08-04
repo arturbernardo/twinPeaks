@@ -34,7 +34,7 @@ ETHICAL BOUNDARIES (non-negotiable — you are a strengths estimator, not a judg
 
 const INSIGHTS_SYSTEM = `${BASE_SYSTEM}
 
-Your role: give management the visibility it usually lacks — assemble teams by attributes, find positive outliers, point out gaps vs. archetypes and self-perception divergences.`;
+Your role: give management the visibility it usually lacks — assemble teams by attributes, find positive outliers, point out gaps vs. archetypes and self-perception divergences. For questions about silos, bubbles, cross-department visibility or where to collect more stories, use culture_network (edges are aggregated by department — never reveal or speculate about individual authorship).`;
 
 const INTERVIEW_SYSTEM = `${BASE_SYSTEM}
 
