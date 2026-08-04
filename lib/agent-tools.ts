@@ -29,6 +29,13 @@ function personLabel(id: string) {
   return e ? { id: e.id, name: e.name, role: e.role, teamId: e.teamId } : { id };
 }
 
+// Anexa a fonte (self/peer/manager) a cada citação — sem isso o agente não
+// consegue distinguir auto-relato de evidência de terceiros.
+function quotesWithSource(subjectId: string, evidence: { storyId: string; quote: string }[]) {
+  const srcByStory = new Map(getStoriesFor(subjectId).map((s) => [s.id, s.source]));
+  return evidence.map((ev) => ({ quote: ev.quote, source: srcByStory.get(ev.storyId) ?? "peer" }));
+}
+
 export const AGENT_TOOLS: Anthropic.Tool[] = [
   {
     name: "list_directory",
@@ -165,7 +172,7 @@ export async function runTool(name: string, input: Record<string, unknown>): Pro
             totalStories: score.totalStories,
             bySource: score.bySource,
             confidence: score.confidenceLabel,
-            sampleQuote: score.evidence[0]?.quote ?? null,
+            quotes: quotesWithSource(e.id, score.evidence).slice(0, 3),
           };
         })
         .filter((p) => p.strength >= minStrength && p.supportingStories > 0)
@@ -189,7 +196,7 @@ export async function runTool(name: string, input: Record<string, unknown>): Pro
           totalStories: s.totalStories,
           bySource: s.bySource,
           confidence: s.confidenceLabel,
-          quotes: s.evidence.slice(0, 3).map((ev) => ev.quote),
+          quotes: quotesWithSource(id, s.evidence).slice(0, 4),
         }));
       const divergences = divergencesFor(id).map((d) => ({
         tag: d.tagId,
