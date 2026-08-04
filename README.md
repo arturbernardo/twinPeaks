@@ -8,9 +8,11 @@ Um "gêmeo digital" da cultura da empresa: histórias curtas sobre colaboradores
 
 ```bash
 npm install
-echo 'ANTHROPIC_API_KEY=sk-ant-...' > .env.local   # necessária p/ chat, submit ao vivo e re-extração
-npm run dev                                         # http://localhost:3000
+echo 'OPENAI_API_KEY=sk-...' > .env.local   # ou ANTHROPIC_API_KEY=sk-ant-... (chat, submit ao vivo, re-extração)
+npm run dev                                  # http://localhost:3000
 ```
+
+O provedor é detectado pela chave presente em `.env.local` (Anthropic tem prioridade se as duas existirem; modelo OpenAI configurável via `OPENAI_MODEL`, default `gpt-4o`).
 
 O dashboard, times e perfis funcionam **offline** (dados sintéticos commitados em `data/`). A chave só é usada nas duas chamadas ao vivo: o agente de chat e a extração de uma história nova.
 

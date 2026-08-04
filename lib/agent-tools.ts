@@ -127,6 +127,18 @@ export const SUBMIT_STORY_TOOL: Anthropic.Tool = {
   },
 };
 
+// Converte as definições (formato Anthropic) para o formato de tools da OpenAI.
+export function toOpenAITools(tools: Anthropic.Tool[]) {
+  return tools.map((t) => ({
+    type: "function" as const,
+    function: {
+      name: t.name,
+      description: t.description,
+      parameters: t.input_schema as Record<string, unknown>,
+    },
+  }));
+}
+
 export async function runTool(name: string, input: Record<string, unknown>): Promise<unknown> {
   switch (name) {
     case "list_directory":

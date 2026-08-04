@@ -1,6 +1,8 @@
 import { z } from "zod";
 import { zodOutputFormat } from "@anthropic-ai/sdk/helpers/zod";
+import { zodResponseFormat } from "openai/helpers/zod";
 import { getAnthropic, MODEL } from "./anthropic";
+import { getOpenAI, getProvider, OPENAI_MODEL } from "./llm";
 import { TAGS, TAG_IDS, type TagId } from "./taxonomy";
 
 const ExtractionSchema = z.object({
@@ -47,7 +49,7 @@ export function validateQuotes(storyText: string, tags: ExtractedTag[]): Extract
   return tags.filter((t) => t.quote.length > 0 && haystack.includes(normalize(t.quote)));
 }
 
-export async function extractTags(storyText: string): Promise<ExtractedTag[]> {
+async function extractWithAnthropic(storyText: string) {
   const client = getAnthropic();
   const res = await client.messages.parse({
     model: MODEL,
@@ -58,7 +60,27 @@ export async function extractTags(storyText: string): Promise<ExtractedTag[]> {
     ],
     messages: [{ role: "user", content: `História:\n"""\n${storyText}\n"""` }],
   });
-  const parsed = res.parsed_output;
+  return res.parsed_output ?? null;
+}
+
+async function extractWithOpenAI(storyText: string) {
+  const client = getOpenAI();
+  const res = await client.chat.completions.parse({
+    model: OPENAI_MODEL,
+    messages: [
+      { role: "system", content: EXTRACTION_SYSTEM },
+      { role: "user", content: `História:\n"""\n${storyText}\n"""` },
+    ],
+    response_format: zodResponseFormat(ExtractionSchema, "extraction"),
+  });
+  return res.choices[0]?.message.parsed ?? null;
+}
+
+export async function extractTags(storyText: string): Promise<ExtractedTag[]> {
+  const parsed =
+    getProvider() === "anthropic"
+      ? await extractWithAnthropic(storyText)
+      : await extractWithOpenAI(storyText);
   if (!parsed) return [];
   const tags = parsed.tags.map((t) => ({
     tagId: t.tag_id as TagId,

@@ -95,7 +95,7 @@ export default function ChatPanel() {
         const next = [...prev];
         next[next.length - 1] = {
           role: "assistant",
-          content: `⚠️ Não consegui falar com o agente: ${String(e)}. Verifique a ANTHROPIC_API_KEY em .env.local.`,
+          content: `⚠️ Não consegui falar com o agente: ${String(e)}. Verifique a chave de API em .env.local.`,
         };
         return next;
       });
