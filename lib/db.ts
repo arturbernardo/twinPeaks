@@ -8,10 +8,18 @@ import type { TagId } from "./taxonomy";
 
 export type Source = "self" | "peer" | "manager";
 
+// Nível macro (o que a UI chama de "setor"): Engenharia, Vendas etc.
 export interface Team {
   id: string;
   name: string;
   description: string;
+}
+
+// Time menor dentro de um setor (squad): "Plataforma", "Enterprise" etc.
+export interface Squad {
+  id: string;
+  name: string;
+  teamId: string;
 }
 
 // active = no time atual; moved_team = segue na empresa, mas veio de outro setor;
@@ -36,7 +44,8 @@ export interface Employee {
   id: string;
   name: string;
   role: string;
-  teamId: string;
+  teamId: string; // setor
+  squadId: string | null; // time dentro do setor (null = liderança do setor)
   seniority: string;
   status: EmployeeStatus;
   startDate: string; // "AAAA-MM"
@@ -81,6 +90,14 @@ export function getTeams(): Team[] {
 
 export function getEmployees(): Employee[] {
   return readJson<{ employees: Employee[] }>("company.json", { employees: [] }).employees;
+}
+
+export function getSquads(): Squad[] {
+  return readJson<{ squads: Squad[] }>("company.json", { squads: [] }).squads ?? [];
+}
+
+export function getSquad(id: string): Squad | undefined {
+  return getSquads().find((s) => s.id === id);
 }
 
 export function getStories(): Story[] {

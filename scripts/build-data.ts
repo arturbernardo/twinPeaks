@@ -5,7 +5,7 @@
 
 import fs from "node:fs";
 import path from "node:path";
-import { PERSONAS, TEAMS } from "./personas";
+import { PERSONAS, SQUADS, SQUAD_OF, TEAMS } from "./personas";
 import { TAG_IDS } from "../lib/taxonomy";
 
 interface GenStory {
@@ -88,11 +88,13 @@ fs.writeFileSync(
   JSON.stringify(
     {
       teams: TEAMS,
+      squads: SQUADS,
       employees: PERSONAS.map((p) => ({
         id: p.id,
         name: p.name,
         role: p.role,
         teamId: p.teamId,
+        squadId: SQUAD_OF[p.id] ?? null,
         seniority: p.seniority,
         status: p.status ?? "active",
         startDate: p.startDate,

@@ -5,7 +5,7 @@ import TagRadar from "@/components/TagRadar";
 import { StrengthBar } from "@/components/StrengthBar";
 import { EvidenceCard } from "@/components/EvidenceCard";
 import { JohariPanel } from "@/components/JohariPanel";
-import { getEmployee, getEmployees, getEvidenceFor, getStoriesFor, getTeam, STATUS_LABELS } from "@/lib/db";
+import { getEmployee, getEmployees, getEvidenceFor, getSquad, getStoriesFor, getTeam, STATUS_LABELS } from "@/lib/db";
 import { divergencesFor, scoresFor, teamProfile } from "@/lib/scoring";
 import { TAG_BY_ID } from "@/lib/taxonomy";
 
@@ -62,7 +62,9 @@ export default async function PersonPage({
           )}
         </div>
         <p className="text-sm text-muted-foreground">
-          {person.role} · {person.seniority} · na Lumina desde {person.startDate} · {stories.length} histórias registradas
+          {person.role} · {person.seniority} ·{" "}
+          {person.squadId ? `time ${getSquad(person.squadId)?.name}` : "liderança do setor"} · na Lumina desde{" "}
+          {person.startDate} · {stories.length} histórias registradas
         </p>
         {person.previousRoles.length > 0 && (
           <p className="text-xs text-muted-foreground">

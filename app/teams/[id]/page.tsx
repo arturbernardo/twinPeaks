@@ -2,7 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { TagBadge } from "@/components/TagBadge";
-import { getEmployees, getTeam, STATUS_LABELS } from "@/lib/db";
+import { getEmployees, getSquads, getTeam, STATUS_LABELS } from "@/lib/db";
 import { findOutliers, gapAnalysis, scoresFor, teamProfile } from "@/lib/scoring";
 import { TAG_BY_ID } from "@/lib/taxonomy";
 
@@ -96,31 +96,43 @@ export default async function TeamPage({ params }: { params: Promise<{ id: strin
         </div>
       </div>
 
-      <div>
-        <h2 className="mb-3 text-lg font-medium">Pessoas</h2>
-        <div className="grid gap-3 md:grid-cols-2 lg:grid-cols-3">
-          {members.map((m) => {
-            const top = scoresFor(m.id)
-              .filter((s) => s.supportingStories > 0)
-              .sort((a, b) => b.strength - a.strength)
-              .slice(0, 2);
-            return (
-              <Link key={m.id} href={`/people/${m.id}`}>
-                <Card className="h-full transition-colors hover:border-violet-400">
-                  <CardContent className="pt-4">
-                    <p className="font-medium">{m.name}</p>
-                    <p className="text-xs text-muted-foreground">{m.role}</p>
-                    <div className="mt-2 flex flex-wrap gap-1">
-                      {top.map((s) => (
-                        <TagBadge key={s.tagId} tagId={s.tagId} strength={s.strength} />
-                      ))}
-                    </div>
-                  </CardContent>
-                </Card>
-              </Link>
-            );
-          })}
-        </div>
+      <div className="space-y-5">
+        <h2 className="text-lg font-medium">Pessoas</h2>
+        {[
+          { id: null as string | null, name: "Liderança do setor" },
+          ...getSquads().filter((s) => s.teamId === id),
+        ].map((squad) => {
+          const squadMembers = members.filter((m) => m.squadId === squad.id);
+          if (squadMembers.length === 0) return null;
+          return (
+            <div key={squad.id ?? "lideranca"}>
+              <h3 className="mb-2 text-sm font-medium text-muted-foreground">{squad.name}</h3>
+              <div className="grid gap-3 md:grid-cols-2 lg:grid-cols-3">
+                {squadMembers.map((m) => {
+                  const top = scoresFor(m.id)
+                    .filter((s) => s.supportingStories > 0)
+                    .sort((a, b) => b.strength - a.strength)
+                    .slice(0, 2);
+                  return (
+                    <Link key={m.id} href={`/people/${m.id}`}>
+                      <Card className="h-full transition-colors hover:border-violet-400">
+                        <CardContent className="pt-4">
+                          <p className="font-medium">{m.name}</p>
+                          <p className="text-xs text-muted-foreground">{m.role}</p>
+                          <div className="mt-2 flex flex-wrap gap-1">
+                            {top.map((s) => (
+                              <TagBadge key={s.tagId} tagId={s.tagId} strength={s.strength} />
+                            ))}
+                          </div>
+                        </CardContent>
+                      </Card>
+                    </Link>
+                  );
+                })}
+              </div>
+            </div>
+          );
+        })}
       </div>
 
       {former.length > 0 && (

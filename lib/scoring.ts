@@ -132,7 +132,7 @@ export interface Outlier {
 
 export function findOutliers(scope: "company" | string, topK = 3): Outlier[] {
   const employees =
-    scope === "company" ? getActiveEmployees() : getActiveEmployees().filter((e) => e.teamId === scope);
+    scope === "company" ? getActiveEmployees() : getActiveEmployees().filter((e) => e.teamId === scope || e.squadId === scope);
   if (employees.length < 3) return [];
 
   const vectors = new Map(employees.map((e) => [e.id, vectorFor(e.id)]));
@@ -170,7 +170,7 @@ export function gapAnalysis(scope: "company" | string, archetypeId: string): Gap
   const archetype = ARCHETYPE_BY_ID[archetypeId];
   if (!archetype) return null;
   const employees =
-    scope === "company" ? getActiveEmployees() : getActiveEmployees().filter((e) => e.teamId === scope);
+    scope === "company" ? getActiveEmployees() : getActiveEmployees().filter((e) => e.teamId === scope || e.squadId === scope);
   if (employees.length === 0) return [];
   const vectors = new Map(employees.map((e) => [e.id, vectorFor(e.id)]));
 
@@ -198,7 +198,7 @@ export interface TeamTagAggregate {
 
 export function teamProfile(scope: "company" | string): TeamTagAggregate[] {
   const employees =
-    scope === "company" ? getActiveEmployees() : getActiveEmployees().filter((e) => e.teamId === scope);
+    scope === "company" ? getActiveEmployees() : getActiveEmployees().filter((e) => e.teamId === scope || e.squadId === scope);
   if (employees.length === 0) return [];
   const vectors = new Map(employees.map((e) => [e.id, vectorFor(e.id)]));
   return TAGS.map((tag) => {
@@ -227,7 +227,7 @@ export function composeTeam(
   excludeTeam?: string
 ): TeamPick[] {
   let pool = getActiveEmployees();
-  if (excludeTeam) pool = pool.filter((e) => e.teamId !== excludeTeam);
+  if (excludeTeam) pool = pool.filter((e) => e.teamId !== excludeTeam && e.squadId !== excludeTeam);
   const vectors = new Map(pool.map((e) => [e.id, vectorFor(e.id)]));
 
   const picks: TeamPick[] = [];

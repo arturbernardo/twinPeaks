@@ -70,7 +70,7 @@ export default function Dashboard() {
       </div>
 
       <div>
-        <h2 className="mb-3 text-lg font-medium">Times</h2>
+        <h2 className="mb-3 text-lg font-medium">Setores</h2>
         <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
           {teams.map((team) => {
             const members = employees.filter((e) => e.teamId === team.id);

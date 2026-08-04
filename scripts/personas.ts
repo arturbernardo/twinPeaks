@@ -32,6 +32,59 @@ export const TEAMS = [
   { id: "ops", name: "Operações", description: "Financeiro, pessoas, jurídico e o que faz a empresa rodar." },
 ];
 
+// Times (squads) dentro de cada setor. Heads de setor não pertencem a squad (squadId null).
+export const SQUADS = [
+  { id: "eng-plataforma", name: "Plataforma & Confiabilidade", teamId: "eng" },
+  { id: "eng-produto-core", name: "Produto Core", teamId: "eng" },
+  { id: "produto-pm", name: "Gestão de Produto", teamId: "produto" },
+  { id: "produto-design", name: "Design & Pesquisa", teamId: "produto" },
+  { id: "vendas-enterprise", name: "Contas Enterprise", teamId: "vendas" },
+  { id: "vendas-geracao", name: "Geração & Revenue Ops", teamId: "vendas" },
+  { id: "cs-sucesso", name: "Sucesso do Cliente", teamId: "cs" },
+  { id: "cs-suporte", name: "Suporte", teamId: "cs" },
+  { id: "ops-financeiro", name: "Financeiro & Operações", teamId: "ops" },
+  { id: "ops-pessoas-juridico", name: "Pessoas, Jurídico & Facilities", teamId: "ops" },
+];
+
+export const SQUAD_OF: Record<string, string> = {
+  // eng
+  "andre-nogueira": "eng-plataforma",
+  "bruno-carvalho": "eng-plataforma",
+  "renata-luz": "eng-plataforma",
+  "paula-vidal": "eng-plataforma",
+  "caio-teixeira": "eng-produto-core",
+  "marina-duarte": "eng-produto-core",
+  "leticia-ramos": "eng-produto-core",
+  "diego-fagundes": "eng-produto-core",
+  "tomas-ribeiro": "eng-produto-core",
+  // produto
+  "rafael-siqueira": "produto-pm",
+  "joao-prado": "produto-pm",
+  "felipe-armond": "produto-pm",
+  "gustavo-lins": "produto-design",
+  "beatriz-tavares": "produto-design",
+  "clara-menezes": "produto-design",
+  // vendas
+  "helena-fontes": "vendas-enterprise",
+  "pedro-galvao": "vendas-enterprise",
+  "luana-cardoso": "vendas-enterprise",
+  "camila-arruda": "vendas-geracao",
+  "mateus-vilela": "vendas-geracao",
+  "fernanda-said": "vendas-geracao",
+  // cs
+  "otavio-neves": "cs-sucesso",
+  "aline-serra": "cs-sucesso",
+  "natalia-brito": "cs-sucesso",
+  "vitor-camargo": "cs-suporte",
+  "eduardo-sales": "cs-suporte",
+  // ops
+  "henrique-dias": "ops-financeiro",
+  "lucas-macedo": "ops-financeiro",
+  "carolina-freire": "ops-pessoas-juridico",
+  "tania-quintela": "ops-pessoas-juridico",
+  "rodrigo-antunes": "ops-pessoas-juridico",
+};
+
 export const MANAGERS: Record<string, string> = {
   eng: "sofia-brandao",
   produto: "isabela-franco",

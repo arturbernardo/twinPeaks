@@ -7,6 +7,8 @@ import {
   getActiveEmployees,
   getEmployee,
   getEmployees,
+  getSquad,
+  getSquads,
   getStories,
   getStoriesFor,
   getTeams,
@@ -38,7 +40,7 @@ function personLabel(id: string) {
   };
 }
 
-// Resolve "eng", "Engenharia", "engenharia" etc. para o id canônico do time.
+// Resolve "eng", "Engenharia", "Plataforma" etc. para o id canônico de um SETOR ou TIME (squad).
 // Evita que um chute de id do modelo vire resultado vazio silencioso.
 function resolveScope(raw: string): "company" | string | null {
   const q = raw.trim().toLowerCase();
@@ -46,12 +48,18 @@ function resolveScope(raw: string): "company" | string | null {
   const team = getTeams().find(
     (t) => t.id.toLowerCase() === q || t.name.toLowerCase() === q || t.name.toLowerCase().includes(q)
   );
-  return team?.id ?? null;
+  if (team) return team.id;
+  const squad = getSquads().find(
+    (s) => s.id.toLowerCase() === q || s.name.toLowerCase() === q || s.name.toLowerCase().includes(q)
+  );
+  return squad?.id ?? null;
 }
 
 const SCOPE_ERROR = (raw: string) => ({
-  error: `Time não encontrado: "${raw}". Times válidos: ${getTeams()
+  error: `Setor/time não encontrado: "${raw}". Setores: ${getTeams()
     .map((t) => `${t.id} (${t.name})`)
+    .join(", ")}. Times: ${getSquads()
+    .map((s) => `${s.id} (${s.name})`)
     .join(", ")} — ou "company" para a empresa toda.`,
 });
 
@@ -77,7 +85,7 @@ export const AGENT_TOOLS: Anthropic.Tool[] = [
       type: "object",
       properties: {
         tag_id: { type: "string", enum: TAG_IDS, description: "Tag da taxonomia" },
-        team_id: { type: "string", description: "Opcional: restringe a um time" },
+        team_id: { type: "string", description: "Opcional: id ou nome de um setor ou time (squad)" },
         min_strength: { type: "number", description: "Opcional: força mínima (0-1)" },
         limit: { type: "number", description: "Máximo de resultados (default 8)" },
       },
@@ -99,7 +107,7 @@ export const AGENT_TOOLS: Anthropic.Tool[] = [
     description: "Perfil agregado de um time (ou da empresa): força média e máxima por tag e quem puxa cada tag.",
     input_schema: {
       type: "object",
-      properties: { team_id: { type: "string", description: 'Id do time ou "company" para a empresa toda' } },
+      properties: { team_id: { type: "string", description: 'Id ou nome de um setor ou time (squad), ou "company" para a empresa toda' } },
       required: ["team_id"],
     },
   },
@@ -110,7 +118,7 @@ export const AGENT_TOOLS: Anthropic.Tool[] = [
     input_schema: {
       type: "object",
       properties: {
-        scope: { type: "string", description: 'Id do time ou "company"' },
+        scope: { type: "string", description: 'Id ou nome de um setor ou time (squad), ou "company"' },
         top_k: { type: "number", description: "Quantos retornar (default 3)" },
       },
       required: ["scope"],
@@ -123,7 +131,7 @@ export const AGENT_TOOLS: Anthropic.Tool[] = [
     input_schema: {
       type: "object",
       properties: {
-        scope: { type: "string", description: 'Id do time ou "company"' },
+        scope: { type: "string", description: 'Id ou nome de um setor ou time (squad), ou "company"' },
         archetype_id: { type: "string", enum: ARCHETYPES.map((a) => a.id) },
       },
       required: ["scope", "archetype_id"],
@@ -176,12 +184,14 @@ export async function runTool(name: string, input: Record<string, unknown>): Pro
   switch (name) {
     case "list_directory":
       return {
-        teams: getTeams(),
+        setores: getTeams(),
+        times: getSquads(),
         people: getEmployees().map((e) => ({
           id: e.id,
           name: e.name,
           role: e.role,
           teamId: e.teamId,
+          squadId: e.squadId,
           situacao: STATUS_LABELS[e.status],
           desde: e.startDate,
         })),
@@ -245,6 +255,8 @@ export async function runTool(name: string, input: Record<string, unknown>): Pro
       }));
       return {
         person: personLabel(id),
+        setor: getTeams().find((t) => t.id === e.teamId)?.name,
+        time: e.squadId ? getSquad(e.squadId)?.name : "liderança do setor",
         situacao: STATUS_LABELS[e.status],
         naEmpresaDesde: e.startDate,
         ...(e.endDate ? { saiuEm: e.endDate } : {}),
@@ -269,7 +281,7 @@ export async function runTool(name: string, input: Record<string, unknown>): Pro
         members:
           scope === "company"
             ? getEmployees().length
-            : getEmployees().filter((e) => e.teamId === scope).map((e) => personLabel(e.id)),
+            : getEmployees().filter((e) => e.teamId === scope || e.squadId === scope).map((e) => personLabel(e.id)),
         tags: profile.map((t) => ({
           tag: t.tagId,
           labelPt: TAG_BY_ID[t.tagId].labelPt,
