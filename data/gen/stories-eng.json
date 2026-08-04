@@ -178,6 +178,45 @@
     ]
   },
   {
+    "subjectId": "caio-teixeira",
+    "authorId": "juliana-peixoto",
+    "source": "peer",
+    "text": "When the Vetra data migration corrupted a customer dashboard on a Friday, I called engineering expecting a ticket number and got Caio in our war room fifteen minutes later. He explained the failure to my team without a single acronym, set a fix deadline for Monday and met it. He treats a customer incident as his problem, not as an interruption.",
+    "tags": [
+      { "tagId": "ownership", "quote": "He treats a customer incident as his problem, not as an interruption", "confidence": 0.85 },
+      { "tagId": "customer_focus", "quote": "He explained the failure to my team without a single acronym", "confidence": 0.7 }
+    ]
+  },
+  {
+    "subjectId": "caio-teixeira",
+    "authorId": "pedro-galvao",
+    "source": "peer",
+    "text": "I asked Caio for help on a technical call with the Sollux architects expecting a generic slide deck; he showed up having read the prospect's integration docs and sketched the data flow live with them. Half of the objections died right there. He still follows up with me after every deal to hear what the customer actually asked.",
+    "tags": [
+      { "tagId": "customer_focus", "quote": "he showed up having read the prospect's integration docs and sketched the data flow live with them", "confidence": 0.85 }
+    ]
+  },
+  {
+    "subjectId": "caio-teixeira",
+    "authorId": "lucas-macedo",
+    "source": "peer",
+    "text": "The usage report that feeds billing drifted from the product numbers and Caio spent an afternoon with me tracing the divergence to a duplicated event in the pipeline. He wrote the reconciliation runbook himself and now pings me on the first of every month to check that the totals still match.",
+    "tags": [
+      { "tagId": "supportiveness", "quote": "spent an afternoon with me tracing the divergence to a duplicated event in the pipeline", "confidence": 0.75 },
+      { "tagId": "ownership", "quote": "He wrote the reconciliation runbook himself", "confidence": 0.8 }
+    ]
+  },
+  {
+    "subjectId": "caio-teixeira",
+    "authorId": "eduardo-sales",
+    "source": "peer",
+    "text": "During the March outage I was the one answering angry chats, and Caio kept a live thread translating what the platform team was doing into words I could pass to customers, every ten minutes, until service came back. Nobody asked him to do it. It was the calmest I have ever seen support feel in the middle of an incident.",
+    "tags": [
+      { "tagId": "supportiveness", "quote": "Nobody asked him to do it", "confidence": 0.7 },
+      { "tagId": "calm_under_pressure", "quote": "It was the calmest I have ever seen support feel in the middle of an incident", "confidence": 0.75 }
+    ]
+  },
+  {
     "subjectId": "bruno-carvalho",
     "authorId": "bruno-carvalho",
     "source": "self",
